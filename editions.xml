@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editions>
+	<edition>
+		<code service="usccb_org" default="true"/>
+		<input>NAB</input>
+		<language>en</language>
+		<copyright>Copyright © 1991, 1986, 1970 Confraternity of Christian Doctrine, Inc., Washington, DC</copyright>
+		<input name="true">New American Bible</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id6</code>
+		<input>ASV</input>
+		<default>true</default>
+		<language>en</language>
+		<copyright>Copyright status: Public domain</copyright>
+		<input name="true">American Standard Version</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id32</code>
+		<input>CEV</input>
+		<language>en</language>
+		<copyright>Copyright: © 1999 American Bible Society</copyright>
+		<input name="true">Contemporary English Version</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id33</code>
+		<input>GNB</input>
+		<language>en</language>
+		<copyright>Copyright: © 1992 American Bible Society</copyright>
+		<input name="true">Good News Bible</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id14</code>
+		<input>WEB</input>
+		<language>en</language>
+		<copyright>Copyright status: Public domain</copyright>
+		<input name="true">World English Bible</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id7</code>
+		<input>KJV</input>
+		<language>en</language>
+		<copyright>Copyright status: Crown copyright (UK)</copyright>
+		<input name="true">King James Version</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id22</code>
+		<input>DHH</input>
+		<language>es</language>
+		<default>true</default>
+		<copyright>Copyright © 2002 United Bible Societies and Sociedad Bíblica de España (Bible Society of Spain)</copyright>
+		<input name="true">“Dios Habla Hoy” Version</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id20</code>
+		<input>RVR95</input>
+		<language>es</language>
+		<copyright>Copyright © 1995 United Bible Societies</copyright>
+		<input name="true">“Reina Valera” Version</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id9</code>
+		<input>SEG</input>
+		<language>fr</language>
+		<default>true</default>
+		<copyright>Copyright status: Public domain</copyright>
+		<input name="true">Louis Segond</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id10</code>
+		<input>RUS</input>
+		<language>ru</language>
+		<default>true</default>
+		<copyright>Copyright status: Public domain. Distribution: Bible Society of Russia</copyright>
+		<input name="true">Russian Synodal Version</input>
+	</edition>
+  <edition>
+		<code service="biblija_net" default="true">id8</code>
+		<input>VUL</input>
+		<language>lat</language>
+		<default>true</default>
+		<copyright>Copyright © 1969 Deutsche Bibelgesellschaft (German Bible Society)</copyright>
+		<input name="true">Vulgate (Latin Bible)</input>
+	</edition>
+	<edition>
+		<code service="biblija_net">id35</code>
+		<code service="bijbel_net" default="true">WV95</code>
+		<input>WV95</input>
+		<language>nl</language>
+		<default>true</default>
+		<copyright>Copyright © 1995 Katholieke Bijbelstichting (Catholic Bible Foundation)</copyright>
+		<input name="true">Willibrordvertaling revised edition</input>
+	</edition>
+	<edition>
+		<code service="biblija_net" default="true">id37</code>
+		<input>SV-J</input>
+		<language>nl</language>
+		<copyright>Copyright status: Public domain</copyright>
+		<input name="true">Statenvertaling (Jongbloed edition)</input>
+	</edition>
+	<edition>
+		<code service="biblija_net">id18</code>
+		<code service="bijbel_net" default="true">NBV</code>
+		<input>NBV</input>
+		<language>nl</language>
+		<copyright>Copyright © 2004/2007 Nederlands Bijbelgenootschap (Netherlands Bible Society)</copyright>
+		<input name="true">De Nieuwe Bijbelvertaling</input>
+	</edition>
+</editions>
