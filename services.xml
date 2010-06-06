@@ -14,8 +14,9 @@
   </service>
   <service>
     <name>bijbel_net</name>
-    <step nr="1">http://www.bijbel.net/wb/?$boek+$chapter,$passage</step>
+    <step nr="1">http://www.bijbel.net/wb/?$book+$chapter,$passage</step>
     <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select $edition.content from xml where url="$url"</step>
+    <!-- psa 1,1    psa 1,3   
   </service>
 </services>
