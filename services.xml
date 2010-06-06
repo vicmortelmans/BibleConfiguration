@@ -3,18 +3,18 @@
   <service>
     <name>biblija_net</name>
     <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book%20$chapter:$passage&amp;compact=1&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
-    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebiblijanet&v=1&applyToUrl=$url</step>
+    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebiblijanet&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
   </service>
   <service>
     <name>usccb_org</name>
     <step nr="1">http://www.usccb.org/nab/bible/$book/$book$chapter.htm</step>
-    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageusccborg&v=1&applyToUrl=$url</step>
+    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageusccborg&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select item.text.content from xml where  url="$url" and item.passage=$passage</step>
   </service>
   <service>
     <name>bijbel_net</name>
-    <step nr="1">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&v=1&v_passage=$book%20$chapter%3A$passage</step>
+    <step nr="1">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&amp;v=1&amp;v_passage=$book%20$chapter%3A$passage</step>
     <step nr="2" yql="true">select $edition.content from xml where url="$url"</step>
   </service>
 </services>
