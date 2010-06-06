@@ -2,7 +2,7 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <service>
     <name>biblija_net</name>
-    <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book%20$chapter:$passage&amp;compact=1&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
+    <step nr="1">http://www.biblija.net/biblija.cgi?m=$book+$chapter:$passage&amp;id18=1&amp;pos=0&amp;l=nl&amp;set=10</step>
     <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebiblijanet&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
   </service>
