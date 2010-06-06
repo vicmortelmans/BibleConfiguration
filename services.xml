@@ -14,7 +14,8 @@
   </service>
   <service>
     <name>bijbel_net</name>
-    <step nr="1">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&amp;v=1&amp;v_passage=$book%20$chapter%3A$passage</step>
-    <step nr="2" yql="true">select $edition.content from xml where url="$url"</step>
+    <step nr="1">http://www.bijbel.net/wb/?$boek+$chapter,$passage</step>
+    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&amp;v=1&amp;applyToUrl=$url</step>
+    <step nr="3" yql="true">select $edition.content from xml where url="$url"</step>
   </service>
 </services>
