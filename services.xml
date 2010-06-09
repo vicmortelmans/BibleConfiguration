@@ -26,7 +26,7 @@
  </service>
  <service>
   <name>unbound_biola_edu</name>
-  <step nr="1" yql="true">select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;submit=Search"</step>
+  <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;submit=Search"</step>
   <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageunboundbiolaedu&amp;v=1&amp;applyToUrl=$url</step>
   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
