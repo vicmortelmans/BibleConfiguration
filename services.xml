@@ -21,7 +21,7 @@
  <service>
   <name>diebibel_de</name>
   <step nr="1">http://www.die-bibel.de/nc/online-bibeln/$edition/lesen-im-bibeltext/bibelstelle/$book%20$chapter%3A$passage/anzeige/single</step>
-  <step nr="2">http://www.dapper.net/RunDapp?dappName=bijbelpassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
  <service>
