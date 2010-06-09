@@ -10,13 +10,6 @@
 		<input name="true">Afrikaans Bybel (1933/1953)</input>
 	</edition>
 	<edition>
-		<code service="unbound_biola_edu" default_="true">arabic_svd_ucs2</code>
-		<language>ar</language>
-		<default_>true</default_>
-		<copyright></copyright>
-		<input name="true">Arabic</input>
-	</edition>
-	<edition>
 		<code service="crosswire_org" default_="true">BulCarigradNT</code>
 		<language>bg</language>
 		<copyright>Copyright by the youth group of the Church of God in Sofia, 1997</copyright>
@@ -53,7 +46,7 @@
 		<code service="diebibel_de" default_="true">einheitsuebersetzung</code>
 		<language>de</language>
 		<default_>true</default_>
-		<copyright>Copyright Katholischen Bibelanstalt, Stuttgart,</copyright>
+		<copyright>Copyright Katholischen Bibelanstalt, Stuttgart</copyright>
 		<input name="true">Einheitsübersetzung</input>
 	</edition>
 	<edition>
@@ -204,13 +197,13 @@
 		<input name="true">Estonian Bible</input>
 	</edition>
 	<edition>
-		<code service="biblija_net" default_="true">FinPR</code>
+		<code service="crosswire_org" default_="true">FinPR</code>
 		<language>fi</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Finnish Pyh Raamattu (1933/1938)</input>
 	</edition>
 	<edition>
-		<code service="biblija_net" default_="true">FinPR92</code>
+		<code service="crosswire_org" default_="true">FinPR92</code>
 		<language>fi</language>
 		<default_>true</default_>
 		<copyright>Copyright by Kirkon keskusrahasto, HELSINKI</copyright>
