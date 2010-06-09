@@ -13,10 +13,31 @@
     <step nr="3" yql="true">select item.text.content from xml where  url="$url" and item.passage=$passage</step>
   </service>
   <service>
-    <name>bijbel_net</name>
-    <step nr="1">http://www.bijbel.net/wb/?$book+$chapter,$passage</step>
-    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebijbelnet&amp;v=1&amp;applyToUrl=$url</step>
-    <step nr="3" yql="true">select $edition.content from xml where url="$url"</step>
-    <!-- psa 1,1    psa 1,3   -->
-  </service>
+   <name>crosswire_org</name>
+   <step nr="1">http://www.crosswire.org/study/passagestudy.jsp?key=$book+$chapter:$passage&amp;mod=$edition</step>
+   <step nr="2">http://www.dapper.net/RunDapp?dappName=bijbelpassagecrosswireorg&amp;v=1&amp;applyToUrl=$url</step>
+   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+ </service>
+ <service>
+  <name>diebibel_de</name>
+  <step nr="1">http://www.die-bibel.de/nc/online-bibeln/$edition/lesen-im-bibeltext/bibelstelle/$book%20$chapter%3A$passage/anzeige/single</step>
+  <step nr="2">http://www.dapper.net/RunDapp?dappName=bijbelpassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+ </service>
+ <service>
+  <name>unbound_biola_edu</name>
+  <step nr="1" yql="true">select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;submit=Search"</step>
+  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageunboundbiolaedu&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+ </service>
+ <service>
+  <name>bibliacatolica_com</name>
+  <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//table[@id='biblia']/tr[td[1]/p='$passage.']/td[2]/p"</step>
+ </service>
+ <service>
+  <name>laparola_net</name>
+  <step nr="1">http://www.laparola.net/testo.php?riferimento=$book+$chapter%3A$passage&amp;versioni[]=$edition&amp;Submit=Visualizza+testo</step>
+  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagelaparolanet&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+ </service>
 </services>
