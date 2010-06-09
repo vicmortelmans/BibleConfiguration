@@ -143,7 +143,7 @@
 	</edition>
 	<edition>
 		<code service="unbound_biola_edu" default_="true">douay_rheims_ucs2</code>
-		<code service="bibliacatolica_com">06/code>
+		<code service="bibliacatolica_com">06</code>
     <input>DR</input>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
