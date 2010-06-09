@@ -14,7 +14,7 @@
 		<language>ar</language>
 		<default_>true</default_>
 		<copyright></copyright>
-		<input name="true">Arabic: Smith & Van Dyke</input>
+		<input name="true">Arabic</input>
 	</edition>
 	<edition>
 		<code service="crosswire_org" default_="true">BulCarigradNT</code>
