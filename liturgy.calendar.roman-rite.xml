@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liturgicalday>
+  <parameters>
+    <parameters>
+      <parametergroup><day>Monday</day><dayoffset>1</dayoffset></parametergroup>
+      <parametergroup><day>Tuesday</day><dayoffset>2</dayoffset></parametergroup>
+    </parameters>
+    <parametergroup><week>First</week><weekoffset>1</weekoffset></parametergroup>
+    <parametergroup><week>Second</week><weekoffset>2</weekoffset></parametergroup>
+  </parameters>
+  <template>
+   <name>%day in the %week Week of Ordinary Time</name>
+    <season>Ordinary Time</season>
+    <rank></rank>
+    <daterules>
+      <days-after nr=”%dayoffset”>
+        <weeks-after nr=”%weekoffset”>
+          <day-after day=”Sunday”>
+            <liturgicaldayreference name=”Christmas”/>
+          </day-after>
+        </weeks-after>
+      </days-after>
+    </daterules>
+  </template>
+</liturgicalday>
