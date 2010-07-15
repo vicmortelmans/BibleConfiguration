@@ -164,7 +164,7 @@
       <daterules>
         <date day="6" month="1"/>          
       </daterules>
-      <optionaldaterules>
+      <optionaldaterules option="epiphany">
         <weekday-after day="Sunday">
           <date day="2" month="1"/>
         </weekday-after>
@@ -229,7 +229,7 @@
       <rank>Sunday</rank>
       <precedence>2</precedence>
       <daterules>
-        <weeks-before nr="$nr_i">
+        <weeks-before nr="1">
           <relative-to name="Easter"/>
         </weeks-before>
       </daterules>
@@ -279,9 +279,7 @@
       <!-- the vigil mass of Good Friday is the evening Mass of the Lord's Supper-->
       <daterules>
         <days-before nr="2">
-          <easterdate>
-            <liturgicalyear/>
-          </easterdate>
+          <easterdate/>
         </days-before>
       </daterules>
     </template>
@@ -295,9 +293,7 @@
       <precedence>1</precedence>
       <daterules>
         <days-before nr="1">
-          <easterdate>
-            <liturgicalyear/>
-          </easterdate>
+          <easterdate/>
         </days-before>
       </daterules>
     </template>
@@ -311,9 +307,7 @@
       <precedence>1</precedence>
       <vigil>true</vigil>
       <daterules>
-        <easterdate>
-          <liturgicalyear/>
-        </easterdate>
+        <easterdate/>
       </daterules>
     </template>
   </liturgicalday>
@@ -374,7 +368,7 @@
           <relative-to name="Easter"/>
         </days-after>
       </daterules>
-      <optionaldaterules>
+      <optionaldaterules option="ascension">
         <weeks-after nr="6">
           <relative-to name="Easter"/>
         </weeks-after>
@@ -425,7 +419,7 @@
           <relative-to name="Easter"/>
         </days-after>
       </daterules>
-      <optionaldaterules>
+      <optionaldaterules option="corpuschristi">
         <days-after nr="64">
           <relative-to name="Easter"/>
         </days-after>
