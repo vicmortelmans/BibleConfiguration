@@ -57,6 +57,15 @@
 		<input name="true">Byzantine/Majority Text (2000)</input>
 	</edition>
 	<edition>
+		<code service="usccb_org"/>
+		<code service="bibliacatolica_com" default_="true">05</code>
+		<input>NAB</input>
+		<language>en</language>
+		<default_>true</default_>
+		<copyright>Copyright © 1991, 1986, 1970 Confraternity of Christian Doctrine, Inc., Washington, DC</copyright>
+		<input name="true">New American Bible</input>
+	</edition>
+	<edition>
 		<code service="crosswire_org" default_="true">AKJV</code>
 		<input>AKJV</input>
 		<language>en</language>
@@ -81,15 +90,6 @@
 		<language>en</language>
 		<copyright></copyright>
 		<input name="true">Bible in Worldwide English</input>
-	</edition>
-	<edition>
-		<code service="usccb_org" default_="true"/>
-		<code service="bibliacatolica_com">05</code>
-		<input>NAB</input>
-		<language>en</language>
-		<default_>true</default_>
-		<copyright>Copyright © 1991, 1986, 1970 Confraternity of Christian Doctrine, Inc., Washington, DC</copyright>
-		<input name="true">New American Bible</input>
 	</edition>
 	<edition>
 		<code service="crosswire_org" default_="true">ACV</code>
