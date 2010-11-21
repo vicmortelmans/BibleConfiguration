@@ -3,14 +3,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="year"/>
-  <xsl:param name="particulardatafile"/>
+  <xsl:param name="particulardatafile"/><!-- required ! -->
   <xsl:variable name="particulardata" select="document($particulardatafile)/data"/>
   <xsl:variable name="easterdates" select="document($particulardata/easterdatesfile)/easterdates"/>
   <xsl:template match="liturgicaldays">
     <xsl:choose>
       <xsl:when test="$year">
         <xsl:copy>
-          <xsl:for-each-group select="liturgicalday" group-by="precedence">
+          <xsl:for-each-group select="liturgicalday|$particulardata/liturgicaldays/liturgicalday" group-by="precedence">
             <xsl:sort select="precedence"/>
             <xsl:for-each select="current-group()">
               <xsl:variable name="dates">

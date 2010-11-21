@@ -3,4 +3,20 @@
   <locale>en-us</locale>
   <easterdatesfile>liturgy.calendar.roman-rite.easterdates.xml</easterdatesfile>
   <options>epiphany</options>
+  <liturgicaldays>
+    <liturgicalday>
+      <parameters>
+        <parametergroup><name>Optional Memorial of St. Damien de Veuster, priest</name><day>10</day><month>5</month></parametergroup>
+      </parameters>
+      <template>
+       <name>$name</name>
+        <season>Ordinary Time</season>
+        <rank>Optional Memorial</rank>
+        <precedence>3</precedence>
+        <daterules>
+          <date day="$day" month="$month"/>
+        </daterules>
+      </template>
+    </liturgicalday>
+  </liturgicaldays>
 </data>
