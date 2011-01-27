@@ -7,13 +7,15 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="coordinaterules">
+    <xsl:copy-of select="."/>
+  </xsl:template>
+  
   <xsl:template match="liturgicalday">
     <xsl:if test="parameters">
       <xsl:variable name="liturgicalday" select="."/>
       <xsl:variable name="parameters">
-        <xsl:apply-templates select="parameters">
-          <xsl:with-param name="accuparametergroup" select="/.."/>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="parameters"/>
       </xsl:variable>
       <xsl:for-each select="$parameters/parametergroup">
         <liturgicalday>
@@ -34,14 +36,18 @@
   <xsl:template match="parameters">
     <xsl:param name="accuparametergroup"/>
     <xsl:for-each select="parametergroup">
-      <xsl:if test="./parameters">
-        <xsl:apply-templates select="parameters">
-          <xsl:with-param name="accuparametergroup" select="$accuparametergroup|./*"/>
+      <xsl:if test="../parameters">
+        <xsl:apply-templates select="../parameters">
+          <xsl:with-param name="accuparametergroup">
+            <xsl:copy-of select="$accuparametergroup"/>
+            <xsl:copy-of select="*"/>
+          </xsl:with-param>
         </xsl:apply-templates>
       </xsl:if>
-      <xsl:if test="not(./parameters)">
+      <xsl:if test="not(../parameters)">
         <parametergroup>
-          <xsl:copy-of select="$accuparametergroup|./*"/>
+          <xsl:copy-of select="$accuparametergroup"/>
+          <xsl:copy-of select="*"/>
         </parametergroup>
       </xsl:if>
     </xsl:for-each>
