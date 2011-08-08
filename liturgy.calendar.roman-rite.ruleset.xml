@@ -7,7 +7,8 @@
       ADVENT 
               -->
 
-  <coordinaterules set="Advent" start="First Sunday of Advent" stopbefore="Christmas">
+  <coordinaterules set="Advent" start="First Sunday of Advent" stopbefore="Christmas"
+    start-date="11/27" stop-date="12/24">
     <text>A</text>
     <format template="00">
       <count-weeks-between>
@@ -87,7 +88,8 @@
      CHRISTMAS OCTAVE
                       -->
 
-  <coordinaterules set="Christmas Ocatve" startafter="Christmas" stop="Seventh day in the octave of Christmas">
+  <coordinaterules set="Christmas Ocatve" startafter="Christmas" stop="Seventh day in the octave of Christmas"
+    start-date="12/26" stop-date="12/31">
     <text>X</text>
     <format template="00">
       <count-weeks-between>
@@ -129,7 +131,8 @@
      WEEKS OF CHRISTMAS SEASON
                                   -->
 
-  <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany">
+  <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany"
+    start-date="01/02" stop-date="01/07">
     <text>C</text>
     <format template="00">
       <count-weeks-between>
@@ -189,7 +192,8 @@
      WEEKDAYS AFTER EPIPHANY
                              -->
 
-  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany" stopbefore="Feast of the Baptism of the Lord">
+  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany" stopbefore="Feast of the Baptism of the Lord"
+    start-date="01/03" stop-date="01/13">
     <text>P</text>
     <format template="00">
       <count-weeks-between>
@@ -230,7 +234,8 @@
      HOLY FAMILY 
                  -->
                  
-  <coordinaterules set="Holy Family">
+  <coordinaterules set="Holy Family"
+    start-date="12/26" stop-date="12/31">
     <if>
       <test>
         <equals>
@@ -271,10 +276,11 @@
   </liturgicalday>
 
 <!-- 
-     EPIPHANY-ALT 
+     EPIPHANY
                  -->
                  
-  <coordinaterules set="Epiphany-alt" option="epiphany-alt">
+  <coordinaterules set="Epiphany" option="epiphany"
+    start-date="01/02" stop-date="01/08">
     <if>
       <test>
         <equals>
@@ -299,6 +305,9 @@
           <date day="2" month="1"/>
         </weekday-after>
       </daterules>
+      <daterules  option="epiphany-std">
+        <date day="6" month="1"/>
+      </daterules>
     </template>
   </liturgicalday>
 
@@ -306,7 +315,8 @@
      BAPTISM 
                                    -->
 
-  <coordinaterules set="Baptism">
+  <coordinaterules set="Baptism"
+    start-date="07/01" stop-date="13/01">
     <if>
       <test>
         <equals>
@@ -357,7 +367,8 @@
      LENT
           -->
 
-  <coordinaterules set="Lent" start="Ash Wednesday" stopbefore="Holy Thursday">
+  <coordinaterules set="Lent" start="Ash Wednesday" stopbefore="Holy Thursday"
+    start-date="02/04" stop-date="04/21">
     <text>L</text>
     <format template="00">
       <count-weeks-between>
@@ -488,7 +499,8 @@
        EASTER 
               -->
 
-  <coordinaterules set="Easter" start="Holy Thursday" stop="Pentecost">
+  <coordinaterules set="Easter" start="Holy Thursday" stop="Pentecost"
+    start-date="03/18" stop-date="06/12">
     <text>E</text>
     <format template="00">
       <count-weeks-between>
@@ -654,7 +666,8 @@
        SPECIAL DAYS AFTER EASTER
                                  -->
   
-  <coordinaterules set="Special days after Easter" crosscheck="true">
+  <coordinaterules set="Special days after Easter" crosscheck="true"
+    start-date="04/30" stop-date="06/27">
     <text>E</text>
     <format template="00">
       <count-weeks-between>
@@ -773,7 +786,8 @@
      ORDINARY BEFORE EASTER 
                             -->  
   
-  <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord" stopbefore="Ash Wednesday">
+  <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord" stopbefore="Ash Wednesday"
+    start-date="01/09" stop-date="03/16">
     <text>O</text>
     <format template="00">
       <count-weeks-between>
@@ -910,7 +924,8 @@
        ORDINARY AFTER EASTER 
                               -->  
   
-  <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Christ the King">
+  <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Christ the King"
+    start-date="05/11" stop-date="12/01">
     <text>Q</text>
     <format template="00">
       <count-weeks-between>
@@ -1065,7 +1080,8 @@
      TRANSFERRED ANNUNCIATION
                               -->
 
-  <coordinaterules set="Transferred Annunciation">
+  <coordinaterules set="Transferred Annunciation"
+    start-date="02/09" stop-date="05/03">
     <query set="Transferred Annunciation"/>
   </coordinaterules>
 
@@ -1170,7 +1186,8 @@
   <!-- 
        TRANSFERRED IMMACULATE CONCEPTION
                                          -->
-  <coordinaterules set="Transferred Immaculate Conception">
+  <coordinaterules set="Transferred Immaculate Conception"
+    start-date="12/09" stop-date="12/09">
     <query set="Transferred Immaculate Conception"/>
   </coordinaterules>
 
@@ -1214,7 +1231,8 @@
        TRANSFERRED JOSEPH 
                           -->
                           
-  <coordinaterules set="Transferred Joseph">
+  <coordinaterules set="Transferred Joseph"
+    start-date="02/09" stop-date="05/03">
     <query set="Transferred Joseph"/>
   </coordinaterules>
 
@@ -1380,20 +1398,6 @@
       <precedence>3</precedence>
       <daterules>
         <date day="1" month="1"/>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <template>
-     <name>Epiphany of the Lord</name>
-      <season>Christmas season</season>
-      <set>Fixed dates</set>
-      <coordinates>0106</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <precedence>2</precedence>
-      <daterules  option="epiphany-std">
-        <date day="6" month="1"/>
       </daterules>
     </template>
   </liturgicalday>
