@@ -13,6 +13,17 @@
        where year = $year and epiphany = $epiphany -->
   <xsl:variable name="reference-dates" select=""/>
   
+  <xsl:variable name="year">
+    <xsl:apply-template name="liturgical-year">
+        <xsl:with-param name="date" select="$date"/>
+    </xsl:apply-template>
+  </xsl:variable>
+  
+  <xsl:template name="liturgical-year">
+    <xsl:param name="date"/>
+    <!-- TODO -->
+  </xsl:template>
+  
   <xsl:template match="coordinaterules[@set = $set]">
     <xsl:apply-templates/>
   </xsl:template>
@@ -22,116 +33,12 @@
   <!--
        RENDERERS
                  -->
-  
-  <xsl:template match="coordinaterules">
-    <!-- INPUT $date : yyyy-mm-dd
-         OUTPUT <liturgicalday> nodes -->
-    <xsl:param name="env"/>
-    <xsl:message>coordinaterules(date : <xsl:value-of select="$env/date"/>)</xsl:message>
-    <xsl:variable name="invalid">
-      <xsl:if test="@start">
-        <xsl:variable name="startdate">
-          <xsl:apply-templates select="$env/liturgicalday[name=current()/@start]/daterules"/>
-        </xsl:variable>
-        <xsl:variable name="validationrules">
-          <before>
-            <this-date/>
-            <text><xsl:value-of select="$startdate"/></text>
-          </before>
-        </xsl:variable>
-        <xsl:apply-templates select="$validationrules"/>
-      </xsl:if>
-      <xsl:if test="@stop-before">
-        <xsl:variable name="stopdate">
-          <xsl:apply-templates select="$env/liturgicalday[name=current()/@stop-before]/daterules"/>
-        </xsl:variable>
-        <xsl:variable name="validationrules">
-          <not-after>
-            <text><xsl:value-of select="$stopdate"/></text>
-            <this-date/>
-          </not-after>
-        </xsl:variable>
-        <xsl:apply-templates select="$validationrules"/>
-      </xsl:if>
-      <xsl:if test="@start-after">
-        <xsl:variable name="startdate">
-          <xsl:apply-templates select="$env/liturgicalday[name=current()/@start-after]/daterules"/>
-        </xsl:variable>
-        <xsl:variable name="validationrules">
-          <not-after>
-            <this-date/>
-            <text><xsl:value-of select="$startdate"/></text>
-          </not-after>
-        </xsl:variable>
-        <xsl:apply-templates select="$validationrules"/>
-      </xsl:if>
-      <xsl:if test="@stop">
-        <xsl:variable name="stopdate">
-          <xsl:apply-templates select="$env/liturgicalday[name=current()/@stop]/daterules"/>
-        </xsl:variable>
-        <xsl:variable name="validationrules">
-          <before>
-            <text><xsl:value-of select="$stopdate"/></text>
-            <this-date/>
-          </before>
-        </xsl:variable>
-        <xsl:apply-templates select="$validationrules"/>
-      </xsl:if>
-    </xsl:variable>
-    <xsl:if test="not($invalid)">
-      <xsl:variable name="coordinates">
-        <xsl:apply-templates>
-          <xsl:with-param name="env">
-            <xsl:copy-of select="$env"/>
-          </xsl:with-param>
-        </xsl:apply-templates>
-      </xsl:variable>
-      <xsl:copy-of select="$env/liturgicalday[coordinates=$coordinates]"/>
-    </xsl:if>
-  </xsl:template>
-
   <xsl:template match="daterules">
-    <xsl:param name="env"/>
     <xsl:message>daterules(year : <xsl:value-of select="$env/year"/>)</xsl:message>
-    <xsl:apply-templates>
-      <xsl:with-param name="env">
-        <xsl:copy-of select="$env"/>
-      </xsl:with-param>
-    </xsl:apply-templates>
+    <xsl:apply-templates/>
   </xsl:template>
 
   
-  <xsl:template name="print-for-date-all-sets">
-    <xsl:param name="env"/>
-    <xsl:variable name="date" select="@date"/>
-    <table>
-      <xsl:for-each select="$env/coordinaterules">
-        <xsl:variable name="coordinates">
-          <xsl:apply-templates select=".">
-            <xsl:with-param name="env">
-              <!-- add date to env -->
-              <xsl:copy-of select="$env"/>
-              <date>
-                <xsl:value-of select="$date"/>
-              </date>
-            </xsl:with-param>
-          </xsl:apply-templates>
-        </xsl:variable>
-        <xsl:if test="$coordinates">
-          <xsl:variable name="liturgicalday" select="$env/liturgicalday[coordinates=$coordinates]"/>
-          <tr>
-            <td>
-              <xsl:value-of select="@set"/>
-            </td>
-            <td>
-              <xsl:value-of select="$liturgicalday/name"/> (<xsl:value-of select="$liturgicalday/season"/>, r<xsl:value-of select="$liturgicalday/rank/@nr"/>, p<xsl:value-of select="$liturgicalday/precedence"/>) 
-            </td>
-          </tr>
-        </xsl:if>
-      </xsl:for-each>
-    </table>
-  </xsl:template>
-    
   <!--
        DATE OPERATORS
                       -->
@@ -139,9 +46,8 @@
   <xsl:template match="this-date">
     <!-- INPUT $date : yyyy-mm-dd
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
-    <xsl:message>this-date(date : <xsl:value-of select="$env/date"/>)</xsl:message>
-    <xsl:value-of select="$env/date"/>
+    <xsl:message>this-date(date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:value-of select="$date"/>
   </xsl:template>
     
   <xsl:template match="date">
@@ -208,25 +114,20 @@
     <!-- INPUT $year
          OUTPUT yyyy-mm-dd
          NOTE: using $year is OK, easter never falls before 1/1 -->
-    <xsl:param name="env"/>
-    <xsl:message>easterdate(year : <xsl:value-of select="$env/year"/>)</xsl:message>
-    <xsl:number value="number($env/year)" format="0001"/>
+    <xsl:message>easterdate(year : <xsl:value-of select="$year"/>)</xsl:message>
+    <xsl:variable name="easterdate" select="document(https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml)"/>
+    <xsl:number value="number($year)" format="0001"/>
     <xsl:text>-</xsl:text>
-    <xsl:number value="$env/easterdate[year=$env/year]/month" format="01"/>
+    <xsl:number value="$easterdate[year=$env/year]/month" format="01"/>
     <xsl:text>-</xsl:text>
-    <xsl:number value="$env/easterdate[year=$env/year]/day" format="01"/>
+    <xsl:number value="$easterdate[year=$env/year]/day" format="01"/>
   </xsl:template>
   
   <xsl:template match="weekday-after">
     <!-- INPUT @day : weekday string, e.g. "Sunday"
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>weekday-after(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <!--1/ get weekdayindex of reference date (r) and weekdayindex of target day (t)
@@ -271,7 +172,6 @@
   <xsl:template match="weekday-before">
     <!-- INPUT @day : weekday string, e.g. "Sunday"
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:message>weekday-before(day : <xsl:value-of select="@day"/>)</xsl:message>
     <xsl:variable name="daterules">
       <weekday-after day="{@day}">
@@ -280,23 +180,14 @@
         </weeks-before>
       </weekday-after>
     </xsl:variable>
-    <xsl:apply-templates select="$daterules/*">
-      <xsl:with-param name="env">
-        <xsl:copy-of select="$env"/>
-      </xsl:with-param>
-    </xsl:apply-templates>
+    <xsl:apply-templates select="$daterules/*"/>
   </xsl:template>
   
   <xsl:template match="days-before">
     <!-- INPUT @nr : number, e.g. '2'
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-     </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>days-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="daysDuration">
@@ -312,13 +203,8 @@
   <xsl:template match="days-after">
     <!-- INPUT @nr : number, e.g. '2'
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>days-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="daysDuration">
@@ -334,13 +220,8 @@
   <xsl:template match="weeks-before">
     <!-- INPUT @nr : number, e.g. '2'
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>weeks-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="daysDuration">
@@ -356,13 +237,8 @@
   <xsl:template match="weeks-after">
     <!-- INPUT @nr : number, e.g. '2'
          OUTPUT yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>weeks-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="daysDuration">
@@ -380,13 +256,8 @@
     <!-- INPUT $* : typically $year
                @name : liturgical day name
          OUTPUT yyyy-mm-dd : the date returned by rendering @name's daterules -->
-    <xsl:param name="env"/>
     <xsl:message>relative-to(name : <xsl:value-of select="@name"/>)</xsl:message>
-    <xsl:apply-templates select="$env/liturgicalday[name = current()/@name]/daterules">
-      <xsl:with-param name="env">
-        <xsl:copy-of select="$env"/>
-      </xsl:with-param>
-    </xsl:apply-templates>
+    <xsl:apply-templates select="//liturgicalday[name = current()/@name]/daterules"/>
   </xsl:template>
   
   <!-- 
@@ -399,17 +270,17 @@
                @day : dd
                @month : mm
          OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
-    <xsl:param name="env"/>
     <xsl:message>coordinates(year : <xsl:value-of select="$env/year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
     <xsl:variable name="date">
-      <xsl:value-of select="$env/year"/>
+      <xsl:value-of select="$year"/>
       <xsl:text>-</xsl:text>
       <xsl:value-of select="@month"/>
       <xsl:text>-</xsl:text>
       <xsl:value-of select="@day"/>
     </xsl:variable>
-    <xsl:apply-templates select="$env/coordinaterules[@set=current()/@set]">
-      <xsl:with-param name="env">
+    <xsl:apply-templates select="//coordinaterules[@set=current()/@set]">
+        <!-- TODO !!!!!!!!! -->
+        <xsl:with-param name="env">
               <!-- add date to env -->
               <xsl:copy-of select="$env[not(name()='date')]"/>
               <date>
