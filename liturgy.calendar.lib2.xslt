@@ -490,8 +490,8 @@
   <xsl:template match="text">
     <!-- INPUT * : text node
          OUTPUT : text node -->
-    <xsl:message>text(text : <xsl:value-of select="*"/>)</xsl:message>
-    <xsl:value-of select="*"/>
+    <xsl:message>text(text : <xsl:value-of select="text()"/>)</xsl:message>
+    <xsl:value-of select="text()"/>
   </xsl:template>
   
   <xsl:template match="mmdd">
