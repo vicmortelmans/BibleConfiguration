@@ -269,7 +269,7 @@
                @day : dd
                @month : mm
          OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
-    <xsl:message>coordinates(year : <xsl:value-of select="$env/year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
+    <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
     <xsl:variable name="date">
       <xsl:value-of select="$year"/>
       <xsl:text>-</xsl:text>
@@ -277,16 +277,7 @@
       <xsl:text>-</xsl:text>
       <xsl:value-of select="@day"/>
     </xsl:variable>
-    <xsl:apply-templates select="//coordinaterules[@set=current()/@set]">
-        <!-- TODO !!!!!!!!! -->
-        <xsl:with-param name="env">
-              <!-- add date to env -->
-              <xsl:copy-of select="$env[not(name()='date')]"/>
-              <date>
-                <xsl:value-of select="$date"/>
-              </date>
-      </xsl:with-param>
-    </xsl:apply-templates>
+    <xsl:apply-templates select="//coordinaterules[@set=current()/@set]"/>
   </xsl:template>
                       
   <xsl:template match="query">
