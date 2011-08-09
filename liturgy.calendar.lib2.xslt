@@ -259,6 +259,7 @@
          OUTPUT yyyy-mm-dd : the date returned by rendering @name's daterules -->
     <xsl:message>relative-to(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:apply-templates select="//liturgicalday[name = current()/@name]/daterules"/>
+    <!-- TODO replace by lookup -->
   </xsl:template>
   
   <!-- 
