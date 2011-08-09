@@ -3,15 +3,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
-  <xsl:param name="set" select="Ordinary after Easter"/>
-  <xsl:param name="date" select="2011/08/09"/>
+  <xsl:param name="set" select="'Ordinary after Easter'"/>
+  <xsl:param name="date" select="'2011/08/09'"/>
   <xsl:param name="epiphany"/>
   <xsl:param name="corpuschristi"/>
   <xsl:param name="ascension"/>
     
   <!-- select * from bible.liturgy.calendar.reference-dates 
        where year = $year and epiphany = $epiphany -->
-  <xsl:variable name="reference-dates" select=""/>
+  <xsl:variable name="reference-dates" select="''"/>
+  <!-- TODO -->
   
   <xsl:variable name="year">
     <xsl:call-template name="liturgical-year">
@@ -114,7 +115,7 @@
          OUTPUT yyyy-mm-dd
          NOTE: using $year is OK, easter never falls before 1/1 -->
     <xsl:message>easterdate(year : <xsl:value-of select="$year"/>)</xsl:message>
-    <xsl:variable name="easterdate" select="document(https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml)"/>
+    <xsl:variable name="easterdate" select="document('https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml')"/>
     <xsl:number value="number($year)" format="0001"/>
     <xsl:text>-</xsl:text>
     <xsl:number value="$easterdate[year=$year]/month" format="01"/>
