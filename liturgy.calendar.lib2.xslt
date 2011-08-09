@@ -364,7 +364,7 @@
   <xsl:template match="day-number">
     <!-- INPUT : * : date operator or literal date string  <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT : weekday number, Sunday is 1 -->
-    <xsl:variable name="date"/>
+    <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>day-number(date : <xsl:value-of select="$date"/>)</xsl:message>
