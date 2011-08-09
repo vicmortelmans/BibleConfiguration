@@ -34,7 +34,7 @@
        RENDERERS
                  -->
   <xsl:template match="daterules">
-    <xsl:message>daterules(year : <xsl:value-of select="$env/year"/>)</xsl:message>
+    <xsl:message>daterules(year : <xsl:value-of select="$year"/>)</xsl:message>
     <xsl:apply-templates/>
   </xsl:template>
 
@@ -57,19 +57,18 @@
          NOTE: there's something fuzzy here, because the same date can occur 
                twice in a liturgical year; if so, the period to the start 
                of the liturgical year get's priorithy-->
-    <xsl:param name="env"/>
-    <xsl:message>date(year : <xsl:value-of select="$env/year"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
+    <xsl:message>date(year : <xsl:value-of select="$year"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
     <xsl:choose>
       <xsl:when test="@*">
         <xsl:variable name="dateInStartYear">
-          <xsl:number value="number($env/year) - 1" format="0001"/>
+          <xsl:number value="number($year) - 1" format="0001"/>
           <xsl:text>-</xsl:text>
           <xsl:number value="@month" format="01"/>
           <xsl:text>-</xsl:text>
           <xsl:number value="@day" format="01"/>
         </xsl:variable>
         <xsl:variable name="dateInEndYear">
-          <xsl:number value="number($env/year)" format="0001"/>
+          <xsl:number value="number($year)" format="0001"/>
           <xsl:text>-</xsl:text>
           <xsl:number value="@month" format="01"/>
           <xsl:text>-</xsl:text>
@@ -79,7 +78,7 @@
           <weeks-before nr="3">
             <weekday-before day="Sunday">
               <date>
-                <xsl:number value="number($env/year) - 1" format="0001"/>
+                <xsl:number value="number($year) - 1" format="0001"/>
                 <xsl:text>-</xsl:text>
                 <xsl:number value="12"/>
                 <xsl:text>-</xsl:text>
@@ -118,9 +117,9 @@
     <xsl:variable name="easterdate" select="document(https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml)"/>
     <xsl:number value="number($year)" format="0001"/>
     <xsl:text>-</xsl:text>
-    <xsl:number value="$easterdate[year=$env/year]/month" format="01"/>
+    <xsl:number value="$easterdate[year=$year]/month" format="01"/>
     <xsl:text>-</xsl:text>
-    <xsl:number value="$easterdate[year=$env/year]/day" format="01"/>
+    <xsl:number value="$easterdate[year=$year]/day" format="01"/>
   </xsl:template>
   
   <xsl:template match="weekday-after">
@@ -296,29 +295,20 @@
          OUTPUT for each liturgical day in @set, the daterules are applied and
                 if the date matches $date, 
                 the <coordinates> for that set are returned -->
-    <xsl:param name="env"/>
-    <xsl:message>query(date : <xsl:value-of select="$env/date"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
+    <xsl:message>query(date : <xsl:value-of select="$date"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:variable name="yearrules">
       <year>
         <this-date/>
       </year>
     </xsl:variable>
     <xsl:variable name="year">
-      <xsl:apply-templates select="$yearrules">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="$yearrules"/>
     </xsl:variable>
-    <xsl:for-each select="$env/liturgicalday[set=current()/@set]">
+    <xsl:for-each select="//liturgicalday[set=current()/@set]">
       <xsl:variable name="candidate">
-        <xsl:apply-templates select="daterules">
-          <xsl:with-param name="env">
-            <xsl:copy-of select="$env"/>
-          </xsl:with-param>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="daterules"/>
       </xsl:variable>
-      <xsl:if test="$candidate=$env/date">
+      <xsl:if test="$candidate=$date">
         <xsl:value-of select="coordinates"/>
       </xsl:if>
     </xsl:for-each>
@@ -334,29 +324,16 @@
                then : anything that can be applied
                else : anything that can be applied
          OUTPUT whatever the 'then' or 'else' returns -->
-    <xsl:param name="env"/>
     <xsl:variable name="test">
-      <xsl:apply-templates select="test/*">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="test/*"/>
     </xsl:variable>
     <xsl:message>if(test : <xsl:value-of select="$test"/>)</xsl:message>
     <xsl:choose>
       <xsl:when test="$test">
-        <xsl:apply-templates select="then/*">
-          <xsl:with-param name="env">
-            <xsl:copy-of select="$env"/>
-          </xsl:with-param>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="then/*"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates select="else/*">
-          <xsl:with-param name="env">
-            <xsl:copy-of select="$env"/>
-          </xsl:with-param>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="else/*"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -369,20 +346,11 @@
     <!-- INPUT : *[1] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
                  *[2] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT : number of days between the two dates -->
-    <xsl:param name="env"/>
     <xsl:variable name="date1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="date2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>count-days-between(date1 : <xsl:value-of select="$date1"/>, date2 : <xsl:value-of select="$date2"/>)</xsl:message>
     <xsl:value-of select="fn:days-from-duration(xs:date($date2) - xs:date($date1))"/>
@@ -392,20 +360,11 @@
     <!-- INPUT : *[1] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
                  *[2] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT : number of (full) weeks between the two dates -->
-    <xsl:param name="env"/>
     <xsl:variable name="date1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="date2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>count-weeks-between(date1 : <xsl:value-of select="$date1"/>, date2 : <xsl:value-of select="$date2"/>)</xsl:message>
     <xsl:value-of select="floor(fn:days-from-duration(xs:date($date2) - xs:date($date1)) div 7)"/>
@@ -414,13 +373,8 @@
   <xsl:template match="day-number">
     <!-- INPUT : * : date operator or literal date string  <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT : weekday number, Sunday is 1 -->
-    <xsl:param name="env"/>
-    <xsl:variable name="date">
+    <xsl:variable name="date"/>
       <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
     </xsl:variable>
     <xsl:message>day-number(date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="weekdayindex">
@@ -446,13 +400,8 @@
     <!-- tricky: day can be a list of multiple days, e.g. "Saturday Friday Thursday Wednesday"
          and format-date()'s output is contaminated like this: "[Language: en]Wednesday" 
          so a regex is needed to remove the [...]-part from the format-date()-output -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>test-day(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="day">
@@ -465,20 +414,11 @@
     <!-- INPUT *[1] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
                *[2] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT "true" if date one is before date two; else nothing -->
-    <xsl:param name="env"/>
     <xsl:variable name="date1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="date2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>before(date1 : <xsl:value-of select="$date1"/>, date2 : <xsl:value-of select="$date2"/>)</xsl:message>
     <xsl:if test="xs:date($date1) &lt; xs:date($date2)">true</xsl:if>
@@ -488,20 +428,11 @@
     <!-- INPUT *[1] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
                *[2] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT "true" if date one is before date two; else nothing -->
-    <xsl:param name="env"/>
     <xsl:variable name="date1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="date2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>not-after(date1 : <xsl:value-of select="$date1"/>, date2 : <xsl:value-of select="$date2"/>)</xsl:message>
     <xsl:if test="xs:date($date1) &lt;= xs:date($date2)">true</xsl:if>
@@ -511,20 +442,11 @@
     <!-- INPUT *[1] : string operator or literal string
                *[2] : string operator or literal string
          OUTPUT "true" if the first string can be found in the second -->
-    <xsl:param name="env"/>
     <xsl:variable name="string1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="string2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>matches(string1 : <xsl:value-of select="$string1"/>, string2 : <xsl:value-of select="$string2"/>)</xsl:message>
     <xsl:if test="matches($string2,$string1)">true</xsl:if>
@@ -534,20 +456,11 @@
     <!-- INPUT *[1] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
                *[2] : date operator or literal date string <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT "true" if the two dates are identical; else nothing -->
-    <xsl:param name="env"/>
     <xsl:variable name="string1">
-      <xsl:apply-templates select="*[1]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[1]"/>
     </xsl:variable>
     <xsl:variable name="string2">
-      <xsl:apply-templates select="*[2]">
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>equals(string1 : <xsl:value-of select="$string1"/>, string2 : <xsl:value-of select="$string2"/>)</xsl:message>
     <xsl:if test="$string2=$string1">true</xsl:if>
@@ -560,11 +473,7 @@
     <xsl:message>or()</xsl:message>
     <xsl:variable name="output">
       <xsl:for-each select="*">
-        <xsl:apply-templates select=".">
-          <xsl:with-param name="env">
-            <xsl:copy-of select="$env"/>
-          </xsl:with-param>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="."/>
       </xsl:for-each>
     </xsl:variable>
     <xsl:if test="matches($output,'true')">true</xsl:if>
@@ -578,13 +487,8 @@
     <!-- INPUT * : number operator or literal number
                @template : formatting template, e.g. "01"
          OUTPUT : the formatted number -->
-    <xsl:param name="env"/>
     <xsl:variable name="number">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>format(template : <xsl:value-of select="@template"/>, number : <xsl:value-of select="$number"/>)</xsl:message>
     <xsl:value-of select="format-number($number,@template)"/>
@@ -600,13 +504,8 @@
   <xsl:template match="mmdd">
     <!-- INPUT * : date operator or literal date <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT string "mmdd" -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>mmdd(date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:value-of select="concat(format-number(fn:month-from-date(xs:date($date)),'00'),format-number(fn:day-from-date(xs:date($date)),'00'))"/>
@@ -616,13 +515,8 @@
     <!-- INPUT * : date operator or literal date <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT string "yyyy" of the *liturgical year* the date is falling in 
                 (e.g. 2010-12-25 falls in liturgical year 2011) -->
-    <xsl:param name="env"/>
     <xsl:variable name="date">
-      <xsl:apply-templates>
-        <xsl:with-param name="env">
-          <xsl:copy-of select="$env"/>
-        </xsl:with-param>
-      </xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>yyyy(date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="year" select="fn:year-from-date($date)"/>
