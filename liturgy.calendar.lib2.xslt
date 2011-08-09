@@ -3,8 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
-  <xsl:param name="set"/>
-  <xsl:param name="date"/>
+  <xsl:param name="set" select="Ordinary after Easter"/>
+  <xsl:param name="date" select="2011/08/09"/>
   <xsl:param name="epiphany"/>
   <xsl:param name="corpuschristi"/>
   <xsl:param name="ascension"/>
