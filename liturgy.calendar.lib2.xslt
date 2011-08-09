@@ -30,6 +30,7 @@
   </xsl:template>
     
   <xsl:template match="coordinaterules"/>
+  <xsl:template match="liturgicalday"/>
   
   <!--
        RENDERERS
