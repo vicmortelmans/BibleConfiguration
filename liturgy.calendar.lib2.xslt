@@ -14,9 +14,9 @@
   <xsl:variable name="reference-dates" select=""/>
   
   <xsl:variable name="year">
-    <xsl:apply-template name="liturgical-year">
+    <xsl:call-template name="liturgical-year">
         <xsl:with-param name="date" select="$date"/>
-    </xsl:apply-template>
+    </xsl:call-template>
   </xsl:variable>
   
   <xsl:template name="liturgical-year">
@@ -365,7 +365,7 @@
     <!-- INPUT : * : date operator or literal date string  <xsl:text>yyyy-mm-dd</xsl:text>
          OUTPUT : weekday number, Sunday is 1 -->
     <xsl:variable name="date"/>
-      <xsl:apply-templates>
+      <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>day-number(date : <xsl:value-of select="$date"/>)</xsl:message>
     <xsl:variable name="weekdayindex">
