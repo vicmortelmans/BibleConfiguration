@@ -3,34 +3,10 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
-  <xsl:param name="set" select="'Ordinary after Easter'"/>
-  <xsl:param name="date" select="'2011/08/09'"/>
-  <xsl:param name="epiphany"/>
-  <xsl:param name="corpuschristi"/>
-  <xsl:param name="ascension"/>
-    
-  <!-- select * from bible.liturgy.calendar.reference-dates 
-       where year = $year and epiphany = $epiphany -->
-  <xsl:variable name="reference-dates" select="''"/>
-  <!-- TODO -->
-  
-  <xsl:variable name="year">
-    <xsl:call-template name="liturgical-year">
-        <xsl:with-param name="date" select="$date"/>
-    </xsl:call-template>
-  </xsl:variable>
-  
   <xsl:template name="liturgical-year">
     <xsl:param name="date"/>
     <!-- TODO -->
   </xsl:template>
-  
-  <xsl:template match="coordinaterules[@set = $set]">
-    <xsl:apply-templates/>
-  </xsl:template>
-    
-  <xsl:template match="coordinaterules"/>
-  <xsl:template match="liturgicalday"/>
   
   <!--
        RENDERERS
@@ -39,7 +15,6 @@
     <xsl:message>daterules(year : <xsl:value-of select="$year"/>)</xsl:message>
     <xsl:apply-templates/>
   </xsl:template>
-
   
   <!--
        DATE OPERATORS
@@ -54,56 +29,27 @@
     
   <xsl:template match="date">
     <!-- INPUT $year, e.g. '2011', interpreted as liturgical year 2010-2011
-               @day, @month
+               @day, @month, @year-1
          OUTPUT yyyy-mm-dd
-         NOTE: there's something fuzzy here, because the same date can occur 
-               twice in a liturgical year; if so, the period to the start 
-               of the liturgical year get's priorithy-->
-    <xsl:message>date(year : <xsl:value-of select="$year"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
+         NOTE: if a date is meant in the first part of the liturgical year
+               before 1/01, the attribute @year-1 must be set ! -->
+    <xsl:message>date(year : <xsl:value-of select="$year"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>, before 01/1 : <xsl:value-of select="@year-1"/>)</xsl:message>
     <xsl:choose>
       <xsl:when test="@*">
-        <xsl:variable name="dateInStartYear">
-          <xsl:number value="number($year) - 1" format="0001"/>
+        <date>
+          <xsl:choose>
+            <xsl:when test="@year-1 = 'yes'">
+              <xsl:number value="number($year) - 1" format="0001"/> 
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:number value="number($year)" format="0001"/>          
+            </xsl:otherwise>
+          </xsl:choose>
           <xsl:text>-</xsl:text>
           <xsl:number value="@month" format="01"/>
           <xsl:text>-</xsl:text>
           <xsl:number value="@day" format="01"/>
-        </xsl:variable>
-        <xsl:variable name="dateInEndYear">
-          <xsl:number value="number($year)" format="0001"/>
-          <xsl:text>-</xsl:text>
-          <xsl:number value="@month" format="01"/>
-          <xsl:text>-</xsl:text>
-          <xsl:number value="@day" format="01"/>
-        </xsl:variable>
-        <xsl:variable name="startDayRules">
-          <weeks-before nr="3">
-            <weekday-before day="Sunday">
-              <date>
-                <xsl:number value="number($year) - 1" format="0001"/>
-                <xsl:text>-</xsl:text>
-                <xsl:number value="12"/>
-                <xsl:text>-</xsl:text>
-                <xsl:number value="25"/>
-              </date>
-            </weekday-before>
-          </weeks-before>
-        </xsl:variable>
-        <xsl:variable name="startDay">
-          <xsl:apply-templates select="$startDayRules"/>
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="xs:date($dateInStartYear) &gt; xs:date($startDay)">
-            <date>
-              <xsl:value-of select="$dateInStartYear"/>
-            </date>
-          </xsl:when>
-          <xsl:otherwise>
-            <date>
-              <xsl:value-of select="$dateInEndYear"/>
-            </date>
-          </xsl:otherwise>
-        </xsl:choose>
+        </date>
       </xsl:when>
       <xsl:otherwise>
         <xsl:copy-of select="."/>

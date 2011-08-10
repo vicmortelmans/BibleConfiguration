@@ -16,7 +16,7 @@
           <this-date/>
         </weekday-before>
         <weekday-before day="Sunday">
-          <date day="25" month="12"/>
+          <date day="25" month="12" year-1="yes"/>
         </weekday-before>
       </count-weeks-between>
     </format>
@@ -43,7 +43,7 @@
       <daterules>
         <weeks-before nr="$nr_i">
           <weekday-before day="Sunday">
-            <date day="25" month="12"/>
+            <date day="25" month="12" year-1="yes"/>
           </weekday-before>
         </weeks-before>
       </daterules>
@@ -76,7 +76,7 @@
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
             <weekday-before day="Sunday">
-              <date day="25" month="12"/>
+              <date day="25" month="12" year-1="yes"/>
             </weekday-before>
           </weeks-before>
         </weekday-after>
@@ -93,12 +93,12 @@
     <text>X</text>
     <format template="00">
       <count-weeks-between>
-        <date day="25" month="12"/>
+        <date day="25" month="12" year-1="yes"/>
         <this-date/>
       </count-weeks-between>
     </format>
     <count-days-between>
-      <date day="24" month="12"/>
+      <date day="24" month="12" year-1="yes"/>
       <this-date/>
     </count-days-between>
   </coordinaterules>
@@ -121,7 +121,7 @@
       <precedence>9</precedence>
       <daterules>
         <days-after nr="$nr_i">
-          <date day="25" month="12"/>
+          <date day="25" month="12" year-1="yes"/>
         </days-after>
       </daterules>
     </template>
@@ -136,7 +136,7 @@
     <text>C</text>
     <format template="00">
       <count-weeks-between>
-        <date day="25" month="12"/>
+        <date day="25" month="12" year-1="yes"/>
         <this-date/>
       </count-weeks-between>
     </format>
@@ -157,7 +157,7 @@
       <daterules>
         <weeks-after nr="1">
           <weekday-after day="Sunday">
-            <date day="25" month="12"/>
+            <date day="25" month="12" year-1="yes"/>
           </weekday-after>
         </weeks-after>
       </daterules>
@@ -263,7 +263,7 @@
             </test-day>
           </test>
           <then>
-            <date day="30" month="12"/>
+            <date day="30" month="12" year-1="yes"/>
           </then>
           <else>
             <weekday-after day="Sunday">
@@ -1329,7 +1329,7 @@
       <vigil>true</vigil>
       <precedence>2</precedence>
       <daterules>
-        <date day="8" month="12"/>
+        <date day="8" month="12" year-1="yes"/>
       </daterules>
     </template>
   </liturgicalday>
@@ -1345,7 +1345,7 @@
       <vigil>true</vigil>
       <precedence>2</precedence>
       <daterules>
-        <date day="25" month="12"/>
+        <date day="25" month="12" year-1="yes"/>
       </daterules>
     </template>
   </liturgicalday>
@@ -1358,7 +1358,7 @@
       <rank>Feast</rank>
       <precedence>7</precedence>
       <daterules>
-        <date day="26" month="12"/>
+        <date day="26" month="12" year-1="yes"/>
       </daterules>
     </template>
   </liturgicalday>
@@ -1371,7 +1371,7 @@
       <rank>Feast</rank>
       <precedence>7</precedence>
       <daterules>
-        <date day="27" month="12"/>
+        <date day="27" month="12" year-1="yes"/>
       </daterules>
     </template>
   </liturgicalday>
@@ -1384,7 +1384,7 @@
       <rank>Feast</rank>
       <precedence>7</precedence>
       <daterules>
-        <date day="28" month="12"/>
+        <date day="28" month="12" year-1="yes"/>
       </daterules>
     </template>
   </liturgicalday>
@@ -1503,7 +1503,7 @@
   </liturgicalday>
 
   <liturgicalday>
-    <parameters>
+    <parameters><!-- feasts between 1/01 and 27/11 -->
       <parametergroup><name>Solemnity of the Birth of Jonh the Baptist</name><day>24</day><month>6</month></parametergroup>
       <parametergroup><name>Solemnity of SS. Peter and Paul, apostles</name><day>29</day><month>6</month></parametergroup>
       <parametergroup><name>Solemnity of the Assumption of the Blessed Virgin Mary</name><day>15</day><month>8</month></parametergroup>
