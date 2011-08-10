@@ -27,10 +27,10 @@
 
   <liturgicalday>
     <parameters>
-      <parametergroup><nr_s>First</nr_s><nr_i>1</nr_i><nr_c>01</nr_c></parametergroup>
+      <parametergroup><nr_s>First</nr_s><nr_i>3</nr_i><nr_c>01</nr_c></parametergroup>
       <parametergroup><nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourth</nr_s><nr_i>4</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>1</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>0</nr_i><nr_c>04</nr_c></parametergroup>
     </parameters>
     <template>
      <name>$nr_s Sunday of Advent</name>
