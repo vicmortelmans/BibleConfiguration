@@ -11,8 +11,10 @@
   <xsl:param name="corpuschristi"/>
   <xsl:param name="ascension"/>
   
-  <xsl:template match="coordinaterules[@set = $set]">
-    <xsl:apply-templates/>
+  <xsl:variable name="date"/>
+  
+  <xsl:template match="liturgicalday[coordinates = $coordinates]">
+    <xsl:apply-templates select="daterules"/>
   </xsl:template>
     
   <xsl:template match="coordinaterules"/>

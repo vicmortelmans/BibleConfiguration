@@ -17,8 +17,8 @@
     </xsl:call-template>
   </xsl:variable>
   
-  <xsl:template match="liturgicalday[coordinates = $coordinates]">
-    <xsl:apply-templates select="daterules"/>
+  <xsl:template match="coordinaterules[@set = $set]">
+    <xsl:apply-templates/>
   </xsl:template>
     
   <xsl:template match="coordinaterules"/>
