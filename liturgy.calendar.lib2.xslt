@@ -212,7 +212,7 @@
         <xsl:value-of select="$coordinates"/>
     </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:apply-templates select="document($rest)"/>
+    <xsl:value-of select="document($rest)/date"/>
   </xsl:template>
   
   <!-- 
