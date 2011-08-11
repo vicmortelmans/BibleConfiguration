@@ -224,6 +224,24 @@
 	<xsl:value-of select="document($rest)/date"/>
 	</xsl:template>
 
+  <xsl:template match="relative-to-next-years">
+    <!-- INPUT $* : typically $year
+               @name : liturgical day name
+         OUTPUT yyyy-mm-dd : the date returned by rendering @name's daterules in next year-->
+    <xsl:message>relative-to-next-years(name : <xsl:value-of select="@name"/>)</xsl:message>
+    <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
+    <xsl:variable name="rest">
+        <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
+        <xsl:value-of select="$year + 1"/>
+        <xsl:text>&amp;coordinates=</xsl:text>
+        <xsl:value-of select="$coordinates"/>
+        <xsl:text>&amp;options=</xsl:text>
+	<xsl:value-of select="$options"/>
+	</xsl:variable>
+	<xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+	<xsl:value-of select="document($rest)/date"/>
+	</xsl:template>
+
 	<!-- 
 	COORDINATES OPERATORS
 	-->

@@ -905,7 +905,7 @@
     <format template="00">
       <count-weeks-between>
         <weeks-before nr="34">
-          <relative-to name="First Sunday of Advent"/>
+          <relative-to-next-years name="First Sunday of Advent"/>
         </weeks-before>
         <weekday-before day="Sunday">
           <this-date/>
@@ -959,7 +959,7 @@
       <daterules>
         <weeks-after nr="$nr_i">
           <weeks-before nr="34">
-            <relative-to name="First Sunday of Advent"/>
+            <relative-to-next-years name="First Sunday of Advent"/>
           </weeks-before>
         </weeks-after>
       </daterules>
@@ -1017,7 +1017,7 @@
         <weekday-after day="$day_s">
           <weeks-after nr="$nr_i">
             <weeks-before nr="34">
-              <relative-to name="First Sunday of Advent"/>
+              <relative-to-next-years name="First Sunday of Advent"/>
             </weeks-before>
           </weeks-after>
         </weekday-after>
@@ -1036,7 +1036,7 @@
       <vigil>true</vigil>
       <daterules>
         <weeks-before nr="1">
-          <relative-to name="First Sunday of Advent"/>
+          <relative-to-next-years name="First Sunday of Advent"/>
         </weeks-before>
       </daterules>
     </template>
