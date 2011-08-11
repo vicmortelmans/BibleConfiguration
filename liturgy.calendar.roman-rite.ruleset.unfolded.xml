@@ -2634,6 +2634,312 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
   
   <liturgicalday>
+      <name>Monday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X012</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Monday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Tuesday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X013</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Tuesday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Wednesday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X014</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Wednesday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Thursday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X015</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Thursday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X016</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Friday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday in the First Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X017</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Saturday">
+            <weeks-after nr="0">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Monday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X022</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Monday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Tuesday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X023</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Tuesday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Wednesday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X024</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Wednesday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Thursday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X025</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Thursday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X026</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Friday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday in the Second Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X027</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Saturday">
+            <weeks-after nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Monday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X032</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Monday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Tuesday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X033</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Tuesday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Wednesday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X034</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Wednesday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Thursday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X035</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Thursday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X036</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Friday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday in the Third Week of Ordinary Time</name>
+      <season>Ordinary Time</season>
+      <set>Ordinary before Easter</set>
+      <coordinates>X037</coordinates>
+      <rank nr="13">Weekday of Ordinary Time</rank>
+      <precedence>13</precedence>
+      <daterules>
+        <weekday-after day="Saturday">
+            <weeks-after nr="2">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-after>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
       <name>Monday in the Fourth Week of Ordinary Time</name>
       <season>Ordinary Time</season>
       <set>Ordinary before Easter</set>
@@ -3347,2352 +3653,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
         </weekday-after>
       </daterules>
    </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X112</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X113</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X114</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X115</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X116</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Eleventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X117</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="10">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X122</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X123</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X124</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X125</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X126</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twelfth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X127</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="11">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X132</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X133</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X134</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X135</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X136</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Thirtheenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X137</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="12">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X142</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X143</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X144</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X145</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X146</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Fourteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X147</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="13">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X152</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X153</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X154</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X155</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X156</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Fifteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X157</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="14">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X162</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X163</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X164</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X165</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X166</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Sixteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X167</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="15">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X172</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X173</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X174</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X175</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X176</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Seventeenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X177</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="16">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X182</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X183</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X184</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X185</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X186</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Eighteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X187</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="17">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X192</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X193</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X194</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X195</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X196</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Nineteenth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X197</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="18">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X202</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X203</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X204</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X205</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X206</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twentieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X207</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="19">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X212</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X213</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X214</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X215</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X216</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X217</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="20">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X222</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X223</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X224</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X225</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X226</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X227</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="21">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X232</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X233</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X234</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X235</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X236</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenth-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X237</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="22">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X242</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X243</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X244</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X245</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X246</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X247</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="23">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X252</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X253</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X254</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X255</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X256</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X257</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="24">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X262</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X263</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X264</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X265</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X266</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-sixth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X267</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="25">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X272</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X273</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X274</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X275</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X276</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-seventh Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X277</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="26">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X282</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X283</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X284</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X285</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X286</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-eighth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X287</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="27">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X292</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X293</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X294</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X295</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X296</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Twenty-ninth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X297</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="28">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X302</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X303</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X304</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X305</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X306</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Thirtieth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X307</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="29">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X312</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X313</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X314</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X315</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X316</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Thirty-first Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X317</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="30">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X322</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X323</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X324</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X325</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X326</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Thirty-second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X327</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="31">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X332</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X333</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X334</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X335</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X336</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Thirty-third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X337</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="32">
-               <weekday-after day="Sunday">
-                  <date day="6" month="1"/>
-               </weekday-after>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
 
     
   
@@ -5716,70 +3676,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   </coordinaterules>
   
   <liturgicalday>
-      <name>Second Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y021</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
-      <daterules>
-        <weeks-after nr="1">
-            <weeks-before nr="34">
-               <relative-to name="First Sunday of Advent"/>
-            </weeks-before>
-        </weeks-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Third Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y031</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
-      <daterules>
-        <weeks-after nr="2">
-            <weeks-before nr="34">
-               <relative-to name="First Sunday of Advent"/>
-            </weeks-before>
-        </weeks-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Fourth Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y041</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
-      <daterules>
-        <weeks-after nr="3">
-            <weeks-before nr="34">
-               <relative-to name="First Sunday of Advent"/>
-            </weeks-before>
-        </weeks-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Fifth Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y051</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
-      <daterules>
-        <weeks-after nr="4">
-            <weeks-before nr="34">
-               <relative-to name="First Sunday of Advent"/>
-            </weeks-before>
-        </weeks-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
       <name>Sixth Sunday of Ordinary Time</name>
       <season>Ordinary Time</season>
       <set>Ordinary after Easter</set>
@@ -6229,516 +4125,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
   
   <liturgicalday>
-      <name>Monday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y012</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y013</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y014</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y015</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y016</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the First Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y017</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="0">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y022</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y023</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y024</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y025</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y026</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Second Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y027</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="1">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y032</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y033</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y034</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y035</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y036</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Third Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y037</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="2">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y042</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y043</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y044</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y045</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y046</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Fourth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y047</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="3">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Monday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y052</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Monday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Tuesday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y053</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Tuesday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Wednesday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y054</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Thursday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y055</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Thursday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y056</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Fifth Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y057</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-after nr="4">
-               <weeks-before nr="34">
-                  <relative-to name="First Sunday of Advent"/>
-               </weeks-before>
-            </weeks-after>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
       <name>Monday in the Sixth Week of Ordinary Time</name>
       <season>Ordinary Time</season>
       <set>Ordinary after Easter</set>
