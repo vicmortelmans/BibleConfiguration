@@ -219,7 +219,7 @@
       <name>$day_s after Epiphany</name>
       <season>Christmas season</season>
       <set>Weekdays after Epiphany</set>
-      <coordinates>P$day_c</coordinates>
+      <coordinates>E$day_c</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -836,29 +836,6 @@
       <parametergroup><nr_s>Eighth</nr_s><nr_i>7</nr_i><nr_c>08</nr_c></parametergroup>
       <parametergroup><nr_s>Ninth</nr_s><nr_i>8</nr_i><nr_c>09</nr_c></parametergroup>
       <parametergroup><nr_s>Tenth</nr_s><nr_i>9</nr_i><nr_c>10</nr_c></parametergroup>
-      <parametergroup><nr_s>Eleventh</nr_s><nr_i>10</nr_i><nr_c>11</nr_c></parametergroup>
-      <parametergroup><nr_s>Twelfth</nr_s><nr_i>11</nr_i><nr_c>12</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirtheenth</nr_s><nr_i>12</nr_i><nr_c>13</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourteenth</nr_s><nr_i>13</nr_i><nr_c>14</nr_c></parametergroup>
-      <parametergroup><nr_s>Fifteenth</nr_s><nr_i>14</nr_i><nr_c>15</nr_c></parametergroup>
-      <parametergroup><nr_s>Sixteenth</nr_s><nr_i>15</nr_i><nr_c>16</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventeenth</nr_s><nr_i>16</nr_i><nr_c>17</nr_c></parametergroup>
-      <parametergroup><nr_s>Eighteenth</nr_s><nr_i>17</nr_i><nr_c>18</nr_c></parametergroup>
-      <parametergroup><nr_s>Nineteenth</nr_s><nr_i>18</nr_i><nr_c>19</nr_c></parametergroup>
-      <parametergroup><nr_s>Twentieth</nr_s><nr_i>19</nr_i><nr_c>20</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-first</nr_s><nr_i>20</nr_i><nr_c>21</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-second</nr_s><nr_i>21</nr_i><nr_c>22</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenth-third</nr_s><nr_i>22</nr_i><nr_c>23</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-fourth</nr_s><nr_i>23</nr_i><nr_c>24</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-fifth</nr_s><nr_i>24</nr_i><nr_c>25</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-sixth</nr_s><nr_i>25</nr_i><nr_c>26</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-seventh</nr_s><nr_i>26</nr_i><nr_c>27</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-eighth</nr_s><nr_i>27</nr_i><nr_c>28</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-ninth</nr_s><nr_i>28</nr_i><nr_c>29</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirtieth</nr_s><nr_i>29</nr_i><nr_c>30</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-first</nr_s><nr_i>30</nr_i><nr_c>31</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-second</nr_s><nr_i>31</nr_i><nr_c>32</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-third</nr_s><nr_i>32</nr_i><nr_c>33</nr_c></parametergroup>
     </parameters>
     <template>
      <name>$nr_s Sunday of Ordinary Time</name>
@@ -888,9 +865,6 @@
         <parametergroup><day_s>Friday</day_s><day_c>6</day_c></parametergroup>
         <parametergroup><day_s>Saturday</day_s><day_c>7</day_c></parametergroup>
       </parameters>
-      <parametergroup><nr_s>First</nr_s><nr_i>0</nr_i><nr_c>01</nr_c></parametergroup>
-      <parametergroup><nr_s>Second</nr_s><nr_i>1</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
       <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
       <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
       <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
