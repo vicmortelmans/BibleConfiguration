@@ -943,7 +943,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                <this-date/>
             </weekday-before>
             <days-before nr="56">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </days-before>
          </count-weeks-between>
       </format>
@@ -961,7 +961,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-before nr="50">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-before>
       </daterules>
    </liturgicalday>
@@ -975,7 +975,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="6">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -988,7 +988,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="5">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -1001,7 +1001,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="4">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -1014,7 +1014,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="3">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -1027,7 +1027,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="2">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -1042,7 +1042,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1057,7 +1057,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1072,7 +1072,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1087,7 +1087,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1102,7 +1102,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1117,7 +1117,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-before nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1132,7 +1132,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1147,7 +1147,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1162,7 +1162,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1177,7 +1177,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1192,7 +1192,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1207,7 +1207,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-before nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1222,7 +1222,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1237,7 +1237,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1252,7 +1252,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1267,7 +1267,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1282,7 +1282,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1297,7 +1297,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-before nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1312,7 +1312,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1327,7 +1327,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1342,7 +1342,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1357,7 +1357,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1372,7 +1372,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1387,7 +1387,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-before nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1402,7 +1402,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1417,7 +1417,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1432,7 +1432,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1447,7 +1447,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1462,7 +1462,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1477,7 +1477,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-before nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-before>
         </weekday-after>
       </daterules>
@@ -1493,7 +1493,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="1">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-before>
       </daterules>
    </liturgicalday>
@@ -1507,7 +1507,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-before nr="6">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-before>
       </daterules>
    </liturgicalday>
@@ -1520,7 +1520,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-before nr="5">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-before>
       </daterules>
    </liturgicalday>
@@ -1533,7 +1533,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-before nr="4">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-before>
       </daterules>
    </liturgicalday>
@@ -1548,7 +1548,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <weekday-before day="Sunday">
                <this-date/>
             </weekday-before>
-            <relative-to name="Easter"/>
+            <easterdate/>
          </count-weeks-between>
       </format>
       <day-number>
@@ -1565,7 +1565,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-before nr="3">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-before>
       </daterules>
    </liturgicalday>
@@ -1621,7 +1621,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="1">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1634,7 +1634,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="2">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1647,7 +1647,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="3">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1660,7 +1660,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="4">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1673,7 +1673,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="5">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1686,7 +1686,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="6">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </weeks-after>
       </daterules>
    </liturgicalday>
@@ -1700,7 +1700,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="1">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1713,7 +1713,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="2">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1726,7 +1726,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="3">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1739,7 +1739,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="4">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1752,7 +1752,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="5">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1765,7 +1765,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="6">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -1780,7 +1780,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1795,7 +1795,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1810,7 +1810,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1825,7 +1825,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1840,7 +1840,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1855,7 +1855,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="1">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1870,7 +1870,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1885,7 +1885,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1900,7 +1900,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1915,7 +1915,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1930,7 +1930,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1945,7 +1945,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="2">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1960,7 +1960,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1975,7 +1975,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -1990,7 +1990,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2005,7 +2005,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2020,7 +2020,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2035,7 +2035,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="3">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2050,7 +2050,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2065,7 +2065,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2080,7 +2080,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2095,7 +2095,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2110,7 +2110,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2125,7 +2125,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="4">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2140,7 +2140,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2155,7 +2155,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2170,7 +2170,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2185,7 +2185,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2200,7 +2200,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2215,7 +2215,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="5">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2230,7 +2230,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2245,7 +2245,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2260,7 +2260,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2275,7 +2275,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2290,7 +2290,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2305,7 +2305,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="6">
-               <relative-to name="Easter"/>
+               <easterdate/>
             </weeks-after>
         </weekday-after>
       </daterules>
@@ -2321,7 +2321,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <weekday-before day="Sunday">
                <this-date/>
             </weekday-before>
-            <relative-to name="Easter"/>
+            <easterdate/>
          </count-weeks-between>
       </format>
       <day-number>
@@ -2338,7 +2338,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules option="ascension-std">
         <days-after nr="39">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2352,7 +2352,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules option="ascension-alt">
         <days-after nr="42">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2366,7 +2366,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>2</precedence>
       <daterules>
         <days-after nr="50">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2380,7 +2380,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>3</precedence>
       <daterules>
         <days-after nr="57">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2393,7 +2393,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>3</precedence>
       <daterules>
         <days-after nr="69">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2407,7 +2407,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>3</precedence>
       <daterules option="corpuschristi-std">
         <days-after nr="61">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -2421,7 +2421,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>3</precedence>
       <daterules option="corpuschristi-alt">
         <days-after nr="64">
-            <relative-to name="Easter"/>
+            <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
@@ -10402,7 +10402,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <then>
                <day-after day="Monday">
                   <weeks-after nr="1">
-                     <relative-to name="Easter"/>
+                     <easterdate/>
                   </weeks-after>
                </day-after>
             </then>

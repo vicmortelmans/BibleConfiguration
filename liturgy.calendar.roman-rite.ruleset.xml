@@ -376,7 +376,7 @@
           <this-date/>
         </weekday-before>
         <days-before nr="56">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-before>
       </count-weeks-between>
     </format>
@@ -395,7 +395,7 @@
       <precedence>2</precedence>
       <daterules>
         <days-before nr="50">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-before>
       </daterules>
     </template>
@@ -418,7 +418,7 @@
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="$nr_i">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </weeks-before>
       </daterules>
     </template>
@@ -450,7 +450,7 @@
       <daterules>
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
-            <relative-to name="Easter"/>
+            <easterdate/>
           </weeks-before>
         </weekday-after>
       </daterules>
@@ -468,7 +468,7 @@
       <precedence>2</precedence>
       <daterules>
         <weeks-before nr="1">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </weeks-before>
       </daterules>
     </template>
@@ -489,7 +489,7 @@
       <precedence>2</precedence>
       <daterules>
         <days-before nr="$nr_i">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-before>
       </daterules>
     </template>
@@ -507,7 +507,7 @@
         <weekday-before day="Sunday">
           <this-date/>
         </weekday-before>
-        <relative-to name="Easter"/>
+        <easterdate/>
       </count-weeks-between>
     </format>
     <day-number>
@@ -525,7 +525,7 @@
       <precedence>2</precedence>
       <daterules>
         <days-before nr="3">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-before>
       </daterules>
     </template>
@@ -598,7 +598,7 @@
       <precedence>2</precedence>
       <daterules>
         <weeks-after nr="$nr_i">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </weeks-after>
       </daterules>
     </template>
@@ -622,7 +622,7 @@
       <precedence>2</precedence>
       <daterules>
         <days-after nr="$nr_i">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -655,7 +655,7 @@
       <daterules>
         <weekday-after day="$day_s">
           <weeks-after nr="$nr_i">
-            <relative-to name="Easter"/>
+            <easterdate/>
           </weeks-after>
         </weekday-after>
       </daterules>
@@ -674,7 +674,7 @@
         <weekday-before day="Sunday">
           <this-date/>
         </weekday-before>
-        <relative-to name="Easter"/>
+        <easterdate/>
       </count-weeks-between>
     </format>
     <day-number>
@@ -692,7 +692,7 @@
       <precedence>2</precedence>
       <daterules option="ascension-std">
         <days-after nr="39">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -708,7 +708,7 @@
       <precedence>2</precedence>
       <daterules option="ascension-alt">
         <days-after nr="42">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -724,7 +724,7 @@
       <precedence>2</precedence>
       <daterules>
         <days-after nr="50">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -744,7 +744,7 @@
       <precedence>3</precedence>
       <daterules>
         <days-after nr="$days">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -760,7 +760,7 @@
       <precedence>3</precedence>
       <daterules option="corpuschristi-std">
         <days-after nr="61">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -776,7 +776,7 @@
       <precedence>3</precedence>
       <daterules option="corpuschristi-alt">
         <days-after nr="64">
-          <relative-to name="Easter"/>
+          <easterdate/>
         </days-after>
       </daterules>
     </template>
@@ -1138,7 +1138,7 @@
           <then>
             <day-after day="Monday">
               <weeks-after nr="1">
-                <relative-to name="Easter"/>
+                <easterdate/>
               </weeks-after>
             </day-after>
           </then>
@@ -1174,7 +1174,7 @@
           <then>
             <day-after day="Monday">
               <weeks-after nr="$nr_i">
-                <relative-to name="Easter"/>
+                <easterdate/>
               </weeks-after>
             </day-after>
           </then>
@@ -1218,7 +1218,7 @@
           <then>
             <day-after day="Monday">
               <weeks-after nr="$nr_i">
-                <relative-to name="Easter"/>
+                <easterdate/>
               </weeks-after>
             </day-after>
           </then>
@@ -1300,7 +1300,7 @@
           <then>
             <day-after day="Monday">
               <weeks-after nr="$nr_i">
-                <relative-to name="Easter"/>
+                <easterdate/>
               </weeks-after>
             </day-after>
           </then>

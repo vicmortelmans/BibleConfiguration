@@ -217,73 +217,75 @@
         <xsl:value-of select="$year"/>
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
-    </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:value-of select="document($rest)/date"/>
-  </xsl:template>
-  
-  <!-- 
-       COORDINATES OPERATORS
-                             -->
-  
-  <xsl:template match="coordinates">
-    <!-- INPUT $year : yyyy
-               @set : name of a set of liturgical days
-               @day : dd
-               @month : mm
-         OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
-    <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
-    <xsl:variable name="date">
-      <xsl:value-of select="$year"/>
-      <xsl:text>-</xsl:text>
-      <xsl:value-of select="@month"/>
-      <xsl:text>-</xsl:text>
-      <xsl:value-of select="@day"/>
-    </xsl:variable>
-    <xsl:apply-templates select="//coordinaterules[@set=current()/@set]"/>
-  </xsl:template>
-                      
-  <xsl:template match="query">
-    <!-- INPUT $date : yyyy-mm-dd
-               @set : name of a set of liturgical days
-         OUTPUT for each liturgical day in @set, the daterules are applied and
-                if the date matches $date, 
-                the <coordinates> for that set are returned -->
-    <xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
-    <xsl:variable name="yearrules">
-      <year>
-        <this-date/>
-      </year>
-    </xsl:variable>
-    <xsl:variable name="year">
-      <xsl:apply-templates select="$yearrules"/>
-    </xsl:variable>
-    <xsl:for-each select="//liturgicalday[set=current()/@set]">
-      <xsl:variable name="candidate">
-        <xsl:apply-templates select="daterules"/>
-      </xsl:variable>
-      <xsl:if test="$candidate=$date">
-        <xsl:value-of select="coordinates"/>
-      </xsl:if>
-    </xsl:for-each>
-  </xsl:template>
-  
-  <!--
-       GENERIC OPERATORS 
-                         -->
-  
-  <xsl:template match="if">
-    <!-- INPUT $* 
-               test : logical operator
-               then : anything that can be applied
-               else : anything that can be applied
-         OUTPUT whatever the 'then' or 'else' returns -->
-    <xsl:variable name="test">
-      <xsl:apply-templates select="test/*"/>
-    </xsl:variable>
-    <xsl:message>if(test : <xsl:value-of select="$test"/>)</xsl:message>
-    <xsl:choose>
-      <xsl:when test="$test">
+        <xsl:text>&amp;options=</xsl:text>
+	<xsl:value-of select="$options"/>
+	</xsl:variable>
+	<xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+	<xsl:value-of select="document($rest)/date"/>
+	</xsl:template>
+
+	<!-- 
+	COORDINATES OPERATORS
+	-->
+
+	<xsl:template match="coordinates">
+	<!-- INPUT $year : yyyy
+	@set : name of a set of liturgical days
+	@day : dd
+	@month : mm
+	OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
+	<xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
+	<xsl:variable name="date">
+	<xsl:value-of select="$year"/>
+	<xsl:text>-</xsl:text>
+	<xsl:value-of select="@month"/>
+	<xsl:text>-</xsl:text>
+	<xsl:value-of select="@day"/>
+	</xsl:variable>
+	<xsl:apply-templates select="//coordinaterules[@set=current()/@set]"/>
+	</xsl:template>
+
+	<xsl:template match="query">
+	<!-- INPUT $date : yyyy-mm-dd
+	@set : name of a set of liturgical days
+	OUTPUT for each liturgical day in @set, the daterules are applied and
+	if the date matches $date, 
+	the <coordinates> for that set are returned -->
+	<xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
+	<xsl:variable name="yearrules">
+	<year>
+	<this-date/>
+	</year>
+	</xsl:variable>
+	<xsl:variable name="year">
+	<xsl:apply-templates select="$yearrules"/>
+	</xsl:variable>
+	<xsl:for-each select="//liturgicalday[set=current()/@set]">
+	<xsl:variable name="candidate">
+	<xsl:apply-templates select="daterules"/>
+	</xsl:variable>
+	<xsl:if test="$candidate=$date">
+	<xsl:value-of select="coordinates"/>
+	</xsl:if>
+	</xsl:for-each>
+	</xsl:template>
+
+	<!--
+	GENERIC OPERATORS 
+	-->
+
+	<xsl:template match="if">
+	<!-- INPUT $* 
+	test : logical operator
+	then : anything that can be applied
+	else : anything that can be applied
+	OUTPUT whatever the 'then' or 'else' returns -->
+	<xsl:variable name="test">
+	<xsl:apply-templates select="test/*"/>
+	</xsl:variable>
+	<xsl:message>if(test : <xsl:value-of select="$test"/>)</xsl:message>
+	<xsl:choose>
+	<xsl:when test="$test='true'">
         <xsl:apply-templates select="then/*"/>
       </xsl:when>
       <xsl:otherwise>
