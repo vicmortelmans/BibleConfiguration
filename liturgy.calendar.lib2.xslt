@@ -23,7 +23,7 @@
         <xsl:variable name="startnextyear">
           <xsl:variable name="rest">
             <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
-            <xsl:value-of select="$sameOByear + 1"/>
+            <xsl:value-of select="$sameyear + 1"/>
             <xsl:text>&amp;coordinates=A011&amp;options=</xsl:text>
             <xsl:value-of select="$options"/>
 	  </xsl:variable>
