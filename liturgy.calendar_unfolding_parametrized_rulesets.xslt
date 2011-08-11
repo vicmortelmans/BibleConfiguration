@@ -3,6 +3,11 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="liturgicaldays">
     <xsl:copy>
+      <xsl:comment>
+        obtain below data live on this URL:  
+
+http://services.w3.org/xslt?xslfile=https%3A%2F%2Fraw.github.com%2Fvicmortelmans%2FBibleConfiguration%2Fmaster%2Fliturgy.calendar_unfolding_parametrized_rulesets.xslt&amp;xmlfile=https%3A%2F%2Fraw.github.com%2Fvicmortelmans%2FBibleConfiguration%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.xml&amp;content-type=&amp;submit=transform
+      </xsl:comment>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>

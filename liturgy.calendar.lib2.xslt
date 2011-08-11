@@ -206,9 +206,9 @@
     <xsl:message>relative-to(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
     <xsl:variable name="rest">
-        <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&content-type=&submit=transform&year=</xsl:text>
+        <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
         <xsl:value-of select="$year"/>
-        <xsl:text>&coordinates=</xsl:text>
+        <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
     </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
