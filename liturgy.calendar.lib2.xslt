@@ -30,8 +30,8 @@
   <xsl:template match="this-date">
     <!-- INPUT $date : yyyy-mm-dd
          OUTPUT yyyy-mm-dd -->
-    <xsl:message>this-date(date : <xsl:value-of select="$date"/>)</xsl:message>
-    <xsl:value-of select="$date"/>
+    <xsl:message>this-date(date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
+    <xsl:value-of select="normalize-space($date)"/>
   </xsl:template>
     
   <xsl:template match="date">
@@ -83,7 +83,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>weekday-after(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>weekday-after(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <!--1/ get weekdayindex of reference date (r) and weekdayindex of target day (t)
         2/ get difference between t and r, d = (max(r,t)-min(r,t))
         3/ add d days to the reference date-->
@@ -143,7 +143,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>days-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>days-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="daysDuration">
       <xsl:text>P</xsl:text>
       <xsl:value-of select="@nr"/>
@@ -160,7 +160,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>days-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>days-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="daysDuration">
       <xsl:text>P</xsl:text>
       <xsl:value-of select="@nr"/>
@@ -177,7 +177,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>weeks-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>weeks-before(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="daysDuration">
       <xsl:text>P</xsl:text>
       <xsl:value-of select="7 * @nr"/>
@@ -194,7 +194,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>weeks-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>weeks-after(nr : <xsl:value-of select="@nr"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="daysDuration">
       <xsl:text>P</xsl:text>
       <xsl:value-of select="7 * @nr"/>
@@ -249,7 +249,7 @@
          OUTPUT for each liturgical day in @set, the daterules are applied and
                 if the date matches $date, 
                 the <coordinates> for that set are returned -->
-    <xsl:message>query(date : <xsl:value-of select="$date"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
+    <xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:variable name="yearrules">
       <year>
         <this-date/>
@@ -330,7 +330,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>day-number(date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>day-number(date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="weekdayindex">
       <day name="Sunday" index="1"/>
       <day name="Monday" index="2"/>
@@ -357,7 +357,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>test-day(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>test-day(day : <xsl:value-of select="@day"/>, date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="day">
       <xsl:value-of select="replace(format-date(xs:date($date),'[F]'),'(\[.*\])?(.+)','$2')"/>
     </xsl:variable>
@@ -461,7 +461,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>mmdd(date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>mmdd(date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:value-of select="concat(format-number(fn:month-from-date(xs:date($date)),'00'),format-number(fn:day-from-date(xs:date($date)),'00'))"/>
   </xsl:template>
   
@@ -472,7 +472,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:message>yyyy(date : <xsl:value-of select="$date"/>)</xsl:message>
+    <xsl:message>yyyy(date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
     <xsl:variable name="year" select="fn:year-from-date($date)"/>
     <xsl:variable name="startDayRules">
       <weeks-before nr="3">

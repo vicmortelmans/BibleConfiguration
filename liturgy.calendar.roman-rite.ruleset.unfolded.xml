@@ -605,7 +605,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
   <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary"
-                    stopbefore="Epiphany"
+                    stopbefore="Epiphany of the Lord"
                     start-date="01/02"
                     stop-date="01/07">
       <text>C</text>
@@ -718,7 +718,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
 
-  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany"
+  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany of the Lord"
                     stopbefore="Feast of the Baptism of the Lord"
                     start-date="01/03"
                     stop-date="01/13">
@@ -855,7 +855,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
                  
-  <coordinaterules set="Epiphany" option="epiphany" start-date="01/02" stop-date="01/08">
+  <coordinaterules set="Epiphany of the Lord" option="epiphany" start-date="01/02"
+                    stop-date="01/08">
       <if>
          <test>
             <equals>
@@ -912,7 +913,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                   <weekday-after day="Sunday">
                      <date day="6" month="1"/>
                   </weekday-after>
-                  <relative-to name="Epiphany"/>
+                  <relative-to name="Epiphany of the Lord"/>
                </equals>
             </test>
             <then>

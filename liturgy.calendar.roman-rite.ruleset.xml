@@ -131,7 +131,7 @@
      WEEKS OF CHRISTMAS SEASON
                                   -->
 
-  <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany"
+  <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany of the Lord"
     start-date="01/02" stop-date="01/07">
     <text>C</text>
     <format template="00">
@@ -192,7 +192,7 @@
      WEEKDAYS AFTER EPIPHANY
                              -->
 
-  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany" stopbefore="Feast of the Baptism of the Lord"
+  <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany of the Lord" stopbefore="Feast of the Baptism of the Lord"
     start-date="01/03" stop-date="01/13">
     <text>E</text>
     <format template="00">
@@ -279,7 +279,7 @@
      EPIPHANY
                  -->
                  
-  <coordinaterules set="Epiphany" option="epiphany"
+  <coordinaterules set="Epiphany of the Lord" option="epiphany"
     start-date="01/02" stop-date="01/08">
     <if>
       <test>
@@ -343,7 +343,7 @@
               <weekday-after day="Sunday">
                 <date day="6" month="1"/>
               </weekday-after>
-              <relative-to name="Epiphany"/>
+              <relative-to name="Epiphany of the Lord"/>
             </equals>
           </test>
           <then>
