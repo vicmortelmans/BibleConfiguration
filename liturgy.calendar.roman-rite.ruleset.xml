@@ -394,7 +394,7 @@
       <rank nr="3">Ash Wednesday</rank>
       <precedence>2</precedence>
       <daterules>
-        <days-before nr="50">
+        <days-before nr="46">
           <easterdate/>
         </days-before>
       </daterules>

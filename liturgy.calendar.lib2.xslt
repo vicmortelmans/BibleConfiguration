@@ -69,7 +69,7 @@
          OUTPUT yyyy-mm-dd
          NOTE: using $year is OK, easter never falls before 1/1 -->
     <xsl:message>easterdate(year : <xsl:value-of select="$year"/>)</xsl:message>
-    <xsl:variable name="easterdate" select="document('https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml')"/>
+    <xsl:variable name="easterdate" select="document('https://raw.github.com/vicmortelmans/BibleConfiguration/master/liturgy.calendar.roman-rite.easterdates.xml')/easterdates/easterdate"/>
     <xsl:number value="number($year)" format="0001"/>
     <xsl:text>-</xsl:text>
     <xsl:number value="$easterdate[year=$year]/month" format="01"/>
