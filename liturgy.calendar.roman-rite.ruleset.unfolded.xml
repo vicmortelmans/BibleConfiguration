@@ -967,6 +967,46 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
   
   <liturgicalday>
+      <name>Thursday after Ash Wednesday</name>
+      <season>Lent</season>
+      <set>Lent</set>
+      <coordinates>L005</coordinates>
+      <rank nr="13">Weekday of Lent</rank>
+      <precedence>9</precedence>
+      <daterules>
+        <days-before nr="45">
+            <easterdate/>
+        </days-before>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday after Ash Wednesday</name>
+      <season>Lent</season>
+      <set>Lent</set>
+      <coordinates>L006</coordinates>
+      <rank nr="13">Weekday of Lent</rank>
+      <precedence>9</precedence>
+      <daterules>
+        <days-before nr="44">
+            <easterdate/>
+        </days-before>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday after Ash Wednesday</name>
+      <season>Lent</season>
+      <set>Lent</set>
+      <coordinates>L007</coordinates>
+      <rank nr="13">Weekday of Lent</rank>
+      <precedence>9</precedence>
+      <daterules>
+        <days-before nr="43">
+            <easterdate/>
+        </days-before>
+      </daterules>
+   </liturgicalday>
+
+  <liturgicalday>
       <name>First Sunday of Lent</name>
       <season>Lent</season>
       <set>Lent</set>

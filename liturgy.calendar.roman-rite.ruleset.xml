@@ -403,6 +403,27 @@
   
   <liturgicalday>
     <parameters>
+      <parametergroup><day_s>Thursday</day_s><nr_i>45</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><day_s>Friday</day_s><nr_i>44</nr_i><nr_c>06</nr_c></parametergroup>
+      <parametergroup><day_s>Saturday</day_s><nr_i>43</nr_i><nr_c>07</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s after Ash Wednesday</name>
+      <season>Lent</season>
+      <set>Lent</set>
+      <coordinates>L0$nr_c</coordinates>
+      <rank nr="13">Weekday of Lent</rank>
+      <precedence>9</precedence>
+      <daterules>
+        <days-before nr="$nr_i">
+          <easterdate/>
+        </days-before>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
+    <parameters>
       <parametergroup><nr_s>First</nr_s><nr_i>6</nr_i><nr_c>01</nr_c></parametergroup>
       <parametergroup><nr_s>Second</nr_s><nr_i>5</nr_i><nr_c>02</nr_c></parametergroup>
       <parametergroup><nr_s>Third</nr_s><nr_i>4</nr_i><nr_c>03</nr_c></parametergroup>
