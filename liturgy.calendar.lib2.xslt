@@ -5,7 +5,41 @@
     
   <xsl:template name="liturgical-year">
     <xsl:param name="date"/>
-    <!-- TODO -->
+    <xsl:variable name="sameyear" select="year-from-date($date)"/>
+    <xsl:variable name="same0101" select="concat($sameyear,'-01-01')"/>
+    <xsl:variable name="same1127" select="concat($sameyear,'-11-27')"/>
+    <xsl:variable name="same1203" select="concat($sameyear,'-12-03')"/>
+    <xsl:variable name="same1231" select="concat($sameyear,'-12-31')"/>
+    <xsl:choose>
+      <xsl:when test="xs:date($date) &gt;= xs:date($same0101) and
+                      xs:date($date) &lt;  xs:date($same1127)">
+        <xsl:value-of select="$sameyear"/>
+      </xsl:when>
+      <xsl:when test="xs:date($date) &gt;  xs:date($same1203) and
+                      xs:date($date) &lt;= xs:date($same1231)">
+        <xsl:value-of select="$sameyear + 1"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="startnextyear">
+          <xsl:variable name="rest">
+            <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
+            <xsl:value-of select="$sameOByear + 1"/>
+            <xsl:text>&amp;coordinates=A011&amp;options=</xsl:text>
+            <xsl:value-of select="$options"/>
+	  </xsl:variable>
+	  <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+	  <xsl:value-of select="document($rest)/date"/>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="xs:date($date) &lt; xs:date($startnextyear)">
+               <xsl:value-of select="$sameyear"/>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:value-of select="$sameyear + 1"/>
+            </xsl:otherwise>
+         </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>    
   </xsl:template>
   
   <!--
