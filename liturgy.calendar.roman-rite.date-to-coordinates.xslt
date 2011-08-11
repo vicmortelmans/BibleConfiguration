@@ -7,9 +7,7 @@
     
   <xsl:param name="set" select="'Ordinary after Easter'"/>
   <xsl:param name="date" select="'2011/08/09'"/>
-  <xsl:param name="epiphany"/>
-  <xsl:param name="corpuschristi"/>
-  <xsl:param name="ascension"/>
+  <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
   
   <xsl:variable name="year">
     <xsl:call-template name="liturgical-year">

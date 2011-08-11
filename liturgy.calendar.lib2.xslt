@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
@@ -12,8 +12,15 @@
        RENDERERS
                  -->
   <xsl:template match="daterules">
-    <xsl:message>daterules(year : <xsl:value-of select="$year"/>)</xsl:message>
-    <xsl:apply-templates/>
+    <xsl:choose>
+    <xsl:when test="not(@option) or (@option and matches($options,@option))">
+        <xsl:message>daterules(year : <xsl:value-of select="$year"/>)</xsl:message>
+        <xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message>daterules option mismatch(option : <xsl:value-of select="@option"/>, options : <xsl:value-of select="$options"/>)</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!--
