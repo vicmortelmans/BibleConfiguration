@@ -21,5 +21,5 @@
   
   <xsl:template match="coordinaterules"/>
   <xsl:template match="liturgicalday"/>
-  
+  <!-- a change -->  
 </xsl:stylesheet>
