@@ -885,7 +885,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                <relative-to name="Feast of the Baptism of the Lord"/>
             </equals>
          </test>
-         <then>BAP</then>
+         <then>
+            <text>BAP</text>
+         </then>
       </if>
   </coordinaterules>
 

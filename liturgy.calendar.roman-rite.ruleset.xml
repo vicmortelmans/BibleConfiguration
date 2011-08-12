@@ -314,7 +314,9 @@
           <relative-to name="Feast of the Baptism of the Lord"/>
         </equals>
       </test>
-      <then>BAP</then>
+      <then>
+        <text>BAP</text>
+      </then>
     </if>
   </coordinaterules>
 
