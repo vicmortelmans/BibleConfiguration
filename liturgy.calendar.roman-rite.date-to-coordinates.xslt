@@ -18,8 +18,26 @@
     </xsl:call-template>
   </xsl:variable>
   
+  <xsl:template match="/">
+    <results>
+       <xsl:apply-templates/>
+    </results>
+  </xsl:template>
+
   <xsl:template match="coordinaterules[not($set) or @set = $set]">
-    <xsl:apply-templates/>
+    <xsl:variable name="start-date" select="concat($year,'-',@start-date)"/>
+    <xsl:variable name="stop-date" select="concat($year,'-',@stop-date)"/>
+    <xsl:if test="xs:date($start-date) &lt;= xs:date($date) and
+                  xs:date($date) &lt;= xs:date($stop-date)">
+      <xsl:variable name="coordinates">
+        <xsl:apply-templates/>
+      </xsl:variable>
+      <xsl:if test="$coordinates != ''">
+        <coordinates set="{@set}">
+           <xsl:value-of select="$coordinates"/>
+        </coordinates>
+      </xsl:if>
+    </xsl:if>
   </xsl:template>
     
   <xsl:template match="coordinaterules"/>

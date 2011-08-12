@@ -8,7 +8,7 @@
               -->
 
   <coordinaterules set="Advent" start="First Sunday of Advent" stopbefore="Christmas"
-    start-date="11/27" stop-date="12/24">
+    start-date="11-27" stop-date="12-24">
     <text>A</text>
     <format template="00">
       <count-weeks-between>
@@ -89,7 +89,7 @@
                       -->
 
   <coordinaterules set="Christmas Ocatve" startafter="Christmas" stop="Seventh day in the octave of Christmas"
-    start-date="12/26" stop-date="12/31">
+    start-date="12-26" stop-date="12-31">
     <text>B</text>
     <format template="00">
       <count-weeks-between>
@@ -132,7 +132,7 @@
                                   -->
 
   <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany of the Lord"
-    start-date="01/02" stop-date="01/07">
+    start-date="01-02" stop-date="01-07">
     <text>C</text>
     <format template="00">
       <count-weeks-between>
@@ -193,7 +193,7 @@
                              -->
 
   <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany of the Lord" stopbefore="Feast of the Baptism of the Lord"
-    start-date="01/03" stop-date="01/13">
+    start-date="01-03" stop-date="01-13">
     <text>E</text>
     <format template="00">
       <count-weeks-between>
@@ -235,7 +235,7 @@
                  -->
                  
   <coordinaterules set="Holy Family"
-    start-date="12/26" stop-date="12/31">
+    start-date="12-26" stop-date="12-31">
     <if>
       <test>
         <equals>
@@ -280,7 +280,7 @@
                  -->
                  
   <coordinaterules set="Epiphany of the Lord" option="epiphany"
-    start-date="01/02" stop-date="01/08">
+    start-date="01-02" stop-date="01-08">
     <if>
       <test>
         <equals>
@@ -316,7 +316,7 @@
                                    -->
 
   <coordinaterules set="Baptism"
-    start-date="07/01" stop-date="13/01">
+    start-date="07-01" stop-date="13-01">
     <if>
       <test>
         <equals>
@@ -368,7 +368,7 @@
           -->
 
   <coordinaterules set="Lent" start="Ash Wednesday" stopbefore="Holy Thursday"
-    start-date="02/04" stop-date="04/21">
+    start-date="02-04" stop-date="04-21">
     <text>L</text>
     <format template="00">
       <count-weeks-between>
@@ -521,7 +521,7 @@
               -->
 
   <coordinaterules set="Easter" start="Holy Thursday" stop="Pentecost"
-    start-date="03/18" stop-date="06/12">
+    start-date="03-18" stop-date="06-12">
     <text>P</text>
     <format template="00">
       <count-weeks-between>
@@ -688,7 +688,7 @@
                                  -->
   
   <coordinaterules set="Special days after Easter" crosscheck="true"
-    start-date="04/30" stop-date="06/27">
+    start-date="04-30" stop-date="06-27">
     <text>E</text>
     <format template="00">
       <count-weeks-between>
@@ -808,7 +808,7 @@
                             -->  
   
   <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord" stopbefore="Ash Wednesday"
-    start-date="01/09" stop-date="03/16">
+    start-date="01-09" stop-date="03-16">
     <text>X</text>
     <format template="00">
       <count-weeks-between>
@@ -900,7 +900,7 @@
                               -->  
   
   <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Christ the King"
-    start-date="05/11" stop-date="12/01">
+    start-date="05-11" stop-date="12-01">
     <text>Y</text>
     <format template="00">
       <count-weeks-between>
@@ -1047,7 +1047,7 @@
                               -->
 
   <coordinaterules set="Transferred Annunciation"
-    start-date="02/09" stop-date="05/03">
+    start-date="02-09" stop-date="05-03">
     <query set="Transferred Annunciation"/>
   </coordinaterules>
 
@@ -1153,7 +1153,7 @@
        TRANSFERRED IMMACULATE CONCEPTION
                                          -->
   <coordinaterules set="Transferred Immaculate Conception"
-    start-date="12/09" stop-date="12/09">
+    start-date="12-09" stop-date="12-09">
     <query set="Transferred Immaculate Conception"/>
   </coordinaterules>
 
@@ -1198,7 +1198,7 @@
                           -->
                           
   <coordinaterules set="Transferred Joseph"
-    start-date="02/09" stop-date="05/03">
+    start-date="02-09" stop-date="05-03">
     <query set="Transferred Joseph"/>
   </coordinaterules>
 
