@@ -611,12 +611,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                     start-date="01-02"
                     stop-date="01-07">
       <text>C</text>
-      <format template="00">
-         <count-weeks-between>
-            <date day="25" month="12" year-1="yes"/>
-            <this-date/>
-         </count-weeks-between>
-      </format>
       <day-number>
          <this-date/>
       </day-number>
@@ -626,16 +620,14 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Second Sunday after Christmas</name>
       <season>Christmas season</season>
       <set>Special days after Christmas</set>
-      <coordinates>C021</coordinates>
+      <coordinates>C1</coordinates>
       <rank nr="8">Sunday of Christmas</rank>
       <precedence>6</precedence>
       <vigil>true</vigil>
       <daterules>
-        <weeks-after nr="1">
-            <weekday-after day="Sunday">
-               <date day="25" month="12" year-1="yes"/>
-            </weekday-after>
-        </weeks-after>
+          <weekday-after day="Sunday">
+            <date day="1" month="1"/>
+          </weekday-after>
       </daterules>
    </liturgicalday>
                          
@@ -643,7 +635,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Monday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C022</coordinates>
+      <coordinates>C2</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -656,7 +648,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Tuesday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C023</coordinates>
+      <coordinates>C3</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -669,7 +661,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Wednesday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C024</coordinates>
+      <coordinates>C4</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -682,7 +674,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Thursday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C025</coordinates>
+      <coordinates>C5</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -695,7 +687,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Friday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C026</coordinates>
+      <coordinates>C6</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -708,7 +700,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Saturday of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C027</coordinates>
+      <coordinates>C7</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -725,12 +717,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                     start-date="01-03"
                     stop-date="01-13">
       <text>E</text>
-      <format template="00">
-         <count-weeks-between>
-            <relative-to name="Epiphany of the Lord"/>
-            <this-date/>
-         </count-weeks-between>
-      </format>
       <day-number>
          <this-date/>
       </day-number>

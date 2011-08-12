@@ -405,7 +405,7 @@
       <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>count-weeks-between(date1 : <xsl:value-of select="$date1"/>, date2 : <xsl:value-of select="$date2"/>)</xsl:message>
-    <xsl:value-of select="(floor(fn:days-from-duration(xs:date($date2) - xs:date($date1))) div 7)"/>
+    <xsl:value-of select="(floor(fn:days-from-duration(xs:date($date2) - xs:date($date1)) div 7))"/>
   </xsl:template>
 
   <xsl:template match="day-number">

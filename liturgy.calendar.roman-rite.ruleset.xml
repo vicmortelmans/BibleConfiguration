@@ -136,12 +136,6 @@
   <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany of the Lord"
     start-date="01-02" stop-date="01-07">
     <text>C</text>
-    <format template="00">
-      <count-weeks-between>
-        <date day="25" month="12" year-1="yes"/>
-        <this-date/>
-      </count-weeks-between>
-    </format>
     <day-number>
       <this-date/>
     </day-number>
@@ -152,16 +146,14 @@
      <name>Second Sunday after Christmas</name>
       <season>Christmas season</season>
       <set>Special days after Christmas</set>
-      <coordinates>C021</coordinates>
+      <coordinates>C1</coordinates>
       <rank nr="8">Sunday of Christmas</rank>
       <precedence>6</precedence>
       <vigil>true</vigil>
       <daterules>
-        <weeks-after nr="1">
           <weekday-after day="Sunday">
-            <date day="25" month="12" year-1="yes"/>
+            <date day="1" month="1"/>
           </weekday-after>
-        </weeks-after>
       </daterules>
     </template>
   </liturgicalday>
@@ -179,7 +171,7 @@
      <name>$day_s of Christmas Season</name>
       <season>Christmas season</season>
       <set>Weekdays of Christmas Season</set>
-      <coordinates>C02$day_c</coordinates>
+      <coordinates>C$day_c</coordinates>
       <rank nr="13">Weekday of Christmas</rank>
       <precedence>10</precedence>
       <daterules>
@@ -197,12 +189,6 @@
   <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany of the Lord" stopbefore="Feast of the Baptism of the Lord"
     start-date="01-03" stop-date="01-13">
     <text>E</text>
-    <format template="00">
-      <count-weeks-between>
-        <relative-to name="Epiphany of the Lord"/>
-        <this-date/>
-      </count-weeks-between>
-    </format>
     <day-number>
       <this-date/>
     </day-number>
