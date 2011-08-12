@@ -12,12 +12,14 @@
     <text>A</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-before day="Sunday">
+        <weeks-before nr="4">
+          <weekday-before day="Sunday">
+            <date day="25" month="12" year-1="yes"/>
+          </weekday-before>
+        </weeks-before>
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
-        <weekday-before day="Sunday">
-          <date day="25" month="12" year-1="yes"/>
-        </weekday-before>
+        </weekday-before-or-self>
       </count-weeks-between>
     </format>
     <day-number>
@@ -316,7 +318,7 @@
                                    -->
 
   <coordinaterules set="Baptism"
-    start-date="07-01" stop-date="13-01">
+    start-date="01-07" stop-date="01-13">
     <if>
       <test>
         <equals>
@@ -372,9 +374,9 @@
     <text>L</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-before day="Sunday">
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
+        </weekday-before-or-self>
         <days-before nr="56">
           <easterdate/>
         </days-before>
@@ -525,9 +527,9 @@
     <text>P</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-before day="Sunday">
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
+        </weekday-before-or-self>
         <easterdate/>
       </count-weeks-between>
     </format>
@@ -692,9 +694,9 @@
     <text>E</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-before day="Sunday">
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
+        </weekday-before-or-self>
         <easterdate/>
       </count-weeks-between>
     </format>
@@ -812,12 +814,14 @@
     <text>X</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-before day="Sunday">
+        <weeks-before nr="1">
+          <weekday-after day="Sunday">
+            <date day="6" month="1"/>
+          </weekday-after>
+        </weeks-before>
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
-        <weekday-after day="Sunday">
-          <date day="6" month="1"/>
-        </weekday-after>
+        </weekday-before-or-self>
       </count-weeks-between>
     </format>
     <day-number>
@@ -907,9 +911,9 @@
         <weeks-before nr="34">
           <relative-to-next-years name="First Sunday of Advent"/>
         </weeks-before>
-        <weekday-before day="Sunday">
+        <weekday-before-or-self day="Sunday">
           <this-date/>
-        </weekday-before>
+        </weekday-before-or-self>
       </count-weeks-between>
     </format>
     <day-number>

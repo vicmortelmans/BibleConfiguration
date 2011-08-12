@@ -17,12 +17,14 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>A</text>
       <format template="00">
          <count-weeks-between>
-            <weekday-before day="Sunday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
-            <weekday-before day="Sunday">
-               <date day="25" month="12" year-1="yes"/>
-            </weekday-before>
+            </weekday-before-or-self>
          </count-weeks-between>
       </format>
       <day-number>
@@ -887,7 +889,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
 
-  <coordinaterules set="Baptism" start-date="07-01" stop-date="13-01">
+  <coordinaterules set="Baptism" start-date="01-07" stop-date="01-13">
       <if>
          <test>
             <equals>
@@ -939,9 +941,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>L</text>
       <format template="00">
          <count-weeks-between>
-            <weekday-before day="Sunday">
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
+            </weekday-before-or-self>
             <days-before nr="56">
                <easterdate/>
             </days-before>
@@ -1585,9 +1587,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>P</text>
       <format template="00">
          <count-weeks-between>
-            <weekday-before day="Sunday">
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
+            </weekday-before-or-self>
             <easterdate/>
          </count-weeks-between>
       </format>
@@ -2358,9 +2360,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>E</text>
       <format template="00">
          <count-weeks-between>
-            <weekday-before day="Sunday">
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
+            </weekday-before-or-self>
             <easterdate/>
          </count-weeks-between>
       </format>
@@ -2475,12 +2477,14 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>X</text>
       <format template="00">
          <count-weeks-between>
-            <weekday-before day="Sunday">
+            <weeks-before nr="1">
+               <weekday-after day="Sunday">
+                  <date day="6" month="1"/>
+               </weekday-after>
+            </weeks-before>
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
-            <weekday-after day="Sunday">
-               <date day="6" month="1"/>
-            </weekday-after>
+            </weekday-before-or-self>
          </count-weeks-between>
       </format>
       <day-number>
@@ -3665,9 +3669,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <weeks-before nr="34">
                <relative-to-next-years name="First Sunday of Advent"/>
             </weeks-before>
-            <weekday-before day="Sunday">
+            <weekday-before-or-self day="Sunday">
                <this-date/>
-            </weekday-before>
+            </weekday-before-or-self>
          </count-weeks-between>
       </format>
       <day-number>

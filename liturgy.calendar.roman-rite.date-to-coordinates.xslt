@@ -9,7 +9,7 @@
   <xsl:include href="liturgy.calendar.lib2.xslt"/>
     
   <xsl:param name="set"/>
-  <xsl:param name="date" select="'2011/08/09'"/>
+  <xsl:param name="date" select="'2011-08-09'"/>
   <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
   
   <xsl:variable name="year">
@@ -18,22 +18,22 @@
     </xsl:call-template>
   </xsl:variable>
   
-  <xsl:template match="/">
+  <xsl:template match="liturgicaldays">
     <results>
        <xsl:apply-templates/>
     </results>
   </xsl:template>
 
   <xsl:template match="coordinaterules[not($set) or @set = $set]">
-    <xsl:variable name="start-date" select="concat($year,'-',@start-date)"/>
-    <xsl:variable name="stop-date" select="concat($year,'-',@stop-date)"/>
-    <xsl:if test="xs:date($start-date) &lt;= xs:date($date) and
-                  xs:date($date) &lt;= xs:date($stop-date)">
+    <xsl:variable name="calendardate" select="format-date(xs:date($date),'[M01]-[D01]')"/>
+    <xsl:message>checking coordinaterules for <xsl:value-of select="@set"/> on <xsl:value-of select="$calendardate"/></xsl:message>
+    <xsl:if test="(@start-date &lt;= $calendardate) and
+                  ($calendardate &lt;= @stop-date)">
       <xsl:variable name="coordinates">
         <xsl:apply-templates/>
       </xsl:variable>
       <xsl:if test="$coordinates != ''">
-        <coordinates set="{@set}">
+        <coordinates set="{@set}" liturgicalday="{//liturgicalday[coordinates = $coordinates]/name}">
            <xsl:value-of select="$coordinates"/>
         </coordinates>
       </xsl:if>
