@@ -866,7 +866,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                <relative-to name="Epiphany of the Lord"/>
             </equals>
          </test>
-         <then>EPI</then>
+         <then>
+            <text>EPI</text>
+         </then>
       </if>
   </coordinaterules>
 

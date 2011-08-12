@@ -32,7 +32,7 @@
       <xsl:variable name="coordinates">
         <xsl:apply-templates/>
       </xsl:variable>
-      <xsl:if test="$coordinates != ''">
+      <xsl:if test="$coordinates != '' and //liturgicalday[coordinates = $coordinates]">
         <coordinates set="{@set}" liturgicalday="{//liturgicalday[coordinates = $coordinates]/name}">
            <xsl:value-of select="$coordinates"/>
         </coordinates>
