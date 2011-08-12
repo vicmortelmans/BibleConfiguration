@@ -311,31 +311,47 @@
 	<xsl:apply-templates select="//coordinaterules[@set=current()/@set]"/>
 	</xsl:template>
 
-	<xsl:template match="query">
-	<!-- INPUT $date : yyyy-mm-dd
-	@set : name of a set of liturgical days
-	OUTPUT for each liturgical day in @set, the daterules are applied and
-	if the date matches $date, 
-	the <coordinates> for that set are returned -->
-	<xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
-	<xsl:variable name="yearrules">
-	<year>
-	<this-date/>
-	</year>
-	</xsl:variable>
-	<xsl:variable name="year">
-	<xsl:apply-templates select="$yearrules"/>
-	</xsl:variable>
-	<xsl:for-each select="//liturgicalday[set=current()/@set]">
-	<xsl:variable name="candidate">
-	<xsl:apply-templates select="daterules"/>
-	</xsl:variable>
-	<xsl:if test="$candidate=$date">
-	<xsl:value-of select="coordinates"/>
-	</xsl:if>
-	</xsl:for-each>
-	</xsl:template>
+  <xsl:template match="query-set">
+  <!-- INPUT $date : yyyy-mm-dd
+       @set : name of a set of liturgical days
+       OUTPUT for each liturgical day in @set, the daterules are applied and
+       if the date matches $date, 
+       the <coordinates> for that liturgical day are returned -->
+    <xsl:message>query-set(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
+    <xsl:for-each select="//liturgicalday[set=current()/@set]">
+      <xsl:variable name="candidate">
+        <xsl:apply-templates select="daterules"/>
+      </xsl:variable>
+      <xsl:if test="$candidate=$date">
+        <xsl:value-of select="coordinates"/>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
 
+  <xsl:template match="query-coordinates">
+  <!-- INPUT $date : yyyy-mm-dd
+       @set : name of a set of liturgical days
+       coordinates : specific coordinates
+       OUTPUT for the liturgical day(s) in @set that match @coordinates, 
+       the daterules are applied and if the date matches $date, 
+       the <coordinates> for that liturgical day are returned -->
+    <xsl:variable name="coordinates">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>, coordinates : <xsl:value-of select="$coordinates"/>)</xsl:message>
+    <xsl:for-each select="//liturgicalday[set=current()/@set and coordinates=$coordinates]">
+      <xsl:variable name="candidate">
+        <xsl:apply-templates select="daterules"/>
+      </xsl:variable>
+      <xsl:if test="$candidate=$date">
+        <xsl:value-of select="coordinates"/>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
+	<!--
+	GENERIC OPERATORS 
+	-->
 	<!--
 	GENERIC OPERATORS 
 	-->

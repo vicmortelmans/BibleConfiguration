@@ -7105,14 +7105,14 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
   <coordinaterules set="Transferred Annunciation" start-date="02-09" stop-date="05-03">
-      <query set="Transferred Annunciation"/>
+      <query-set set="Transferred Annunciation"/>
   </coordinaterules>
 
   <liturgicalday>
       <name>Annunciation</name>
       <season>Lent</season>
       <set>Transferred Annunciation</set>
-      <coordinates>L057</coordinates>
+      <coordinates>Z0325</coordinates>
       <rank nr="6">Fixed Solemnity</rank>
       <vigil>true</vigil>
       <precedence>3</precedence>
@@ -7137,7 +7137,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Annunciation</name>
       <season>Easter</season>
       <set>Transferred Annunciation</set>
-      <coordinates>P022</coordinates>
+      <coordinates>Z0325</coordinates>
       <rank nr="6">Fixed Solemnity</rank>
       <vigil>true</vigil>
       <precedence>3</precedence>
@@ -7170,7 +7170,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   
   <coordinaterules set="Transferred Immaculate Conception" start-date="12-09" stop-date="12-09">
-      <query set="Transferred Immaculate Conception"/>
+      <query-set set="Transferred Immaculate Conception"/>
   </coordinaterules>
 
   
@@ -7178,14 +7178,14 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
                           
   <coordinaterules set="Transferred Joseph" start-date="02-09" stop-date="05-03">
-      <query set="Transferred Joseph"/>
+      <query-set set="Transferred Joseph"/>
   </coordinaterules>
 
   <liturgicalday>
       <name>Joseph, husband of Mary</name>
       <season>Lent</season>
       <set>Transferred Joseph</set>
-      <coordinates>L057</coordinates>
+      <coordinates>Z0319</coordinates>
       <rank nr="6">Fixed Solemnity</rank>
       <vigil>true</vigil>
       <precedence>3</precedence>
@@ -7220,10 +7220,13 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   
   
-  <coordinaterules set="Fixed dates">
-      <mmdd>
-         <this-date/>
-      </mmdd>
+  <coordinaterules set="Fixed dates" start-date="01-01" stop-date="12-31">
+      <query-coordinates set="Fixed dates">
+         <text>Z</text>
+         <mmdd>
+            <this-date/>
+         </mmdd>
+      </query-coordinates>
   </coordinaterules>
  
   <liturgicalday>
