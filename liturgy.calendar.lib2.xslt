@@ -5,7 +5,7 @@
     
   <xsl:template name="liturgical-year">
     <xsl:param name="date"/>
-    <xsl:variable name="sameyear" select="year-from-date($date)"/>
+    <xsl:variable name="sameyear" select="year-from-date(xs:date($date))"/>
     <xsl:variable name="same0101" select="concat($sameyear,'-01-01')"/>
     <xsl:variable name="same1127" select="concat($sameyear,'-11-27')"/>
     <xsl:variable name="same1203" select="concat($sameyear,'-12-03')"/>
@@ -557,7 +557,7 @@
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:message>yyyy(date : <xsl:value-of select="normalize-space($date)"/>)</xsl:message>
-    <xsl:variable name="year" select="fn:year-from-date($date)"/>
+    <xsl:variable name="year" select="fn:year-from-date(xs:date($date))"/>
     <xsl:variable name="startDayRules">
       <weeks-before nr="3">
         <weekday-before day="Sunday">
