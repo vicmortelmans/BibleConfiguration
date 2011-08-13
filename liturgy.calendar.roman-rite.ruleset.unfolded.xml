@@ -931,7 +931,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>L</text>
       <format template="00">
          <count-weeks-between>
-            <days-before nr="56">
+            <days-before nr="49">
                <easterdate/>
             </days-before>
             <weekday-before-or-self day="Sunday">
