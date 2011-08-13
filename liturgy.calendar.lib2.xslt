@@ -48,7 +48,7 @@
   <xsl:template match="daterules">
     <xsl:choose>
     <xsl:when test="not(@option) or (@option and matches($options,@option))">
-        <xsl:message>daterules(year : <xsl:value-of select="$year"/>)</xsl:message>
+        <xsl:message>daterules for <xsl:value-of select="../name"/> (year : <xsl:value-of select="$year"/>)</xsl:message>
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
@@ -294,22 +294,25 @@
 	COORDINATES OPERATORS
 	-->
 
-	<xsl:template match="coordinates">
-	<!-- INPUT $year : yyyy
-	@set : name of a set of liturgical days
-	@day : dd
-	@month : mm
-	OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
-	<xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
-	<xsl:variable name="date">
-	<xsl:value-of select="$year"/>
-	<xsl:text>-</xsl:text>
-	<xsl:value-of select="@month"/>
-	<xsl:text>-</xsl:text>
-	<xsl:value-of select="@day"/>
-	</xsl:variable>
-	<xsl:apply-templates select="//coordinaterules[@set=current()/@set]"/>
-	</xsl:template>
+  <xsl:template match="coordinates">
+    <!-- INPUT $year : yyyy
+         @set : name of a set of liturgical days
+         @day : dd
+         @month : mm
+         OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
+    <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
+    <xsl:variable name="date" select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+    <xsl:variable name="rest">
+      <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.date-to-coordinates.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;set=</xsl:text>
+      <xsl:value-of select="@set"/>
+      <xsl:text>&amp;date=</xsl:text> 
+      <xsl:value-of select="$date"/>
+      <xsl:text>&amp;options=</xsl:text>
+      <xsl:value-of select="$options"/>
+    </xsl:variable>
+    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:value-of select="document($rest)/coordinates"/> 
+  </xsl:template>
 
   <xsl:template match="query-set">
   <!-- INPUT $date : yyyy-mm-dd
@@ -319,6 +322,7 @@
        the <coordinates> for that liturgical day are returned -->
     <xsl:message>query-set(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:for-each select="//liturgicalday[set=current()/@set]">
+      <xsl:message>querying <xsl:value-of select="set"/></xsl:message>
       <xsl:variable name="candidate">
         <xsl:apply-templates select="daterules"/>
       </xsl:variable>
@@ -340,6 +344,7 @@
     </xsl:variable>
     <xsl:message>query(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>, coordinates : <xsl:value-of select="$coordinates"/>)</xsl:message>
     <xsl:for-each select="//liturgicalday[set=current()/@set and coordinates=$coordinates]">
+      <xsl:message>querying <xsl:value-of select="coordinates"/> in <xsl:value-of select="set"/></xsl:message>
       <xsl:variable name="candidate">
         <xsl:apply-templates select="daterules"/>
       </xsl:variable>
@@ -349,9 +354,6 @@
     </xsl:for-each>
   </xsl:template>
 
-	<!--
-	GENERIC OPERATORS 
-	-->
 	<!--
 	GENERIC OPERATORS 
 	-->
