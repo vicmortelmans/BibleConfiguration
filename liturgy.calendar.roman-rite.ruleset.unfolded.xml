@@ -7141,7 +7141,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                   </matches>
                   <matches>
                      <coordinates set="Easter" day="25" month="3"/>
-                     <string>E005,E006,E007,E011,E012,E013,E014,E015,E016,E017</string>
+                     <string>P005,P006,P007,P011,P012,P013,P014,P015,P016,P017</string>
                   </matches>
                </or>
             </test>
@@ -7193,7 +7193,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                   </matches>
                   <matches>
                      <coordinates set="Easter" day="19" month="3"/>
-                     <string>E005,E006,E007,E011,E012,E013,E014,E015,E016,E017</string>
+                     <string>P005,P006,P007,P011,P012,P013,P014,P015,P016,P017</string>
                   </matches>
                </or>
             </test>

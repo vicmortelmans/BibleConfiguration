@@ -487,7 +487,7 @@
       <xsl:apply-templates select="*[2]"/>
     </xsl:variable>
     <xsl:message>matches(string1 : <xsl:value-of select="$string1"/>, string2 : <xsl:value-of select="$string2"/>)</xsl:message>
-    <xsl:if test="matches($string2,$string1)">true</xsl:if>
+    <xsl:if test="$string1 != '' and matches($string2,$string1)">true</xsl:if>
   </xsl:template>
    
   <xsl:template match="equals">
