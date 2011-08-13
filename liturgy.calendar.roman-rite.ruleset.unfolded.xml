@@ -1577,7 +1577,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>P</text>
       <format template="00">
          <count-weeks-between>
-            <easterdate/>
+            <weeks-before nr="1">
+               <easterdate/>
+            </weeks-before>
             <weekday-before-or-self day="Sunday">
                <this-date/>
             </weekday-before-or-self>
