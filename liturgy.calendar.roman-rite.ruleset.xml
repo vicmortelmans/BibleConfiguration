@@ -8,7 +8,7 @@
               -->
 
   <coordinaterules set="Advent" start="First Sunday of Advent" stopbefore="Christmas"
-    start-date="11-27" stop-date="12-24">
+    start-date="11-27" stop-date="12-24" overlap-priority="5">
     <text>A</text>
     <format template="00">
       <count-weeks-between>
@@ -90,8 +90,8 @@
      CHRISTMAS OCTAVE
                       -->
 
-  <coordinaterules set="Christmas Ocatve" startafter="Christmas" stop="Seventh day in the octave of Christmas"
-    start-date="12-26" stop-date="12-31">
+  <coordinaterules set="Christmas Octave" startafter="Christmas" stop="Seventh day in the octave of Christmas"
+    start-date="12-26" stop-date="12-31" overlap-priority="4">
     <text>B</text>
     <format template="00">
       <count-weeks-between>
@@ -134,7 +134,7 @@
                                   -->
 
   <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary" stopbefore="Epiphany of the Lord"
-    start-date="01-02" stop-date="01-07">
+    start-date="01-02" stop-date="01-07" overlap-priority="6">
     <text>C</text>
     <day-number>
       <this-date/>
@@ -187,7 +187,7 @@
                              -->
 
   <coordinaterules set="Weekdays after Epiphany" startafter="Epiphany of the Lord" stopbefore="Feast of the Baptism of the Lord"
-    start-date="01-03" stop-date="01-13">
+    start-date="01-03" stop-date="01-13" overlap-priority="3">
     <text>E</text>
     <day-number>
       <this-date/>
@@ -360,7 +360,7 @@
           -->
 
   <coordinaterules set="Lent" start="Ash Wednesday" stopbefore="Holy Thursday"
-    start-date="02-04" stop-date="04-21">
+    start-date="02-04" stop-date="04-21" overlap-priority="1">
     <text>L</text>
     <format template="00">
       <count-weeks-between>
@@ -513,7 +513,7 @@
               -->
 
   <coordinaterules set="Easter" start="Holy Thursday" stop="Pentecost"
-    start-date="03-18" stop-date="06-12">
+    start-date="03-18" stop-date="06-12" overlap-priority="1">
     <text>P</text>
     <format template="00">
       <count-weeks-between>
@@ -769,7 +769,7 @@
                             -->  
   
   <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord" stopbefore="Ash Wednesday"
-    start-date="01-09" stop-date="03-16">
+    start-date="01-09" stop-date="03-16" overlap-priority="2">
     <text>X</text>
     <format template="00">
       <count-weeks-between>
@@ -863,11 +863,11 @@
                               -->  
   
   <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Christ the King"
-    start-date="05-11" stop-date="12-01">
+    start-date="05-11" stop-date="12-01" overlap-priority="5">
     <text>Y</text>
     <format template="00">
       <count-weeks-between>
-        <weeks-before nr="34">
+        <weeks-before nr="35">
           <relative-to-next-years name="First Sunday of Advent"/>
         </weeks-before>
         <weekday-before-or-self day="Sunday">
@@ -921,7 +921,7 @@
       <vigil>true</vigil>
       <daterules>
         <weeks-after nr="$nr_i">
-          <weeks-before nr="34">
+          <weeks-before nr="35">
             <relative-to-next-years name="First Sunday of Advent"/>
           </weeks-before>
         </weeks-after>
@@ -979,7 +979,7 @@
       <daterules>
         <weekday-after day="$day_s">
           <weeks-after nr="$nr_i">
-            <weeks-before nr="34">
+            <weeks-before nr="35">
               <relative-to-next-years name="First Sunday of Advent"/>
             </weeks-before>
           </weeks-after>
