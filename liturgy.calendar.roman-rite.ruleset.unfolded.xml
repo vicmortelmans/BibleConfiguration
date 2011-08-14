@@ -517,7 +517,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <text>B</text>
       <format template="00">
          <count-weeks-between>
-            <date day="25" month="12" year-1="yes"/>
+            <date day="18" month="12" year-1="yes"/>
             <this-date/>
          </count-weeks-between>
       </format>
