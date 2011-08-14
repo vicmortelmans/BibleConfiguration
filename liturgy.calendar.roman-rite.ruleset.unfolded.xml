@@ -608,7 +608,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
 
 
-  <coordinaterules set="Weeks of Christmas Season" startafter="Solemnity of Mary"
+  <coordinaterules set="Weekdays of Christmas Season" startafter="Solemnity of Mary"
                     stopbefore="Epiphany of the Lord"
                     start-date="01-02"
                     stop-date="01-07"
@@ -622,7 +622,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   <liturgicalday>
       <name>Second Sunday after Christmas</name>
       <season>Christmas season</season>
-      <set>Special days after Christmas</set>
+      <set>Weekdays of Christmas Seasion</set>
       <coordinates>C1</coordinates>
       <rank nr="8">Sunday of Christmas</rank>
       <precedence>6</precedence>
