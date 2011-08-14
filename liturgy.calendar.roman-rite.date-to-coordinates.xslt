@@ -33,9 +33,10 @@
         <xsl:apply-templates/>
       </xsl:variable>
       <xsl:if test="$coordinates != ''">
-        <xsl:message>got coordinates within date range: <xsl:value-of select="$coordinates"/></xsl:message>
-        <xsl:if test="//liturgicalday[coordinates = $coordinates]">
-          <coordinates set="{@set}" liturgicalday="{//liturgicalday[coordinates = $coordinates]/name}" rank="{//liturgicalday[coordinates = $coordinates]/rank/@nr}" precedence="{//liturgicalday[coordinates = $coordinates]/precedence}">
+        <xsl:message>got <xsl:value-of select="@set"/> coordinates within date range: <xsl:value-of select="$coordinates"/></xsl:message>
+        <xsl:variable name="liturgicalday" select="//liturgicalday[coordinates = $coordinates][set = current()/@set]"/>
+        <xsl:if test="$liturgicalday">
+          <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$liturgicalday/rank/@nr}" precedence="{$liturgicalday/precedence}">
              <xsl:value-of select="$coordinates"/>
           </coordinates>
         </xsl:if>

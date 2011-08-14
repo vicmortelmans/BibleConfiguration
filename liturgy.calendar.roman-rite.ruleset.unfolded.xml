@@ -2349,18 +2349,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   <coordinaterules set="Special days after Easter" crosscheck="true" start-date="04-30"
                     stop-date="06-27">
-      <text>E</text>
-      <format template="00">
-         <count-weeks-between>
-            <easterdate/>
-            <weekday-before-or-self day="Sunday">
-               <this-date/>
-            </weekday-before-or-self>
-         </count-weeks-between>
-      </format>
-      <day-number>
-         <this-date/>
-      </day-number>
+      <query-set set="Special days after Easter"/>
   </coordinaterules>
 
   <liturgicalday>
@@ -2375,15 +2364,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <easterdate/>
         </days-after>
       </daterules>
-   </liturgicalday>
-  
-  <liturgicalday>
-      <name>Ascension of the Lord</name>
-      <season>Easter season</season>
-      <set>Special days after Easter</set>
-      <coordinates>P071</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>2</precedence>
       <daterules option="ascension-alt">
         <days-after nr="42">
             <easterdate/>
@@ -2444,22 +2424,13 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
             <easterdate/>
         </days-after>
       </daterules>
-   </liturgicalday>
-
-  <liturgicalday>
-      <name>Corpus Christi</name>
-      <season>Ordinary Time</season>
-      <set>Special days after Easter</set>
-      <coordinates>P101</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>3</precedence>
       <daterules option="corpuschristi-alt">
         <days-after nr="64">
             <easterdate/>
         </days-after>
       </daterules>
    </liturgicalday>
-  
+
   
   
   <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord"
