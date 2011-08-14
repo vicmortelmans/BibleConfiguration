@@ -716,7 +716,7 @@
       <rank nr="5">Movable Solemnity</rank>
       <precedence>2</precedence>
       <daterules>
-        <days-after nr="50">
+        <days-after nr="49">
           <easterdate/>
         </days-after>
       </daterules>
@@ -725,8 +725,8 @@
   
   <liturgicalday>
     <parameters>
-      <parametergroup><name>Trinity Sunday</name><days>57</days><c>E091</c></parametergroup>
-      <parametergroup><name>Solemnity of the Sacred Heart of Jezus</name><days>69</days><c>E106</c></parametergroup>
+      <parametergroup><name>Trinity Sunday</name><days>56</days><c>P091</c></parametergroup>
+      <parametergroup><name>Solemnity of the Sacred Heart of Jezus</name><days>68</days><c>P106</c></parametergroup>
     </parameters>
     <template>
       <name>$name</name>
@@ -752,12 +752,12 @@
       <rank nr="5">Movable Solemnity</rank>
       <precedence>3</precedence>
       <daterules option="corpuschristi-std">
-        <days-after nr="61">
+        <days-after nr="60">
           <easterdate/>
         </days-after>
       </daterules>
       <daterules option="corpuschristi-alt">
-        <days-after nr="64">
+        <days-after nr="63">
           <easterdate/>
         </days-after>
       </daterules>

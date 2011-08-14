@@ -2379,7 +2379,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="5">Movable Solemnity</rank>
       <precedence>2</precedence>
       <daterules>
-        <days-after nr="50">
+        <days-after nr="49">
             <easterdate/>
         </days-after>
       </daterules>
@@ -2389,11 +2389,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Trinity Sunday</name>
       <season>Ordinary Time</season>
       <set>Special days after Easter</set>
-      <coordinates>E091</coordinates>
+      <coordinates>P091</coordinates>
       <rank nr="5">Movable Solemnity</rank>
       <precedence>3</precedence>
       <daterules>
-        <days-after nr="57">
+        <days-after nr="56">
             <easterdate/>
         </days-after>
       </daterules>
@@ -2402,11 +2402,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Solemnity of the Sacred Heart of Jezus</name>
       <season>Ordinary Time</season>
       <set>Special days after Easter</set>
-      <coordinates>E106</coordinates>
+      <coordinates>P106</coordinates>
       <rank nr="5">Movable Solemnity</rank>
       <precedence>3</precedence>
       <daterules>
-        <days-after nr="69">
+        <days-after nr="68">
             <easterdate/>
         </days-after>
       </daterules>
@@ -2420,12 +2420,12 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="5">Movable Solemnity</rank>
       <precedence>3</precedence>
       <daterules option="corpuschristi-std">
-        <days-after nr="61">
+        <days-after nr="60">
             <easterdate/>
         </days-after>
       </daterules>
       <daterules option="corpuschristi-alt">
-        <days-after nr="64">
+        <days-after nr="63">
             <easterdate/>
         </days-after>
       </daterules>
