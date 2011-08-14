@@ -2168,7 +2168,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Monday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P052</coordinates>
+      <coordinates>P062</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2183,7 +2183,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Tuesday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P053</coordinates>
+      <coordinates>P063</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2198,7 +2198,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Wednesday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P054</coordinates>
+      <coordinates>P064</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2213,7 +2213,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Thursday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P055</coordinates>
+      <coordinates>P065</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2228,7 +2228,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Friday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P056</coordinates>
+      <coordinates>P066</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2243,7 +2243,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Saturday in the Sixth Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P057</coordinates>
+      <coordinates>P067</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2258,7 +2258,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Monday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P052</coordinates>
+      <coordinates>P072</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2273,7 +2273,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Tuesday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P053</coordinates>
+      <coordinates>P073</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2288,7 +2288,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Wednesday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P054</coordinates>
+      <coordinates>P074</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2303,7 +2303,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Thursday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P055</coordinates>
+      <coordinates>P075</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2318,7 +2318,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Friday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P056</coordinates>
+      <coordinates>P076</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>
@@ -2333,7 +2333,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Saturday in the Seventh Week of Easter</name>
       <season>Easter season</season>
       <set>Easter</set>
-      <coordinates>P057</coordinates>
+      <coordinates>P077</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>13</precedence>
       <daterules>

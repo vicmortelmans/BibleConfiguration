@@ -657,8 +657,8 @@
       <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
       <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
       <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
-      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>05</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
+      <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>07</nr_c></parametergroup>
     </parameters>
     <template>
      <name>$day_s in the $nr_s Week of Easter</name>
