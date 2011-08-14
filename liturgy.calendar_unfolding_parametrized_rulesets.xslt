@@ -21,6 +21,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   </xsl:template>
   
   <xsl:template match="liturgicalday">
+    <xsl:message>Processing set <xsl:value-of select="template/set"/></xsl:message>
     <xsl:if test="parameters">
       <xsl:variable name="liturgicalday" select="."/>
       <xsl:variable name="parameters">

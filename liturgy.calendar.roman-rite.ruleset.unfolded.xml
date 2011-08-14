@@ -7137,14 +7137,186 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
 
-  
+  <liturgicalday>
+      <name>Annunciation</name>
+      <season>Lent</season>
+      <set>Transferred Annunciation</set>
+      <coordinates>Z0325</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="25" month="3"/>
+                  <string s="L011"/>
+               </matches>
+            </test>
+            <then>
+               <day-after day="Monday">
+                  <weeks-after nr="1">
+                     <easterdate/>
+                  </weeks-after>
+               </day-after>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Annunciation</name>
+      <season>Lent</season>
+      <set>Transferred Annunciation</set>
+      <coordinates>Z0325</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="25" month="3"/>
+                  <string s="L021"/>
+               </matches>
+            </test>
+            <then>
+               <day-after day="Monday">
+                  <weeks-after nr="2">
+                     <easterdate/>
+                  </weeks-after>
+               </day-after>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Annunciation</name>
+      <season>Lent</season>
+      <set>Transferred Annunciation</set>
+      <coordinates>Z0325</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="25" month="3"/>
+                  <string s="L031"/>
+               </matches>
+            </test>
+            <then>
+               <day-after day="Monday">
+                  <weeks-after nr="3">
+                     <easterdate/>
+                  </weeks-after>
+               </day-after>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Annunciation</name>
+      <season>Lent</season>
+      <set>Transferred Annunciation</set>
+      <coordinates>Z0325</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="25" month="3"/>
+                  <string s="L041"/>
+               </matches>
+            </test>
+            <then>
+               <day-after day="Monday">
+                  <weeks-after nr="4">
+                     <easterdate/>
+                  </weeks-after>
+               </day-after>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Annunciation</name>
+      <season>Lent</season>
+      <set>Transferred Annunciation</set>
+      <coordinates>Z0325</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="25" month="3"/>
+                  <string s="L051"/>
+               </matches>
+            </test>
+            <then>
+               <day-after day="Monday">
+                  <weeks-after nr="5">
+                     <easterdate/>
+                  </weeks-after>
+               </day-after>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
 
   
   <coordinaterules set="Transferred Immaculate Conception" start-date="12-09" stop-date="12-09">
       <query-set set="Transferred Immaculate Conception"/>
   </coordinaterules>
 
-  
+  <liturgicalday>
+      <name>Immaculate Conception</name>
+      <season>Advent</season>
+      <set>Transferred Immaculate Conception</set>
+      <coordinates>Z1208</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Advent" day="08" month="12"/>
+                  <string s="A021"/>
+               </matches>
+            </test>
+            <then>
+               <date day="09" month="12"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Immaculate Conception</name>
+      <season>Advent</season>
+      <set>Transferred Immaculate Conception</set>
+      <coordinates>Z1208</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Advent" day="08" month="12"/>
+                  <string s="A031"/>
+               </matches>
+            </test>
+            <then>
+               <date day="09" month="12"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
 
   
                           
@@ -7187,7 +7359,116 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
 
-  
+  <liturgicalday>
+      <name>Joseph, husband of Mary</name>
+      <season>Lent</season>
+      <set>Transferred Joseph</set>
+      <coordinates>Z0319</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="19" month="3"/>
+                  <string s="L011"/>
+               </matches>
+            </test>
+            <then>
+               <date day="20" month="03"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Joseph, husband of Mary</name>
+      <season>Lent</season>
+      <set>Transferred Joseph</set>
+      <coordinates>Z0319</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="19" month="3"/>
+                  <string s="L021"/>
+               </matches>
+            </test>
+            <then>
+               <date day="20" month="03"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Joseph, husband of Mary</name>
+      <season>Lent</season>
+      <set>Transferred Joseph</set>
+      <coordinates>Z0319</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="19" month="3"/>
+                  <string s="L031"/>
+               </matches>
+            </test>
+            <then>
+               <date day="20" month="03"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Joseph, husband of Mary</name>
+      <season>Lent</season>
+      <set>Transferred Joseph</set>
+      <coordinates>Z0319</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="19" month="3"/>
+                  <string s="L041"/>
+               </matches>
+            </test>
+            <then>
+               <date day="20" month="03"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Joseph, husband of Mary</name>
+      <season>Lent</season>
+      <set>Transferred Joseph</set>
+      <coordinates>Z0319</coordinates>
+      <rank nr="6">Fixed Solemnity</rank>
+      <vigil>true</vigil>
+      <precedence>3</precedence>
+      <daterules>
+        <if>
+            <test>
+               <matches>
+                  <coordinates set="Lent" day="19" month="3"/>
+                  <string s="L051"/>
+               </matches>
+            </test>
+            <then>
+               <date day="20" month="03"/>
+            </then>
+        </if>
+      </daterules>
+   </liturgicalday>
   
   
   

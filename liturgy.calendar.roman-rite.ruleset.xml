@@ -1078,11 +1078,11 @@
 
   <liturgicalday>
     <parameters>
-      <parameterset><nr_c>01</nr_c><nr_i>1</nr_i></parameterset>
-      <parameterset><nr_c>02</nr_c><nr_i>2</nr_i></parameterset>
-      <parameterset><nr_c>03</nr_c><nr_i>3</nr_i></parameterset>
-      <parameterset><nr_c>04</nr_c><nr_i>4</nr_i></parameterset>
-      <parameterset><nr_c>05</nr_c><nr_i>5</nr_i></parameterset>
+      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
+      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
+      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
+      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
+      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
     </parameters>
     <template>
       <name>Annunciation</name>
@@ -1122,11 +1122,8 @@
 
   <liturgicalday>
     <parameters>
-      <parameterset><nr_c>01</nr_c><nr_i>1</nr_i></parameterset>
-      <parameterset><nr_c>02</nr_c><nr_i>2</nr_i></parameterset>
-      <parameterset><nr_c>03</nr_c><nr_i>3</nr_i></parameterset>
-      <parameterset><nr_c>04</nr_c><nr_i>4</nr_i></parameterset>
-      <parameterset><nr_c>05</nr_c><nr_i>5</nr_i></parameterset>
+      <parametergroup><nr_c>02</nr_c></parametergroup>
+      <parametergroup><nr_c>03</nr_c></parametergroup>
     </parameters>
     <template>
       <name>Immaculate Conception</name>
@@ -1140,16 +1137,12 @@
         <if>
           <test>
             <matches>
-              <coordinates set="Lent" day="25" month="3"/>
-              <string s="L$nr_c1"/>
+              <coordinates set="Advent" day="08" month="12"/>
+              <string s="A$nr_c1"/>
             </matches>
           </test>
           <then>
-            <day-after day="Monday">
-              <weeks-after nr="$nr_i">
-                <easterdate/>
-              </weeks-after>
-            </day-after>
+            <date day="09" month="12"/>
           </then>
         </if>
       </daterules>
@@ -1204,11 +1197,11 @@
 
   <liturgicalday>
     <parameters>
-      <parameterset><nr_c>01</nr_c><nr_i>1</nr_i></parameterset>
-      <parameterset><nr_c>02</nr_c><nr_i>2</nr_i></parameterset>
-      <parameterset><nr_c>03</nr_c><nr_i>3</nr_i></parameterset>
-      <parameterset><nr_c>04</nr_c><nr_i>4</nr_i></parameterset>
-      <parameterset><nr_c>05</nr_c><nr_i>5</nr_i></parameterset>
+      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
+      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
+      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
+      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
+      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
     </parameters>
     <template>
       <name>Joseph, husband of Mary</name>
@@ -1227,11 +1220,7 @@
             </matches>
           </test>
           <then>
-            <day-after day="Monday">
-              <weeks-after nr="$nr_i">
-                <easterdate/>
-              </weeks-after>
-            </day-after>
+            <date day="20" month="03"/>
           </then>
         </if>
       </daterules>
