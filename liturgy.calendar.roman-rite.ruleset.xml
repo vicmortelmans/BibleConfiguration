@@ -286,7 +286,7 @@
     <template>
      <name>Epiphany of the Lord</name>
       <season>Christmas season</season>
-      <set>Special days after Christmas</set>
+      <set>Epiphany of the Lord</set>
       <coordinates>EPI</coordinates>
       <rank nr="5">Movable Solemnity</rank>
       <precedence>2</precedence>
@@ -324,7 +324,7 @@
     <template>
      <name>Feast of the Baptism of the Lord</name>
       <season>Christmas season</season>
-      <set>Special days after Christmas</set>
+      <set>Baptism</set>
       <coordinates>BAP</coordinates>
       <rank nr="7">Feast of the Lord</rank>
       <precedence>5</precedence>
