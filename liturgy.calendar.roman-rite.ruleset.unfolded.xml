@@ -724,6 +724,17 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <day-number>
          <this-date/>
       </day-number>
+      <if>
+         <test>
+            <not-after>
+               <this-date/>
+               <relative-to name="Epiphany of the Lord"/>
+            </not-after>
+         </test>
+         <then>
+            <text>-</text>
+         </then>
+      </if>
   </coordinaterules>
 
   <liturgicalday>

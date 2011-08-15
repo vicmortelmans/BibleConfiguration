@@ -192,6 +192,17 @@
     <day-number>
       <this-date/>
     </day-number>
+    <if>
+      <test>
+        <not-after>
+          <this-date/>
+          <relative-to name="Epiphany of the Lord"/>
+        </not-after>
+      </test>
+      <then>
+        <text>-</text>
+      </then>
+    </if>
   </coordinaterules>
 
   <liturgicalday>
