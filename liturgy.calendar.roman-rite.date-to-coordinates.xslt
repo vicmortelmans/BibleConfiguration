@@ -11,6 +11,7 @@
   <xsl:param name="set"/>
   <xsl:param name="date" select="'2011-08-09'"/>
   <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
+  <xsl:param name="score" select="yes"/>
   
   <xsl:variable name="year">
     <xsl:call-template name="liturgical-year">
@@ -19,8 +20,18 @@
   </xsl:variable>
   
   <xsl:template match="liturgicaldays">
+    <xsl:variable name="results">
+      <xsl:apply-templates/>
+    </xsl:variable>
     <results>
-       <xsl:apply-templates/>
+      <xsl:choose>
+         <xsl:when test="$score != ''">
+           <xsl:copy-of select="$results/coordinates[not(../coordinates/@score &lt; @score)]"/>
+         </xsl:when>
+         <xsl:otherwise>
+	   <xsl:copy-of select="$results"/>
+         </xsl:otherwise>
+      </xsl:choose>
     </results>
   </xsl:template>
 
@@ -34,9 +45,13 @@
       </xsl:variable>
       <xsl:if test="$coordinates != ''">
         <xsl:message>got <xsl:value-of select="@set"/> coordinates within date range: <xsl:value-of select="$coordinates"/></xsl:message>
-        <xsl:variable name="liturgicalday" select="//liturgicalday[coordinates = $coordinates][set = current()/@set]"/>
+        <xsl:variable name="liturgicalday" select="//liturgicalday[coordinates = $coordinates][set = current()/@set][1]"/><!-- multiple <liturgicaldays> may have the same @coordinates -->
         <xsl:if test="$liturgicalday">
-          <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$liturgicalday/rank/@nr}" precedence="{$liturgicalday/precedence}">
+          <xsl:variable name="rank" select="$liturgicalday/rank/@nr"/>
+          <xsl:variable name="precedence" select="$liturgicalday/precedence"/>
+          <xsl:variable name="overlap-priority" select="//coordinaterules[@set = current()/@set]/@overlap-priority"/>
+          <xsl:variable name="score" select="10000 * $rank + 100 * $precedence + $overlap-priority"/>
+          <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$rank}" precedence="{$precedence}" overlap-priority="{$overlap-priority}" score="{$score}">
              <xsl:value-of select="$coordinates"/>
           </coordinates>
         </xsl:if>
