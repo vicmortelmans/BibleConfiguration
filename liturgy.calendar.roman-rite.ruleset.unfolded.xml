@@ -818,7 +818,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
                  
-  <coordinaterules set="Holy Family" start-date="12-26" stop-date="12-31">
+  <coordinaterules set="Holy Family" start-date="12-26" stop-date="12-31" overlap-priority="0">
       <if>
          <test>
             <equals>
@@ -859,7 +859,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
                  
   <coordinaterules set="Epiphany of the Lord" option="epiphany" start-date="01-02"
-                    stop-date="01-08">
+                    stop-date="01-08"
+                    overlap-priority="0">
       <if>
          <test>
             <equals>
@@ -892,7 +893,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
 
-  <coordinaterules set="Baptism" start-date="01-07" stop-date="01-13">
+  <coordinaterules set="Baptism" start-date="01-07" stop-date="01-13" overlap-priority="0">
       <if>
          <test>
             <equals>
@@ -2365,7 +2366,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   
   <coordinaterules set="Special days after Easter" crosscheck="true" start-date="04-30"
-                    stop-date="06-27">
+                    stop-date="06-27"
+                    overlap-priority="0">
       <query-set set="Special days after Easter"/>
   </coordinaterules>
 
@@ -7086,7 +7088,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
 
 
-  <coordinaterules set="Transferred Annunciation" start-date="02-09" stop-date="05-03">
+  <coordinaterules set="Transferred Annunciation" start-date="02-09" stop-date="05-03"
+                    overlap-priority="0">
       <query-set set="Transferred Annunciation"/>
   </coordinaterules>
 
@@ -7280,7 +7283,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
 
   
-  <coordinaterules set="Transferred Immaculate Conception" start-date="12-09" stop-date="12-09">
+  <coordinaterules set="Transferred Immaculate Conception" start-date="12-09" stop-date="12-09"
+                    overlap-priority="0">
       <query-set set="Transferred Immaculate Conception"/>
   </coordinaterules>
 
@@ -7331,7 +7335,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   
                           
-  <coordinaterules set="Transferred Joseph" start-date="02-09" stop-date="05-03">
+  <coordinaterules set="Transferred Joseph" start-date="02-09" stop-date="05-03"
+                    overlap-priority="0">
       <query-set set="Transferred Joseph"/>
   </coordinaterules>
 
@@ -7483,7 +7488,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   
   
-  <coordinaterules set="Fixed dates" start-date="01-01" stop-date="12-31">
+  <coordinaterules set="Fixed dates" start-date="01-01" stop-date="12-31" overlap-priority="0">
       <query-coordinates set="Fixed dates">
          <text>Z</text>
          <mmdd>
