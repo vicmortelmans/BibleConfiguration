@@ -37,7 +37,7 @@
     <results>
       <xsl:choose>
          <xsl:when test="$score = 'yes'">
-           <xsl:copy-of select="$results/coordinates[not(../coordinates/@score &lt; @score)]"/>
+           <xsl:copy-of select="$results/coordinates[not(number(../coordinates/@score) &lt; number(@score))]"/>
          </xsl:when>
          <xsl:otherwise>
 	   <xsl:copy-of select="$results"/>
