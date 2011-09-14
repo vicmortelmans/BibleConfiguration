@@ -7665,7 +7665,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
 
   <liturgicalday>
-      <name>Solemnity of the Birth of Jonh the Baptist</name>
+      <name>Solemnity of the Birth of John the Baptist</name>
       <season>Ordinary Time</season>
       <set>Fixed dates</set>
       <coordinates>Z0624</coordinates>
@@ -7721,4 +7721,225 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
 
+  <liturgicalday>
+      <name>Feast of the Conversion of Paul</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0125</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="25" month="01"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Presentation of the Lord</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0201</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="01" month="02"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Chair of St. Peter, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0222</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="22" month="02"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Mark, evangelist</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0425</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="25" month="04"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of SS. Philip and James, apostles</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0503</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="03" month="05"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Matthias, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0514</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="14" month="05"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Visitation</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0531</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="31" month="05"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Thomas, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0703</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="03" month="07"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. James, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0725</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="25" month="07"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Transfiguration</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0806</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="06" month="08"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Lawrence, deacon and martyr</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0810</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="10" month="08"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Bartholomew, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0824</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="24" month="08"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Birth of Mary</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0908</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="08" month="09"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Triumph of the Cross</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0914</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="14" month="09"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Matthew, apostle and evangelist</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0921</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="21" month="09"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of Michael, Gabriel and Raphael, Archangels</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z0929</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="29" month="09"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Luke, evangelist</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z1018</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="18" month="10"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of SS. Simon and Jude, apostles</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z1028</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="28" month="10"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of the Dedication of St. John Lateran</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z1109</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="09" month="11"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Andrew, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z1130</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="30" month="11"/>
+      </daterules>
+   </liturgicalday>
+  
 </liturgicaldays>
