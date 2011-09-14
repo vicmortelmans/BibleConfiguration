@@ -37,7 +37,7 @@
     <results>
       <xsl:choose>
          <xsl:when test="$score = 'yes'">
-           <xsl:copy-of select="$results/coordinates[not(number(../coordinates/@score) &lt; number(@score))]"/>
+           <xsl:copy-of select="$results/coordinates[not(../coordinates/@score &lt; @score)]"/>
          </xsl:when>
          <xsl:otherwise>
 	   <xsl:copy-of select="$results"/>
@@ -67,7 +67,7 @@
           <xsl:variable name="rank" select="$liturgicalday/rank/@nr"/>
           <xsl:variable name="precedence" select="$liturgicalday/precedence"/>
           <xsl:variable name="overlap-priority" select="//coordinaterules[@set = current()/@set]/@overlap-priority"/>
-          <xsl:variable name="score" select="10000 * $rank + 100 * $precedence + $overlap-priority"/>
+          <xsl:variable name="score" select="format-number(10000 * $rank + 100 * $precedence + $overlap-priority,'000000')"/>
           <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$rank}" precedence="{$precedence}" overlap-priority="{$overlap-priority}" score="{$score}">
              <xsl:value-of select="$coordinates"/>
           </coordinates>
