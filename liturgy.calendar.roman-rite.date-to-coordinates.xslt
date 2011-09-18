@@ -69,7 +69,7 @@
           <xsl:variable name="overlap-priority" select="//coordinaterules[@set = current()/@set]/@overlap-priority"/>
           <xsl:variable name="score" select="format-number(10000 * $rank + 100 * $precedence + $overlap-priority,'000000')"/>
           <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$rank}" precedence="{$precedence}" overlap-priority="{$overlap-priority}" score="{$score}">
-             <xsl:value-of select="$coordinates"/>
+             <xsl:value-of select="replace($coordinates,'X','Y')"/>
           </coordinates>
         </xsl:if>
       </xsl:if>
