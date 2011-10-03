@@ -39,7 +39,7 @@
          <xsl:when test="$score = 'yes'">
            <!-- there's no other result with higher score OR this result's coincideswith matches another result -->
            <xsl:copy-of select="$results/coordinates[not(../coordinates/@score &lt; @score) 
-             or ../coordinates[matches(.,concat('',current()/@coincideswith))]]"/>
+             or (not(@coincideswith = '') and ../coordinates[matches(.,concat('',current()/@coincideswith))])]"/>
          </xsl:when>
          <xsl:otherwise>
 	   <xsl:copy-of select="$results"/>
