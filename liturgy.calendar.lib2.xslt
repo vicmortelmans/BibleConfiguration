@@ -22,7 +22,7 @@
       <xsl:otherwise>
         <xsl:variable name="startnextyear">
           <xsl:variable name="rest">
-            <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
+            <xsl:text>http://childrensmissal.appspot.com/getDate2?year=</xsl:text>
             <xsl:value-of select="$sameyear + 1"/>
             <xsl:text>&amp;coordinates=A011&amp;options=</xsl:text>
             <xsl:value-of select="$options"/>
@@ -261,7 +261,7 @@
     <xsl:message>relative-to(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
     <xsl:variable name="rest">
-        <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
+        <xsl:text>http://childrensmissal.appspot.com/getDate2?year=</xsl:text>
         <xsl:value-of select="$year"/>
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
@@ -279,7 +279,7 @@
     <xsl:message>relative-to-next-years(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
     <xsl:variable name="rest">
-        <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.coordinates-to-date.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;year=</xsl:text>
+        <xsl:text>http://childrensmissal.appspot.com/getDate2?year=</xsl:text>
         <xsl:value-of select="$year + 1"/>
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
@@ -303,7 +303,7 @@
     <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
     <xsl:variable name="date" select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
     <xsl:variable name="rest">
-      <xsl:text>http://services.w3.org/xslt?xslfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.date-to-coordinates.xslt&amp;xmlfile=https%3A%2F%2Fgithub.com%2Fvicmortelmans%2FBibleConfiguration%2Fraw%2Fmaster%2Fliturgy.calendar.roman-rite.ruleset.unfolded.xml&amp;content-type=&amp;submit=transform&amp;set=</xsl:text>
+      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?set=</xsl:text>
       <xsl:value-of select="@set"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
