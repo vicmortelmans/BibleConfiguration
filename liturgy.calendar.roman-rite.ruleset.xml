@@ -95,12 +95,6 @@
   <coordinaterules set="Christmas Octave" startafter="Christmas" stop="Seventh day in the octave of Christmas"
     start-date="12-26" stop-date="12-31" overlap-priority="4">
     <text>B</text>
-    <format template="00">
-      <count-weeks-between>
-        <date day="18" month="12" year-1="yes"/>
-        <this-date/>
-      </count-weeks-between>
-    </format>
     <count-days-between>
       <date day="24" month="12" year-1="yes"/>
       <this-date/>
@@ -120,7 +114,7 @@
       <name>$nr_s day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B01$nr_c</coordinates>
+      <coordinates>B$nr_c</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
