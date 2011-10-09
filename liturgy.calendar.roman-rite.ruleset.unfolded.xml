@@ -543,12 +543,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                     stop-date="12-31"
                     overlap-priority="4">
       <text>B</text>
-      <format template="00">
-         <count-weeks-between>
-            <date day="18" month="12" year-1="yes"/>
-            <this-date/>
-         </count-weeks-between>
-      </format>
       <count-days-between>
          <date day="24" month="12" year-1="yes"/>
          <this-date/>
@@ -559,7 +553,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Second day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B012</coordinates>
+      <coordinates>B2</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -572,7 +566,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Third day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B013</coordinates>
+      <coordinates>B3</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -585,7 +579,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Fourth day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B014</coordinates>
+      <coordinates>B4</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -598,7 +592,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Fifth day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B015</coordinates>
+      <coordinates>B5</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -611,7 +605,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Sixth day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B016</coordinates>
+      <coordinates>B6</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -624,7 +618,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Seventh day in the octave of Christmas</name>
       <season>Christmas season</season>
       <set>Christmas Octave</set>
-      <coordinates>B017</coordinates>
+      <coordinates>B7</coordinates>
       <rank nr="13">Weekday</rank>
       <precedence>9</precedence>
       <daterules>
@@ -851,10 +845,12 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
          <test>
             <equals>
                <this-date/>
-               <relative-to name="Holy Family"/>
+               <relative-to name="Feast of the Holy Family"/>
             </equals>
          </test>
-         <then>HFA</then>
+         <then>
+            <text>HFA</text>
+         </then>
       </if>
   </coordinaterules>
 

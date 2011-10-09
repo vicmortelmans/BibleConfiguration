@@ -235,10 +235,12 @@
       <test>
         <equals>
           <this-date/>
-          <relative-to name="Holy Family"/>
+          <relative-to name="Feast of the Holy Family"/>
         </equals>
       </test>
-      <then>HFA</then>
+      <then>
+        <text>HFA</text>
+      </then>
     </if>
   </coordinaterules>
 
