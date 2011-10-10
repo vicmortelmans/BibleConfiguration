@@ -256,7 +256,7 @@
         <if>
           <test>
             <test-day day="Sunday">
-              <relative-to name="Christmas"/>
+              <date day="25" month="12" year-1="yes"/><!-- Christmas -->
             </test-day>
           </test>
           <then>
@@ -264,7 +264,7 @@
           </then>
           <else>
             <weekday-after day="Sunday">
-              <relative-to name="Christmas"/>
+              <date day="25" month="12" year-1="yes"/><!-- Christmas -->
             </weekday-after>
           </else>
         </if>
