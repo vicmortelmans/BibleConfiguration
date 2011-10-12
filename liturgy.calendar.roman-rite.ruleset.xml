@@ -141,7 +141,7 @@
     <template>
      <name>Second Sunday after Christmas</name>
       <season>Christmas season</season>
-      <set>Weekdays of Christmas Seasion</set>
+      <set>Weekdays of Christmas Season</set>
       <coordinates>C1</coordinates>
       <rank nr="8">Sunday of Christmas</rank>
       <precedence>6</precedence>
