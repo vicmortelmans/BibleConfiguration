@@ -40,9 +40,7 @@
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A$nr_c1</coordinates>
-      <rank nr="4">Sunday of Advent</rank>
-      <precedence>2</precedence>
-      <vigil>true</vigil>
+      <rank nr="3">Sunday I-IV Advent</rank>
       <coincideswith>Z1224</coincideswith>
       <daterules>
         <weeks-before nr="$nr_i">
@@ -273,6 +271,51 @@
           <weekday-after day="Sunday">
             <date month="01" day="06"/><!-- Epiphany -->
           </weekday-after>
+        </weeks-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <!--
+       AFTER EPIPHANY BEFORE ADVENT
+              -->
+
+  <coordinaterules set="After Epiphany before Advent" start="Twenty-third Sunday after Pentecost" stop="Twenty-fourth and Last Sunday after Pentecost"
+    start-date="10-15" stop-date="11-19" overlap-priority="1">
+    <text>F</text>
+    <format template="00">
+      <count-weeks-between>
+        <weeks-before nr="8">
+          <relative-to-next-years name="First Sunday of Advent"/>
+        </weeks-before>
+        <weekday-before-or-self day="Sunday">
+          <this-date/>
+        </weekday-before-or-self>
+      </count-weeks-between>
+    </format>
+    <day-number>
+      <this-date/>
+    </day-number>
+  </coordinaterules>
+
+  <liturgicalday>
+    <parameters>
+      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$nr_s Sunday after Epiphany</name>
+      <season>Season per Annum</season>
+      <set>After Epiphany before Advent</set>
+      <coordinates>E$nr_c1</coordinates>
+      <rank nr="9">Sunday II class</rank>
+      <daterules>
+        <weeks-after nr="$nr_i">
+          <weeks-before nr="8">
+            <relative-to-next-years name="First Sunday of Advent"/>
+          </weeks-before>
         </weeks-after>
       </daterules>
     </template>
@@ -617,30 +660,109 @@
     </template>
   </liturgicalday>
 
-  <!-- 
-       SPECIAL DAYS AFTER EASTER
-                                 -->
+  <liturgicalday>
+    <parameters>
+      <parametergroup><day_s>Monday</day_s><nr_i>36</nr_i><day_c>2</day_c></parametergroup>
+      <parametergroup><day_s>Tuesday</day_s><nr_i>37</nr_i><day_c>3</day_c></parametergroup>
+      <parametergroup><day_s>Wednesday</day_s><nr_i>38</nr_i><day_c>4</day_c></parametergroup>
+    </parameters>
+    <template>
+      <name>Rogation Day</name>
+      <alternativename>$day_s before the Ascension of the Lord</alternativename> 
+      <season>Easter season</season>
+      <tide>Easter Tide</tide>
+      <set>Easter</set>
+      <coordinates>P06$day_c</coordinates>
+      <rank nr="10">Ferias II class</rank>
+      <daterules>
+        <days-after nr="$nr_i">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
   
-  <coordinaterules set="Special days after Easter" crosscheck="true"
-    start-date="04-30" stop-date="06-27" overlap-priority="0">
-    <query-set set="Special days after Easter"/>
+  <!--
+       ASCENSION AND PENTECOST 
+              -->
+
+  <coordinaterules set="Ascension" start="Vigil of the Ascension of the Lord" stop="Sunday after the Ascension of the Lord"
+    start-date="03-24" stop-date="06-19" overlap-priority="1">
+    <text>Q</text>
+    <format template="00">
+      <count-weeks-between>
+        <weeks-before nr="1">
+          <easterdate/>
+        </weeks-before>
+        <weekday-before-or-self day="Sunday">
+          <this-date/>
+        </weekday-before-or-self>
+      </count-weeks-between>
+    </format>
+    <day-number>
+      <this-date/>
+    </day-number>
   </coordinaterules>
 
   <liturgicalday>
     <template>
+     <name>Vigil of the Ascension of the Lord</name>
+      <season>Easter season</season>
+      <tide>Ascension Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q064</coordinates>
+      <rank nr="14">Vigils II class</rank>
+      <coincideswith>Q064</coincideswith>
+      <daterules>
+        <days-after nr="38">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+  <liturgicalday>
+    <template>
      <name>Ascension of the Lord</name>
       <season>Easter season</season>
-      <set>Special days after Easter</set>
-      <coordinates>P065</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>2</precedence>
-      <daterules option="ascension-std">
+      <tide>Ascension Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q065</coordinates>
+      <rank nr="6">Feasts of the Lord I class</rank>
+      <daterules>
         <days-after nr="39">
           <easterdate/>
         </days-after>
       </daterules>
-      <daterules option="ascension-alt">
+    </template>
+  </liturgicalday>
+  
+  <liturgicalday>
+    <template>
+     <name>Sunday after the Ascension of the Lord</name>
+      <season>Easter season</season>
+      <tide>Ascension Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q071</coordinates>
+      <rank nr="9">Sunday II class</rank>
+      <daterules>
         <days-after nr="42">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+  <liturgicalday>
+    <template>
+     <name>Vigil of Pentecost</name>
+      <season>Easter season</season>
+      <tide>Pentecost Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q077</coordinates>
+      <rank nr="2">Vigil of Pentecost</rank>
+      <daterules>
+        <days-after nr="48">
           <easterdate/>
         </days-after>
       </daterules>
@@ -651,10 +773,10 @@
     <template>
      <name>Pentecost</name>
       <season>Easter season</season>
-      <set>Special days after Easter</set>
-      <coordinates>P081</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>2</precedence>
+      <tide>Pentecost Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q081</coordinates>
+      <rank nr="3">Pentecost</rank>
       <daterules>
         <days-after nr="49">
           <easterdate/>
@@ -664,136 +786,88 @@
   </liturgicalday>
   
   <liturgicalday>
+    <template>
+     <name>Monday after Pentecost</name>
+      <season>Easter season</season>
+      <tide>Pentecost Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q082</coordinates>
+      <rank nr="4">Octave of Pentecost</rank>
+      <daterules>
+        <days-after nr="50">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+  <liturgicalday>
+    <parameters>
+      <parametergroup><day_s>Monday</day_s><nr_i>50</nr_i><day_c>2</day_c></parametergroup>
+      <parametergroup><day_s>Tuesday</day_s><nr_i>51</nr_i><day_c>3</day_c></parametergroup>
+      <parametergroup><day_s>Thursday</day_s><nr_i>53</nr_i><day_c>5</day_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s after Pentecost</name>
+      <season>Easter season</season>
+      <tide>Pentecost Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q08$day_c</coordinates>
+      <rank nr="4">Octave of Pentecost</rank>
+      <daterules>
+        <days-after nr="$nr_i">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+  <liturgicalday>
+    <parameters>
+      <parametergroup><day_s>Wednesday</day_s><nr_i>53</nr_i><day_c>4</day_c></parametergroup>
+      <parametergroup><day_s>Friday</day_s><nr_i>55</nr_i><day_c>6</day_c></parametergroup>
+      <parametergroup><day_s>Saturday</day_s><nr_i>56</nr_i><day_c>7</day_c></parametergroup>
+    </parameters>
+    <template>
+     <name>Ember $day_s after Pentecost</name>
+      <season>Easter season</season>
+      <tide>Pentecost Tide</tide>
+      <set>Ascension</set>
+      <coordinates>Q08$day_c</coordinates>
+      <rank nr="4">Octave of Pentecost</rank>
+      <daterules>
+        <days-after nr="$nr_i">
+          <easterdate/>
+        </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+  <!-- 
+       SPECIAL DAYS AFTER EASTER
+                                 -->
+  
+  <coordinaterules set="Special days after Easter" crosscheck="true"
+    start-date="04-30" stop-date="06-27" overlap-priority="0">
+    <query-set set="Special days after Easter"/>
+  </coordinaterules>
+
+  <liturgicalday>
     <parameters>
       <parametergroup><name>Trinity Sunday</name><days>56</days><c>P091</c></parametergroup>
+      <parametergroup><name>Corpus Christi</name><days>68</days><c>P106</c></parametergroup>
       <parametergroup><name>Solemnity of the Sacred Heart of Jezus</name><days>68</days><c>P106</c></parametergroup>
     </parameters>
     <template>
       <name>$name</name>
-      <season>Ordinary Time</season>
+      <season>Season per annum</season>
       <set>Special days after Easter</set>
       <coordinates>$c</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>3</precedence>
+      <rank nr="6">Feasts of the Lord I class</rank>
       <daterules>
         <days-after nr="$days">
           <easterdate/>
         </days-after>
-      </daterules>
-    </template>
-  </liturgicalday>
-  
-  <liturgicalday>
-    <template>
-      <name>Corpus Christi</name>
-      <season>Ordinary Time</season>
-      <set>Special days after Easter</set>
-      <coordinates>P095</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>3</precedence>
-      <daterules option="corpuschristi-std">
-        <days-after nr="60">
-          <easterdate/>
-        </days-after>
-      </daterules>
-      <daterules option="corpuschristi-alt">
-        <days-after nr="63">
-          <easterdate/>
-        </days-after>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-<!-- 
-     ORDINARY BEFORE EASTER 
-                            -->  
-  
-  <coordinaterules set="Ordinary before Easter" startafter="Feast of the Baptism of the Lord" stopbefore="Ash Wednesday"
-    start-date="01-09" stop-date="03-16" overlap-priority="2">
-    <text>X</text>
-    <format template="00">
-      <count-weeks-between>
-        <weeks-before nr="1">
-          <weekday-after day="Sunday">
-            <date day="6" month="1"/>
-          </weekday-after>
-        </weeks-before>
-        <weekday-before-or-self day="Sunday">
-          <this-date/>
-        </weekday-before-or-self>
-      </count-weeks-between>
-    </format>
-    <day-number>
-      <this-date/>
-    </day-number>
-  </coordinaterules>
-  
-  <liturgicalday>
-    <parameters>
-      <parametergroup><nr_s>Second</nr_s><nr_i>1</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
-      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
-      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>07</nr_c></parametergroup>
-      <parametergroup><nr_s>Eighth</nr_s><nr_i>7</nr_i><nr_c>08</nr_c></parametergroup>
-      <parametergroup><nr_s>Ninth</nr_s><nr_i>8</nr_i><nr_c>09</nr_c></parametergroup>
-      <parametergroup><nr_s>Tenth</nr_s><nr_i>9</nr_i><nr_c>10</nr_c></parametergroup>
-    </parameters>
-    <template>
-     <name>$nr_s Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X$nr_c1</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
-      <daterules>
-        <weeks-after nr="$nr_i">
-          <weekday-after day="Sunday">
-            <date day="6" month="1"/>
-          </weekday-after>
-        </weeks-after>
-      </daterules>
-    </template>
-  </liturgicalday>
-  
-  <liturgicalday>
-    <parameters>
-      <parameters>
-        <parametergroup><day_s>Monday</day_s><day_c>2</day_c></parametergroup>
-        <parametergroup><day_s>Tuesday</day_s><day_c>3</day_c></parametergroup>
-        <parametergroup><day_s>Wednesday</day_s><day_c>4</day_c></parametergroup>
-        <parametergroup><day_s>Thursday</day_s><day_c>5</day_c></parametergroup>
-        <parametergroup><day_s>Friday</day_s><day_c>6</day_c></parametergroup>
-        <parametergroup><day_s>Saturday</day_s><day_c>7</day_c></parametergroup>
-      </parameters>
-      <parametergroup><nr_s>First</nr_s><nr_i>0</nr_i><nr_c>01</nr_c></parametergroup>
-      <parametergroup><nr_s>Second</nr_s><nr_i>1</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
-      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
-      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>07</nr_c></parametergroup>
-      <parametergroup><nr_s>Eighth</nr_s><nr_i>7</nr_i><nr_c>08</nr_c></parametergroup>
-      <parametergroup><nr_s>Ninth</nr_s><nr_i>8</nr_i><nr_c>09</nr_c></parametergroup>
-      <parametergroup><nr_s>Tenth</nr_s><nr_i>9</nr_i><nr_c>10</nr_c></parametergroup>
-    </parameters>
-    <template>
-     <name>$day_s in the $nr_s Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary before Easter</set>
-      <coordinates>X$nr_c$day_c</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
-      <daterules>
-        <weekday-after day="$day_s">
-          <weeks-after nr="$nr_i">
-            <weekday-after day="Sunday">
-              <date day="6" month="1"/>
-            </weekday-after>
-          </weeks-after>
-        </weekday-after>
       </daterules>
     </template>
   </liturgicalday>
@@ -802,14 +876,14 @@
        ORDINARY AFTER EASTER 
                               -->  
   
-  <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Christ the King"
+  <coordinaterules set="Ordinary after Easter" startafter="Pentecost" stop="Twenty-fourth and last Sunday after Pentecost"
     start-date="05-11" stop-date="12-01" overlap-priority="5">
     <text>Y</text>
     <format template="00">
       <count-weeks-between>
-        <weeks-before nr="35">
-          <relative-to-next-years name="First Sunday of Advent"/>
-        </weeks-before>
+        <days-after nr="49">
+          <easterdate/>
+        </days-after><!-- Pentecost -->
         <weekday-before-or-self day="Sunday">
           <this-date/>
         </weekday-before-or-self>
@@ -822,6 +896,10 @@
   
   <liturgicalday>
     <parameters>
+      <parametergroup><nr_s>Second</nr_s><nr_i>1</nr_i><nr_c>02</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
       <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
       <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>07</nr_c></parametergroup>
       <parametergroup><nr_s>Eighth</nr_s><nr_i>7</nr_i><nr_c>08</nr_c></parametergroup>
@@ -852,91 +930,126 @@
       <parametergroup><nr_s>Thirty-third</nr_s><nr_i>32</nr_i><nr_c>33</nr_c></parametergroup>
     </parameters>
     <template>
-     <name>$nr_s Sunday of Ordinary Time</name>
-      <season>Ordinary Time</season>
+     <name>$nr_s Sunday after Pentecost</name>
+      <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y$nr_c1</coordinates>
-      <rank nr="8">Sunday of Ordinary Time</rank>
-      <precedence>6</precedence>
-      <vigil>true</vigil>
+      <rank nr="9">Sunday II class</rank>
       <daterules>
-        <weeks-after nr="$nr_i">
-          <weeks-before nr="35">
-            <relative-to-next-years name="First Sunday of Advent"/>
-          </weeks-before>
-        </weeks-after>
+        <days-after nr="49">
+          <easterdate/>
+        </days-after><!-- Pentecost -->
       </daterules>
     </template>
   </liturgicalday>
   
+<!-- 
+       EMBER DAYS OF SEPTEMBER 
+                              -->  
+  
+  <coordinaterules set="Ember days of September"
+    start-date="09-15" stop-date="09-21" overlap-priority="5">
+    <query-coordinates set="Fixed dates">
+      <text>S</text>
+      <day-number>
+        <this-date/>
+      </day-number>
+    </query-coordinates>
+  </coordinaterules>
+  
   <liturgicalday>
     <parameters>
       <parameters>
-        <parametergroup><day_s>Monday</day_s><day_c>2</day_c></parametergroup>
-        <parametergroup><day_s>Tuesday</day_s><day_c>3</day_c></parametergroup>
         <parametergroup><day_s>Wednesday</day_s><day_c>4</day_c></parametergroup>
-        <parametergroup><day_s>Thursday</day_s><day_c>5</day_c></parametergroup>
         <parametergroup><day_s>Friday</day_s><day_c>6</day_c></parametergroup>
         <parametergroup><day_s>Saturday</day_s><day_c>7</day_c></parametergroup>
       </parameters>
-      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventh</nr_s><nr_i>6</nr_i><nr_c>07</nr_c></parametergroup>
-      <parametergroup><nr_s>Eighth</nr_s><nr_i>7</nr_i><nr_c>08</nr_c></parametergroup>
-      <parametergroup><nr_s>Ninth</nr_s><nr_i>8</nr_i><nr_c>09</nr_c></parametergroup>
-      <parametergroup><nr_s>Tenth</nr_s><nr_i>9</nr_i><nr_c>10</nr_c></parametergroup>
-      <parametergroup><nr_s>Eleventh</nr_s><nr_i>10</nr_i><nr_c>11</nr_c></parametergroup>
-      <parametergroup><nr_s>Twelfth</nr_s><nr_i>11</nr_i><nr_c>12</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirtheenth</nr_s><nr_i>12</nr_i><nr_c>13</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourteenth</nr_s><nr_i>13</nr_i><nr_c>14</nr_c></parametergroup>
-      <parametergroup><nr_s>Fifteenth</nr_s><nr_i>14</nr_i><nr_c>15</nr_c></parametergroup>
-      <parametergroup><nr_s>Sixteenth</nr_s><nr_i>15</nr_i><nr_c>16</nr_c></parametergroup>
-      <parametergroup><nr_s>Seventeenth</nr_s><nr_i>16</nr_i><nr_c>17</nr_c></parametergroup>
-      <parametergroup><nr_s>Eighteenth</nr_s><nr_i>17</nr_i><nr_c>18</nr_c></parametergroup>
-      <parametergroup><nr_s>Nineteenth</nr_s><nr_i>18</nr_i><nr_c>19</nr_c></parametergroup>
-      <parametergroup><nr_s>Twentieth</nr_s><nr_i>19</nr_i><nr_c>20</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-first</nr_s><nr_i>20</nr_i><nr_c>21</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-second</nr_s><nr_i>21</nr_i><nr_c>22</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenth-third</nr_s><nr_i>22</nr_i><nr_c>23</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-fourth</nr_s><nr_i>23</nr_i><nr_c>24</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-fifth</nr_s><nr_i>24</nr_i><nr_c>25</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-sixth</nr_s><nr_i>25</nr_i><nr_c>26</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-seventh</nr_s><nr_i>26</nr_i><nr_c>27</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-eighth</nr_s><nr_i>27</nr_i><nr_c>28</nr_c></parametergroup>
-      <parametergroup><nr_s>Twenty-ninth</nr_s><nr_i>28</nr_i><nr_c>29</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirtieth</nr_s><nr_i>29</nr_i><nr_c>30</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-first</nr_s><nr_i>30</nr_i><nr_c>31</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-second</nr_s><nr_i>31</nr_i><nr_c>32</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-third</nr_s><nr_i>32</nr_i><nr_c>33</nr_c></parametergroup>
-      <parametergroup><nr_s>Thirty-fourth</nr_s><nr_i>33</nr_i><nr_c>34</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>1</nr_i><nr_c>03</nr_c></parametergroup>
     </parameters>
     <template>
-     <name>$day_s in the $nr_s Week of Ordinary Time</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y$nr_c$day_c</coordinates>
-      <rank nr="13">Weekday of Ordinary Time</rank>
-      <precedence>13</precedence>
+     <name>Ember $day_s in September</name>
+      <season>Season per annum</season>
+      <set>Ember days of September</set>
+      <coordinates>Sday_c</coordinates>
+      <rank nr="10">Ember day of September</rank>
+      <!-- http://catholicism.about.com/b/2009/09/17/reader-question-confusion-about-ember-days.htm -->
       <daterules>
         <weekday-after day="$day_s">
-          <weeks-after nr="$nr_i">
-            <weeks-before nr="35">
-              <relative-to-next-years name="First Sunday of Advent"/>
-            </weeks-before>
+          <weeks-after nr="2"><!-- third Sunday of September
+            <weekday-after day="Sunday"><!-- first Sunday of September -->
+              <date day="31" month="08"/>
+            </weekday-after>
           </weeks-after>
         </weekday-after>
       </daterules>
     </template>
   </liturgicalday>
 
+
+<!-- 
+     CHRIST THE KING
+                              -->
+
+  <coordinaterules set="Christ the King"
+    start-date="10-24" stop-date="10-31" overlap-priority="0">
+    <if>
+      <test>
+        <equals>
+          <this-date/>
+          <weekday-before day="Sunday">
+            <date day="01" month="11"/>
+          </weekday-before>
+        </equals>
+      </test>
+      <then>
+        <text>CHK</text>
+      </then>
+    </if>
+  </coordinaterules>
+
   <liturgicalday>
     <template>
      <name>Christ the King</name>
-      <season>Ordinary Time</season>
-      <set>Ordinary after Easter</set>
-      <coordinates>Y341</coordinates>
-      <rank nr="5">Movable Solemnity</rank>
-      <precedence>3</precedence>
-      <vigil>true</vigil>
+      <season>Season per annum</season>
+      <set>Christ the King</set>
+      <coordinates>CHK</coordinates>
+      <rank nr="6">Feasts of the Lord I class</rank>
+      <daterules>
+        <weekday-before day="Sunday">
+          <date day="01" month="11"/>
+        </weekday-before>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+<!-- 
+     LAST SUNDAY
+                              -->
+
+  <coordinaterules set="Last Sunday"
+    start-date="11-20" stop-date="11-26" overlap-priority="0">
+    <if>
+      <test>
+        <equals>
+          <this-date/>
+          <weeks-before nr="1">
+            <relative-to-next-years name="First Sunday of Advent"/>
+          </weeks-before>
+        </equals>
+      </test>
+      <then>
+        <text>24S</text>
+      </then>
+    </if>
+  </coordinaterules>
+
+  <liturgicalday>
+    <template>
+     <name>Twenty-fourth and Last Sunday after Pentecost</name>
+      <season>Season per annum</season>
+      <set>Last Sunday</set>
+      <coordinates>24S</coordinates>
+      <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-before nr="1">
           <relative-to-next-years name="First Sunday of Advent"/>
@@ -944,228 +1057,8 @@
       </daterules>
     </template>
   </liturgicalday>
-
-<!-- 
-     TRANSFERRED ANNUNCIATION
-                              -->
-
-  <coordinaterules set="Transferred Annunciation"
-    start-date="02-09" stop-date="05-03" overlap-priority="0">
-    <query-set set="Transferred Annunciation"/>
-  </coordinaterules>
-
-  <liturgicalday>
-    <template>
-      <name>Annunciation</name>
-      <season>Lent</season>
-      <set>Transferred Annunciation</set>
-      <coordinates>Z0325</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <equals>
-              <date day="25" month="3"/>
-              <relative-to name="Passion Sunday"/>
-            </equals>
-          </test>
-          <then>
-            <day-before day="Saturday">
-              <relative-to name="Passion Sunday"/>
-            </day-before>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <template>
-      <name>Annunciation</name>
-      <season>Easter</season>
-      <set>Transferred Annunciation</set>
-      <coordinates>Z0325</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <or>
-              <matches>
-                <coordinates set="Lent" day="25" month="3"/>
-                <string>L061,L062,L063,L064</string>
-              </matches>
-              <matches>
-                <coordinates set="Easter" day="25" month="3"/>
-                <string>P005,P006,P007,P011,P012,P013,P014,P015,P016,P017</string>
-              </matches>
-            </or>
-          </test>
-          <then>
-            <day-after day="Monday">
-              <weeks-after nr="1">
-                <easterdate/>
-              </weeks-after>
-            </day-after>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <parameters>
-      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
-      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
-      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
-      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
-      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
-    </parameters>
-    <template>
-      <name>Annunciation</name>
-      <season>Lent</season>
-      <set>Transferred Annunciation</set>
-      <coordinates>Z0325</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <matches>
-              <coordinates set="Lent" day="25" month="3"/>
-              <string s="L$nr_c1"/>
-            </matches>
-          </test>
-          <then>
-            <day-after day="Monday">
-              <weeks-after nr="$nr_i">
-                <easterdate/>
-              </weeks-after>
-            </day-after>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <!-- 
-       TRANSFERRED IMMACULATE CONCEPTION
-                                         -->
-  <coordinaterules set="Transferred Immaculate Conception"
-    start-date="12-09" stop-date="12-09" overlap-priority="0">
-    <query-set set="Transferred Immaculate Conception"/>
-  </coordinaterules>
-
-  <liturgicalday>
-    <parameters>
-      <parametergroup><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_c>03</nr_c></parametergroup>
-    </parameters>
-    <template>
-      <name>Immaculate Conception</name>
-      <season>Advent</season>
-      <set>Transferred Immaculate Conception</set>
-      <coordinates>Z1208</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <matches>
-              <coordinates set="Advent" day="08" month="12"/>
-              <string s="A$nr_c1"/>
-            </matches>
-          </test>
-          <then>
-            <date day="09" month="12"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <!-- 
-       TRANSFERRED JOSEPH 
-                          -->
-                          
-  <coordinaterules set="Transferred Joseph"
-    start-date="02-09" stop-date="05-03" overlap-priority="0">
-    <query-set set="Transferred Joseph"/>
-  </coordinaterules>
-
-  <liturgicalday>
-    <template>
-      <name>Joseph, husband of Mary</name>
-      <season>Lent</season>
-      <set>Transferred Joseph</set>
-      <coordinates>Z0319</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <or>
-              <equals>
-                <date day="19" month="3"/>
-                <relative-to name="Passion Sunday"/>
-              </equals>
-              <matches>
-                <coordinates set="Lent" day="19" month="3"/>
-                <string>L061,L062,L063,L064</string>
-              </matches>
-              <matches>
-                <coordinates set="Easter" day="19" month="3"/>
-                <string>P005,P006,P007,P011,P012,P013,P014,P015,P016,P017</string>
-              </matches>
-            </or>
-          </test>
-          <then>
-            <day-before day="Saturday">
-              <relative-to name="Passion Sunday"/>
-            </day-before>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <parameters>
-      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
-      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
-      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
-      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
-      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
-    </parameters>
-    <template>
-      <name>Joseph, husband of Mary</name>
-      <season>Lent</season>
-      <set>Transferred Joseph</set>
-      <coordinates>Z0319</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <matches>
-              <coordinates set="Lent" day="19" month="3"/>
-              <string s="L$nr_c1"/>
-            </matches>
-          </test>
-          <then>
-            <date day="20" month="03"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
+  
+  
   
   <!--
       FIXED DATES 
