@@ -1058,7 +1058,9 @@
     </template>
   </liturgicalday>
   
-  
+  <!--
+      ST. MATHIAS, APPOSTLE 
+                            -->
   
   <!--
       FIXED DATES 
@@ -1073,21 +1075,6 @@
     </query-coordinates>
   </coordinaterules>
  
-  <liturgicalday>
-    <template>
-      <name>Immaculate Conception</name>
-      <season>Advent</season>
-      <set>Fixed dates</set>
-      <coordinates>Z1208</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <date day="8" month="12" year-1="yes"/>
-      </daterules>
-    </template>
-  </liturgicalday>
-
   <liturgicalday>
     <template>
       <name>Vigil of Christmas</name>
@@ -1195,119 +1182,25 @@
   </liturgicalday>
 
   <liturgicalday>
-    <template>
-      <name>Annunciation</name>
-      <season>Lent</season>
-      <set>Fixed dates</set>
-      <coordinates>Z0325</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <before>
-              <date day="25" month="3"/>
-              <relative-to name="Holy Thursday"/>
-            </before>
-          </test>
-          <then>
-            <date day="25" month="3"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <template>
-      <name>Annunciation</name>
-      <season>Easter</season>
-      <set>Fixed dates</set>
-      <coordinates>Z0325</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <before>
-              <relative-to name="Wednesday in the Holy Week"/>
-              <date day="25" month="3"/>
-            </before>
-          </test>
-          <then>
-            <date day="25" month="3"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <template>
-      <name>Joseph, husband of Mary</name>
-      <season>Lent</season>
-      <set>Fixed dates</set>
-      <coordinates>Z0319</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <before>
-              <date day="19" month="3"/>
-              <relative-to name="Holy Thursday"/>
-            </before>
-          </test>
-          <then>
-            <date day="19" month="3"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <template>
-      <name>Joseph, husband of Mary</name>
-      <season>Easter</season>
-      <set>Fixed dates</set>
-      <coordinates>Z0319</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <vigil>true</vigil>
-      <precedence>3</precedence>
-      <daterules>
-        <if>
-          <test>
-            <before>
-              <relative-to name="Wednesday in the Holy Week"/>
-              <date day="19" month="3"/>
-            </before>
-          </test>
-          <then>
-            <date day="19" month="3"/>
-          </then>
-        </if>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
     <parameters><!-- Solemnities between 1/01 and 27/11 -->
-      <parametergroup><name>Solemnity of the Birth of John the Baptist</name><day>24</day><month>06</month></parametergroup>
-      <parametergroup><name>Solemnity of SS. Peter and Paul, apostles</name><day>29</day><month>06</month></parametergroup>
-      <parametergroup><name>Solemnity of the Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month></parametergroup>
-      <parametergroup><name>Solemnity of All Saints</name><day>01</day><month>11</month></parametergroup>
+      <parametergroup><name>St. Joseph, Spouse of the Blessed Virgin Mary</name><day>19</day><month>03</month></parametergroup>
+      <parametergroup><name>Annunciation of the Blessed Virgin Mary</name><day>25</day><month>03</month></parametergroup>
+      <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month></parametergroup>
+      <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month></parametergroup>
+      <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month></parametergroup>
+      <parametergroup><name>The Most Precious Blood of our Lord Jesus Christ</name><day>01</day><month>07</month></parametergroup>
+      <parametergroup><name>Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month></parametergroup>
+      <parametergroup><name>Dedication of St. Michael Archangel</name><day>29</day><month>09</month></parametergroup>
+      <parametergroup><name>All Saints</name><day>01</day><month>11</month></parametergroup>
+      <parametergroup><name>Commemoration of all the Faithful Departed</name><day>02</day><month>11</month></parametergroup>
+      <parametergroup><name>Immaculate Conception of the Blessed Virgin Mary</name><day>08</day><month>12</month></parametergroup>
     </parameters>
     <template>
      <name>$name</name>
-      <season>Ordinary Time</season>
+      <season>Season per annum</season>
       <set>Fixed dates</set>
       <coordinates>Z$month$day</coordinates>
-      <rank nr="6">Fixed Solemnity</rank>
-      <precedence>3</precedence>
+      <rank nr="6">Feasts of the Lord I class</rank>
       <daterules>
         <date day="$day" month="$month"/>
       </daterules>
@@ -1315,53 +1208,34 @@
   </liturgicalday>
   
   <liturgicalday>
-    <parameters>
-      <parametergroup><name>All Souls</name><day>02</day><month>11</month></parametergroup>
-    </parameters>
-    <template>
-     <name>$name</name>
-      <season>Ordinary Time</season>
-      <set>Fixed dates</set>
-      <coordinates>Z$month$day</coordinates>
-      <rank nr="6"></rank>
-      <precedence>3</precedence>
-      <!--All Souls day has the precedence of a solemnity but is not categorized as are other Liturgical Days-->
-      <daterules>
-        <date day="$day" month="$month"/>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
     <parameters><!-- Feasts between 1/01 and 27/11 -->
-      <parametergroup><name>Feast of the Conversion of Paul</name><day>25</day><month>01</month></parametergroup>
-      <parametergroup><name>Feast of the Presentation of the Lord</name><day>02</day><month>02</month></parametergroup>
-      <parametergroup><name>Feast of the Chair of St. Peter, apostle</name><day>22</day><month>02</month></parametergroup>
-      <parametergroup><name>Feast of St. Mark, evangelist</name><day>25</day><month>04</month></parametergroup>
-      <parametergroup><name>Feast of SS. Philip and James, apostles</name><day>03</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of St. Matthias, apostle</name><day>14</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of the Visitation</name><day>31</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of St. Thomas, apostle</name><day>03</day><month>07</month></parametergroup>
-      <parametergroup><name>Feast of St. James, apostle</name><day>25</day><month>07</month></parametergroup>
-      <parametergroup><name>Feast of the Transfiguration</name><day>06</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of St. Lawrence, deacon and martyr</name><day>10</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of St. Bartholomew, apostle</name><day>24</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of the Birth of Mary</name><day>08</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of the Triumph of the Cross</name><day>14</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of St. Matthew, apostle and evangelist</name><day>21</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of Michael, Gabriel and Raphael, Archangels</name><day>29</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of St. Luke, evangelist</name><day>18</day><month>10</month></parametergroup>
-      <parametergroup><name>Feast of SS. Simon and Jude, apostles</name><day>28</day><month>10</month></parametergroup>
-      <parametergroup><name>Feast of the Dedication of St. John Lateran</name><day>09</day><month>11</month></parametergroup>
-      <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month></parametergroup>
+      <parametergroup><name>Purification of the Blessed Virgin Mary</name><day>02</day><month>02</month></parametergroup>
+      <parametergroup><name>Chair of St. Peter</name><day>22</day><month>02</month></parametergroup>
+      <parametergroup><name>St. Mark Evangelist</name><day>25</day><month>04</month></parametergroup>
+      <parametergroup><name>Ss. Philip and James Apostles</name><day>11</day><month>05</month></parametergroup>
+      <parametergroup><name>Blessed Virgin Mary, Queen</name><day>31</day><month>05</month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
+      <parametergroup><name></name><day></day><month></month></parametergroup>
     </parameters>
     <template>
      <name>$name</name>
-      <season>Ordinary Time</season>
+      <season>Season per annum</season>
       <set>Fixed dates</set>
       <coordinates>Z$month$day</coordinates>
-      <rank nr="9">Feast</rank>
-      <precedence>7</precedence>
+      <rank nr="11">Particular Feasts II class</rank>
       <daterules>
         <date day="$day" month="$month"/>
       </daterules>
@@ -1369,3 +1243,4 @@
   </liturgicalday>
   
 </liturgicaldays>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
