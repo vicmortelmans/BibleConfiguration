@@ -95,10 +95,6 @@
   <coordinaterules set="Christmas Octave" startafter="Christmas" stop="Seventh day in the octave of Christmas"
     start-date="12-26" stop-date="12-31" overlap-priority="4">
     <text>B</text>
-    <count-days-between>
-      <date day="24" month="12" year-1="yes"/>
-      <this-date/>
-    </count-days-between>
   </coordinaterules>
 
   <liturgicalday>
