@@ -68,8 +68,20 @@
         <xsl:variable name="liturgicalday" select="//liturgicalday[coordinates = $coordinates][set = current()/@set][1]"/><!-- multiple <liturgicaldays> may have the same @coordinates -->
         <xsl:if test="$liturgicalday">
           <xsl:variable name="rank" select="$liturgicalday/rank/@nr"/>
-          <xsl:variable name="precedence" select="$liturgicalday/precedence"/>
+          <xsl:message>rank = <xsl:value-of select="$rank"/></xsl:message>
+          <xsl:variable name="precedence">
+            <xsl:choose>
+              <xsl:when test="$liturgicalday/precedence castable as xs:integer">
+                <xsl:value-of select="xs:integer($liturgicalday/precedence)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="0"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:message>precedence = <xsl:value-of select="$precedence"/></xsl:message>
           <xsl:variable name="overlap-priority" select="//coordinaterules[@set = current()/@set]/@overlap-priority"/>
+          <xsl:message>overlap-priority = <xsl:value-of select="$overlap-priority"/></xsl:message>
           <xsl:variable name="score" select="format-number(10000 * $rank + 100 * $precedence + $overlap-priority,'000000')"/>
           <coordinates set="{@set}" liturgicalday="{$liturgicalday/name}" rank="{$rank}" precedence="{$precedence}" overlap-priority="{$overlap-priority}" score="{$score}" coincideswith="{$liturgicalday/coincideswith}">
              <xsl:value-of select="replace($coordinates,'X','Y')"/>
