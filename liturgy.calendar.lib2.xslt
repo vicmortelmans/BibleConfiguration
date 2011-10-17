@@ -26,9 +26,11 @@
             <xsl:value-of select="$sameyear + 1"/>
             <xsl:text>&amp;coordinates=A011&amp;options=</xsl:text>
             <xsl:value-of select="$options"/>
-	        </xsl:variable>
-	        <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-	        <xsl:value-of select="document($rest)/date"/>
+            <xsl:text>&amp;form=</xsl:text>
+            <xsl:value-of select="$form"/>
+          </xsl:variable>
+          <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+          <xsl:value-of select="document($rest)/date"/>
         </xsl:variable>
         <xsl:choose>
           <xsl:when test="xs:date($date) &lt; xs:date($startnextyear)">
@@ -267,10 +269,12 @@
         <xsl:value-of select="$coordinates"/>
         <xsl:text>&amp;options=</xsl:text>
 	<xsl:value-of select="$options"/>
-	</xsl:variable>
-	<xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-	<xsl:value-of select="document($rest)/date"/>
-	</xsl:template>
+        <xsl:text>&amp;form=</xsl:text>
+        <xsl:value-of select="$form"/>
+    </xsl:variable>
+    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:value-of select="document($rest)/date"/>
+  </xsl:template>
 
   <xsl:template match="relative-to-next-years">
     <!-- INPUT $* : typically $year
@@ -284,11 +288,13 @@
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
         <xsl:text>&amp;options=</xsl:text>
-	<xsl:value-of select="$options"/>
-	</xsl:variable>
-	<xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-	<xsl:value-of select="document($rest)/date"/>
-	</xsl:template>
+        <xsl:value-of select="$options"/>
+        <xsl:text>&amp;form=</xsl:text>
+        <xsl:value-of select="$form"/>
+    </xsl:variable>
+    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:value-of select="document($rest)/date"/>
+  </xsl:template>
 
 	<!-- 
 	COORDINATES OPERATORS
@@ -309,6 +315,8 @@
       <xsl:value-of select="$date"/>
       <xsl:text>&amp;options=</xsl:text>
       <xsl:value-of select="$options"/>
+      <xsl:text>&amp;form=</xsl:text>
+      <xsl:value-of select="$form"/>
     </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
     <xsl:value-of select="document($rest)/coordinates"/> 

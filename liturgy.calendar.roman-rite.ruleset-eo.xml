@@ -970,12 +970,12 @@
      <name>Ember $day_s in September</name>
       <season>Season per annum</season>
       <set>Ember days of September</set>
-      <coordinates>Sday_c</coordinates>
+      <coordinates>S$day_c</coordinates>
       <rank nr="10">Ember day of September</rank>
       <!-- http://catholicism.about.com/b/2009/09/17/reader-question-confusion-about-ember-days.htm -->
       <daterules>
         <weekday-after day="$day_s">
-          <weeks-after nr="2"><!-- third Sunday of September
+          <weeks-after nr="2"><!-- third Sunday of September-->
             <weekday-after day="Sunday"><!-- first Sunday of September -->
               <date day="31" month="08"/>
             </weekday-after>

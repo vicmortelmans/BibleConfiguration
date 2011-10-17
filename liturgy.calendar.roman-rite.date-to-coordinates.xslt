@@ -12,6 +12,7 @@
   <xsl:param name="date" select="'2011-08-09'"/>
   <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
   <xsl:param name="score" select="yes"/>
+  <xsl:param name="form" select="of"/>
   
   <xsl:variable name="year">
     <xsl:call-template name="liturgical-year">
