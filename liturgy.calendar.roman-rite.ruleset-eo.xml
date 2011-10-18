@@ -114,22 +114,6 @@
     </template>
   </liturgicalday>
   
-  <liturgicalday>
-    <template>
-      <name>Octave day of Christmas</name>
-      <alternativename>The Circumcision of Christ</alternativename>
-      <season>Christmas season</season>
-      <tide>Christmas Tide</tide>
-      <set>Christmas Octave</set>
-      <coordinates>B8</coordinates>
-      <rank nr="12">Octave of Christmas</rank>
-      <daterules>
-        <days-after nr="8">
-          <date day="25" month="12" year-1="yes"/>
-        </days-after>
-      </daterules>
-    </template>
-  </liturgicalday>
   
 <!-- 
      SUNDAYS OF CHRISTMAS SEASON
@@ -223,9 +207,11 @@
     <text>E</text>
     <format template="00">
       <count-weeks-between>
-        <weekday-after day="Sunday">
-          <date month="01" day="06"/><!-- Epiphany -->
-        </weekday-after>
+        <weeks-before nr="1">
+          <weekday-after day="Sunday">
+            <date month="01" day="06"/><!-- Epiphany -->
+          </weekday-after>
+        </weeks-before>
         <weekday-before-or-self day="Sunday">
           <this-date/>
         </weekday-before-or-self>
@@ -330,7 +316,7 @@
     <text>G</text>
     <format template="00">
       <count-weeks-between>
-        <days-before nr="63">
+        <days-before nr="70">
           <easterdate/>
         </days-before>
         <weekday-before-or-self day="Sunday">
@@ -418,6 +404,29 @@
         <days-before nr="$nr_i">
           <easterdate/>
         </days-before>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
+    <parameters>
+        <parametergroup><day_s>Wednesday</day_s><day_c>4</day_c></parametergroup>
+        <parametergroup><day_s>Friday</day_s><day_c>6</day_c></parametergroup>
+        <parametergroup><day_s>Saturday</day_s><day_c>7</day_c></parametergroup>
+    </parameters>
+    <template>
+     <name>Ember $day_s in Lent</name>
+      <season>Season of Lent</season>
+      <tide>Lent</tide>
+      <set>Lent</set>
+      <coordinates>L01$day_c</coordinates>
+      <rank nr="10">Ember day of Lent</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="6">
+            <easterdate/>
+          </weeks-before>
+        </weekday-after>
       </daterules>
     </template>
   </liturgicalday>
@@ -1180,6 +1189,21 @@
       <rank nr="12">Octave of Christmas</rank>
       <daterules>
         <date day="28" month="12" year-1="yes"/>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
+    <template>
+      <name>Octave day of Christmas</name>
+      <alternativename>The Circumcision of Christ</alternativename>
+      <season>Christmas season</season>
+      <tide>Christmas Tide</tide>
+      <set>Fixed dates</set>
+      <coordinates>Z0101</coordinates>
+      <rank nr="12">Octave of Christmas</rank>
+      <daterules>
+        <date day="01" month="01"/>
       </daterules>
     </template>
   </liturgicalday>
