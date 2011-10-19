@@ -295,6 +295,21 @@
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
     <xsl:value-of select="document($rest)/date"/>
   </xsl:template>
+  
+  <xsl:template match="transfer">
+    <!-- INPUT @set : the set of the current day, so implicitly telling
+                 all *other* sets to be investigated
+               @rank : the rank of the current day
+               * : a date
+         OUTPUT yyyy-mm-dd : a date -->
+    <xsl:param name="rank"/>
+    <xsl:param name="set"/>
+    <xsl:variable name="date">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    
+  </xsl:template match="transfer">
+
 
 	<!-- 
 	COORDINATES OPERATORS

@@ -1259,7 +1259,9 @@
       <coordinates>Z$month$day</coordinates>
       <rank nr="6">Feasts of the Lord I class</rank>
       <daterules>
-        <date day="$day" month="$month"/>
+        <transfer rank="6" set="Fixed dates">
+          <date day="$day" month="$month"/>
+        </transfer>
       </daterules>
     </template>
   </liturgicalday>
