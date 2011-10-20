@@ -307,7 +307,7 @@
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
-    
+
   </xsl:template match="transfer">
 
 
@@ -316,15 +316,25 @@
 	-->
 
   <xsl:template match="coordinates">
-    <!-- INPUT $year : yyyy
+    <!-- INPUT $year : yyyy (contains liturgical year)
          @set : name of a set of liturgical days
          @day : dd
          @month : mm
+         @year-1 : yes (or absent)
          OUTPUT evaluation of the coordinaterules for @set for $date = yyyy-mm-dd -->
-    <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>)</xsl:message>
-    <xsl:variable name="date" select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+    <xsl:message>coordinates(year : <xsl:value-of select="$year"/>, set : <xsl:value-of select="@set"/>, day : <xsl:value-of select="@day"/>, month : <xsl:value-of select="@month"/>, before 01/1 : <xsl:value-of select="@year-1"/>)</xsl:message>
+    <xsl:variable name="date">
+      <xsl:choose>
+        <xsl:when test="@year-1">
+          <xsl:value-of select="xs:date(concat($year-1,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="rest">
-      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
+     <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
       <xsl:value-of select="@set"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
