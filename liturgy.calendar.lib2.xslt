@@ -304,10 +304,39 @@
          OUTPUT yyyy-mm-dd : a date -->
     <xsl:param name="rank"/>
     <xsl:param name="set"/>
+    <xsl:variable name="rank" select="@rank"/>
     <xsl:variable name="date">
-      <xsl:apply-templates/>
+            <xsl:apply-templates/>
     </xsl:variable>
-
+    <xsl:variable name="overruling">
+        <xsl:variable name="ruleset">
+          <all-coordinates>
+            <xsl:value-of select="$date"/>
+          </all-coordinates>
+        </xsl:variable>
+        <xsl:variable name="coordinates">
+          <xsl:apply-templates select="$ruleset"/>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="$coordinates//coordinates[
+            @rank &gt; $rank and 
+            not(@set = $set)]">
+            <xsl:variable name="ruleset">
+              <transfer set="{$set}" rank="{$rank}">
+                <days-after nr="1">
+                  <xsl:value-of select="$date"/>
+                </days-after>
+              </transfer>
+            </xsl:ruleset>
+            <!-- recursive call -->
+            <xsl:apply-templates select="$ruleset"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$date"/>
+          </xsl:otherwise>
+        </xsl:choos>
+    </xsl:variable>
+    
   </xsl:template match="transfer">
 
 
@@ -337,6 +366,26 @@
      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
       <xsl:value-of select="@set"/>
       <xsl:text>&amp;date=</xsl:text> 
+      <xsl:value-of select="$date"/>
+      <xsl:text>&amp;options=</xsl:text>
+      <xsl:value-of select="$options"/>
+      <xsl:text>&amp;form=</xsl:text>
+      <xsl:value-of select="$form"/>
+    </xsl:variable>
+    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:value-of select="document($rest)/coordinates"/> 
+  </xsl:template>
+
+  <xsl:template match="all-coordinates">
+    <!-- INPUT 
+         * : a date
+         OUTPUT evaluation of the coordinaterules for all sets -->
+    <xsl:message>all-coordinates</xsl:message>
+    <xsl:variable name="date">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:variable name="rest">
+      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
       <xsl:text>&amp;options=</xsl:text>
       <xsl:value-of select="$options"/>
