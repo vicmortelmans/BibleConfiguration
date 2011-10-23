@@ -302,42 +302,41 @@
                @rank : the rank of the current day
                * : a date
          OUTPUT yyyy-mm-dd : a date -->
-    <xsl:param name="rank"/>
-    <xsl:param name="set"/>
+    <xsl:message>transfer(set : <xsl:value-of select="@set"/>, rank : <xsl:value-of select="@rank"/>)</xsl:message>
     <xsl:variable name="rank" select="@rank"/>
+    <xsl:variable name="set" select="@set"/>
     <xsl:variable name="date">
             <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:variable name="overruling">
-        <xsl:variable name="ruleset">
-          <all-coordinates>
-            <xsl:value-of select="$date"/>
-          </all-coordinates>
-        </xsl:variable>
-        <xsl:variable name="coordinates">
-          <xsl:apply-templates select="$ruleset"/>
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="$coordinates//coordinates[
-            @rank &gt; $rank and 
-            not(@set = $set)]">
-            <xsl:variable name="ruleset">
-              <transfer set="{$set}" rank="{$rank}">
-                <days-after nr="1">
-                  <xsl:value-of select="$date"/>
-                </days-after>
-              </transfer>
-            </xsl:ruleset>
-            <!-- recursive call -->
-            <xsl:apply-templates select="$ruleset"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$date"/>
-          </xsl:otherwise>
-        </xsl:choos>
+    <xsl:variable name="ruleset">
+      <all-coordinates>
+        <xsl:value-of select="$date"/>
+      </all-coordinates>
     </xsl:variable>
-    
-  </xsl:template match="transfer">
+    <xsl:variable name="coordinates">
+      <xsl:apply-templates select="$ruleset"/>
+    </xsl:variable>
+    <!--xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message-->
+    <xsl:choose>
+      <xsl:when test="$coordinates//coordinates[
+        @rank &lt; $rank and 
+        not(@set = $set)]">
+        <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/></xsl:message>
+        <xsl:variable name="ruleset">
+          <transfer set="{$set}" rank="{$rank}">
+            <days-after nr="1">
+               <xsl:value-of select="$date"/>
+            </days-after>
+          </transfer>
+          </xsl:variable>
+        <!-- recursive call -->
+        <xsl:apply-templates select="$ruleset"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$date"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
 
 	<!-- 
@@ -355,10 +354,10 @@
     <xsl:variable name="date">
       <xsl:choose>
         <xsl:when test="@year-1">
-          <xsl:value-of select="xs:date(concat($year-1,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+          <xsl:value-of select="xs:date(concat(@year-1,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+          <xsl:value-of select="xs:date(concat(@year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -393,7 +392,7 @@
       <xsl:value-of select="$form"/>
     </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:value-of select="document($rest)/coordinates"/> 
+    <xsl:copy-of select="document($rest)/results"/> 
   </xsl:template>
 
   <xsl:template match="query-set">

@@ -625,10 +625,10 @@
   
   <liturgicalday>
     <parameters>
-      <parametergroup><nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourth</nr_s><nr_i>4</nr_i><nr_c>04</nr_c></parametergroup>
-      <parametergroup><nr_s>Fifth</nr_s><nr_i>5</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
     </parameters>
     <template>
      <name>$nr_s Sunday after Easter</name>
@@ -682,7 +682,8 @@
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P06$day_c</coordinates>
-      <rank nr="10">Ferias II class</rank>
+      <rank nr="15">Ferias III class</rank>
+      <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="$nr_i">
           <easterdate/>
@@ -721,7 +722,6 @@
       <set>Ascension</set>
       <coordinates>Q064</coordinates>
       <rank nr="14">Vigils II class</rank>
-      <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="38">
           <easterdate/>
@@ -1109,12 +1109,7 @@
                   -->
   
   <coordinaterules set="Fixed dates" start-date="01-01" stop-date="12-31" overlap-priority="6">
-    <query-coordinates set="Fixed dates">
-      <text>Z</text>
-      <mmdd>
-        <this-date/>
-      </mmdd>
-    </query-coordinates>
+    <query-set set="Fixed dates"/>
   </coordinaterules>
  
   <liturgicalday>
