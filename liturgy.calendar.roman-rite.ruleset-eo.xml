@@ -1105,6 +1105,49 @@
   </liturgicalday>
 
   <!--
+      GREATER LITANIES 
+                            -->
+  
+  <coordinaterules set="Greater Litanies"
+    start-date="04-24 stop-date="04-27" overlap-priority="7">
+    <query-set set="Greater Litanies"/>
+  </coordinaterules>
+
+  <liturgicalday>
+    <template>
+     <name>Greater Litanies</name>
+      <season>Season per annum</season>
+      <set>Greater Litanies</set>
+      <coordinates>GRL</coordinates>
+      <rank nr="2">Greater Litanies</rank>
+      <daterules>
+        <if>
+          <test>
+            <or>
+              <equals>
+                <easterdate/>
+                <date day="24" month="4"/>
+              </equals>
+              <equals>
+                <easterdate/>
+                <date day="25" month="4"/>
+              </equals>
+            </or>
+          </test>
+          <then>
+            <day-after day="Tuesday">
+              <easterdate/>
+            </day-after>
+          </then>
+          <else>
+            <date day="25" month="4"/>
+          </else>
+        </if>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <!--
       FIXED DATES 
                   -->
   
@@ -1294,6 +1337,7 @@
       <set>Fixed dates</set>
       <coordinates>Z$month$day</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
         <date day="$day" month="$month"/>
       </daterules>
