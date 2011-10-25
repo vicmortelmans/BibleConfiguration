@@ -1285,12 +1285,12 @@
       <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
       <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
       <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
-      <parametergroup><name>The Most Precious Blood of our Lord Jesus Christ</name><day>01</day><month>07</month></parametergroup>
-      <parametergroup><name>Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month></parametergroup>
-      <parametergroup><name>Dedication of St. Michael Archangel</name><day>29</day><month>09</month></parametergroup>
-      <parametergroup><name>All Saints</name><day>01</day><month>11</month></parametergroup>
-      <parametergroup><name>Commemoration of all the Faithful Departed</name><day>02</day><month>11</month></parametergroup>
-      <parametergroup><name>Immaculate Conception of the Blessed Virgin Mary</name><day>08</day><month>12</month></parametergroup>
+      <parametergroup><name>The Most Precious Blood of our Lord Jesus Christ</name><day>01</day><month>07</month><coincidingset/></parametergroup>
+      <parametergroup><name>Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month><coincidingset/></parametergroup>
+      <parametergroup><name>Dedication of St. Michael Archangel</name><day>29</day><month>09</month><coincidingset/></parametergroup>
+      <parametergroup><name>All Saints</name><day>01</day><month>11</month><coincidingset/></parametergroup>
+      <parametergroup><name>Commemoration of all the Faithful Departed</name><day>02</day><month>11</month><coincidingset/></parametergroup>
+      <parametergroup><name>Immaculate Conception of the Blessed Virgin Mary</name><day>08</day><month>12</month><coincidingset/></parametergroup>
     </parameters>
     <template>
      <name>$name</name>
@@ -1308,30 +1308,30 @@
   
   <liturgicalday>
     <parameters><!-- Feasts between 1/01 and 27/11 -->
-      <parametergroup><name>Purification of the Blessed Virgin Mary</name><day>02</day><month>02</month></parametergroup>
-      <parametergroup><name>Chair of St. Peter</name><day>22</day><month>02</month></parametergroup>
+      <parametergroup><name>Purification of the Blessed Virgin Mary</name><day>02</day><month>02</month><coincideswith/></parametergroup>
+      <parametergroup><name>Chair of St. Peter</name><day>22</day><month>02</month><coincideswith/></parametergroup>
       <parametergroup><name>St. Mark Evangelist</name><day>25</day><month>04</month><coincideswith>GRL</coincideswith></parametergroup>
-      <parametergroup><name>Ss. Philip and James Apostles</name><day>11</day><month>05</month></parametergroup>
-      <parametergroup><name>Blessed Virgin Mary, Queen</name><day>31</day><month>05</month></parametergroup>
-      <parametergroup><name>Visitation of the Blessed Virgin Mary</name><day>02</day><month>07</month></parametergroup>
-      <parametergroup><name>St. James Apostle</name><day>25</day><month>07</month></parametergroup>
-      <parametergroup><name>St. Anne Mother of the Blessed Virgin Mary</name><day>26</day><month>07</month></parametergroup>
-      <parametergroup><name>Transfiguration of our Lord Jesus Christ</name><day>06</day><month>08</month></parametergroup>
-      <parametergroup><name>St. Laurence Martyr</name><day>10</day><month>08</month></parametergroup>
-      <parametergroup><name>St. Joachim Father of the Blessed Virgin Mary</name><day>16</day><month>08</month></parametergroup>
-      <parametergroup><name>Immaculate Heart of the Blessed Virgin Mary</name><day>22</day><month>08</month></parametergroup>
-      <parametergroup><name>St. Bartholomew Apostle</name><day>24</day><month>08</month></parametergroup>
-      <parametergroup><name>Nativity of the Blessed Virgin Mary</name><day>08</day><month>09</month></parametergroup>
-      <parametergroup><name>Exaltation of the Holy Cross</name><day>14</day><month>09</month></parametergroup>
-      <parametergroup><name>Seven Sorrows of the Blessed Virgin Mary</name><day>15</day><month>09</month></parametergroup>
-      <parametergroup><name>St. Matthew Apostle and Evangelist</name><day>21</day><month>09</month></parametergroup>
-      <parametergroup><name>Blessed Virgin Mary of the Rosary</name><day>07</day><month>10</month></parametergroup>
-      <parametergroup><name>The Maternity of the Blessed Virgin Mary</name><day>11</day><month>10</month></parametergroup>
-      <parametergroup><name>St. Luke Evangelist</name><day>18</day><month>10</month></parametergroup>
-      <parametergroup><name>Ss. Simon and Jude Apostles</name><day>28</day><month>10</month></parametergroup>
-      <parametergroup><name>Dedication of the Archbasilica of the most Holy Saviour</name><day>09</day><month>11</month></parametergroup>
-      <parametergroup><name>St. Andrew Apostle</name><day>30</day><month>11</month></parametergroup>
-      <parametergroup><name>St. Thomas Apostle</name><day>21</day><month>12</month></parametergroup>
+      <parametergroup><name>Ss. Philip and James Apostles</name><day>11</day><month>05</month><coincideswith/></parametergroup>
+      <parametergroup><name>Blessed Virgin Mary, Queen</name><day>31</day><month>05</month><coincideswith/></parametergroup>
+      <parametergroup><name>Visitation of the Blessed Virgin Mary</name><day>02</day><month>07</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. James Apostle</name><day>25</day><month>07</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Anne Mother of the Blessed Virgin Mary</name><day>26</day><month>07</month><coincideswith/></parametergroup>
+      <parametergroup><name>Transfiguration of our Lord Jesus Christ</name><day>06</day><month>08</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Laurence Martyr</name><day>10</day><month>08</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Joachim Father of the Blessed Virgin Mary</name><day>16</day><month>08</month><coincideswith/></parametergroup>
+      <parametergroup><name>Immaculate Heart of the Blessed Virgin Mary</name><day>22</day><month>08</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Bartholomew Apostle</name><day>24</day><month>08</month><coincideswith/></parametergroup>
+      <parametergroup><name>Nativity of the Blessed Virgin Mary</name><day>08</day><month>09</month><coincideswith/></parametergroup>
+      <parametergroup><name>Exaltation of the Holy Cross</name><day>14</day><month>09</month><coincideswith/></parametergroup>
+      <parametergroup><name>Seven Sorrows of the Blessed Virgin Mary</name><day>15</day><month>09</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Matthew Apostle and Evangelist</name><day>21</day><month>09</month><coincideswith/></parametergroup>
+      <parametergroup><name>Blessed Virgin Mary of the Rosary</name><day>07</day><month>10</month><coincideswith/></parametergroup>
+      <parametergroup><name>The Maternity of the Blessed Virgin Mary</name><day>11</day><month>10</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Luke Evangelist</name><day>18</day><month>10</month><coincideswith/></parametergroup>
+      <parametergroup><name>Ss. Simon and Jude Apostles</name><day>28</day><month>10</month><coincideswith/></parametergroup>
+      <parametergroup><name>Dedication of the Archbasilica of the most Holy Saviour</name><day>09</day><month>11</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Andrew Apostle</name><day>30</day><month>11</month><coincideswith/></parametergroup>
+      <parametergroup><name>St. Thomas Apostle</name><day>21</day><month>12</month><coincideswith/></parametergroup>
     </parameters>
     <template>
      <name>$name</name>
