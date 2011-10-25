@@ -1109,7 +1109,7 @@
                             -->
   
   <coordinaterules set="Greater Litanies"
-    start-date="04-24 stop-date="04-27" overlap-priority="7">
+    start-date="04-24" stop-date="04-27" overlap-priority="7">
     <query-set set="Greater Litanies"/>
   </coordinaterules>
 
@@ -1135,9 +1135,9 @@
             </or>
           </test>
           <then>
-            <day-after day="Tuesday">
+            <weekday-after day="Tuesday">
               <easterdate/>
-            </day-after>
+            </weekday-after>
           </then>
           <else>
             <date day="25" month="4"/>
@@ -1339,7 +1339,9 @@
       <rank nr="11">Particular Feasts II class</rank>
       <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="$day" month="$month"/>
+        <transfer rank="11" set="Fixed dates">
+          <date day="$day" month="$month"/>
+        </transfer>
       </daterules>
     </template>
   </liturgicalday>

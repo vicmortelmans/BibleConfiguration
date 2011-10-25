@@ -1091,7 +1091,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Ascension</set>
       <coordinates>Q064</coordinates>
       <rank nr="14">Vigils II class</rank>
-      <coincideswith>P064</coincideswith>
       <daterules>
         <days-after nr="38">
             <easterdate/>
@@ -1893,6 +1892,45 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   
   
+  <coordinaterules set="Greater Litanies" start-date="04-24" stop-date="04-27"
+                    overlap-priority="7">
+      <query-set set="Greater Litanies"/>
+  </coordinaterules>
+
+  <liturgicalday>
+      <name>Greater Litanies</name>
+      <season>Season per annum</season>
+      <set>Greater Litanies</set>
+      <coordinates>GRL</coordinates>
+      <rank nr="2">Greater Litanies</rank>
+      <daterules>
+        <if>
+            <test>
+               <or>
+                  <equals>
+                     <easterdate/>
+                     <date day="24" month="4"/>
+                  </equals>
+                  <equals>
+                     <easterdate/>
+                     <date day="25" month="4"/>
+                  </equals>
+               </or>
+            </test>
+            <then>
+               <weekday-after day="Tuesday">
+                  <easterdate/>
+               </weekday-after>
+            </then>
+            <else>
+               <date day="25" month="4"/>
+            </else>
+        </if>
+      </daterules>
+   </liturgicalday>
+
+  
+  
   <coordinaterules set="Fixed dates" start-date="01-01" stop-date="12-31" overlap-priority="6">
       <query-set set="Fixed dates"/>
   </coordinaterules>
@@ -2141,8 +2179,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0202</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="02" month="02"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="02" month="02"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2151,8 +2192,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0222</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="22" month="02"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="22" month="02"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2161,8 +2205,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0425</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="25" month="04"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="25" month="04"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2171,8 +2218,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0511</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="11" month="05"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="11" month="05"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2181,8 +2231,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0531</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="31" month="05"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="31" month="05"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2191,8 +2244,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0702</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="02" month="07"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="02" month="07"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2201,8 +2257,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0725</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="25" month="07"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="25" month="07"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2211,8 +2270,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0726</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="26" month="07"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="26" month="07"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2221,8 +2283,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0806</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="06" month="08"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="06" month="08"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2231,8 +2296,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0810</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="10" month="08"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="10" month="08"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2241,8 +2309,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0816</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="16" month="08"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="16" month="08"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2251,8 +2322,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0822</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="22" month="08"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="22" month="08"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2261,8 +2335,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0824</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="24" month="08"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="24" month="08"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2271,8 +2348,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0908</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="08" month="09"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="08" month="09"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2281,8 +2361,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0914</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="14" month="09"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="14" month="09"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2291,8 +2374,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0915</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="15" month="09"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="15" month="09"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2301,8 +2387,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z0921</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="21" month="09"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="21" month="09"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2311,8 +2400,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1007</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="07" month="10"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="07" month="10"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2321,8 +2413,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1011</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="11" month="10"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="11" month="10"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2331,8 +2426,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1018</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="18" month="10"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="18" month="10"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2341,8 +2439,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1028</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="28" month="10"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="28" month="10"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2351,8 +2452,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1109</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="09" month="11"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="09" month="11"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2361,8 +2465,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1130</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="30" month="11"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="30" month="11"/>
+        </transfer>
       </daterules>
    </liturgicalday>
    <liturgicalday>
@@ -2371,8 +2478,11 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>Fixed dates</set>
       <coordinates>Z1221</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
+      <coincideswith>GRL</coincideswith>
       <daterules>
-        <date day="21" month="12"/>
+        <transfer rank="11" set="Fixed dates">
+            <date day="21" month="12"/>
+        </transfer>
       </daterules>
    </liturgicalday>
   
