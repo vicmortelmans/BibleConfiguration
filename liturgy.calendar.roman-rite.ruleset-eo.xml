@@ -80,6 +80,76 @@
     </template>
   </liturgicalday>
 
+  <!-- 
+      DAYS BEFORE CHRISTMAS 
+              -->
+
+  <coordinaterules set="Days before Christmas" start="First Sunday of Advent" stopbefore="Christmas"
+    start-date="12-17" stop-date="12-24" overlap-priority="8">
+    <text>D</text>
+    <format template="00">
+      <count-weeks-between>
+        <weeks-before nr="4">
+          <weekday-before day="Sunday">
+            <date day="25" month="12" year-1="yes"/>
+          </weekday-before>
+        </weeks-before>
+        <weekday-before-or-self day="Sunday">
+          <this-date/>
+        </weekday-before-or-self>
+      </count-weeks-between>
+    </format>
+    <day-number>
+      <this-date/>
+    </day-number>
+  </coordinaterules>
+
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+      <parametergroup>
+        <nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c>
+        <nr_s>Fourth</nr_s><nr_i>4</nr_i><nr_c>04</nr_c>
+      </parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D$nr_c$day_c</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="$nr_i">
+            <weekday-before day="Sunday">
+              <date day="25" month="12" year-1="yes"/>
+            </weekday-before>
+          </weeks-before>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
 <!--
      CHRISTMAS OCTAVE
                       -->
