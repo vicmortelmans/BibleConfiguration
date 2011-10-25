@@ -77,7 +77,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
     <xsl:param name="string"/>
     <xsl:param name="parametergroup"/>
     <xsl:choose>
-      <xsl:when test="not(normalize-space($parametergroup)) or not(matches($string,'\$'))">
+      <xsl:when test="not(matches($string,'\$'))">
         <xsl:value-of select="$string"/>
       </xsl:when>
       <xsl:otherwise>
