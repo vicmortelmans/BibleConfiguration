@@ -150,6 +150,236 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
 
+  
+
+  <coordinaterules set="Days before Christmas" start="First Sunday of Advent"
+                    stopbefore="Christmas"
+                    start-date="12-17"
+                    stop-date="12-24"
+                    overlap-priority="8">
+      <text>D</text>
+      <format template="00">
+         <count-weeks-between>
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+            <weekday-before-or-self day="Sunday">
+               <this-date/>
+            </weekday-before-or-self>
+         </count-weeks-between>
+      </format>
+      <day-number>
+         <this-date/>
+      </day-number>
+  </coordinaterules>
+
+  <liturgicalday>
+      <name>Monday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D032</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Monday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Tuesday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D033</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Tuesday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Wednesday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D034</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Wednesday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Thursday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D035</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Thursday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D036</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Friday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday in the Third week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D037</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Saturday">
+            <weeks-before nr="3">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Monday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D042</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Monday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Tuesday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D043</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Tuesday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Wednesday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D044</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Wednesday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Thursday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D045</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Thursday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Friday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D046</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Friday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Saturday in the Fourth week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Days before Christmas</set>
+      <coordinates>D047</coordinates>
+      <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
+      <daterules>
+        <weekday-after day="Saturday">
+            <weeks-before nr="4">
+               <weekday-before day="Sunday">
+                  <date day="25" month="12" year-1="yes"/>
+               </weekday-before>
+            </weeks-before>
+        </weekday-after>
+      </daterules>
+   </liturgicalday>
+
 
 
   <coordinaterules set="Octave of Christmas" startafter="Christmas"
