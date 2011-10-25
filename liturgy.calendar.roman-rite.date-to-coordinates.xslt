@@ -37,12 +37,31 @@
     </xsl:variable>
     <results>
       <xsl:choose>
-         <xsl:when test="$score = 'yes'">
-           <!-- there's no other result with higher score OR this result's coincideswith matches another result -->
-           <xsl:copy-of select="$results/coordinates[not(../coordinates/@score &lt; @score) 
-             or (not(@coincideswith = '') and ../coordinates[matches(.,concat('',current()/@coincideswith))])]"/>
-         </xsl:when>
-         <xsl:otherwise>
+        <xsl:when test="$score = 'yes'">
+          <!-- there's no other result with higher score OR this result's
+          coincides with matches another result-->
+          <xsl:variable name="winner" 
+            select="$results/coordinates
+            [not(../coordinates/@score &lt; @score)]"/>
+          <xsl:message>Scoring - highest score for 
+            <xsl:value-of select="$winner"/>
+          </xsl:message>
+          <xsl:copy-of select="$winner"/>
+          <xsl:for-each select="$results/coordinates">
+            <xsl:if test="not(@coincideswith = '')">
+              <xsl:message>Scoring - coinciding candidate is 
+                <xsl:value-of select="."/>
+              </xsl:message>
+              <xsl:if test="matches(@coincideswith,$winner/text())">
+                <xsl:message>Scoring - coinciding with 
+                  <xsl:value-of select="."/>
+                </xsl:message>
+                <xsl:copy-of select="."/> 
+              </xsl:if>
+            <xsl:if>
+          </xsl:for-each>
+        </xsl:when>
+      <xsl:otherwise>
 	   <xsl:copy-of select="$results"/>
          </xsl:otherwise>
       </xsl:choose>

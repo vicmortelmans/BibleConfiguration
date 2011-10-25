@@ -874,9 +874,11 @@
       <coordinates>$c</coordinates>
       <rank nr="6">Feasts of the Lord I class</rank>
       <daterules>
-        <days-after nr="$days">
-          <easterdate/>
-        </days-after>
+        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+          <days-after nr="$days">
+            <easterdate/>
+          </days-after>
+        </transfer>
       </daterules>
     </template>
   </liturgicalday>
@@ -1278,11 +1280,11 @@
 
   <liturgicalday>
     <parameters><!-- Solemnities between 1/01 and 27/11 -->
-      <parametergroup><name>St. Joseph, Spouse of the Blessed Virgin Mary</name><day>19</day><month>03</month></parametergroup>
-      <parametergroup><name>Annunciation of the Blessed Virgin Mary</name><day>25</day><month>03</month></parametergroup>
-      <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month></parametergroup>
-      <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month></parametergroup>
-      <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month></parametergroup>
+      <parametergroup><name>St. Joseph, Spouse of the Blessed Virgin Mary</name><day>19</day><month>03</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
+      <parametergroup><name>Annunciation of the Blessed Virgin Mary</name><day>25</day><month>03</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
+      <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
+      <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
+      <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset></parametergroup>
       <parametergroup><name>The Most Precious Blood of our Lord Jesus Christ</name><day>01</day><month>07</month></parametergroup>
       <parametergroup><name>Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month></parametergroup>
       <parametergroup><name>Dedication of St. Michael Archangel</name><day>29</day><month>09</month></parametergroup>
@@ -1297,7 +1299,7 @@
       <coordinates>Z$month$day</coordinates>
       <rank nr="6">Feasts of the Lord I class</rank>
       <daterules>
-        <transfer rank="6" set="Fixed dates">
+        <transfer rank="6" sets="$coincidingset">
           <date day="$day" month="$month"/>
         </transfer>
       </daterules>
@@ -1308,7 +1310,7 @@
     <parameters><!-- Feasts between 1/01 and 27/11 -->
       <parametergroup><name>Purification of the Blessed Virgin Mary</name><day>02</day><month>02</month></parametergroup>
       <parametergroup><name>Chair of St. Peter</name><day>22</day><month>02</month></parametergroup>
-      <parametergroup><name>St. Mark Evangelist</name><day>25</day><month>04</month></parametergroup>
+      <parametergroup><name>St. Mark Evangelist</name><day>25</day><month>04</month><coincideswith>GRL</coincideswith></parametergroup>
       <parametergroup><name>Ss. Philip and James Apostles</name><day>11</day><month>05</month></parametergroup>
       <parametergroup><name>Blessed Virgin Mary, Queen</name><day>31</day><month>05</month></parametergroup>
       <parametergroup><name>Visitation of the Blessed Virgin Mary</name><day>02</day><month>07</month></parametergroup>
@@ -1337,11 +1339,9 @@
       <set>Fixed dates</set>
       <coordinates>Z$month$day</coordinates>
       <rank nr="11">Particular Feasts II class</rank>
-      <coincideswith>GRL</coincideswith>
+      <coincideswith>$coincideswith</coincideswith>
       <daterules>
-        <transfer rank="11" set="Fixed dates">
           <date day="$day" month="$month"/>
-        </transfer>
       </daterules>
     </template>
   </liturgicalday>

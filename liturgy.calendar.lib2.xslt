@@ -297,30 +297,31 @@
   </xsl:template>
   
   <xsl:template match="transfer">
-    <!-- INPUT @set : the set of the current day, so implicitly telling
-                 all *other* sets to be investigated
+    <!-- INPUT @sets : the sets to be investigated
                @rank : the rank of the current day
                * : a date
          OUTPUT yyyy-mm-dd : a date -->
-    <xsl:message>transfer(set : <xsl:value-of select="@set"/>, rank : <xsl:value-of select="@rank"/>)</xsl:message>
+    <xsl:message>transfer(sets : <xsl:value-of select="@sets"/>, rank : <xsl:value-of select="@rank"/>)</xsl:message>
     <xsl:variable name="rank" select="@rank"/>
-    <xsl:variable name="set" select="@set"/>
+    <xsl:variable name="sets" select="@sets"/>
+    <!-- render the investigated date -->
     <xsl:variable name="date">
             <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:variable name="ruleset">
-      <all-coordinates>
-        <xsl:value-of select="$date"/>
-      </all-coordinates>
-    </xsl:variable>
+    <!-- create a ruleset to render all coordinates for that date -->
     <xsl:variable name="coordinates">
-      <xsl:apply-templates select="$ruleset"/>
+      <xsl:for-each select="/coordinaterules[matches($sets,@set)]">
+        <xsl:variable name="ruleset">
+          <set-coordinates set="@set">
+            <xsl:value-of select="$date"/>
+          </set-coordinates>
+        </xsl:variable>
+        <xsl:apply-templates select="$ruleset"/>
+      </xsl:for-each>
     </xsl:variable>
     <!--xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message-->
     <xsl:choose>
-      <xsl:when test="$coordinates//coordinates[
-        @rank &lt; $rank and 
-        not(@set = $set)]">
+      <xsl:when test="$coordinates//coordinates[@rank &lt; $rank]">
         <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/></xsl:message>
         <xsl:variable name="ruleset">
           <transfer set="{$set}" rank="{$rank}">
@@ -375,16 +376,19 @@
     <xsl:value-of select="document($rest)/coordinates"/> 
   </xsl:template>
 
-  <xsl:template match="all-coordinates">
-    <!-- INPUT 
+  <xsl:template match="set-coordinates">
+    <!-- INPUT @set : name of a set of liturgical days
          * : a date
          OUTPUT evaluation of the coordinaterules for all sets -->
-    <xsl:message>all-coordinates</xsl:message>
+    <xsl:param name="set"/>
+    <xsl:message>all-coordinatesyear (set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:variable name="rest">
-      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;date=</xsl:text> 
+      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
+      <xsl:value-of select="@set"/>
+      <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
       <xsl:text>&amp;options=</xsl:text>
       <xsl:value-of select="$options"/>
