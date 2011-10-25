@@ -324,7 +324,7 @@
       <xsl:when test="$coordinates//coordinates[@rank &lt; $rank]">
         <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/></xsl:message>
         <xsl:variable name="ruleset">
-          <transfer set="{$set}" rank="{$rank}">
+          <transfer set="{$sets}" rank="{$rank}">
             <days-after nr="1">
                <xsl:value-of select="$date"/>
             </days-after>

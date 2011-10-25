@@ -58,7 +58,7 @@
                 </xsl:message>
                 <xsl:copy-of select="."/> 
               </xsl:if>
-            <xsl:if>
+            </xsl:if>
           </xsl:for-each>
         </xsl:when>
       <xsl:otherwise>
