@@ -321,15 +321,15 @@
     </xsl:variable>
     <xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message>
     <xsl:choose>
-      <xsl:when test="$coordinates//coordinates[@rank &lt; $rank]">
-        <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/></xsl:message>
+      <xsl:when test="$coordinates//coordinates[number(@rank) &lt; number($rank)]">
+        <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/> for <xsl:value-of select="$coordinates//coordinates[number(@rank) &lt; number($rank)]"/></xsl:message>
         <xsl:variable name="ruleset">
           <transfer set="{$sets}" rank="{$rank}">
             <days-after nr="1">
                <xsl:value-of select="$date"/>
             </days-after>
           </transfer>
-          </xsl:variable>
+        </xsl:variable>
         <!-- recursive call -->
         <xsl:apply-templates select="$ruleset"/>
       </xsl:when>
@@ -380,7 +380,6 @@
     <!-- INPUT @set : name of a set of liturgical days
          * : a date
          OUTPUT evaluation of the coordinaterules for all sets -->
-    <xsl:param name="set"/>
     <xsl:message>set-coordinates (set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:variable name="date">
       <xsl:apply-templates/>
