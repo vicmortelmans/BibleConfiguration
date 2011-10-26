@@ -80,6 +80,57 @@
     </template>
   </liturgicalday>
 
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+      <parametergroup>
+        <nr_s>First</nr_s><nr_i>1</nr_i><nr_c>01</nr_c>
+      </parametergroup>
+      <parametergroup>
+        <nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c>
+      </parametergroup>
+      <parametergroup>
+        <nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c>
+      </parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week of Advent</name>
+      <season>Season of Christmas</season>
+      <tide>Advent</tide>
+      <set>Advent</set>
+      <coordinates>A$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="$nr_i">
+            <weekday-before day="Sunday">
+              <date day="25" month="12" year-1="yes"/>
+            </weekday-before>
+          </weeks-before>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
   <!-- 
       DAYS BEFORE CHRISTMAS 
               -->
@@ -334,7 +385,53 @@
     </template>
   </liturgicalday>
 
-  <!--
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+<parametergroup><nr_s>Second</nr_s><nr_i>1</nr_i><nr_c>02</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week of Advent</name>
+      <season>Season per Annum</season>
+      <set>After Epiphany</set>
+      <coordinates>E$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-after nr="$nr_i">
+            <weekday-after day="Sunday">
+              <date month="01" day="06"/><!-- Epiphany -->
+            </weekday-after>
+          </weeks-after>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+<!--
        AFTER EPIPHANY BEFORE ADVENT
               -->
 
@@ -379,6 +476,51 @@
     </template>
   </liturgicalday>
 
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+<parametergroup><nr_s>Third</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week of Advent</name>
+      <season>Season per Annum</season>
+      <set>After Epiphany before Advent</set>
+      <coordinates>E$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-after nr="$nr_i">
+            <weeks-before nr="8">
+              <relative-to-next-years name="First Sunday of Advent"/>
+            </weeks-before>
+          </weeks-after>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
 <!-- 
      SEPTUAGESIMA
           -->
@@ -417,6 +559,48 @@
         <weeks-before nr="$nr_i">
           <easterdate/>
         </weeks-before>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+<parametergroup><nr_s>Septuagesima</nr_s><nr_i>9</nr_i><nr_c>01</nr_c></parametergroup>
+      <parametergroup><nr_s>Sexagesima</nr_s><nr_i>8</nr_i><nr_c>02</nr_c></parametergroup>
+      <parametergroup><nr_s>Quinquagesima</nr_s><nr_i>7</nr_i><nr_c>03</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the week of $nr_s</name>
+      <season>Season of Septuagesima</season>
+      <set>Septuagesima</set>
+      <coordinates>G$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="$nr_i">
+            <easterdate/>
+          </weeks-before>
+        </weekday-after>
       </daterules>
     </template>
   </liturgicalday>
@@ -526,6 +710,50 @@
   </liturgicalday>
 
   <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+<parametergroup><nr_s>First</nr_s><nr_i>6</nr_i><nr_c>01</nr_c></parametergroup>
+      <parametergroup><nr_s>Second</nr_s><nr_i>5</nr_i><nr_c>02</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>4</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week of Lent</name>
+      <season>Season of Lent</season>
+      <tide>Lent</tide>
+      <set>Lent</set>
+      <coordinates>L$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="$nr_i">
+            <easterdate/>
+          </weeks-before>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
     <template>
       <name>Passion Sunday</name>
       <season>Season of Lent</season>
@@ -541,6 +769,44 @@
     </template>
   </liturgicalday>
   
+  <liturgicalday>
+    <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the Passion Week</name>
+      <season>Season of Lent</season>
+      <tide>Passion Tide</tide>
+      <set>Lent</set>
+      <coordinates>L05$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="2">
+            <easterdate/>
+          </weeks-before>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
   <liturgicalday>
     <template>
       <name>Palm Sunday</name>
@@ -737,6 +1003,50 @@
         <days-after nr="$nr_i">
           <easterdate/>
         </days-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Wednesday</day_s><day_c>4</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Friday</day_s><day_c>6</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Saturday</day_s><day_c>7</day_c>
+        </parametergroup>
+      </parameters>
+<parametergroup><nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>03</nr_c></parametergroup>
+      <parametergroup><nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>04</nr_c></parametergroup>
+      <parametergroup><nr_s>Fourth</nr_s><nr_i>4</nr_i><nr_c>05</nr_c></parametergroup>
+      <parametergroup><nr_s>Fifth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
+    </parameters>
+    <template>
+     <name>$day_s in the $nr_s week after Easter</name>
+      <season>Easter Season</season>
+      <tide>Easter Tide</tide>
+      <set>Easter</set>
+      <coordinates>P$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-after nr="$nr_i">
+            <easterdate/>
+          </weeks-after>
+        </weekday-after>
       </daterules>
     </template>
   </liturgicalday>
