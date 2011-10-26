@@ -308,18 +308,18 @@
     <xsl:variable name="date">
             <xsl:apply-templates/>
     </xsl:variable>
-    <!-- create a ruleset to render all coordinates for that date -->
+    <!-- render the coordinates in the specified sets -->
     <xsl:variable name="coordinates">
-      <xsl:for-each select="/coordinaterules[matches($sets,@set)]">
+      <xsl:for-each select="//coordinaterules[matches($sets,@set)]">
         <xsl:variable name="ruleset">
-          <set-coordinates set="@set">
+          <set-coordinates set="{@set}">
             <xsl:value-of select="$date"/>
           </set-coordinates>
         </xsl:variable>
         <xsl:apply-templates select="$ruleset"/>
       </xsl:for-each>
     </xsl:variable>
-    <!--xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message-->
+    <xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message>
     <xsl:choose>
       <xsl:when test="$coordinates//coordinates[@rank &lt; $rank]">
         <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/></xsl:message>
@@ -381,7 +381,7 @@
          * : a date
          OUTPUT evaluation of the coordinaterules for all sets -->
     <xsl:param name="set"/>
-    <xsl:message>all-coordinatesyear (set : <xsl:value-of select="@set"/>)</xsl:message>
+    <xsl:message>set-coordinates (set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:variable name="date">
       <xsl:apply-templates/>
     </xsl:variable>

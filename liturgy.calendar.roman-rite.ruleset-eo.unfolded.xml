@@ -1558,6 +1558,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y021</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1571,6 +1572,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y031</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1584,6 +1586,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y041</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1597,6 +1600,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y051</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1610,6 +1614,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y061</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1623,6 +1628,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y071</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1636,6 +1642,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y081</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1649,6 +1656,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y091</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1662,6 +1670,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y101</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1675,6 +1684,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y111</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1688,6 +1698,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y121</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1701,6 +1712,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y131</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1714,6 +1726,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y141</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1727,6 +1740,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y151</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1740,6 +1754,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y161</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1753,6 +1768,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y171</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1766,6 +1782,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y181</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1779,6 +1796,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y191</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1792,6 +1810,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y201</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1805,6 +1824,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y211</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1818,6 +1838,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y221</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1831,6 +1852,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y231</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1844,6 +1866,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y241</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1857,6 +1880,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y251</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1870,6 +1894,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y261</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1883,6 +1908,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y271</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1896,6 +1922,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y281</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1909,6 +1936,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y291</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1922,6 +1950,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y301</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1935,6 +1964,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y311</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1948,6 +1978,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y321</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
@@ -1961,6 +1992,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y331</coordinates>
+      <precedence>1</precedence>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">

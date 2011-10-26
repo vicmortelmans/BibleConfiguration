@@ -1017,6 +1017,7 @@
       <season>Season per annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y$nr_c1</coordinates>
+      <precedence>1</precedence><!-- to give precedence to Last Sunday-->
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <days-after nr="49">
