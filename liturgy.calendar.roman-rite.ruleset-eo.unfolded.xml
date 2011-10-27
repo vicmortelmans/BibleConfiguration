@@ -8053,7 +8053,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="6">Feasts of the Lord I class</rank>
       <precedence>1</precedence>
       <daterules>
-        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+        <transfer rank="6"
+                   sets="Lent,Easter,Ascension,Special days after Easter,Greater Litanies">
             <date day="19" month="03" year-1=""/>
         </transfer>
       </daterules>
@@ -8066,7 +8067,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="6">Feasts of the Lord I class</rank>
       <precedence>1</precedence>
       <daterules>
-        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+        <transfer rank="6"
+                   sets="Lent,Easter,Ascension,Special days after Easter,Greater Litanies">
             <date day="25" month="03" year-1=""/>
         </transfer>
       </daterules>
@@ -8079,7 +8081,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="6">Feasts of the Lord I class</rank>
       <precedence>1</precedence>
       <daterules>
-        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+        <transfer rank="6"
+                   sets="Lent,Easter,Ascension,Special days after Easter,Greater Litanies">
             <date day="01" month="05" year-1=""/>
         </transfer>
       </daterules>
@@ -8092,7 +8095,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="6">Feasts of the Lord I class</rank>
       <precedence>1</precedence>
       <daterules>
-        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+        <transfer rank="6"
+                   sets="Lent,Easter,Ascension,Special days after Easter,Greater Litanies">
             <date day="24" month="06" year-1=""/>
         </transfer>
       </daterules>
@@ -8105,7 +8109,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <rank nr="6">Feasts of the Lord I class</rank>
       <precedence>1</precedence>
       <daterules>
-        <transfer rank="6" sets="Lent,Easter,Ascension,Greater Litanies">
+        <transfer rank="6"
+                   sets="Lent,Easter,Ascension,Special days after Easter,Greater Litanies">
             <date day="29" month="06" year-1=""/>
         </transfer>
       </daterules>
