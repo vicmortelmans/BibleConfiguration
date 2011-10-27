@@ -1802,11 +1802,11 @@
 
   <liturgicalday>
     <parameters>
-      <parametergroup><name>St. Joseph, Spouse of the Blessed Virgin Mary</name><day>19</day><month>03</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset><year-1/></parametergroup>
-      <parametergroup><name>Annunciation of the Blessed Virgin Mary</name><day>25</day><month>03</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset><year-1/></parametergroup>
-      <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset><year-1/></parametergroup>
-      <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset><year-1/></parametergroup>
-      <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month><coincidingset>Lent,Easter,Ascension,Greater Litanies</coincidingset><year-1/></parametergroup>
+      <parametergroup><name>St. Joseph, Spouse of the Blessed Virgin Mary</name><day>19</day><month>03</month><coincidingset>Lent,Easter,Ascension,Special days after Easter,Greater Litanies</coincidingset><year-1/></parametergroup>
+      <parametergroup><name>Annunciation of the Blessed Virgin Mary</name><day>25</day><month>03</month><coincidingset>Lent,Easter,Ascension,Special days after Easter,Greater Litanies</coincidingset><year-1/></parametergroup>
+      <parametergroup><name>St. Joseph the Workman, Spouse of the Blessed Virgin Mary</name><day>01</day><month>05</month><coincidingset>Lent,Easter,Ascension,Special days after Easter,Greater Litanies</coincidingset><year-1/></parametergroup>
+      <parametergroup><name>Nativity of St. John the Baptist</name><day>24</day><month>06</month><coincidingset>Lent,Easter,Ascension,Special days after Easter,Greater Litanies</coincidingset><year-1/></parametergroup>
+      <parametergroup><name>Ss. Peter and Paul Apostles</name><day>29</day><month>06</month><coincidingset>Lent,Easter,Ascension,Special days after Easter,Greater Litanies</coincidingset><year-1/></parametergroup>
       <parametergroup><name>The Most Precious Blood of our Lord Jesus Christ</name><day>01</day><month>07</month><coincidingset/><year-1/></parametergroup>
       <parametergroup><name>Assumption of the Blessed Virgin Mary</name><day>15</day><month>08</month><coincidingset/><year-1/></parametergroup>
       <parametergroup><name>Dedication of St. Michael Archangel</name><day>29</day><month>09</month><coincidingset/><year-1/></parametergroup>

@@ -3,6 +3,20 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
+  <xsl:variable name="cache" select="'yes'"/>
+    
+  <xsl:template name="cache">
+    <xsl:with-param name="rest"/>
+    <xsl:choose>
+      <xsl:when test="$cache = 'yes'">
+        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache.xq?url=</xsl:text>
+        <xsl:value-of select="encode-for-uri($rest)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$rest"/>
+    </xsl:choose>
+  </xsl:template>
+    
   <xsl:template name="liturgical-year">
     <xsl:param name="date"/>
     <xsl:variable name="sameyear" select="year-from-date(xs:date($date))"/>
@@ -29,8 +43,13 @@
             <xsl:text>&amp;form=</xsl:text>
             <xsl:value-of select="$form"/>
           </xsl:variable>
+          <xsl:variable name="cachedrest">
+            <xsl:call-template name="cache">
+              <xsl:with-param name="rest" select="$rest"/>
+            </xsl:call-template>
+          </xsl:variable>
           <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-          <xsl:value-of select="document($rest)/date"/>
+          <xsl:value-of select="document($cachedrest)/date"/>
         </xsl:variable>
         <xsl:choose>
           <xsl:when test="xs:date($date) &lt; xs:date($startnextyear)">
@@ -268,12 +287,17 @@
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
         <xsl:text>&amp;options=</xsl:text>
-	<xsl:value-of select="$options"/>
+	    <xsl:value-of select="$options"/>
         <xsl:text>&amp;form=</xsl:text>
         <xsl:value-of select="$form"/>
     </xsl:variable>
+    <xsl:variable name="cachedrest">
+      <xsl:call-template name="cache">
+        <xsl:with-param name="rest" select="$rest"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:value-of select="document($rest)/date"/>
+    <xsl:value-of select="document($cachedrest)/date"/>
   </xsl:template>
 
   <xsl:template match="relative-to-next-years">
@@ -292,8 +316,13 @@
         <xsl:text>&amp;form=</xsl:text>
         <xsl:value-of select="$form"/>
     </xsl:variable>
+    <xsl:variable name="cachedrest">
+      <xsl:call-template name="cache">
+        <xsl:with-param name="rest" select="$rest"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:value-of select="document($rest)/date"/>
+    <xsl:value-of select="document($cachedrest)/date"/>
   </xsl:template>
   
   <xsl:template match="transfer">
@@ -372,8 +401,13 @@
       <xsl:text>&amp;form=</xsl:text>
       <xsl:value-of select="$form"/>
     </xsl:variable>
+    <xsl:variable name="cachedrest">
+      <xsl:call-template name="cache">
+        <xsl:with-param name="rest" select="$rest"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:value-of select="document($rest)/coordinates"/> 
+    <xsl:value-of select="document($cachedrest)/coordinates"/> 
   </xsl:template>
 
   <xsl:template match="set-coordinates">
@@ -394,8 +428,13 @@
       <xsl:text>&amp;form=</xsl:text>
       <xsl:value-of select="$form"/>
     </xsl:variable>
+    <xsl:variable name="cachedrest">
+      <xsl:call-template name="cache">
+        <xsl:with-param name="rest" select="$rest"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
-    <xsl:copy-of select="document($rest)/results"/> 
+    <xsl:copy-of select="document($cachedrest)/results"/> 
   </xsl:template>
 
   <xsl:template match="query-set">
