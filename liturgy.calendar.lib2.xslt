@@ -6,14 +6,16 @@
   <xsl:variable name="cache" select="'yes'"/>
     
   <xsl:template name="cache">
-    <xsl:with-param name="rest"/>
+    <xsl:param name="rest"/>
     <xsl:choose>
       <xsl:when test="$cache = 'yes'">
-        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache.xq?url=</xsl:text>
+        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cachetill.xq?url=</xsl:text>
         <xsl:value-of select="encode-for-uri($rest)"/>
+        <xsl:text>&amp;expiration=10</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$rest"/>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
     
@@ -48,7 +50,7 @@
               <xsl:with-param name="rest" select="$rest"/>
             </xsl:call-template>
           </xsl:variable>
-          <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+          <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
           <xsl:value-of select="document($cachedrest)/date"/>
         </xsl:variable>
         <xsl:choose>
@@ -296,7 +298,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
     <xsl:value-of select="document($cachedrest)/date"/>
   </xsl:template>
 
@@ -321,7 +323,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
     <xsl:value-of select="document($cachedrest)/date"/>
   </xsl:template>
   
@@ -393,7 +395,7 @@
     </xsl:variable>
     <xsl:variable name="rest">
      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
-      <xsl:value-of select="@set"/>
+      <xsl:value-of select="encode-for-uri(@set)"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
       <xsl:text>&amp;options=</xsl:text>
@@ -406,7 +408,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
     <xsl:value-of select="document($cachedrest)/coordinates"/> 
   </xsl:template>
 
@@ -420,7 +422,7 @@
     </xsl:variable>
     <xsl:variable name="rest">
       <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
-      <xsl:value-of select="@set"/>
+      <xsl:value-of select="encode-for-uri(@set)"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
       <xsl:text>&amp;options=</xsl:text>
@@ -433,7 +435,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$rest"/></xsl:message>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
     <xsl:copy-of select="document($cachedrest)/results"/> 
   </xsl:template>
 
