@@ -375,6 +375,7 @@
       <set>After Epiphany</set>
       <coordinates>E$nr_c1</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence><!-- give precedence to Septuagesima -->
       <daterules>
         <weeks-after nr="$nr_i">
           <weekday-after day="Sunday">
@@ -420,6 +421,7 @@
       <set>After Epiphany</set>
       <coordinates>E$nr_c$day_c</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence><!-- give precedence to Septuagesima -->
       <daterules>
         <weekday-after day="$day_s">
           <weeks-after nr="$nr_i">

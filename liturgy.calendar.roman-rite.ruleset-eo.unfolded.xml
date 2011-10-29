@@ -865,6 +865,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E021</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weeks-after nr="1">
             <weekday-after day="Sunday">
@@ -880,6 +881,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E031</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weeks-after nr="2">
             <weekday-after day="Sunday">
@@ -895,6 +897,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E041</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weeks-after nr="3">
             <weekday-after day="Sunday">
@@ -910,6 +913,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E051</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weeks-after nr="4">
             <weekday-after day="Sunday">
@@ -925,6 +929,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E061</coordinates>
       <rank nr="9">Sunday II class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weeks-after nr="5">
             <weekday-after day="Sunday">
@@ -941,6 +946,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E012</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="0">
@@ -958,6 +964,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E013</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="0">
@@ -975,6 +982,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E014</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="0">
@@ -992,6 +1000,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E015</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="0">
@@ -1009,6 +1018,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E016</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="0">
@@ -1026,6 +1036,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E017</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="0">
@@ -1043,6 +1054,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E022</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="1">
@@ -1060,6 +1072,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E023</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="1">
@@ -1077,6 +1090,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E024</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="1">
@@ -1094,6 +1108,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E025</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="1">
@@ -1111,6 +1126,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E026</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="1">
@@ -1128,6 +1144,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E027</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="1">
@@ -1145,6 +1162,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E032</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="2">
@@ -1162,6 +1180,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E033</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="2">
@@ -1179,6 +1198,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E034</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="2">
@@ -1196,6 +1216,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E035</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="2">
@@ -1213,6 +1234,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E036</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="2">
@@ -1230,6 +1252,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E037</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="2">
@@ -1247,6 +1270,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E042</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="3">
@@ -1264,6 +1288,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E043</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="3">
@@ -1281,6 +1306,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E044</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="3">
@@ -1298,6 +1324,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E045</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="3">
@@ -1315,6 +1342,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E046</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="3">
@@ -1332,6 +1360,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E047</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="3">
@@ -1349,6 +1378,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E052</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="4">
@@ -1366,6 +1396,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E053</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="4">
@@ -1383,6 +1414,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E054</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="4">
@@ -1400,6 +1432,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E055</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="4">
@@ -1417,6 +1450,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E056</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="4">
@@ -1434,6 +1468,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E057</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="4">
@@ -1451,6 +1486,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E062</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Monday">
             <weeks-after nr="5">
@@ -1468,6 +1504,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E063</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Tuesday">
             <weeks-after nr="5">
@@ -1485,6 +1522,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E064</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Wednesday">
             <weeks-after nr="5">
@@ -1502,6 +1540,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E065</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Thursday">
             <weeks-after nr="5">
@@ -1519,6 +1558,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E066</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Friday">
             <weeks-after nr="5">
@@ -1536,6 +1576,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <set>After Epiphany</set>
       <coordinates>E067</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <precedence>1</precedence>
       <daterules>
         <weekday-after day="Saturday">
             <weeks-after nr="5">
