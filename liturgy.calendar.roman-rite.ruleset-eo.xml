@@ -1770,6 +1770,7 @@
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence><!--to give priority to feria's of first week after Epiphany -->
       <coordinates>Z01$day_c</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>

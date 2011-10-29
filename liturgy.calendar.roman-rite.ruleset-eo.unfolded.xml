@@ -8097,6 +8097,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0102</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8108,6 +8109,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0103</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8119,6 +8121,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0104</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8130,6 +8133,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0105</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8141,6 +8145,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0107</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8152,6 +8157,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0108</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8163,6 +8169,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0109</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8174,6 +8181,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0110</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8185,6 +8193,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0111</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
@@ -8196,6 +8205,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
+      <precedence>1</precedence>
       <coordinates>Z0112</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
