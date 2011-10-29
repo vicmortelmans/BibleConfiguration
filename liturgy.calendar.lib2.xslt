@@ -386,10 +386,10 @@
     <xsl:variable name="date">
       <xsl:choose>
         <xsl:when test="@year-1">
-          <xsl:value-of select="xs:date(concat(@year-1,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+          <xsl:value-of select="xs:date(concat($year - 1,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="xs:date(concat(@year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
+          <xsl:value-of select="xs:date(concat($year,'-01-01')) + xs:yearMonthDuration(concat('P',@month - 1,'M')) + xs:dayTimeDuration(concat('P',@day - 1,'D'))"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
