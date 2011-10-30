@@ -1488,26 +1488,27 @@
 
   <liturgicalday>
     <parameters><!-- Feasts between 1/01 and 27/11 -->
-      <parametergroup><name>Feast of the Conversion of Paul</name><day>25</day><month>01</month></parametergroup>
-      <parametergroup><name>Feast of the Presentation of the Lord</name><day>02</day><month>02</month></parametergroup>
-      <parametergroup><name>Feast of the Chair of St. Peter, apostle</name><day>22</day><month>02</month></parametergroup>
-      <parametergroup><name>Feast of St. Mark, evangelist</name><day>25</day><month>04</month></parametergroup>
-      <parametergroup><name>Feast of SS. Philip and James, apostles</name><day>03</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of St. Matthias, apostle</name><day>14</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of the Visitation</name><day>31</day><month>05</month></parametergroup>
-      <parametergroup><name>Feast of St. Thomas, apostle</name><day>03</day><month>07</month></parametergroup>
-      <parametergroup><name>Feast of St. James, apostle</name><day>25</day><month>07</month></parametergroup>
-      <parametergroup><name>Feast of the Transfiguration</name><day>06</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of St. Lawrence, deacon and martyr</name><day>10</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of St. Bartholomew, apostle</name><day>24</day><month>08</month></parametergroup>
-      <parametergroup><name>Feast of the Birth of Mary</name><day>08</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of the Triumph of the Cross</name><day>14</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of St. Matthew, apostle and evangelist</name><day>21</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of Michael, Gabriel and Raphael, Archangels</name><day>29</day><month>09</month></parametergroup>
-      <parametergroup><name>Feast of St. Luke, evangelist</name><day>18</day><month>10</month></parametergroup>
-      <parametergroup><name>Feast of SS. Simon and Jude, apostles</name><day>28</day><month>10</month></parametergroup>
-      <parametergroup><name>Feast of the Dedication of St. John Lateran</name><day>09</day><month>11</month></parametergroup>
-      <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month></parametergroup>
+      <parametergroup><name>Feast of the Conversion of Paul</name><day>25</day><month>01</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Presentation of the Lord</name><day>02</day><month>02</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Chair of St. Peter, apostle</name><day>22</day><month>02</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Mark, evangelist</name><day>25</day><month>04</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of SS. Philip and James, apostles</name><day>03</day><month>05</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Matthias, apostle</name><day>14</day><month>05</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Visitation</name><day>31</day><month>05</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Thomas, apostle</name><day>03</day><month>07</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. James, apostle</name><day>25</day><month>07</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Transfiguration</name><day>06</day><month>08</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Lawrence, deacon and martyr</name><day>10</day><month>08</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Bartholomew, apostle</name><day>24</day><month>08</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Birth of Mary</name><day>08</day><month>09</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Triumph of the Cross</name><day>14</day><month>09</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Matthew, apostle and evangelist</name><day>21</day><month>09</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of Michael, Gabriel and Raphael, Archangels</name><day>29</day><month>09</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Luke, evangelist</name><day>18</day><month>10</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of SS. Simon and Jude, apostles</name><day>28</day><month>10</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of the Dedication of St. John Lateran</name><day>09</day><month>11</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month><year-1/></parametergroup>
+      <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month><year-1>yes</year-1></parametergroup>
     </parameters>
     <template>
      <name>$name</name>

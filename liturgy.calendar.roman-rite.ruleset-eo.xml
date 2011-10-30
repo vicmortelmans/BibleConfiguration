@@ -1067,7 +1067,10 @@
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P06$day_c</coordinates>
-      <rank nr="15">Ferias III class</rank>
+      <precedence>1</precedence>
+      <rank nr="14">Rogation Days</rank><!-- put it here, so it still shows up
+        when rendering limited calendar, originally put on 15. Set precedence
+        to 1, so it won't interfere with the 'real' rank 14 days -->
       <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="$nr_i">

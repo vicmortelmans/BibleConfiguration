@@ -3664,7 +3664,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P062</coordinates>
-      <rank nr="15">Ferias III class</rank>
+      <precedence>1</precedence>
+      <rank nr="14">Rogation Days</rank>
       <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="36">
@@ -3679,7 +3680,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P063</coordinates>
-      <rank nr="15">Ferias III class</rank>
+      <precedence>1</precedence>
+      <rank nr="14">Rogation Days</rank>
       <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="37">
@@ -3694,7 +3696,8 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P064</coordinates>
-      <rank nr="15">Ferias III class</rank>
+      <precedence>1</precedence>
+      <rank nr="14">Rogation Days</rank>
       <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="38">

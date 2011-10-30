@@ -543,10 +543,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                     stop-date="12-31"
                     overlap-priority="4">
       <text>B</text>
-      <count-days-between>
-         <date day="24" month="12" year-1="yes"/>
-         <this-date/>
-      </count-days-between>
   </coordinaterules>
 
   <liturgicalday>
@@ -644,7 +640,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   <liturgicalday>
       <name>Second Sunday after Christmas</name>
       <season>Christmas season</season>
-      <set>Weekdays of Christmas Seasion</set>
+      <set>Weekdays of Christmas Season</set>
       <coordinates>C1</coordinates>
       <rank nr="8">Sunday of Christmas</rank>
       <precedence>6</precedence>
@@ -7968,6 +7964,17 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <precedence>7</precedence>
       <daterules>
         <date day="09" month="11"/>
+      </daterules>
+   </liturgicalday>
+   <liturgicalday>
+      <name>Feast of St. Andrew, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Fixed dates</set>
+      <coordinates>Z1130</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="30" month="11"/>
       </daterules>
    </liturgicalday>
    <liturgicalday>
