@@ -36,7 +36,7 @@
     </parameters>
     <template>
      <name>$nr_s Sunday of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A$nr_c1</coordinates>
@@ -63,7 +63,7 @@
     </parameters>
     <template>
      <name>Ember $day_s in Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A$nr_c$day_c</coordinates>
@@ -114,7 +114,7 @@
     </parameters>
     <template>
      <name>$day_s in the $nr_s week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A$nr_c$day_c</coordinates>
@@ -186,7 +186,7 @@
     </parameters>
     <template>
      <name>$day_s in the $nr_s week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D$nr_c$day_c</coordinates>
@@ -921,7 +921,7 @@
   <liturgicalday>
     <template>
      <name>Easter Vigil</name>
-      <season>Season of Easter</season>
+      <season>Easter season</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P007</coordinates>
@@ -937,7 +937,7 @@
   <liturgicalday>
     <template>
      <name>Easter</name>
-      <season>Season of Easter</season>
+      <season>Easter season</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P011</coordinates>
