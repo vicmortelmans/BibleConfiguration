@@ -35,7 +35,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   <liturgicalday>
       <name>First Sunday of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A011</coordinates>
@@ -51,7 +51,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Second Sunday of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A021</coordinates>
@@ -67,7 +67,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Third Sunday of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A031</coordinates>
@@ -83,7 +83,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Fourth Sunday of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A041</coordinates>
@@ -100,7 +100,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   <liturgicalday>
       <name>Ember Wednesday in Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A034</coordinates>
@@ -117,7 +117,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Ember Friday in Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A036</coordinates>
@@ -134,7 +134,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Ember Saturday in Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A037</coordinates>
@@ -152,7 +152,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   <liturgicalday>
       <name>Monday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A012</coordinates>
@@ -169,7 +169,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Tuesday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A013</coordinates>
@@ -186,7 +186,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Wednesday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A014</coordinates>
@@ -203,7 +203,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Thursday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A015</coordinates>
@@ -220,7 +220,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Friday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A016</coordinates>
@@ -237,7 +237,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Saturday in the First week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A017</coordinates>
@@ -254,7 +254,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Monday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A022</coordinates>
@@ -271,7 +271,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Tuesday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A023</coordinates>
@@ -288,7 +288,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Wednesday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A024</coordinates>
@@ -305,7 +305,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Thursday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A025</coordinates>
@@ -322,7 +322,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Friday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A026</coordinates>
@@ -339,7 +339,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Saturday in the Second week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A027</coordinates>
@@ -356,7 +356,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Monday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A032</coordinates>
@@ -373,7 +373,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Tuesday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A033</coordinates>
@@ -390,7 +390,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Wednesday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A034</coordinates>
@@ -407,7 +407,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Thursday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A035</coordinates>
@@ -424,7 +424,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Friday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A036</coordinates>
@@ -441,7 +441,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Saturday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Advent</set>
       <coordinates>A037</coordinates>
@@ -484,7 +484,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   <liturgicalday>
       <name>Monday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D032</coordinates>
@@ -501,7 +501,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Tuesday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D033</coordinates>
@@ -518,7 +518,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Wednesday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D034</coordinates>
@@ -535,7 +535,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Thursday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D035</coordinates>
@@ -552,7 +552,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Friday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D036</coordinates>
@@ -569,7 +569,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Saturday in the Third week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D037</coordinates>
@@ -586,7 +586,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Monday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D042</coordinates>
@@ -603,7 +603,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Tuesday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D043</coordinates>
@@ -620,7 +620,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Wednesday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D044</coordinates>
@@ -637,7 +637,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Thursday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D045</coordinates>
@@ -654,7 +654,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Friday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D046</coordinates>
@@ -671,7 +671,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
    <liturgicalday>
       <name>Saturday in the Fourth week of Advent</name>
-      <season>Season of Christmas</season>
+      <season>Christmas season</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D047</coordinates>
@@ -3126,7 +3126,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   <liturgicalday>
       <name>Easter Vigil</name>
-      <season>Season of Easter</season>
+      <season>Easter season</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P007</coordinates>
@@ -3140,7 +3140,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
   
   <liturgicalday>
       <name>Easter</name>
-      <season>Season of Easter</season>
+      <season>Easter season</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P011</coordinates>
