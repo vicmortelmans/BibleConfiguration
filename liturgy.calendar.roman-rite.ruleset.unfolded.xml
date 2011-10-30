@@ -7979,7 +7979,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
 
     
-  <coordinaterules set="Dulicate fixed dates" start-date="11-27" stop-date="12-03"
+  <coordinaterules set="Duplicate fixed dates" start-date="11-27" stop-date="12-03"
                     overlap-priority="0">
       <query-coordinates set="Duplicate fixed dates">
          <text>Z</text>

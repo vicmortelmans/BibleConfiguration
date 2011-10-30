@@ -473,6 +473,7 @@
       <xsl:variable name="candidate">
         <xsl:apply-templates select="daterules"/>
       </xsl:variable>
+      <xsl:message>testing if <xsl:value-of select="$candidate"/> equals <xsl:value-of select="$date"/></xsl:message>
       <xsl:if test="$candidate=$date">
         <xsl:value-of select="coordinates"/>
       </xsl:if>

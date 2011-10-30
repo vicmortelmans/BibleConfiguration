@@ -1523,7 +1523,7 @@
   </liturgicalday>
 
   <!-- DUPLICATE FIXED DATES -->  
-  <coordinaterules set="Dulicate fixed dates" start-date="11-27" stop-date="12-03" overlap-priority="0">
+  <coordinaterules set="Duplicate fixed dates" start-date="11-27" stop-date="12-03" overlap-priority="0">
     <query-coordinates set="Duplicate fixed dates">
       <text>Z</text>
       <mmdd>
