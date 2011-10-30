@@ -7977,16 +7977,30 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
         <date day="30" month="11"/>
       </daterules>
    </liturgicalday>
-   <liturgicalday>
+
+    
+  <coordinaterules set="Dulicate fixed dates" start-date="11-27" stop-date="12-03"
+                    overlap-priority="0">
+      <query-coordinates set="Duplicate fixed dates">
+         <text>Z</text>
+         <mmdd>
+            <this-date/>
+         </mmdd>
+         <text>+</text>
+      </query-coordinates>
+  </coordinaterules>
+ 
+  <liturgicalday>
       <name>Feast of St. Andrew, apostle</name>
       <season>Ordinary Time</season>
-      <set>Fixed dates</set>
-      <coordinates>Z1130</coordinates>
+      <set>Duplicate fixed dates</set>
+      <coordinates>Z1130+</coordinates>
       <rank nr="9">Feast</rank>
       <precedence>7</precedence>
       <daterules>
-        <date day="30" month="11"/>
+        <date day="30" month="11" year-1="yes"/>
       </daterules>
    </liturgicalday>
-  
+
+ 
 </liturgicaldays>

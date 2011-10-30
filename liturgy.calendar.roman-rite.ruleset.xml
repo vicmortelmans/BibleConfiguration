@@ -1487,7 +1487,7 @@
   </liturgicalday>
 
   <liturgicalday>
-    <parameters><!-- Feasts between 1/01 and 27/11 -->
+    <parameters><!-- Feasts between 1/01 and 3/12 -->
       <parametergroup><name>Feast of the Conversion of Paul</name><day>25</day><month>01</month><year-1/></parametergroup>
       <parametergroup><name>Feast of the Presentation of the Lord</name><day>02</day><month>02</month><year-1/></parametergroup>
       <parametergroup><name>Feast of the Chair of St. Peter, apostle</name><day>22</day><month>02</month><year-1/></parametergroup>
@@ -1508,7 +1508,6 @@
       <parametergroup><name>Feast of SS. Simon and Jude, apostles</name><day>28</day><month>10</month><year-1/></parametergroup>
       <parametergroup><name>Feast of the Dedication of St. John Lateran</name><day>09</day><month>11</month><year-1/></parametergroup>
       <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month><year-1/></parametergroup>
-      <parametergroup><name>Feast of St. Andrew, apostle</name><day>30</day><month>11</month><year-1>yes</year-1></parametergroup>
     </parameters>
     <template>
      <name>$name</name>
@@ -1522,5 +1521,31 @@
       </daterules>
     </template>
   </liturgicalday>
-  
+
+  <!-- DUPLICATE FIXED DATES -->  
+  <coordinaterules set="Dulicate fixed dates" start-date="11-27" stop-date="12-03" overlap-priority="0">
+    <query-coordinates set="Duplicate fixed dates">
+      <text>Z</text>
+      <mmdd>
+        <this-date/>
+      </mmdd>
+      <text>+</text>
+    </query-coordinates>
+  </coordinaterules>
+ 
+  <liturgicalday>
+    <template>
+      <name>Feast of St. Andrew, apostle</name>
+      <season>Ordinary Time</season>
+      <set>Duplicate fixed dates</set>
+      <coordinates>Z1130+</coordinates>
+      <rank nr="9">Feast</rank>
+      <precedence>7</precedence>
+      <daterules>
+        <date day="30" month="11" year-1="yes"/>
+      </daterules>
+    </template>
+  </liturgicalday>
+
+ 
 </liturgicaldays>
