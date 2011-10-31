@@ -3,31 +3,31 @@
   <service>
     <name>biblija_net</name>
     <step nr="1">http://www.biblija.net/biblija.cgi?m=$book+$chapter:$passage&amp;$edition=1&amp;pos=0&amp;l=nl&amp;set=10</step>
-    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagebiblijanet&amp;v=1&amp;applyToUrl=$url</step>
+    <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassagebiblijanet&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
   </service>
   <service>
     <name>usccb_org</name>
     <step nr="1">http://www.usccb.org/nab/bible/$book/$book$chapter.htm</step>
-    <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageusccborg&amp;v=1&amp;applyToUrl=$url</step>
+    <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassageusccborg&amp;v=1&amp;applyToUrl=$url</step>
     <step nr="3" yql="true">select item.text.content from xml where  url="$url" and item.passage=$passage</step>
   </service>
   <service>
    <name>crosswire_org</name>
    <step nr="1">http://www.crosswire.org/study/passagestudy.jsp?key=$book+$chapter:$passage&amp;mod=$edition</step>
-   <step nr="2">http://www.dapper.net/RunDapp?dappName=bijbelpassagecrosswireorg&amp;v=1&amp;applyToUrl=$url</step>
+   <step nr="2">http://open.dapper.net/RunDapp?dappName=bijbelpassagecrosswireorg&amp;v=1&amp;applyToUrl=$url</step>
    <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
  <service>
   <name>diebibel_de</name>
   <step nr="1">http://www.die-bibel.de/nc/online-bibeln/$edition/lesen-im-bibeltext/bibelstelle/$book%20$chapter%3A$passage/anzeige/single</step>
-  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
  <service>
   <name>unbound_biola_edu</name>
   <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;submit=Search"</step>
-  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassageunboundbiolaedu&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassageunboundbiolaedu&amp;v=1&amp;applyToUrl=$url</step>
   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
  <service>
@@ -37,7 +37,7 @@
  <service>
   <name>laparola_net</name>
   <step nr="1">http://www.laparola.net/testo.php?riferimento=$book+$chapter%3A$passage&amp;versioni[]=$edition&amp;Submit=Visualizza+testo</step>
-  <step nr="2">http://www.dapper.net/RunDapp?dappName=biblepassagelaparolanet&amp;v=1&amp;applyToUrl=$url</step>
+  <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassagelaparolanet&amp;v=1&amp;applyToUrl=$url</step>
   <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
  </service>
 </services>
