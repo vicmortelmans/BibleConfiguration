@@ -7,6 +7,11 @@
     <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
   </service>
   <service>
+    <name>biblija2_net</name>
+    <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
+    <step nr="2" yql="true">select td.p from data.html.cssselect where url="$url" and css=".text";</step>
+  </service>
+  <service>
     <name>usccb_org</name>
     <step nr="1">http://www.usccb.org/nab/bible/$book/$book$chapter.htm</step>
     <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassageusccborg&amp;v=1&amp;applyToUrl=$url</step>

@@ -273,7 +273,7 @@
 		<input name="true">Vulgate (Latin Bible)</input>
 	</edition>
 	<edition>
-		<code service="biblija_net" default_="true">id35</code>
+		<code service="biblija2_net" default_="true">id35</code>
 		<input>WV95</input>
 		<language>nl</language>
 		<default_>true</default_>
