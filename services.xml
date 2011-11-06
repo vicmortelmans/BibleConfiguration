@@ -13,7 +13,7 @@
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija_net</editionskey>
     <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
-    <step nr="2" yql="true">use "http://www.datatables.org/data/data.html.cssselect.xml" as data.html.cssselect;select td.p from data.html.cssselect where url="$url" and css=".text";</step>
+    <step nr="2" yql="true">use "http://www.datatables.org/data/data.html.cssselect.xml" as data.html.cssselect;select td.p,div.p from data.html.cssselect where url="$url" and css=".text,.pi";</step>
   </service>
   <service>
     <name>usccb_org</name>
