@@ -52,7 +52,7 @@
           <xsl:message>Scoring - highest score for 
             <xsl:value-of select="$winner"/>
           </xsl:message>
-          <coordinates cycle-sundays="{$this-cycle-sundays}" cycle-weekdays="{$this-cycle-weekdays}">
+          <coordinates cycle="{$this-cycle-sundays}">
             <xsl:copy-of select="$winner/@*"/>
             <xsl:value-of select="$winner"/>
           </coordinates>
@@ -65,7 +65,7 @@
                 <xsl:message>Scoring - coinciding with 
                   <xsl:value-of select="."/>
                 </xsl:message>
-                <coordinates cycle-sundays="{$this-cycle-sundays}" cycle-weekdays="{$this-cycle-weekdays}">
+                <coordinates cycle="{$this-cycle-sundays}">
                   <xsl:copy-of select="@*"/>
                   <xsl:value-of select="."/>
                 </coordinates>
@@ -75,7 +75,7 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="$results/coordinates">
-	  <coordinates cycle-sundays="{$this-cycle-sundays}" cycle-weekdays="{$this-cycle-weekdays}">
+	  <coordinates cycle="{$this-cycle-sundays}">
             <xsl:copy-of select="@*"/>
             <xsl:value-of select="."/>
           </coordinates>
