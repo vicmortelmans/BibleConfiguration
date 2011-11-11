@@ -1,150 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<liturgicaldays>
-
-  <!-- 
-      ADVENT 
-              -->
-
-  <coordinaterules set="Advent" start="First Sunday of Advent" stopbefore="Christmas"
-    start-date="11-27" stop-date="12-24" overlap-priority="9">
-    <text>A</text>
-    <format template="00">
-      <count-weeks-between>
-        <weeks-before nr="4">
-          <weekday-before day="Sunday">
-            <date day="25" month="12" year-1="yes"/>
-          </weekday-before>
-        </weeks-before>
-        <weekday-before-or-self day="Sunday">
-          <this-date/>
-        </weekday-before-or-self>
-      </count-weeks-between>
-    </format>
-    <day-number>
-      <this-date/>
-    </day-number>
-  </coordinaterules>
-
-  <liturgicalday>
-    <parameters>
-      <parametergroup><nr_s>First</nr_s><nr_i>3</nr_i><nr_c>01</nr_c></parametergroup>
-      <parametergroup><nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c></parametergroup>
-      <parametergroup><nr_s>Third</nr_s><nr_i>1</nr_i><nr_c>03</nr_c></parametergroup>
-      <parametergroup><nr_s>Fourth</nr_s><nr_i>0</nr_i><nr_c>04</nr_c></parametergroup>
-    </parameters>
-    <template>
-     <name>$nr_s Sunday of Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A$nr_c1</coordinates>
-      <rank nr="3">Sunday I-IV Advent</rank>
-      <coincideswith>Z1224</coincideswith>
-      <daterules>
-        <weeks-before nr="$nr_i">
-          <weekday-before day="Sunday">
-            <date day="25" month="12" year-1="yes"/>
-          </weekday-before>
-        </weeks-before>
-      </daterules>
-    </template>
-  </liturgicalday>
-  
-  <liturgicalday>
-    <parameters>
-      <parameters>
-        <parametergroup><day_s>Wednesday</day_s><day_c>4</day_c></parametergroup>
-        <parametergroup><day_s>Friday</day_s><day_c>6</day_c></parametergroup>
-        <parametergroup><day_s>Saturday</day_s><day_c>7</day_c></parametergroup>
-      </parameters>
-      <parametergroup><nr_s>Third</nr_s><nr_i>1</nr_i><nr_c>03</nr_c></parametergroup>
-    </parameters>
-    <template>
-     <name>Ember $day_s in Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A$nr_c$day_c</coordinates>
-      <rank nr="10">Ember day of Advent</rank>
-      <daterules>
-        <weekday-after day="$day_s">
-          <weeks-before nr="$nr_i">
-            <weekday-before day="Sunday">
-              <date day="25" month="12" year-1="yes"/>
-            </weekday-before>
-          </weeks-before>
-        </weekday-after>
-      </daterules>
-    </template>
-  </liturgicalday>
-
-  <liturgicalday>
-    <parameters>
-      <parameters>
-        <parametergroup>
-          <day_s>Monday</day_s><day_c>2</day_c>
-        </parametergroup>
-        <parametergroup>
-          <day_s>Tuesday</day_s><day_c>3</day_c>
-        </parametergroup>
-        <parametergroup>
-          <day_s>Wednesday</day_s><day_c>4</day_c>
-        </parametergroup>
-        <parametergroup>
-          <day_s>Thursday</day_s><day_c>5</day_c>
-        </parametergroup>
-        <parametergroup>
-          <day_s>Friday</day_s><day_c>6</day_c>
-        </parametergroup>
-        <parametergroup>
-          <day_s>Saturday</day_s><day_c>7</day_c>
-        </parametergroup>
-      </parameters>
-      <parametergroup>
-        <nr_s>First</nr_s><nr_i>1</nr_i><nr_c>01</nr_c>
-      </parametergroup>
-      <parametergroup>
-        <nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c>
-      </parametergroup>
-      <parametergroup>
-        <nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c>
-      </parametergroup>
-    </parameters>
-    <template>
-     <name>$day_s in the $nr_s week of Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A$nr_c$day_c</coordinates>
-      <rank nr="18">Ferias IV class</rank>
-      <daterules>
-        <weekday-after day="$day_s">
-          <weeks-before nr="$nr_i">
-            <weekday-before day="Sunday">
-              <date day="25" month="12" year-1="yes"/>
-            </weekday-before>
-          </weeks-before>
-        </weekday-after>
-      </daterules>
-    </template>
-  </liturgicalday>
-  
-  <!-- 
-      DAYS BEFORE CHRISTMAS 
-              -->
-
-  <coordinaterules set="Days before Christmas" start="First Sunday of Advent" stopbefore="Christmas"
-    start-date="12-17" stop-date="12-24" overlap-priority="8">
-    <text>D</text>
-    <format template="00">
-      <count-weeks-between>
-        <weeks-before nr="4">
-          <weekday-before day="Sunday">
-            <date day="25" month="12" year-1="yes"/>
-          </weekday-before>
-        </weeks-before>
+before>
         <weekday-before-or-self day="Sunday">
           <this-date/>
         </weekday-before-or-self>
@@ -186,7 +40,7 @@
     </parameters>
     <template>
      <name>$day_s in the $nr_s week of Advent</name>
-      <season>Christmas season</season>
+      <season>Season of Christmas</season>
       <tide>Advent</tide>
       <set>Days before Christmas</set>
       <coordinates>D$nr_c$day_c</coordinates>
@@ -375,7 +229,6 @@
       <set>After Epiphany</set>
       <coordinates>E$nr_c1</coordinates>
       <rank nr="9">Sunday II class</rank>
-      <precedence>1</precedence><!-- give precedence to Septuagesima -->
       <daterules>
         <weeks-after nr="$nr_i">
           <weekday-after day="Sunday">
@@ -421,7 +274,6 @@
       <set>After Epiphany</set>
       <coordinates>E$nr_c$day_c</coordinates>
       <rank nr="18">Ferias IV class</rank>
-      <precedence>1</precedence><!-- give precedence to Septuagesima -->
       <daterules>
         <weekday-after day="$day_s">
           <weeks-after nr="$nr_i">
@@ -921,7 +773,7 @@
   <liturgicalday>
     <template>
      <name>Easter Vigil</name>
-      <season>Easter season</season>
+      <season>Season of Easter</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P007</coordinates>
@@ -937,7 +789,7 @@
   <liturgicalday>
     <template>
      <name>Easter</name>
-      <season>Easter season</season>
+      <season>Season of Easter</season>
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P011</coordinates>
@@ -1067,10 +919,7 @@
       <tide>Easter Tide</tide>
       <set>Easter</set>
       <coordinates>P06$day_c</coordinates>
-      <precedence>1</precedence>
-      <rank nr="14">Rogation Days</rank><!-- put it here, so it still shows up
-        when rendering limited calendar, originally put on 15. Set precedence
-        to 1, so it won't interfere with the 'real' rank 14 days -->
+      <rank nr="15">Ferias III class</rank>
       <coincideswith>Q064</coincideswith>
       <daterules>
         <days-after nr="$nr_i">
@@ -1763,6 +1612,7 @@
       <parametergroup><day_s>Third</day_s><day_c>03</day_c></parametergroup>
       <parametergroup><day_s>Fourth</day_s><day_c>04</day_c></parametergroup>
       <parametergroup><day_s>Fifth</day_s><day_c>05</day_c></parametergroup>
+      <parametergroup><day_s>Sixth</day_s><day_c>06</day_c></parametergroup>
       <parametergroup><day_s>Seventh</day_s><day_c>07</day_c></parametergroup>
       <parametergroup><day_s>Eighth</day_s><day_c>08</day_c></parametergroup>
       <parametergroup><day_s>Ninth</day_s><day_c>09</day_c></parametergroup>
@@ -1775,7 +1625,6 @@
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
       <set>Fixed dates</set>
-      <precedence>1</precedence><!--to give priority to feria's of first week after Epiphany -->
       <coordinates>Z01$day_c</coordinates>
       <rank nr="18">Feria IV class</rank>
       <daterules>
