@@ -35,10 +35,10 @@
     <xsl:variable name="results">
       <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:variable name="cycle-sundays">
+    <xsl:variable name="this-cycle-sundays">
       <xsl:value-of select="$cycle-sundays/map[@number = $year mod 3]/@cycle"/>
     </xsl:variable>
-    <xsl:varialbe name="cycle-weekdays">
+    <xsl:variable name="this-cycle-weekdays">
       <xsl:value-of select="$cycle-weekdays/map[@number = $year mod 2]/@cycle"/>
     </xsl:variable>
     <results>
@@ -52,7 +52,7 @@
           <xsl:message>Scoring - highest score for 
             <xsl:value-of select="$winner"/>
           </xsl:message>
-          <coordinates cycle-sundays="{cycle-sundays}" cycle-weekdays="{$cycle-weekdays}">
+          <coordinates cycle="{$this-cycle-sundays}">
             <xsl:copy-of select="$winner/@*"/>
             <xsl:value-of select="$winner"/>
           </coordinates>
@@ -65,16 +65,21 @@
                 <xsl:message>Scoring - coinciding with 
                   <xsl:value-of select="."/>
                 </xsl:message>
-                <coordinates cycle-sundays="{cycle-sundays}" cycle-weekdays="{$cycle-weekdays}">
-                  <xsl:copy-of select="$winner/@*"/>
-                  <xsl:value-of select="$winner"/>
+                <coordinates cycle="{$this-cycle-sundays}">
+                  <xsl:copy-of select="@*"/>
+                  <xsl:value-of select="."/>
                 </coordinates>
               </xsl:if>
             </xsl:if>
           </xsl:for-each>
         </xsl:when>
-      <xsl:otherwise>
-	  <xsl:copy-of select="$results"/>
+        <xsl:otherwise>
+          <xsl:for-each select="$results/coordinates">
+	  <coordinates cycle="{$this-cycle-sundays}">
+            <xsl:copy-of select="@*"/>
+            <xsl:value-of select="."/>
+          </coordinates>
+          </xsl:for-each>
         </xsl:otherwise>
       </xsl:choose>
     </results>
