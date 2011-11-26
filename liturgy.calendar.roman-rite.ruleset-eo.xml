@@ -119,6 +119,7 @@
       <set>Advent</set>
       <coordinates>A$nr_c$day_c</coordinates>
       <rank nr="18">Ferias IV class</rank>
+      <coincideswith>D037</coincideswith>
       <daterules>
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
@@ -191,7 +192,6 @@
       <set>Days before Christmas</set>
       <coordinates>D$nr_c$day_c</coordinates>
       <rank nr="10">Ferias Advent from 17-23 Dec.</rank>
-      <coincideswith>A037</coincideswith>
       <daterules>
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
