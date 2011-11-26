@@ -68,6 +68,7 @@
       <set>Advent</set>
       <coordinates>A$nr_c$day_c</coordinates>
       <rank nr="10">Ember day of Advent</rank>
+      <coincideswith>D037</coincideswith>
       <daterules>
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
@@ -119,7 +120,6 @@
       <set>Advent</set>
       <coordinates>A$nr_c$day_c</coordinates>
       <rank nr="18">Ferias IV class</rank>
-      <coincideswith>D037</coincideswith>
       <daterules>
         <weekday-after day="$day_s">
           <weeks-before nr="$nr_i">
