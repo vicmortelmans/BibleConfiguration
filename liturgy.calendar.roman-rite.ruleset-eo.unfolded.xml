@@ -827,7 +827,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
 
   <coordinaterules set="After Epiphany" start="Epiphany" stop="Septuagesima" start-date="01-06"
                     stop-date="02-22"
-                    overlap-priority="9">
+                    overlap-priority="10">
       <text>E</text>
       <format template="00">
          <count-weeks-between>
@@ -1557,7 +1557,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
                     stop="Twenty-fourth and Last Sunday after Pentecost"
                     start-date="10-15"
                     stop-date="11-19"
-                    overlap-priority="9">
+                    overlap-priority="10">
       <text>F</text>
       <format template="00">
          <count-weeks-between>
@@ -7818,7 +7818,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
     
   
   <coordinaterules set="Ember days of September" start-date="09-15" stop-date="09-28"
-                    overlap-priority="10">
+                    overlap-priority="11">
       <query-coordinates set="Ember days of September">
          <text>S</text>
          <day-number>
