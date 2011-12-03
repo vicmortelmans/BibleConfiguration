@@ -8140,17 +8140,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Sixth day of January</name>
-      <season>Christmas season</season>
-      <tide>Christmas Tide</tide>
-      <set>Fixed dates</set>
-      <coordinates>Z0106</coordinates>
-      <rank nr="18">Feria IV class</rank>
-      <daterules>
-        <date day="06" month="01"/>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
       <name>Seventh day of January</name>
       <season>Christmas season</season>
       <tide>Christmas Tide</tide>
