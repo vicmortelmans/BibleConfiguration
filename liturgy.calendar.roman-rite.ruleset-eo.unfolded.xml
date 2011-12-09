@@ -6693,7 +6693,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Monday in the Twenth-third week after Pentecost</name>
+      <name>Monday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y232</coordinates>
@@ -6710,7 +6710,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Tuesday in the Twenth-third week after Pentecost</name>
+      <name>Tuesday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y233</coordinates>
@@ -6727,7 +6727,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Twenth-third week after Pentecost</name>
+      <name>Wednesday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y234</coordinates>
@@ -6744,7 +6744,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Thursday in the Twenth-third week after Pentecost</name>
+      <name>Thursday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y235</coordinates>
@@ -6761,7 +6761,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Friday in the Twenth-third week after Pentecost</name>
+      <name>Friday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y236</coordinates>
@@ -6778,7 +6778,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Saturday in the Twenth-third week after Pentecost</name>
+      <name>Saturday in the Twenty-third week after Pentecost</name>
       <season>Season per Annum</season>
       <set>Ordinary after Easter</set>
       <coordinates>Y237</coordinates>
