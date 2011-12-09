@@ -1578,7 +1578,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Third Sunday after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E031</coordinates>
+      <coordinates>F031</coordinates>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-after nr="2">
@@ -1592,7 +1592,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Fourth Sunday after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E041</coordinates>
+      <coordinates>F041</coordinates>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-after nr="3">
@@ -1606,7 +1606,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Fifth Sunday after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E051</coordinates>
+      <coordinates>F051</coordinates>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-after nr="4">
@@ -1620,7 +1620,7 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       <name>Sixth Sunday after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E061</coordinates>
+      <coordinates>F061</coordinates>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-after nr="5">
@@ -1632,10 +1632,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
    </liturgicalday>
 
   <liturgicalday>
-      <name>Monday in the Third week of Advent</name>
+      <name>Monday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E032</coordinates>
+      <coordinates>F032</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Monday">
@@ -1648,10 +1648,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Tuesday in the Third week of Advent</name>
+      <name>Tuesday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E033</coordinates>
+      <coordinates>F033</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Tuesday">
@@ -1664,10 +1664,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Third week of Advent</name>
+      <name>Wednesday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E034</coordinates>
+      <coordinates>F034</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Wednesday">
@@ -1680,10 +1680,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Thursday in the Third week of Advent</name>
+      <name>Thursday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E035</coordinates>
+      <coordinates>F035</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Thursday">
@@ -1696,10 +1696,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Friday in the Third week of Advent</name>
+      <name>Friday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E036</coordinates>
+      <coordinates>F036</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Friday">
@@ -1712,10 +1712,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Saturday in the Third week of Advent</name>
+      <name>Saturday in the Third week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E037</coordinates>
+      <coordinates>F037</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Saturday">
@@ -1728,10 +1728,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Monday in the Fourth week of Advent</name>
+      <name>Monday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E042</coordinates>
+      <coordinates>F042</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Monday">
@@ -1744,10 +1744,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Tuesday in the Fourth week of Advent</name>
+      <name>Tuesday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E043</coordinates>
+      <coordinates>F043</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Tuesday">
@@ -1760,10 +1760,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Fourth week of Advent</name>
+      <name>Wednesday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E044</coordinates>
+      <coordinates>F044</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Wednesday">
@@ -1776,10 +1776,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Thursday in the Fourth week of Advent</name>
+      <name>Thursday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E045</coordinates>
+      <coordinates>F045</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Thursday">
@@ -1792,10 +1792,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Friday in the Fourth week of Advent</name>
+      <name>Friday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E046</coordinates>
+      <coordinates>F046</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Friday">
@@ -1808,10 +1808,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Saturday in the Fourth week of Advent</name>
+      <name>Saturday in the Fourth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E047</coordinates>
+      <coordinates>F047</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Saturday">
@@ -1824,10 +1824,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Monday in the Fifth week of Advent</name>
+      <name>Monday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E052</coordinates>
+      <coordinates>F052</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Monday">
@@ -1840,10 +1840,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Tuesday in the Fifth week of Advent</name>
+      <name>Tuesday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E053</coordinates>
+      <coordinates>F053</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Tuesday">
@@ -1856,10 +1856,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Fifth week of Advent</name>
+      <name>Wednesday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E054</coordinates>
+      <coordinates>F054</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Wednesday">
@@ -1872,10 +1872,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Thursday in the Fifth week of Advent</name>
+      <name>Thursday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E055</coordinates>
+      <coordinates>F055</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Thursday">
@@ -1888,10 +1888,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Friday in the Fifth week of Advent</name>
+      <name>Friday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E056</coordinates>
+      <coordinates>F056</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Friday">
@@ -1904,10 +1904,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Saturday in the Fifth week of Advent</name>
+      <name>Saturday in the Fifth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E057</coordinates>
+      <coordinates>F057</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Saturday">
@@ -1920,10 +1920,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Monday in the Sixth week of Advent</name>
+      <name>Monday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E062</coordinates>
+      <coordinates>F062</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Monday">
@@ -1936,10 +1936,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Tuesday in the Sixth week of Advent</name>
+      <name>Tuesday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E063</coordinates>
+      <coordinates>F063</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Tuesday">
@@ -1952,10 +1952,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Sixth week of Advent</name>
+      <name>Wednesday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E064</coordinates>
+      <coordinates>F064</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Wednesday">
@@ -1968,10 +1968,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Thursday in the Sixth week of Advent</name>
+      <name>Thursday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E065</coordinates>
+      <coordinates>F065</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Thursday">
@@ -1984,10 +1984,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Friday in the Sixth week of Advent</name>
+      <name>Friday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E066</coordinates>
+      <coordinates>F066</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Friday">
@@ -2000,10 +2000,10 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Saturday in the Sixth week of Advent</name>
+      <name>Saturday in the Sixth week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E067</coordinates>
+      <coordinates>F067</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="Saturday">

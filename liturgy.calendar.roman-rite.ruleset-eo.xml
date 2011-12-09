@@ -466,7 +466,7 @@
      <name>$nr_s Sunday after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E$nr_c1</coordinates>
+      <coordinates>F$nr_c1</coordinates>
       <rank nr="9">Sunday II class</rank>
       <daterules>
         <weeks-after nr="$nr_i">
@@ -506,10 +506,10 @@
       <parametergroup><nr_s>Sixth</nr_s><nr_i>5</nr_i><nr_c>06</nr_c></parametergroup>
     </parameters>
     <template>
-     <name>$day_s in the $nr_s week of Advent</name>
+     <name>$day_s in the $nr_s week after Epiphany</name>
       <season>Season per Annum</season>
       <set>After Epiphany before Advent</set>
-      <coordinates>E$nr_c$day_c</coordinates>
+      <coordinates>F$nr_c$day_c</coordinates>
       <rank nr="18">Ferias IV class</rank>
       <daterules>
         <weekday-after day="$day_s">
