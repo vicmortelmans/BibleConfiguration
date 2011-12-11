@@ -357,7 +357,9 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
         </weekday-after>
       </daterules>
    </liturgicalday>
-   <liturgicalday>
+  
+ 
+  <liturgicalday>
       <name>Monday in the Third week of Advent</name>
       <season>Christmas season</season>
       <tide>Advent</tide>
@@ -392,23 +394,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
       </daterules>
    </liturgicalday>
    <liturgicalday>
-      <name>Wednesday in the Third week of Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A034</coordinates>
-      <rank nr="18">Ferias IV class</rank>
-      <daterules>
-        <weekday-after day="Wednesday">
-            <weeks-before nr="3">
-               <weekday-before day="Sunday">
-                  <date day="25" month="12" year-1="yes"/>
-               </weekday-before>
-            </weeks-before>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
       <name>Thursday in the Third week of Advent</name>
       <season>Christmas season</season>
       <tide>Advent</tide>
@@ -425,41 +410,6 @@ java net.sf.saxon.Transform -s:liturgy.calendar.roman-rite.ruleset.xml -xsl:litu
         </weekday-after>
       </daterules>
    </liturgicalday>
-   <liturgicalday>
-      <name>Friday in the Third week of Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A036</coordinates>
-      <rank nr="18">Ferias IV class</rank>
-      <daterules>
-        <weekday-after day="Friday">
-            <weeks-before nr="3">
-               <weekday-before day="Sunday">
-                  <date day="25" month="12" year-1="yes"/>
-               </weekday-before>
-            </weeks-before>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-   <liturgicalday>
-      <name>Saturday in the Third week of Advent</name>
-      <season>Christmas season</season>
-      <tide>Advent</tide>
-      <set>Advent</set>
-      <coordinates>A037</coordinates>
-      <rank nr="18">Ferias IV class</rank>
-      <daterules>
-        <weekday-after day="Saturday">
-            <weeks-before nr="3">
-               <weekday-before day="Sunday">
-                  <date day="25" month="12" year-1="yes"/>
-               </weekday-before>
-            </weeks-before>
-        </weekday-after>
-      </daterules>
-   </liturgicalday>
-  
   
 
   <coordinaterules set="Days before Christmas" start="First Sunday of Advent"

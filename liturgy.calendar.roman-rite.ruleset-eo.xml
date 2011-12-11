@@ -109,6 +109,40 @@
       <parametergroup>
         <nr_s>Second</nr_s><nr_i>2</nr_i><nr_c>02</nr_c>
       </parametergroup>
+    </parameters>
+    <template>
+      <name>$day_s in the $nr_s week of Advent</name>
+      <season>Christmas season</season>
+      <tide>Advent</tide>
+      <set>Advent</set>
+      <coordinates>A$nr_c$day_c</coordinates>
+      <rank nr="18">Ferias IV class</rank>
+      <daterules>
+        <weekday-after day="$day_s">
+          <weeks-before nr="$nr_i">
+            <weekday-before day="Sunday">
+              <date day="25" month="12" year-1="yes"/>
+            </weekday-before>
+          </weeks-before>
+        </weekday-after>
+      </daterules>
+    </template>
+  </liturgicalday>
+  
+ 
+  <liturgicalday>
+    <parameters>
+      <parameters>
+        <parametergroup>
+          <day_s>Monday</day_s><day_c>2</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Tuesday</day_s><day_c>3</day_c>
+        </parametergroup>
+        <parametergroup>
+          <day_s>Thursday</day_s><day_c>5</day_c>
+        </parametergroup>
+     </parameters>
       <parametergroup>
         <nr_s>Third</nr_s><nr_i>3</nr_i><nr_c>03</nr_c>
       </parametergroup>
@@ -131,7 +165,6 @@
       </daterules>
     </template>
   </liturgicalday>
-  
   <!-- 
       DAYS BEFORE CHRISTMAS 
               -->
