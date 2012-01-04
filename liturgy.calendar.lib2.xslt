@@ -9,7 +9,7 @@
     <xsl:param name="rest"/>
     <xsl:choose>
       <xsl:when test="$cache = 'yes'">
-        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cachetill.xq?url=</xsl:text>
+        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m.xq?url=</xsl:text>
         <xsl:value-of select="encode-for-uri($rest)"/>
         <xsl:text>&amp;expiration=10</xsl:text>
       </xsl:when>
