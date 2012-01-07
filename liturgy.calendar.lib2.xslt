@@ -18,8 +18,12 @@
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-    <xsl:value-of select="document($cachedrest)"/>
+    <xsl:variable name="cachedrestdata">
+      <xsl:value-of select="document($cachedrest)"/>
+    </xsl:variable>
+    <xsl:copy-of select="$cachedrestdata"/>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/> (cache = <xsl:value-of select="$cache"/>)</xsl:message>
+    <xsl:message><xsl:copy-of select="$cachedrestdata"/></xsl:message>
   </xsl:template>
     
   <xsl:template name="liturgical-year">
@@ -53,7 +57,7 @@
               <xsl:with-param name="rest" select="$rest"/>
             </xsl:call-template>
           </xsl:variable>
-          <xsl:value-of select="$cachedrest/date"/>
+          <xsl:value-of select="$cachedrest"/>
         </xsl:variable>
         <xsl:choose>
           <xsl:when test="xs:date($date) &lt; xs:date($startnextyear)">
@@ -300,7 +304,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:value-of select="$cachedrest/date"/>
+    <xsl:value-of select="$cachedrest"/>
   </xsl:template>
 
   <xsl:template match="relative-to-next-years">
@@ -324,7 +328,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:value-of select="$cachedrest/date"/>
+    <xsl:value-of select="$cachedrest"/>
   </xsl:template>
   
   <xsl:template match="transfer">
@@ -408,7 +412,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:value-of select="$cachedrest/coordinates"/> 
+    <xsl:value-of select="$cachedrest"/> 
   </xsl:template>
 
   <xsl:template match="set-coordinates">
@@ -434,7 +438,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:copy-of select="$cachedrest/results"/> 
+    <xsl:copy-of select="$cachedrest"/> 
   </xsl:template>
 
   <xsl:template match="query-set">
@@ -442,14 +446,15 @@
        @set : name of a set of liturgical days
        OUTPUT for each liturgical day in @set, the daterules are applied and
        if the date matches $date, 
-       the <coordinates> for that liturgical day are returned -->
+       the <coordinates> for that liturgical day are returned.
+       If @anydate is specified all matching coordinates are returned concatenated. -->
     <xsl:message>query-set(date : <xsl:value-of select="normalize-space($date)"/>, set : <xsl:value-of select="@set"/>)</xsl:message>
     <xsl:for-each select="//liturgicalday[set=current()/@set]">
       <xsl:message>querying <xsl:value-of select="set"/></xsl:message>
       <xsl:variable name="candidate">
         <xsl:apply-templates select="daterules"/>
       </xsl:variable>
-      <xsl:if test="$candidate=$date">
+      <xsl:if test="not(normalize-space($candidate) = '') and ($candidate = $date or @anydate)">
         <xsl:value-of select="coordinates"/>
       </xsl:if>
     </xsl:for-each>
@@ -461,7 +466,8 @@
        coordinates : specific coordinates
        OUTPUT for the liturgical day(s) in @set that match @coordinates, 
        the daterules are applied and if the date matches $date, 
-       the <coordinates> for that liturgical day are returned -->
+       the <coordinates> for that liturgical day are returned.
+       If anydate is specified all matching coordinates are returned concatenated. -->
     <xsl:variable name="coordinates">
       <xsl:apply-templates/>
     </xsl:variable>
@@ -472,32 +478,41 @@
         <xsl:apply-templates select="daterules"/>
       </xsl:variable>
       <xsl:message>testing if <xsl:value-of select="$candidate"/> equals <xsl:value-of select="$date"/></xsl:message>
-      <xsl:if test="$candidate=$date">
+      <xsl:if test="not(normalize-space($candidate) = '') and ($candidate = $date or @anydate)">
         <xsl:value-of select="coordinates"/>
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
-	<!--
-	GENERIC OPERATORS 
-	-->
+  <!--
+        GENERIC OPERATORS 
+      -->
 
-	<xsl:template match="if">
-	<!-- INPUT $* 
-	test : logical operator
-	then : anything that can be applied
-	else : anything that can be applied
-	OUTPUT whatever the 'then' or 'else' returns -->
-	<xsl:variable name="test">
-	<xsl:apply-templates select="test/*"/>
-	</xsl:variable>
-	<xsl:message>if(test : <xsl:value-of select="$test"/>)</xsl:message>
-	<xsl:choose>
-	<xsl:when test="$test='true'">
-        <xsl:apply-templates select="then/*"/>
+  <xsl:template match="if">
+    <!-- INPUT $* 
+         not : negation of the 'test'
+         test : logical operator
+         then : anything that can be applied
+         else : anything that can be applied
+         OUTPUT whatever the 'then' or 'else' returns -->
+    <xsl:variable name="test">
+      <xsl:apply-templates select="test/*"/>
+    </xsl:variable>
+    <xsl:message>if(test : <xsl:if test="not">not </xsl:if><xsl:value-of select="$test"/>)</xsl:message>
+    <xsl:choose>
+      <xsl:when test="(not(not) and $test='true') or (not and not($test='true'))">
+        <xsl:variable name="then">
+          <xsl:apply-templates select="then/*"/>
+        </xsl:variable>
+        <xsl:message>then(<xsl:value-of select="$then"/>)</xsl:message>
+        <xsl:value-of select="$then"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates select="else/*"/>
+        <xsl:variable name="else">
+          <xsl:apply-templates select="else/*"/>
+        </xsl:variable>
+        <xsl:message>else(<xsl:value-of select="$else"/>)</xsl:message>
+        <xsl:value-of select="$else"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -629,7 +644,17 @@
     <xsl:message>equals(string1 : <xsl:value-of select="$string1"/>, string2 : <xsl:value-of select="$string2"/>)</xsl:message>
     <xsl:if test="$string2=$string1">true</xsl:if>
   </xsl:template>
-   
+  
+  <xsl:template match="exists">
+    <!-- INPUT * : any operator
+         OUTPUT : "true" unless the normalized result string is empty -->
+    <xsl:variable name="string">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:message>exists(<xsl:value-of select="$string"/>)</xsl:message>
+    <xsl:if test="not(normalize-space($string) = '')">true</xsl:if>
+  </xsl:template>
+
   <xsl:template match="or">
     <!-- INPUT *[1..n] : logical operators 
          OUTPUT : "true" if any of the arguments are true -->

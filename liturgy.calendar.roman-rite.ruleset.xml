@@ -1176,10 +1176,6 @@
         <if>
           <test>
             <or>
-              <equals>
-                <date day="19" month="3"/>
-                <relative-to name="Passion Sunday"/>
-              </equals>
               <matches>
                 <coordinates set="Lent" day="19" month="3"/>
                 <string>L061,L062,L063,L064</string>
@@ -1201,13 +1197,6 @@
   </liturgicalday>
 
   <liturgicalday>
-    <parameters>
-      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
-      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
-      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
-      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
-      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
-    </parameters>
     <template>
       <name>Joseph, husband of Mary</name>
       <season>Lent</season>
@@ -1221,7 +1210,7 @@
           <test>
             <matches>
               <coordinates set="Lent" day="19" month="3"/>
-              <string s="L$nr_c1"/>
+              <string>L011,L021,L031,L041,L051</string>
             </matches>
           </test>
           <then>
@@ -1409,11 +1398,13 @@
       <precedence>3</precedence>
       <daterules>
         <if>
+          <not/>
           <test>
-            <before>
-              <date day="19" month="3"/>
-              <relative-to name="Holy Thursday"/>
-            </before>
+            <exists>
+	      <query-coordinates anydate="true" set="Transferred Joseph">
+		<text>Z0319</text>
+	      </query-coordinates>
+            </exists>
           </test>
           <then>
             <date day="19" month="3"/>
@@ -1423,7 +1414,7 @@
     </template>
   </liturgicalday>
 
-  <liturgicalday>
+  <!--liturgicalday>
     <template>
       <name>Joseph, husband of Mary</name>
       <season>Easter</season>
@@ -1446,7 +1437,7 @@
         </if>
       </daterules>
     </template>
-  </liturgicalday>
+  </liturgicalday-->
 
   <liturgicalday>
     <parameters><!-- Solemnities between 1/01 and 27/11 -->
