@@ -11,6 +11,7 @@
   <xsl:param name="year" select="'2011'"/>
   <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
   <xsl:param name="form" select="of"/>
+  <xsl:param name="cache" select="yes"/>
 
   <xsl:variable name="date"/>
   

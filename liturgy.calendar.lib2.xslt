@@ -3,20 +3,23 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fn="http://www.w3.org/2005/xpath-functions">
     
-  <xsl:variable name="cache" select="'yes'"/>
-    
   <xsl:template name="cache">
     <xsl:param name="rest"/>
-    <xsl:choose>
-      <xsl:when test="$cache = 'yes'">
-        <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m-light.xq?url=</xsl:text>
-        <xsl:value-of select="encode-for-uri($rest)"/>
-        <xsl:text>&amp;expiration=0</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$rest"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:variable name="cachedrest">
+      <xsl:choose>
+	<xsl:when test="$cache = 'yes'">
+	  <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m-light.xq?url=</xsl:text>
+	  <xsl:value-of select="encode-for-uri($rest)"/>
+	  <xsl:text>&amp;expiration=0</xsl:text>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="$rest"/>
+	  <xsl:text>&amp;cache=no</xsl:text>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
+    <xsl:value-of select="document($cachedrest)"/>
   </xsl:template>
     
   <xsl:template name="liturgical-year">
@@ -38,7 +41,7 @@
       <xsl:otherwise>
         <xsl:variable name="startnextyear">
           <xsl:variable name="rest">
-            <xsl:text>http://childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
+            <xsl:text>http://xslt.childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
             <xsl:value-of select="$sameyear + 1"/>
             <xsl:text>&amp;coordinates=A011&amp;options=</xsl:text>
             <xsl:value-of select="$options"/>
@@ -50,8 +53,7 @@
               <xsl:with-param name="rest" select="$rest"/>
             </xsl:call-template>
           </xsl:variable>
-          <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-          <xsl:value-of select="document($cachedrest)/date"/>
+          <xsl:value-of select="$cachedrest/date"/>
         </xsl:variable>
         <xsl:choose>
           <xsl:when test="xs:date($date) &lt; xs:date($startnextyear)">
@@ -284,7 +286,7 @@
     <xsl:message>relative-to(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
     <xsl:variable name="rest">
-        <xsl:text>http://childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
+        <xsl:text>http://xslt.childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
         <xsl:value-of select="$year"/>
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
@@ -298,8 +300,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-    <xsl:value-of select="document($cachedrest)/date"/>
+    <xsl:value-of select="$cachedrest/date"/>
   </xsl:template>
 
   <xsl:template match="relative-to-next-years">
@@ -309,7 +310,7 @@
     <xsl:message>relative-to-next-years(name : <xsl:value-of select="@name"/>)</xsl:message>
     <xsl:variable name="coordinates" select="//liturgicalday[name=current()/@name]/coordinates"/>
     <xsl:variable name="rest">
-        <xsl:text>http://childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
+        <xsl:text>http://xslt.childrensmissal.appspot.com/getDate2?output=xml&amp;year=</xsl:text>
         <xsl:value-of select="$year + 1"/>
         <xsl:text>&amp;coordinates=</xsl:text>
         <xsl:value-of select="$coordinates"/>
@@ -323,8 +324,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-    <xsl:value-of select="document($cachedrest)/date"/>
+    <xsl:value-of select="$cachedrest/date"/>
   </xsl:template>
   
   <xsl:template match="transfer">
@@ -394,7 +394,7 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:variable name="rest">
-     <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
+     <xsl:text>http://xslt.childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
       <xsl:value-of select="encode-for-uri(@set)"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
@@ -408,8 +408,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-    <xsl:value-of select="document($cachedrest)/coordinates"/> 
+    <xsl:value-of select="$cachedrest/coordinates"/> 
   </xsl:template>
 
   <xsl:template match="set-coordinates">
@@ -421,7 +420,7 @@
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:variable name="rest">
-      <xsl:text>http://childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
+      <xsl:text>http://xslt.childrensmissal.appspot.com/getCoordinates?output=xml&amp;set=</xsl:text>
       <xsl:value-of select="encode-for-uri(@set)"/>
       <xsl:text>&amp;date=</xsl:text> 
       <xsl:value-of select="$date"/>
@@ -435,8 +434,7 @@
         <xsl:with-param name="rest" select="$rest"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>REST call to <xsl:value-of select="$cachedrest"/></xsl:message>
-    <xsl:copy-of select="document($cachedrest)/results"/> 
+    <xsl:copy-of select="$cachedrest/results"/> 
   </xsl:template>
 
   <xsl:template match="query-set">
