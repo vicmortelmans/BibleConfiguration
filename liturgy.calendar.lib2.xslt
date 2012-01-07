@@ -11,6 +11,8 @@
 	  <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m-light.xq?url=</xsl:text>
 	  <xsl:value-of select="encode-for-uri($rest)"/>
 	  <xsl:text>&amp;expiration=0</xsl:text>
+	  <xsl:text>&amp;doc=</xsl:text>
+          <xsl:value-of select="$form"/>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:value-of select="$rest"/>
