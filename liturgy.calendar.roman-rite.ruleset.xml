@@ -1082,13 +1082,6 @@
   </liturgicalday>
 
   <liturgicalday>
-    <parameters>
-      <parametergroup><nr_c>01</nr_c><nr_i>1</nr_i></parametergroup>
-      <parametergroup><nr_c>02</nr_c><nr_i>2</nr_i></parametergroup>
-      <parametergroup><nr_c>03</nr_c><nr_i>3</nr_i></parametergroup>
-      <parametergroup><nr_c>04</nr_c><nr_i>4</nr_i></parametergroup>
-      <parametergroup><nr_c>05</nr_c><nr_i>5</nr_i></parametergroup>
-    </parameters>
     <template>
       <name>Annunciation</name>
       <season>Lent</season>
@@ -1102,15 +1095,11 @@
           <test>
             <matches>
               <coordinates set="Lent" day="25" month="3"/>
-              <string s="L$nr_c1"/>
+              <string>L011,L021,L031,L041,L051</string>
             </matches>
           </test>
           <then>
-            <day-after day="Monday">
-              <weeks-after nr="$nr_i">
-                <easterdate/>
-              </weeks-after>
-            </day-after>
+            <date day="26" month="03"/>
           </then>
         </if>
       </daterules>
