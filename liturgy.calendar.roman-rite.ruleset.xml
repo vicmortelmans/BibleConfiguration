@@ -1337,11 +1337,13 @@
       <precedence>3</precedence>
       <daterules>
         <if>
+          <not/>
           <test>
-            <before>
-              <date day="25" month="3"/>
-              <relative-to name="Holy Thursday"/>
-            </before>
+            <exists>
+	      <query-coordinates anydate="true" set="Transferred Annunciation">
+		<text>Z0325</text>
+	      </query-coordinates>
+            </exists>
           </test>
           <then>
             <date day="25" month="3"/>
@@ -1351,7 +1353,7 @@
     </template>
   </liturgicalday>
 
-  <liturgicalday>
+  <!--liturgicalday>
     <template>
       <name>Annunciation</name>
       <season>Easter</season>
@@ -1374,7 +1376,7 @@
         </if>
       </daterules>
     </template>
-  </liturgicalday>
+  </liturgicalday-->
 
   <liturgicalday>
     <template>
