@@ -337,6 +337,8 @@
     <!-- INPUT @sets : the sets to be investigated
                @rank : the rank of the current day
                * : a date
+         Checks all @sets for the given date, and if they have a day of rank higher than @rank,
+         Returns the day after.
          OUTPUT yyyy-mm-dd : a date -->
     <xsl:message>transfer(sets : <xsl:value-of select="@sets"/>, rank : <xsl:value-of select="@rank"/>)</xsl:message>
     <xsl:variable name="rank" select="@rank"/>
@@ -357,9 +359,13 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:message>transfer - coordinates: <xsl:copy-of select="$coordinates"/></xsl:message>
+    <xsl:variable name="overlapping-liturgicaldays" select="//liturgicalday[matches($coordinates,coordinates)]"/>
+    <xsl:message>overlapping-liturgicaldays: <xsl:copy-of select="$overlapping-liturgicaldays"/></xsl:message>
+    <xsl:variable name="overlapping-liturgicaldays-of-higher-rank" select="$overlapping-liturgicaldays[number(rank/@nr) &lt; number($rank)]"/>
+    <xsl:message>overlapping-liturgicaldays-of-higher-rank: <xsl:copy-of select="$overlapping-liturgicaldays-of-higher-rank"/></xsl:message>
     <xsl:choose>
-      <xsl:when test="$coordinates//coordinates[number(@rank) &lt; number($rank)]">
-        <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/> for <xsl:value-of select="$coordinates//coordinates[number(@rank) &lt; number($rank)]"/></xsl:message>
+      <xsl:when test="$overlapping-liturgicaldays-of-higher-rank">
+        <xsl:message>TRANSFERRING from <xsl:value-of select="$date"/> for <xsl:value-of select="$overlapping-liturgicaldays/coordinates"/></xsl:message>
         <xsl:variable name="ruleset">
           <transfer set="{$sets}" rank="{$rank}">
             <days-after nr="1">
