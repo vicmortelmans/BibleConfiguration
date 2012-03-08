@@ -13,7 +13,8 @@
   <xsl:param name="score" select="'yes'"/>
   <xsl:param name="form" select="'of'"/>
   <xsl:param name="cache" select="'yes'"/>
-  
+  <xsl:param name="cacheserver" select="'exist'"/>
+ 
   <xsl:variable name="year">
     <xsl:call-template name="liturgical-year">
         <xsl:with-param name="date" select="$date"/>

@@ -8,11 +8,20 @@
     <xsl:variable name="cachedrest">
       <xsl:choose>
 	<xsl:when test="$cache = 'yes'">
-	  <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m-light.xq?url=</xsl:text>
+          <xsl:choose>
+	    <xsl:when test="$cacheserver = '28msec'">
+	      <xsl:text>http://prentenmissaal.my28msec.com/cache/cache?url=</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise> 
+	      <xsl:text>http://ec2-46-137-56-166.eu-west-1.compute.amazonaws.com:8080/exist/rest//db/cache/cache-m-light.xq?url=</xsl:text>
+	    </xsl:otherwise>
+          </xsl:choose>
 	  <xsl:value-of select="encode-for-uri($rest)"/>
 	  <xsl:text>&amp;expiration=0</xsl:text>
 	  <xsl:text>&amp;doc=</xsl:text>
           <xsl:value-of select="$form"/>
+	  <xsl:text>&amp;cacheserver=</xsl:text>
+          <xsl:value-of select="$cacheserver"/>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:value-of select="$rest"/>

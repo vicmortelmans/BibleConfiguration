@@ -12,6 +12,7 @@
   <xsl:param name="options" select="'epiphany-alt,corpuschristi-std,ascension-std'"/>
   <xsl:param name="form" select="'of'"/>
   <xsl:param name="cache" select="'yes'"/>
+  <xsl:param name="cacheserver" select="'exist'"/>
 
   <xsl:variable name="date"/>
   
