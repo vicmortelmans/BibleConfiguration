@@ -43,8 +43,7 @@
     <name>unbound_biola_edu</name>
     <bookskey>unbound_biola_edu</bookskey>
     <editionskey>unbound_biola_edu</editionskey>
-    <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;parallel_2=&amp;parallel_3=&amp;parallel_4=&amp;book_section=00&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;to_chap=&amp;to_verse=&amp;text_word=&amp;and_or=AND&amp;and_word=&amp;not_word=&amp;submit=Search&amp;displayFormat=verseAboveNoHeader&amp;highlightFormat=none&amp;num_main=default&amp;num_left=default&amp;num_right=default&amp;show_commentary=0&amp;show_context=0&amp;show_illustrations=0&amp;show_maps=0&amp;versification=nrsva"</step>
-    <step nr="2" yql="true">select * from html where url="$url" and xpath="//tr[(((count(preceding-sibling::*) + 1) = 4) and parent::*)]//td"</step>
+    <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="//tr[count(preceding-sibling::tr) = 3]//text()" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;parallel_2=&amp;parallel_3=&amp;parallel_4=&amp;book_section=00&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;to_chap=&amp;to_verse=&amp;text_word=&amp;and_or=AND&amp;and_word=&amp;not_word=&amp;submit=Search&amp;displayFormat=verseAboveNoHeader&amp;highlightFormat=none&amp;num_main=default&amp;num_left=default&amp;num_right=default&amp;show_commentary=0&amp;show_context=0&amp;show_illustrations=0&amp;show_maps=0&amp;versification=nrsva"</step>
   </service>
   <service> 
     <name>bibliacatolica_com</name>
