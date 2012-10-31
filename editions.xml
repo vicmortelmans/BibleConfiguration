@@ -43,7 +43,7 @@
 		<input name="true">Danske Bibel</input>
 	</edition>
 	<edition>
-		<code service="diebibel_de" default_="true">einheitsuebersetzung</code>
+		<code service="diebibel_de" default_="true">EUE</code>
 		<language>de</language>
 		<default_>true</default_>
 		<copyright>Copyright Katholischen Bibelanstalt, Stuttgart</copyright>

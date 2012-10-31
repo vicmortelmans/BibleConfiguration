@@ -42,17 +42,13 @@
     <name>diebibel_de</name>
     <bookskey>diebibel_de</bookskey>
     <editionskey>diebibel_de</editionskey>
-    <step nr="1">http://www.die-bibel.de/nc/online-bibeln/$edition/lesen-im-bibeltext/bibelstelle/$book%20$chapter%3A$passage/anzeige/single</step>
-    <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassagediebibelde&amp;v=1&amp;applyToUrl=$url</step>
-    <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+    <step nr="1" yql="true">select * from html where url="http://www.die-bibel.de/bibelstelle/$book$chapter,$passage/$edition/" and xpath="//div[@class='markdown']/p/text()"</step>
   </service>
   <service>
     <name>unbound_biola_edu</name>
     <bookskey>unbound_biola_edu</bookskey>
     <editionskey>unbound_biola_edu</editionskey>
-    <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="*" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;submit=Search"</step>
-    <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassageunboundbiolaedu&amp;v=1&amp;applyToUrl=$url</step>
-    <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
+    <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="//tr[count(preceding-sibling::tr) = 3]//text()" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;parallel_2=&amp;parallel_3=&amp;parallel_4=&amp;book_section=00&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;to_chap=&amp;to_verse=&amp;text_word=&amp;and_or=AND&amp;and_word=&amp;not_word=&amp;submit=Search&amp;displayFormat=verseAboveNoHeader&amp;highlightFormat=none&amp;num_main=default&amp;num_left=default&amp;num_right=default&amp;show_commentary=0&amp;show_context=0&amp;show_illustrations=0&amp;show_maps=0&amp;versification=nrsva"</step>
   </service>
   <service> 
     <name>bibliacatolica_com</name>
