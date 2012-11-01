@@ -13,7 +13,7 @@
 		<input>1 Mz</input>
 		<input>1 Mojz</input>
 		<input language="nl,en">Gen</input>
-		<input>Gn</input>
+		<input language="fr">Gn</input>
 		<input>Ge</input>
 		<input>Post</input>
 		<input>Has</input>
@@ -36,7 +36,7 @@
 		<input>2 Mz</input>
 		<input>2 Mojz</input>
 		<input>Exo</input>
-		<input language="nl,en">Ex</input>
+		<input language="nl,en,fr">Ex</input>
 		<input>Exod</input>
 		<input>Izl</input>
 		<input>Ir</input>
@@ -60,7 +60,7 @@
 		<input>3 Mojz</input>
 		<input language="nl,en">Lev</input>
 		<input>Lév</input>
-		<input>Lv</input>
+		<input language="fr">Lv</input>
 		<input>Lb</input>
 		<input>Leu</input>
 		<input>Levitik</input>
@@ -85,7 +85,7 @@
 		<input language="nl,en">Num</input>
 		<input>Nm</input>
 		<input>Nu</input>
-		<input>Nb</input>
+		<input language="fr">Nb</input>
 		<input>Nomb</input>
 		<input>Br</input>
 		<input>Zen</input>
@@ -109,7 +109,7 @@
 		<input>5 Mz</input>
 		<input>5 Mojz</input>
 		<input>Deu</input>
-		<input>Dt</input>
+		<input language="fr">Dt</input>
 		<input language="nl,en">Deut</input>
 		<input>Pnz</input>
 		<input>Devteronomij</input>
@@ -131,7 +131,7 @@
 		<input>Jozua</input>
 		<input>Joshua</input>
 		<input language="nl">Joz</input>
-		<input>Jos</input>
+		<input language="fr">Jos</input>
 		<input language="en">Josh</input>
 		<input>Ios</input>
 		<input>Jš</input>
@@ -157,7 +157,7 @@
 		<input>Sodn</input>
 		<input>Jdg</input>
 		<input language="en">Judg</input>
-		<input>Jg</input>
+		<input language="fr">Jg</input>
 		<input>Jug</input>
 		<input>Jdc</input>
 		<input>Jue</input>
@@ -188,7 +188,7 @@
 		<input>Rut</input>
 		<input>Ru</input>
 		<input>Rth</input>
-		<input>Rt</input>
+		<input language="fr">Rt</input>
 		<input>Ruta</input>
 	</book>
 	<book>
@@ -204,7 +204,7 @@
 		<input>1 Samuel</input>
 		<input language="nl,en">1 Sam</input>
 		<input>1 Sa</input>
-		<input>1 S</input>
+		<input language="fr">1 S</input>
 		<input>1 Sm</input>
 		<input>1 Rg</input>
 		<input>1 Regn</input>
@@ -233,7 +233,7 @@
 		<input>2 Samuel</input>
 		<input language="nl,en">2 Sam</input>
 		<input>2 Sa</input>
-		<input>2 S</input>
+		<input language="fr">2 S</input>
 		<input>2 Sm</input>
 		<input>2 Rg</input>
 		<input>2 Regn</input>
@@ -266,7 +266,7 @@
 		<input>1 Kralj</input>
 		<input>1 Ki</input>
 		<input>1 Kgs</input>
-		<input>1 R</input>
+		<input language="fr">1 R</input>
 		<input>1 Re</input>
 		<input>3 Rg</input>
 		<input>3 Regn</input>
@@ -315,7 +315,7 @@
 		<input>2 Kralj</input>
 		<input>2 Ki</input>
 		<input>2 Kgs</input>
-		<input>2 R</input>
+		<input language="fr">2 R</input>
 		<input>2 Re</input>
 		<input>4 Rg</input>
 		<input>4 Regn</input>
@@ -363,7 +363,7 @@
 		<input language="nl">1 Kron</input>
 		<input>1 Let</input>
 		<input>1 Ljet</input>
-		<input>1 Ch</input>
+		<input language="fr">1 Ch</input>
 		<input>1 Cr</input>
 		<input>1 Cro</input>
 		<input>1 Kro</input>
@@ -408,7 +408,7 @@
 		<input language="nl">2 Kron</input>
 		<input>2 Let</input>
 		<input>2 Ljet</input>
-		<input>2 Ch</input>
+		<input language="fr">2 Ch</input>
 		<input>2 Cr</input>
 		<input>2 Cro</input>
 		<input>2 Kro</input>
@@ -452,7 +452,7 @@
 		<input>Ezdr</input>
 		<input>Esra</input>
 		<input>Esr</input>
-		<input>Esd</input>
+		<input language="fr">Esd</input>
 		<input>1 Ezr</input>
 		<input>1 Esr</input>
 		<input>Ezdra</input>
@@ -471,7 +471,7 @@
 		<input>Nehemiah</input>
 		<input language="nl,en">Neh</input>
 		<input>Néh</input>
-		<input>Ne</input>
+		<input language="fr">Ne</input>
 		<input>Né</input>
 		<input>2 Ezr</input>
 		<input>2 Esr</input>
@@ -491,7 +491,7 @@
 		<code service="biblija_net">Esth</code>
 		<input>Ester</input>
 		<input>Esther</input>
-		<input language="nl">Est</input>
+		<input language="nl,fr">Est</input>
 		<input>Ester</input>
 		<input language="en">Esth</input>
 		<input>Esther</input>
@@ -508,7 +508,7 @@
 		<code service="biblija_net">Jb</code>
 		<input language="nl,en">Job</input>
 		<input>Hi</input>
-		<input>Jb</input>
+		<input language="fr">Jb</input>
 		<input>Iob</input>
 		<input>Hiob</input>
 		<input>Ijob</input>
@@ -524,7 +524,7 @@
 		<code service="biblija_net">Ps</code>
 		<input>De Psalmen</input>
 		<input>Psalms</input>
-		<input language="nl,en">Ps</input>
+		<input language="nl,en,fr">Ps</input>
 		<input>Psa</input>
 		<input>PsG</input>
 		<input>Sal</input>
@@ -549,7 +549,7 @@
 		<input>Preg</input>
 		<input>Pro</input>
 		<input language="en">Prov</input>
-		<input>Pr</input>
+		<input language="fr">Pr</input>
 		<input>Prv</input>
 		<input>Prou</input>
 		<input language="nl">Spr</input>
@@ -580,7 +580,7 @@
 		<input language="en">Ecc</input>
 		<input>Eccl</input>
 		<input>Ecl</input>
-		<input>Qo</input>
+		<input language="fr">Qo</input>
 		<input>Qoh</input>
 		<input>Coh</input>
 		<input>Koh</input>
@@ -610,7 +610,7 @@
 		<input>SS</input>
 		<input>Cant</input>
 		<input>Cnt</input>
-		<input>Ct</input>
+		<input language="fr">Ct</input>
 		<input>Kt</input>
 		<input language="nl">Hoogl</input>
 		<input>Hl</input>
@@ -638,7 +638,7 @@
 		<input>Izai</input>
 		<input>Izaija</input>
 		<input language="en">Isa</input>
-		<input>Is</input>
+		<inpu language="fr"t>Is</input>
 		<input language="nl">Jes</input>
 		<input>Js</input>
 		<input>Es</input>
@@ -660,7 +660,7 @@
 		<input>Jeremiah</input>
 		<input language="nl,en">Jer</input>
 		<input>Jér</input>
-		<input>Jr</input>
+		<input language="fr">Jr</input>
 		<input>Ier</input>
 		<input>Jeremija</input>
 		<input>Jeremiah</input>
@@ -681,7 +681,7 @@
 		<input>Žal</input>
 		<input language="en">Lam</input>
 		<input>La</input>
-		<input>Lm</input>
+		<input language="fr">Lm</input>
 		<input>Thr</input>
 		<input language="nl">Klaagl</input>
 		<input>Kl</input>
@@ -707,7 +707,7 @@
 		<input>Ezechiël</input>
 		<input>Ezekiel</input>
 		<input>Ezk</input>
-		<input>Ez</input>
+		<input language="fr">Ez</input>
 		<input language="nl">Eze</input>
 		<input>Ezec</input>
 		<input language="en">Ezek</input>
@@ -734,7 +734,7 @@
 		<input>Daniel</input>
 		<input language="nl,en">Dan</input>
 		<input>Da</input>
-		<input>Dn</input>
+		<input language="fr">Dn</input>
 		<input>Daniel</input>
 		<input>Danijel</input>
 		<input>Daniël</input>
@@ -754,7 +754,7 @@
 		<input>Ozea</input>
 		<input language="nl,en">Hos</input>
 		<input>Ho</input>
-		<input>Os</input>
+		<input language="fr">Os</input>
 		<input>Hoš</input>
 		<input>Ozej</input>
 		<input>Hosea</input>
@@ -773,7 +773,7 @@
 		<code service="biblija_net">Jl</code>
 		<input language="nl">Joël</input>
 		<input language="en">Joel</input>
-		<input>Jl</input>
+		<input language="fr">Jl</input>
 		<input>Jol</input>
 		<input>Joel</input>
 		<input>Ioel</input>
@@ -790,7 +790,7 @@
 		<code service="biblija_net">Am</code>
 		<input>Amos</input>
 		<input>Amos</input>
-		<input language="nl,en">Am</input>
+		<input language="nl,en,fr">Am</input>
 		<input>Amo</input>
 		<input>Amos</input>
 		<input>Amós</input>
@@ -807,7 +807,7 @@
 		<input>Obadja</input>
 		<input>Obadiah</input>
 		<input>Abd</input>
-		<input>Ab</input>
+		<input language="fr">Ab</input>
 		<input>Oba</input>
 		<input>Obd</input>
 		<input>Obad</input>
@@ -831,6 +831,7 @@
 		<input>Jonah</input>
 		<input language="en">Jon</input>
 		<input>Jnh</input>
+        <input language="fr">Jn</input>
 		<input>Ion</input>
 		<input>Jona</input>
 		<input>Jonah</input>
@@ -849,7 +850,7 @@
 		<input>Micah</input>
 		<input>Mih</input>
 		<input language="en">Mic</input>
-		<input language="nl">Mi</input>
+		<input language="nl,fr">Mi</input>
 		<input>Mch</input>
 		<input>Mich</input>
 		<input>Miq</input>
@@ -870,7 +871,7 @@
 		<code service="biblija_net">Na</code>
 		<input language="nl,en">Nah</input>
 		<input>Nam</input>
-		<input>Na</input>
+		<input language="fr">Na</input>
 		<input>Nahum</input>
 		<input>Nahúm</input>
 	</book>
@@ -886,7 +887,7 @@
 		<input>Habakuk</input>
 		<input>Habakkuk</input>
 		<input language="nl,en">Hab</input>
-		<input>Ha</input>
+		<input language="fr">Ha</input>
 		<input>Habakuk</input>
 		<input>Habakkuk</input>
 		<input>Habacuc</input>
@@ -907,7 +908,7 @@
 		<input language="en">Zeph</input>
 		<input>Zef</input>
 		<input language="nl">Sef</input>
-		<input>So</input>
+		<input language="fr">So</input>
 		<input>Soph</input>
 		<input>Sofonija</input>
 		<input>Zefanija</input>
@@ -927,7 +928,7 @@
 		<code service="osis">Hag</code>
 		<code service="biblija_net">Hagg</code>
 		<input>Haggai</input>
-		<input>Ag</input>
+		<input language="fr">Ag</input>
 		<input language="nl,en">Hag</input>
 		<input>Hagg</input>
 		<input>Hgg</input>
@@ -953,7 +954,7 @@
 		<input>Zec</input>
 		<input language="en">Zech</input>
 		<input>Zch</input>
-		<input>Za</input>
+		<input language="fr">Za</input>
 		<input>Zac</input>
 		<input language="nl">Zach</input>
 		<input>Sach</input>
@@ -975,7 +976,7 @@
 		<input>Maleachi</input>
 		<input>Malachi</input>
 		<input language="nl,en">Mal</input>
-		<input>Ml</input>
+		<input language="fr">Ml</input>
 		<input>Malahija</input>
 		<input>Malachi</input>
 		<input>Maleachi</input>
@@ -992,7 +993,7 @@
 		<code service="biblija_net">Mat</code>
 		<input>Het evangelie volgens Matteüs</input>
 		<input>Matthew</input>
-		<input language="nl,en">Mt</input>
+		<input language="nl,en,fr">Mt</input>
 		<input>Mat</input>
 		<input>Matt</input>
 		<input>Matej</input>
@@ -1018,7 +1019,7 @@
 		<input>Mar</input>
 		<input>Mrk</input>
 		<input>Mk</input>
-		<input language="nl,en">Mc</input>
+		<input language="nl,en,fr">Mc</input>
 		<input>Marko</input>
 		<input>Mark</input>
 		<input>Marcus</input>
@@ -1039,7 +1040,7 @@
 		<input>Luke</input>
 		<input>Lk</input>
 		<input>Luk</input>
-		<input language="nl,en">Lc</input>
+		<input language="nl,en,fr">Lc</input>
 		<input>Luc</input>
 		<input>Lu</input>
 		<input>L</input>
@@ -1061,7 +1062,7 @@
 		<code service="biblija_net">Jhn</code>
 		<input>Het evangelie volgens Johannes</input>
 		<input>John</input>
-		<input language="en">Jn</input>
+		<input language="en,fr">Jn</input>
 		<input>Jan</input>
 		<input>Jhn</input>
 		<input language="nl">Jh</input>
@@ -1091,7 +1092,7 @@
 		<input>Dej</input>
 		<input>DejAp</input>
 		<input>Act</input>
-		<input>Ac</input>
+		<input language="fr">Ac</input>
 		<input language="nl">Hand</input>
 		<input>Hnd</input>
 		<input>Apg</input>
@@ -1121,7 +1122,7 @@
 		<input language="nl,en">Rom</input>
 		<input>Röm</input>
 		<input>Ro</input>
-		<input>Rm</input>
+		<input language="fr">Rm</input>
 		<input>R</input>
 		<input>Erm</input>
 		<input>Rimljanom</input>
@@ -1143,7 +1144,7 @@
 		<input>1 Corinthians</input>
 		<input language="nl">1 Kor</input>
 		<input language="en">1 Cor</input>
-		<input>1 Co</input>
+		<input language="fr">1 Co</input>
 		<input>1 Ko</input>
 		<input>1 K</input>
 		<input>1 Korinčanom</input>
@@ -1180,7 +1181,7 @@
 		<input>2 Corinthians</input>
 		<input language="nl">2 Kor</input>
 		<input language="en">2 Cor</input>
-		<input>2 Co</input>
+		<input language="fr">2 Co</input>
 		<input>2 Ko</input>
 		<input>2 K</input>
 		<input>2 Korinčanom</input>
@@ -1216,7 +1217,7 @@
 		<input>De brief aan de Galaten</input>
 		<input>Galatians</input>
 		<input language="nl,en">Gal</input>
-		<input>Ga</input>
+		<input language="fr">Ga</input>
 		<input>Gl</input>
 		<input>G</input>
 		<input>Galačanom</input>
@@ -1240,7 +1241,7 @@
 		<input>Efež</input>
 		<input>Éfez</input>
 		<input>Efez</input>
-		<input language="en">Eph</input>
+		<input language="en,fr">Eph</input>
 		<input>Éph</input>
 		<input>Ep</input>
 		<input>E</input>
@@ -1269,7 +1270,7 @@
 		<input language="nl">Fil</input>
 		<input>Fl</input>
 		<input>Php</input>
-		<input>Ph</input>
+		<input language="fr">Ph</input>
 		<input language="en">Phil</input>
 		<input>Phili</input>
 		<input>Filipljanom</input>
@@ -1290,7 +1291,7 @@
 		<input>De brief aan de Kolossenzen</input>
 		<input>Colossians</input>
 		<input language="nl">Kol</input>
-		<input language="en">Col</input>
+		<input language="en,fr">Col</input>
 		<input>Kološanom</input>
 		<input>Colossians</input>
 		<input>Kolossenzen</input>
@@ -1310,7 +1311,7 @@
 		<input>1 Thessalonians</input>
 		<input language="nl">1 Tes</input>
 		<input>1 Sol</input>
-		<input>1 Th</input>
+		<input language="fr">1 Th</input>
 		<input>1 Ts</input>
 		<input>1 Te</input>
 		<input>1 Tess</input>
@@ -1351,7 +1352,7 @@
 		<input>2 Thessalonians</input>
 		<input language="nl">2 Tes</input>
 		<input>2 Sol</input>
-		<input>2 Th</input>
+		<input language="fr">2 Th</input>
 		<input>2 Ts</input>
 		<input>2 Te</input>
 		<input>2 Tess</input>
@@ -1390,7 +1391,7 @@
 		<input>1 Timothy</input>
 		<input language="nl,en">1 Tim</input>
 		<input>1 Ti</input>
-		<input>1 Tm</input>
+		<input language="fr">1 Tm</input>
 		<input>1 T</input>
 		<input>1 Timoteju</input>
 		<input>1 Timothy</input>
@@ -1423,7 +1424,7 @@
 		<input>2 Timothy</input>
 		<input language="nl,en">2 Tim</input>
 		<input>2 Ti</input>
-		<input>2 Tm</input>
+		<input language="fr">2 Tm</input>
 		<input>2 T</input>
 		<input>2 Timoteju</input>
 		<input>2 Timothy</input>
@@ -1455,7 +1456,7 @@
 		<input>De brief aan Titus</input>
 		<input language="en">Titus</input>
 		<input language="nl">Tit</input>
-		<input>Tt</input>
+		<input language="fr">Tt</input>
 		<input>Titus</input>
 		<input>Titu</input>
 		<input>Tite</input>
@@ -1475,7 +1476,7 @@
 		<input>Flm</input>
 		<input language="nl">Filem</input>
 		<input>Film</input>
-		<input>Phm</input>
+		<input language="fr">Phm</input>
 		<input>Phlm</input>
 		<input>Phile</input>
 		<input>Philem</input>
@@ -1500,7 +1501,7 @@
 		<input>Hébr</input>
 		<input>Hbr</input>
 		<input>Hb</input>
-		<input>He</input>
+		<input language="fr">He</input>
 		<input>Hé</input>
 		<input>H</input>
 		<input>Hebrejcem</input>
@@ -1528,7 +1529,7 @@
 		<input>Jam</input>
 		<input>Jm</input>
 		<input>Ja</input>
-		<input>Jc</input>
+		<input language="fr">Jc</input>
 		<input>Jac</input>
 		<input>Jacq</input>
 		<input>Iac</input>
@@ -1554,7 +1555,7 @@
 		<input language="nl,en">1 Pet</input>
 		<input>1 Petr</input>
 		<input>1 Pe</input>
-		<input>1 Pi</input>
+		<input language="fr">1 Pi</input>
 		<input>1 P</input>
 		<input>1 Peter</input>
 		<input>1 Petrus</input>
@@ -1585,7 +1586,7 @@
 		<input language="nl,en">2 Pet</input>
 		<input>2 Petr</input>
 		<input>2 Pe</input>
-		<input>2 Pi</input>
+		<input language="fr">2 Pi</input>
 		<input>2 P</input>
 		<input>2 Peter</input>
 		<input>2 Petrus</input>
@@ -1612,7 +1613,7 @@
 		<code service="biblija_net">1 Jo</code>
 		<input>De eerste brief van Johannes</input>
 		<input>1 John</input>
-		<input language="en">1 Jn</input>
+		<input language="en,fr">1 Jn</input>
 		<input>1 Jan</input>
 		<input language="nl">1 Joh</input>
 		<input>1 Jo</input>
@@ -1649,7 +1650,7 @@
 		<code service="biblija_net">2 Jo</code>
 		<input>De tweede brief van Johannes</input>
 		<input>2 John</input>
-		<input language="en">2 Jn</input>
+		<input language="en,fr">2 Jn</input>
 		<input>2 Jan</input>
 		<input language="nl">2 Joh</input>
 		<input>2 Jo</input>
@@ -1686,7 +1687,7 @@
 		<code service="biblija_net">3 Jo</code>
 		<input>De derde brief van Johannes</input>
 		<input>3 John</input>
-		<input language="en">3 Jn</input>
+		<input language="en,fr">3 Jn</input>
 		<input>3 Jan</input>
 		<input language="nl">3 Joh</input>
 		<input>3 Jo</input>
@@ -1726,7 +1727,7 @@
 		<input language="nl">Jud</input>
 		<input>Juda</input>
 		<input>Jude</input>
-		<input>Jd</input>
+		<input language="fr">Jd</input>
 		<input>Ju</input>
 		<input>Iud</input>
 		<input>Judas</input>
@@ -1744,7 +1745,7 @@
 		<input>Revelation</input>
 		<input>Raz</input>
 		<input language="en">Rev</input>
-		<input>Ap</input>
+		<input language="fr">Ap</input>
 		<input>Apc</input>
 		<input>Apoc</input>
 		<input>Apok</input>
@@ -1776,7 +1777,7 @@
 		<input>EsG</input>
 		<input>EstGr</input>
 		<input>EsthGr</input>
-		<input>EstGrec</input>
+		<input language="fr">EstGrec</input>
 		<input>EstD</input>
 		<input>EstDC</input>
 		<input>GkEst</input>
@@ -1802,7 +1803,7 @@
 		<input language="en">Judith</input>
 		<input>Judit</input>
 		<input>Judith</input>
-		<input>Jdt</input>
+		<input language="fr">Jdt</input>
 		<input>Jdth</input>
 		<input>Idt</input>
 		<input>Judita</input>
@@ -1823,7 +1824,7 @@
 		<input>Tobit</input>
 		<input>Tobit</input>
 		<input>Tob</input>
-		<input>Tb</input>
+		<input language="fr">Tb</input>
 		<input>Tobit</input>
 		<input>Tobija</input>
 	</book>
@@ -1848,7 +1849,7 @@
 		<input>1 Macc</input>
 		<input>1 Mcc</input>
 		<input>1 Ma</input>
-		<input>1 M</input>
+		<input language="fr">1 M</input>
 		<input>1 Makabejci</input>
 		<input>1 Maccabees</input>
 		<input>1 Makkabeeën</input>
@@ -1897,7 +1898,7 @@
 		<input>2 Macc</input>
 		<input>2 Mcc</input>
 		<input>2 Ma</input>
-		<input>2 M</input>
+		<input language="fr">2 M</input>
 		<input>2 Makabejci</input>
 		<input>2 Maccabees</input>
 		<input>2 Makkabeeën</input>
@@ -1946,7 +1947,7 @@
 		<input>3 Macc</input>
 		<input>3 Mcc</input>
 		<input>3 Ma</input>
-		<input>3 M</input>
+		<input language="fr">3 M</input>
 		<input>3 Makabejci</input>
 		<input>3 Maccabees</input>
 		<input>3 Makkabeeën</input>
@@ -1995,7 +1996,7 @@
 		<input>4 Macc</input>
 		<input>4 Mcc</input>
 		<input>4 Ma</input>
-		<input>4 M</input>
+		<input language="fr">4 M</input>
 		<input>4 Makabejci</input>
 		<input>4 Maccabees</input>
 		<input>4 Makkabeeën</input>
@@ -2043,7 +2044,7 @@
 		<input>Weish</input>
 		<input>Wijsh</input>
 		<input>W</input>
-		<input>Sg</input>
+		<input language="fr">Sg</input>
 		<input>Sag</input>
 		<input>Sap</input>
 		<input>Sb</input>
@@ -2071,7 +2072,7 @@
 		<input>Wijsheid van Jezus Sirach</input>
 		<input>Sirach</input>
 		<input>Sir</input>
-		<input>Si</input>
+		<input language="fr">Si</input>
 		<input>Sirah</input>
 		<input>Sirach</input>
 		<input>Eclo</input>
@@ -2094,7 +2095,7 @@
 		<input>Baruch</input>
 		<input>Baruch</input>
 		<input>Bar</input>
-		<input>Ba</input>
+		<input language="fr">Ba</input>
 		<input>Baruh</input>
 		<input>Baruch</input>
 		<input>Baruc</input>
