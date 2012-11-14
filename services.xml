@@ -54,7 +54,7 @@
     <name>bibliacatolica_com</name>
     <bookskey>bibliacatolica_com</bookskey>
     <editionskey>bibliacatolica_com</editionskey>
-    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//*[(@id = 'biblia')]//tr[$passage]//td[(((count(preceding-sibling::*) + 1) = 2) and parent::*)]/p"</step>
+    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//div[@class = 'row']/p[$passage]"</step>
   </service>
   <service>
     <name>laparola_net</name>
