@@ -16,6 +16,13 @@
     <step nr="2" yql="true">use "http://www.datatables.org/data/data.html.cssselect.xml" as data.html.cssselect;select td.p,div.p from data.html.cssselect where url="$url" and css=".text,.pi,.p,.m,.q";</step>
   </service>
   <service>
+    <name>biblija3_net</name>
+    <bookskey>biblija_net</bookskey>
+    <editionskey>biblija3_net</editionskey>
+    <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
+    <step nr="2" yql="true">select * from html where url="$url" and xpath="//td[contains(@class,'text')]//text()[not(contains(parent::span/@class,'v') or contains(parent::span/@class,'c') or contains(ancestor::div[1]/@class,'s'))]";</step>
+  </service>
+  <service>
     <name>usccb_org</name>
     <bookskey>usccb_org</bookskey>
     <editionskey>usccb_org</editionskey>
@@ -47,7 +54,7 @@
     <name>bibliacatolica_com</name>
     <bookskey>bibliacatolica_com</bookskey>
     <editionskey>bibliacatolica_com</editionskey>
-    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//*[(@id = 'biblia')]//tr[$passage]//td[(((count(preceding-sibling::*) + 1) = 2) and parent::*)]/p"</step>
+    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//div[@class = 'row']/p[$passage]"</step>
   </service>
   <service>
     <name>laparola_net</name>
