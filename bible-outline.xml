@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-  <book name="Gen">
+  <book name="Gen" sequence="1">
      <chapter number="1" number_of_verses="31"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="24"/>
@@ -52,7 +52,7 @@
      <chapter number="49" number_of_verses="33"/>
      <chapter number="50" number_of_verses="26"/>
   </book>
-  <book name="Exod">
+  <book name="Exod" sequence="2">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="22"/>
@@ -94,7 +94,7 @@
      <chapter number="39" number_of_verses="43"/>
      <chapter number="40" number_of_verses="38"/>
   </book>
-  <book name="Lev">
+  <book name="Lev" sequence="3">
      <chapter number="1" number_of_verses="17"/>
      <chapter number="2" number_of_verses="16"/>
      <chapter number="3" number_of_verses="17"/>
@@ -123,7 +123,7 @@
      <chapter number="26" number_of_verses="46"/>
      <chapter number="27" number_of_verses="34"/>
   </book>
-  <book name="Num">
+  <book name="Num" sequence="4">
      <chapter number="1" number_of_verses="54"/>
      <chapter number="2" number_of_verses="34"/>
      <chapter number="3" number_of_verses="51"/>
@@ -161,7 +161,7 @@
      <chapter number="35" number_of_verses="34"/>
      <chapter number="36" number_of_verses="13"/>
   </book>
-  <book name="Deut">
+  <book name="Deut" sequence="5">
      <chapter number="1" number_of_verses="46"/>
      <chapter number="2" number_of_verses="37"/>
      <chapter number="3" number_of_verses="29"/>
@@ -197,7 +197,7 @@
      <chapter number="33" number_of_verses="29"/>
      <chapter number="34" number_of_verses="12"/>
   </book>
-  <book name="Josh">
+  <book name="Josh" sequence="6">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="24"/>
      <chapter number="3" number_of_verses="17"/>
@@ -223,7 +223,7 @@
      <chapter number="23" number_of_verses="16"/>
      <chapter number="24" number_of_verses="33"/>
   </book>
-  <book name="Judg">
+  <book name="Judg" sequence="7">
      <chapter number="1" number_of_verses="36"/>
      <chapter number="2" number_of_verses="23"/>
      <chapter number="3" number_of_verses="31"/>
@@ -246,13 +246,13 @@
      <chapter number="20" number_of_verses="48"/>
      <chapter number="21" number_of_verses="25"/>
   </book>
-  <book name="Ruth">
+  <book name="Ruth" sequence="8">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="23"/>
      <chapter number="3" number_of_verses="18"/>
      <chapter number="4" number_of_verses="22"/>
   </book>
-  <book name="1Sam">
+  <book name="1Sam" sequence="9">
      <chapter number="1" number_of_verses="28"/>
      <chapter number="2" number_of_verses="36"/>
      <chapter number="3" number_of_verses="21"/>
@@ -285,7 +285,7 @@
      <chapter number="30" number_of_verses="31"/>
      <chapter number="31" number_of_verses="13"/>
   </book>
-  <book name="2Sam">
+  <book name="2Sam" sequence="10">
      <chapter number="1" number_of_verses="27"/>
      <chapter number="2" number_of_verses="32"/>
      <chapter number="3" number_of_verses="39"/>
@@ -311,7 +311,7 @@
      <chapter number="23" number_of_verses="39"/>
      <chapter number="24" number_of_verses="25"/>
   </book>
-  <book name="1Kgs">
+  <book name="1Kgs" sequence="11">
      <chapter number="1" number_of_verses="53"/>
      <chapter number="2" number_of_verses="46"/>
      <chapter number="3" number_of_verses="28"/>
@@ -335,7 +335,7 @@
      <chapter number="21" number_of_verses="29"/>
      <chapter number="22" number_of_verses="54"/>
   </book>
-  <book name="2Kgs">
+  <book name="2Kgs" sequence="12">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="27"/>
@@ -362,7 +362,7 @@
      <chapter number="24" number_of_verses="20"/>
      <chapter number="25" number_of_verses="30"/>
   </book>
-  <book name="1Chr">
+  <book name="1Chr" sequence="13">
      <chapter number="1" number_of_verses="54"/>
      <chapter number="2" number_of_verses="55"/>
      <chapter number="3" number_of_verses="24"/>
@@ -393,7 +393,7 @@
      <chapter number="28" number_of_verses="21"/>
      <chapter number="29" number_of_verses="30"/>
   </book>
-  <book name="2Chr">
+  <book name="2Chr" sequence="14">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="17"/>
@@ -431,7 +431,7 @@
      <chapter number="35" number_of_verses="26"/>
      <chapter number="36" number_of_verses="23"/>
   </book>
-  <book name="Ezra">
+  <book name="Ezra" sequence="15">
      <chapter number="1" number_of_verses="11"/>
      <chapter number="2" number_of_verses="70"/>
      <chapter number="3" number_of_verses="13"/>
@@ -443,7 +443,7 @@
      <chapter number="9" number_of_verses="15"/>
      <chapter number="10" number_of_verses="44"/>
   </book>
-  <book name="Neh">
+  <book name="Neh" sequence="16">
      <chapter number="1" number_of_verses="11"/>
      <chapter number="2" number_of_verses="20"/>
      <chapter number="3" number_of_verses="38"/>
@@ -458,7 +458,7 @@
      <chapter number="12" number_of_verses="47"/>
      <chapter number="13" number_of_verses="31"/>
   </book>
-  <book name="Tob">
+  <book name="Tob" sequence="17">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="14"/>
      <chapter number="3" number_of_verses="17"/>
@@ -474,7 +474,7 @@
      <chapter number="13" number_of_verses="18"/>
      <chapter number="14" number_of_verses="15"/>
   </book>
-  <book name="Jdt">
+  <book name="Jdt" sequence="18">
      <chapter number="1" number_of_verses="16"/>
      <chapter number="2" number_of_verses="28"/>
      <chapter number="3" number_of_verses="10"/>
@@ -492,7 +492,7 @@
      <chapter number="15" number_of_verses="14"/>
      <chapter number="16" number_of_verses="25"/>
   </book>
-  <book name="Esth AddEsth">
+  <book name="Esth AddEsth" sequence="19">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="23"/>
      <chapter number="3" number_of_verses="15"/>
@@ -510,7 +510,7 @@
      <chapter number="15" number_of_verses="24"/>
      <chapter number="16" number_of_verses="10"/>
   </book>
-  <book name="1Macc">
+  <book name="1Macc" sequence="20">
      <chapter number="1" number_of_verses="63"/>
      <chapter number="2" number_of_verses="70"/>
      <chapter number="3" number_of_verses="59"/>
@@ -528,7 +528,7 @@
      <chapter number="15" number_of_verses="41"/>
      <chapter number="16" number_of_verses="24"/>
   </book>
-  <book name="2Macc">
+  <book name="2Macc" sequence="21">
      <chapter number="1" number_of_verses="36"/>
      <chapter number="2" number_of_verses="32"/>
      <chapter number="3" number_of_verses="40"/>
@@ -545,7 +545,7 @@
      <chapter number="14" number_of_verses="46"/>
      <chapter number="15" number_of_verses="39"/>
   </book>
-  <book name="Job">
+  <book name="Job" sequence="22">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="13"/>
      <chapter number="3" number_of_verses="26"/>
@@ -589,7 +589,7 @@
      <chapter number="41" number_of_verses="26"/>
      <chapter number="42" number_of_verses="17"/>
   </book>
-  <book name="Ps">
+  <book name="Ps" sequence="23">
      <chapter number="1" number_of_verses="6"/>
      <chapter number="2" number_of_verses="11"/>
      <chapter number="3" number_of_verses="9"/>
@@ -741,7 +741,7 @@
      <chapter number="149" number_of_verses="9"/>
      <chapter number="150" number_of_verses="6"/>
   </book>
-  <book name="Prov">
+  <book name="Prov" sequence="24">
      <chapter number="1" number_of_verses="33"/>
      <chapter number="2" number_of_verses="22"/>
      <chapter number="3" number_of_verses="35"/>
@@ -774,7 +774,7 @@
      <chapter number="30" number_of_verses="33"/>
      <chapter number="31" number_of_verses="31"/>
   </book>
-  <book name="Eccl">
+  <book name="Eccl" sequence="25">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="26"/>
      <chapter number="3" number_of_verses="22"/>
@@ -788,7 +788,7 @@
      <chapter number="11" number_of_verses="10"/>
      <chapter number="12" number_of_verses="14"/>
   </book>
-  <book name="Song">
+  <book name="Song" sequence="26">
      <chapter number="1" number_of_verses="17"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="11"/>
@@ -798,7 +798,7 @@
      <chapter number="7" number_of_verses="14"/>
      <chapter number="8" number_of_verses="14"/>
   </book>
-  <book name="">
+  <book name="Wis" sequence="27">
      <chapter number="1" number_of_verses="16"/>
      <chapter number="2" number_of_verses="24"/>
      <chapter number="3" number_of_verses="19"/>
@@ -819,7 +819,7 @@
      <chapter number="18" number_of_verses="25"/>
      <chapter number="19" number_of_verses="22"/>
   </book>
-  <book name="">
+  <book name="Sir" sequence="28">
      <chapter number="1" number_of_verses="29"/>
      <chapter number="2" number_of_verses="18"/>
      <chapter number="3" number_of_verses="30"/>
@@ -872,7 +872,7 @@
      <chapter number="50" number_of_verses="29"/>
      <chapter number="51" number_of_verses="30"/>
   </book>
-  <book name="Isa">
+  <book name="Isa" sequence="29">
      <chapter number="1" number_of_verses="31"/>
      <chapter number="2" number_of_verses="22"/>
      <chapter number="3" number_of_verses="26"/>
@@ -940,7 +940,7 @@
      <chapter number="65" number_of_verses="25"/>
      <chapter number="66" number_of_verses="24"/>
   </book>
-  <book name="Jer">
+  <book name="Jer" sequence="30">
      <chapter number="1" number_of_verses="19"/>
      <chapter number="2" number_of_verses="37"/>
      <chapter number="3" number_of_verses="25"/>
@@ -994,14 +994,14 @@
      <chapter number="51" number_of_verses="64"/>
      <chapter number="52" number_of_verses="34"/>
   </book>
-  <book name="Lam">
+  <book name="Lam" sequence="31">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="22"/>
      <chapter number="3" number_of_verses="66"/>
      <chapter number="4" number_of_verses="22"/>
      <chapter number="5" number_of_verses="22"/>
   </book>
-  <book name="Bar">
+  <book name="Bar" sequence="32">
      <chapter number="1" number_of_verses="22"/>
      <chapter number="2" number_of_verses="35"/>
      <chapter number="3" number_of_verses="38"/>
@@ -1009,7 +1009,7 @@
      <chapter number="5" number_of_verses="9"/>
      <chapter number="6" number_of_verses="72"/>
   </book>
-  <book name="Ezek">
+  <book name="Ezek" sequence="33">
      <chapter number="1" number_of_verses="28"/>
      <chapter number="2" number_of_verses="10"/>
      <chapter number="3" number_of_verses="27"/>
@@ -1059,7 +1059,7 @@
      <chapter number="47" number_of_verses="23"/>
      <chapter number="48" number_of_verses="35"/>
   </book>
-  <book name="Dan">
+  <book name="Dan" sequence="34">
      <chapter number="1" number_of_verses="21"/>
      <chapter number="2" number_of_verses="49"/>
      <chapter number="3" number_of_verses="100"/>
@@ -1075,7 +1075,7 @@
      <chapter number="13" number_of_verses="64"/>
      <chapter number="14" number_of_verses="42"/>
   </book>
-  <book name="Hos">
+  <book name="Hos" sequence="35">
      <chapter number="1" number_of_verses="9"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="5"/>
@@ -1091,13 +1091,13 @@
      <chapter number="13" number_of_verses="15"/>
      <chapter number="14" number_of_verses="10"/>
   </book>
-  <book name="Joel">
+  <book name="Joel" sequence="36">
      <chapter number="1" number_of_verses="20"/>
      <chapter number="2" number_of_verses="27"/>
      <chapter number="3" number_of_verses="5"/>
      <chapter number="4" number_of_verses="21"/>
   </book>
-  <book name="Amos">
+  <book name="Amos" sequence="37">
      <chapter number="1" number_of_verses="15"/>
      <chapter number="2" number_of_verses="16"/>
      <chapter number="3" number_of_verses="15"/>
@@ -1108,16 +1108,16 @@
      <chapter number="8" number_of_verses="14"/>
      <chapter number="9" number_of_verses="15"/>
   </book>
-  <book name="Obad">
+  <book name="Obad" sequence="38">
      <chapter number="1" number_of_verses="21"/>
   </book>
-  <book name="Jonah">
+  <book name="Jonah" sequence="39">
      <chapter number="1" number_of_verses="16"/>
      <chapter number="2" number_of_verses="11"/>
      <chapter number="3" number_of_verses="10"/>
      <chapter number="4" number_of_verses="11"/>
   </book>
-  <book name="Mic">
+  <book name="Mic" sequence="40">
      <chapter number="1" number_of_verses="16"/>
      <chapter number="2" number_of_verses="13"/>
      <chapter number="3" number_of_verses="12"/>
@@ -1126,26 +1126,26 @@
      <chapter number="6" number_of_verses="16"/>
      <chapter number="7" number_of_verses="20"/>
   </book>
-  <book name="Nah">
+  <book name="Nah" sequence="41">
      <chapter number="1" number_of_verses="14"/>
      <chapter number="2" number_of_verses="14"/>
      <chapter number="3" number_of_verses="19"/>
   </book>
-  <book name="Hab">
+  <book name="Hab" sequence="42">
      <chapter number="1" number_of_verses="17"/>
      <chapter number="2" number_of_verses="20"/>
      <chapter number="3" number_of_verses="19"/>
   </book>
-  <book name="Zeph">
+  <book name="Zeph" sequence="43">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="15"/>
      <chapter number="3" number_of_verses="20"/>
   </book>
-  <book name="Hag">
+  <book name="Hag" sequence="44">
      <chapter number="1" number_of_verses="15"/>
      <chapter number="2" number_of_verses="23"/>
   </book>
-  <book name="Zech">
+  <book name="Zech" sequence="45">
      <chapter number="1" number_of_verses="17"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="10"/>
@@ -1161,12 +1161,12 @@
      <chapter number="13" number_of_verses="9"/>
      <chapter number="14" number_of_verses="21"/>
   </book>
-  <book name="Mal">
+  <book name="Mal" sequence="46">
      <chapter number="1" number_of_verses="14"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="24"/>
   </book>
-  <book name="Matt">
+  <book name="Matt" sequence="47">
      <chapter number="1" number_of_verses="25"/>
      <chapter number="2" number_of_verses="23"/>
      <chapter number="3" number_of_verses="17"/>
@@ -1196,7 +1196,7 @@
      <chapter number="27" number_of_verses="66"/>
      <chapter number="28" number_of_verses="20"/>
   </book>
-  <book name="Mark">
+  <book name="Mark" sequence="48">
      <chapter number="1" number_of_verses="45"/>
      <chapter number="2" number_of_verses="28"/>
      <chapter number="3" number_of_verses="35"/>
@@ -1214,7 +1214,7 @@
      <chapter number="15" number_of_verses="47"/>
      <chapter number="16" number_of_verses="20"/>
   </book>
-  <book name="Luke">
+  <book name="Luke" sequence="49">
      <chapter number="1" number_of_verses="80"/>
      <chapter number="2" number_of_verses="52"/>
      <chapter number="3" number_of_verses="38"/>
@@ -1240,7 +1240,7 @@
      <chapter number="23" number_of_verses="56"/>
      <chapter number="24" number_of_verses="53"/>
   </book>
-  <book name="John">
+  <book name="John" sequence="50">
      <chapter number="1" number_of_verses="51"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="36"/>
@@ -1263,7 +1263,7 @@
      <chapter number="20" number_of_verses="31"/>
      <chapter number="21" number_of_verses="25"/>
   </book>
-  <book name="Acts">
+  <book name="Acts" sequence="51">
      <chapter number="1" number_of_verses="26"/>
      <chapter number="2" number_of_verses="47"/>
      <chapter number="3" number_of_verses="26"/>
@@ -1293,7 +1293,7 @@
      <chapter number="27" number_of_verses="44"/>
      <chapter number="28" number_of_verses="31"/>
   </book>
-  <book name="Rom">
+  <book name="Rom" sequence="52">
      <chapter number="1" number_of_verses="32"/>
      <chapter number="2" number_of_verses="29"/>
      <chapter number="3" number_of_verses="31"/>
@@ -1311,7 +1311,7 @@
      <chapter number="15" number_of_verses="33"/>
      <chapter number="16" number_of_verses="27"/>
   </book>
-  <book name="1Cor">
+  <book name="1Cor" sequence="53">
      <chapter number="1" number_of_verses="31"/>
      <chapter number="2" number_of_verses="16"/>
      <chapter number="3" number_of_verses="23"/>
@@ -1329,7 +1329,7 @@
      <chapter number="15" number_of_verses="58"/>
      <chapter number="16" number_of_verses="24"/>
   </book>
-  <book name="2Cor">
+  <book name="2Cor" sequence="54">
      <chapter number="1" number_of_verses="24"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="18"/>
@@ -1344,7 +1344,7 @@
      <chapter number="12" number_of_verses="21"/>
      <chapter number="13" number_of_verses="13"/>
   </book>
-  <book name="Gal">
+  <book name="Gal" sequence="55">
      <chapter number="1" number_of_verses="24"/>
      <chapter number="2" number_of_verses="21"/>
      <chapter number="3" number_of_verses="29"/>
@@ -1352,7 +1352,7 @@
      <chapter number="5" number_of_verses="26"/>
      <chapter number="6" number_of_verses="18"/>
   </book>
-  <book name="Eph">
+  <book name="Eph" sequence="56">
      <chapter number="1" number_of_verses="23"/>
      <chapter number="2" number_of_verses="22"/>
      <chapter number="3" number_of_verses="21"/>
@@ -1360,31 +1360,31 @@
      <chapter number="5" number_of_verses="33"/>
      <chapter number="6" number_of_verses="24"/>
   </book>
-  <book name="Phil">
+  <book name="Phil" sequence="57">
      <chapter number="1" number_of_verses="30"/>
      <chapter number="2" number_of_verses="30"/>
      <chapter number="3" number_of_verses="21"/>
      <chapter number="4" number_of_verses="23"/>
   </book>
-  <book name="Col">
+  <book name="Col" sequence="58">
      <chapter number="1" number_of_verses="29"/>
      <chapter number="2" number_of_verses="23"/>
      <chapter number="3" number_of_verses="25"/>
      <chapter number="4" number_of_verses="18"/>
   </book>
-  <book name="1Thess">
+  <book name="1Thess" sequence="59">
      <chapter number="1" number_of_verses="10"/>
      <chapter number="2" number_of_verses="20"/>
      <chapter number="3" number_of_verses="13"/>
      <chapter number="4" number_of_verses="18"/>
      <chapter number="5" number_of_verses="28"/>
   </book>
-  <book name="2Thess">
+  <book name="2Thess" sequence="60">
      <chapter number="1" number_of_verses="12"/>
      <chapter number="2" number_of_verses="17"/>
      <chapter number="3" number_of_verses="18"/>
   </book>
-  <book name="1Tim">
+  <book name="1Tim" sequence="61">
      <chapter number="1" number_of_verses="20"/>
      <chapter number="2" number_of_verses="15"/>
      <chapter number="3" number_of_verses="16"/>
@@ -1392,21 +1392,21 @@
      <chapter number="5" number_of_verses="25"/>
      <chapter number="6" number_of_verses="21"/>
   </book>
-  <book name="2Tim">
+  <book name="2Tim" sequence="62">
      <chapter number="1" number_of_verses="18"/>
      <chapter number="2" number_of_verses="26"/>
      <chapter number="3" number_of_verses="17"/>
      <chapter number="4" number_of_verses="22"/>
   </book>
-  <book name="Titus">
+  <book name="Titus" sequence="63">
      <chapter number="1" number_of_verses="16"/>
      <chapter number="2" number_of_verses="15"/>
      <chapter number="3" number_of_verses="15"/>
   </book>
-  <book name="Phlm">
+  <book name="Phlm" sequence="64">
      <chapter number="1" number_of_verses="25"/>
   </book>
-  <book name="Heb">
+  <book name="Heb" sequence="65">
      <chapter number="1" number_of_verses="14"/>
      <chapter number="2" number_of_verses="18"/>
      <chapter number="3" number_of_verses="19"/>
@@ -1421,42 +1421,42 @@
      <chapter number="12" number_of_verses="29"/>
      <chapter number="13" number_of_verses="25"/>
   </book>
-  <book name="Jas">
+  <book name="Jas" sequence="66">
      <chapter number="1" number_of_verses="27"/>
      <chapter number="2" number_of_verses="26"/>
      <chapter number="3" number_of_verses="18"/>
      <chapter number="4" number_of_verses="17"/>
      <chapter number="5" number_of_verses="20"/>
   </book>
-  <book name="1Pet">
+  <book name="1Pet" sequence="67">
      <chapter number="1" number_of_verses="25"/>
      <chapter number="2" number_of_verses="25"/>
      <chapter number="3" number_of_verses="22"/>
      <chapter number="4" number_of_verses="19"/>
      <chapter number="5" number_of_verses="14"/>
   </book>
-  <book name="2Pet">
+  <book name="2Pet" sequence="68">
      <chapter number="1" number_of_verses="21"/>
      <chapter number="2" number_of_verses="22"/>
      <chapter number="3" number_of_verses="18"/>
   </book>
-  <book name="1John">
+  <book name="1John" sequence="69">
      <chapter number="1" number_of_verses="10"/>
      <chapter number="2" number_of_verses="29"/>
      <chapter number="3" number_of_verses="24"/>
      <chapter number="4" number_of_verses="21"/>
      <chapter number="5" number_of_verses="21"/>
   </book>
-  <book name="2John">
+  <book name="2John" sequence="70">
      <chapter number="1" number_of_verses="13"/>
   </book>
-  <book name="3John">
+  <book name="3John" sequence="71">
      <chapter number="1" number_of_verses="15"/>
   </book>
-  <book name="Jude">
+  <book name="Jude" sequence="72">
      <chapter number="1" number_of_verses="25"/>
   </book>
-  <book name="Rev">
+  <book name="Rev" sequence="73">
      <chapter number="1" number_of_verses="20"/>
      <chapter number="2" number_of_verses="29"/>
      <chapter number="3" number_of_verses="22"/>
