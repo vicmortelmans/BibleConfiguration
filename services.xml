@@ -20,7 +20,7 @@
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija3_net</editionskey>
     <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
-    <step nr="2" yql="true">select * from html where url="$url" and xpath="//td[contains(@class,'text')]//text()[not(contains(parent::span/@class,'v') or contains(parent::span/@class,'c') or contains(ancestor::div[1]/@class,'s'))]";</step>
+    <step nr="2" yql="true">select * from html where url="$url" and xpath="//td[contains(@class,'text')]//text()[not(contains(ancestor::div[1]/@class,'mt') or contains(parent::span/@class,'v') or contains(parent::span/@class,'c') or contains(ancestor::div[1]/@class,'s'))]";</step>
   </service>
   <service>
     <name>usccb_org</name>
