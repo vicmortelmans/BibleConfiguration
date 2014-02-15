@@ -829,9 +829,8 @@
 		<code service="biblija_net">Jnh</code>
 		<input language="nl">Jona</input>
 		<input>Jonah</input>
-		<input language="en">Jon</input>
+		<input language="en,fr">Jon</input>
 		<input>Jnh</input>
-        <input language="fr">Jn</input>
 		<input>Ion</input>
 		<input>Jona</input>
 		<input>Jonah</input>
