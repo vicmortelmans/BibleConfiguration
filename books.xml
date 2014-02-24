@@ -888,6 +888,7 @@
 		<input language="nl,en">Hab</input>
 		<input language="fr">Ha</input>
 		<input>Habakuk</input>
+		<input>Habb</input>
 		<input>Habakkuk</input>
 		<input>Habacuc</input>
 	</book>
@@ -2065,7 +2066,7 @@
 		<code service="usccb_org">Sirach</code>
 		<code service="laparola_net">Siracide</code>
 		<code service="bibliacatolica_com"></code>
-		<code service="osis"></code>
+		<code service="osis">Sir</code>
 		<code service="biblija_net">Si</code>
 		<input language="nl">Wijsheid van Jezus Sirach</input>
 		<input language="en">Sirach</input>
