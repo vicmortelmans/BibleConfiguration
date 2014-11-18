@@ -33,9 +33,8 @@
     <name>usccb_org</name>
     <bookskey>usccb_org</bookskey>
     <editionskey>usccb_org</editionskey>
-    <step nr="1">http://www.usccb.org/nab/bible/$book/$book$chapter.htm</step>
-    <step nr="2">http://open.dapper.net/RunDapp?dappName=biblepassageusccborg&amp;v=1&amp;applyToUrl=$url</step>
-    <step nr="3" yql="true">select item.text.content from xml where  url="$url" and item.passage=$passage</step>
+    <step nr="1">http://origin.usccb.org/bible/$book/$chapter</step>
+    <step nr="2" yql="true">select * from html where url="$url" and xpath="//div[@id='scribeI']/*/text()[preceding::span[@class='bcv'][1]='$passage'][not(ancestor::p[@class='fn' or @class='en'])]"</step>
   </service>
   <service>
    <name>crosswire_org</name>

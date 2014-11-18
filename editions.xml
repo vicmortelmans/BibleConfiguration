@@ -63,7 +63,7 @@
 	
 	<edition>
 		<code service="usccb_org" default_="true"/>
-		<code service="bibliacatolica_com">18</code>
+		<code service="bibliacatolica_com">18</code><!-- service is giving "Service Temporarily Unavailable" quite often -->
 		<input>NAB</input>
 		<language>en</language>
 		<default_>true</default_>
