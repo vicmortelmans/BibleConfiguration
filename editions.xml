@@ -62,8 +62,8 @@
 	<!-- ENGLISH -->
 	
 	<edition>
-		<code service="usccb_org"/>
-		<code service="bibliacatolica_com" default_="true">18</code>
+		<code service="usccb_org" default_="true"/>
+		<code service="bibliacatolica_com">18</code>
 		<input>NAB</input>
 		<language>en</language>
 		<default_>true</default_>
