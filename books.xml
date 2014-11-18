@@ -9,6 +9,7 @@
 		<code service="bibliacatolica_com">1</code>
 		<code service="osis">Gen</code>
 		<code service="biblija_net">Gn</code>
+		<code service="can">1</code>
 		<input>Genesis</input>
 		<input>1 Mz</input>
 		<input>1 Mojz</input>
@@ -32,6 +33,7 @@
 		<code service="bibliacatolica_com">2</code>
 		<code service="osis">Exod</code>
 		<code service="biblija_net">Ex</code>
+		<code service="can">2</code>
 		<input>Exodus</input>
 		<input>2 Mz</input>
 		<input>2 Mojz</input>
@@ -55,6 +57,7 @@
 		<code service="bibliacatolica_com">3</code>
 		<code service="osis">Lev</code>
 		<code service="biblija_net">Lv</code>
+		<code service="can">3</code>
 		<input>Leviticus</input>
 		<input>3 Mz</input>
 		<input>3 Mojz</input>
@@ -78,6 +81,7 @@
 		<code service="bibliacatolica_com">4</code>
 		<code service="osis">Num</code>
 		<code service="biblija_net">Nm</code>
+		<code service="can">4</code>
 		<input>Numeri</input>
 		<input>Numbers</input>
 		<input>4 Mz</input>
@@ -104,6 +108,7 @@
 		<code service="bibliacatolica_com">5</code>
 		<code service="osis">Deut</code>
 		<code service="biblija_net">Dt</code>
+		<code service="can">5</code>
 		<input>Deuteronomium</input>
 		<input>Deuteronomy</input>
 		<input>5 Mz</input>
@@ -128,6 +133,7 @@
 		<code service="bibliacatolica_com">6</code>
 		<code service="osis">Josh</code>
 		<code service="biblija_net">Josh</code>
+		<code service="can">6</code>
 		<input>Jozua</input>
 		<input>Joshua</input>
 		<input language="nl">Joz</input>
@@ -151,6 +157,7 @@
 		<code service="bibliacatolica_com">7</code>
 		<code service="osis">Judg</code>
 		<code service="biblija_net">Judg</code>
+		<code service="can">7</code>
 		<input>Rechters</input>
 		<input>Judges</input>
 		<input>Sod</input>
@@ -184,6 +191,7 @@
 		<code service="bibliacatolica_com">8</code>
 		<code service="osis">Ruth</code>
 		<code service="biblija_net">Rt</code>
+		<code service="can">8</code>
 		<input language="nl,en">Ruth</input>
 		<input>Rut</input>
 		<input>Ru</input>
@@ -200,6 +208,7 @@
 		<code service="bibliacatolica_com">9</code>
 		<code service="osis">1Sam</code>
 		<code service="biblija_net">1 Sa</code>
+		<code service="can">9</code>
 		<input>Het eerste boek Samuël</input>
 		<input>1 Samuel</input>
 		<input language="nl,en">1 Sam</input>
@@ -229,6 +238,7 @@
 		<code service="bibliacatolica_com">10</code>
 		<code service="osis">2Sam</code>
 		<code service="biblija_net">2 Sa</code>
+		<code service="can">10</code>
 		<input>Het tweede boek Samuël</input>
 		<input>2 Samuel</input>
 		<input language="nl,en">2 Sam</input>
@@ -259,6 +269,7 @@
 		<code service="bibliacatolica_com">11</code>
 		<code service="osis">1Kgs</code>
 		<code service="biblija_net">1 Kgs</code>
+		<code service="can">11</code>
 		<input language="en">1 Kings</input>
 		<input>Het eerste boek Koningen</input>
 		<input>1 Kr</input>
@@ -308,6 +319,7 @@
 		<code service="bibliacatolica_com">12</code>
 		<code service="osis">2Kgs</code>
 		<code service="biblija_net">2 Kgs</code>
+		<code service="can">12</code>
 		<input language="en">2 Kings</input>
 		<input>Het tweede boek Koningen</input>
 		<input>2 Kr</input>
@@ -357,6 +369,7 @@
 		<code service="bibliacatolica_com">13</code>
 		<code service="osis">1Chr</code>
 		<code service="biblija_net">1 Ch</code>
+		<code service="can">13</code>
 		<input>Het eerste boek Kronieken</input>
 		<input>1 Chronicles</input>
 		<input>1 Krn</input>
@@ -402,6 +415,7 @@
 		<code service="bibliacatolica_com">14</code>
 		<code service="osis">2Chr</code>
 		<code service="biblija_net">2 Ch</code>
+		<code service="can">14</code>
 		<input>Het tweede boek Kronieken</input>
 		<input>2 Chronicles</input>
 		<input>2 Krn</input>
@@ -447,6 +461,7 @@
 		<code service="bibliacatolica_com">15</code>
 		<code service="osis">Ezra</code>
 		<code service="biblija_net">Esr</code>
+		<code service="can">15</code>
 		<input language="nl,en">Ezra</input>
 		<input>Ezr</input>
 		<input>Ezdr</input>
@@ -467,6 +482,7 @@
 		<code service="bibliacatolica_com">16</code>
 		<code service="osis">Neh</code>
 		<code service="biblija_net">Ne</code>
+		<code service="can">16</code>
 		<input>Nehemia</input>
 		<input>Nehemiah</input>
 		<input language="nl,en">Neh</input>
@@ -489,6 +505,7 @@
 		<code service="bibliacatolica_com">19</code>
 		<code service="osis">Esth</code>
 		<code service="biblija_net">Esth</code>
+		<code service="can">17</code>
 		<input>Ester</input>
 		<input>Esther</input>
 		<input language="nl,fr">Est</input>
@@ -506,6 +523,7 @@
 		<code service="bibliacatolica_com">20</code>
 		<code service="osis">Job</code>
 		<code service="biblija_net">Jb</code>
+		<code service="can">18</code>
 		<input language="nl,en">Job</input>
 		<input>Hi</input>
 		<input language="fr">Jb</input>
@@ -522,6 +540,7 @@
 		<code service="bibliacatolica_com">21</code>
 		<code service="osis">Ps</code>
 		<code service="biblija_net">Ps</code>
+		<code service="can">19</code>
 		<input>De Psalmen</input>
 		<input>Psalms</input>
 		<input language="nl,en,fr">Ps</input>
@@ -543,6 +562,7 @@
 		<code service="bibliacatolica_com">24</code>
 		<code service="osis">Prov</code>
 		<code service="biblija_net">Pr</code>
+		<code service="can">20</code>
 		<input>Spreuken</input>
 		<input>Proverbs</input>
 		<input>Prg</input>
@@ -571,6 +591,7 @@
 		<code service="bibliacatolica_com">25</code>
 		<code service="osis">Eccl</code>
 		<code service="biblija_net">Ec</code>
+		<code service="can">21</code>
 		<input>Prediker</input>
 		<input>Ecclesiastes</input>
 		<input>Prd</input>
@@ -601,6 +622,7 @@
 		<code service="bibliacatolica_com">26</code>
 		<code service="osis">Song</code>
 		<code service="biblija_net">Song</code>
+		<code service="can">22</code>
 		<input>Hooglied</input>
 		<input>Song of Solomon</input>
 		<input>Vp</input>
@@ -632,6 +654,7 @@
 		<code service="bibliacatolica_com">29</code>
 		<code service="osis">Isa</code>
 		<code service="biblija_net">Is</code>
+		<code service="can">23</code>
 		<input>Jesaja</input>
 		<input>Isaiah</input>
 		<input>Iz</input>
@@ -656,6 +679,7 @@
 		<code service="bibliacatolica_com">30</code>
 		<code service="osis">Jer</code>
 		<code service="biblija_net">Jr</code>
+		<code service="can">24</code>
 		<input>Jeremia</input>
 		<input>Jeremiah</input>
 		<input language="nl,en">Jer</input>
@@ -676,6 +700,7 @@
 		<code service="bibliacatolica_com">31</code>
 		<code service="osis">Lam</code>
 		<code service="biblija_net">La</code>
+		<code service="can">25</code>
 		<input>Klaagliederen</input>
 		<input>Lamentations</input>
 		<input>Žal</input>
@@ -704,6 +729,7 @@
 		<code service="bibliacatolica_com">33</code>
 		<code service="osis">Ezek</code>
 		<code service="biblija_net">Ez</code>
+		<code service="can">26</code>
 		<input>Ezechiël</input>
 		<input>Ezekiel</input>
 		<input>Ezk</input>
@@ -730,6 +756,7 @@
 		<code service="bibliacatolica_com">34</code>
 		<code service="osis">Dan</code>
 		<code service="biblija_net">Da</code>
+		<code service="can">27</code>
 		<input>Daniël</input>
 		<input>Daniel</input>
 		<input language="nl,en">Dan</input>
@@ -748,6 +775,7 @@
 		<code service="bibliacatolica_com">35</code>
 		<code service="osis">Hos</code>
 		<code service="biblija_net">Ho</code>
+		<code service="can">28</code>
 		<input>Hosea</input>
 		<input>Hosea</input>
 		<input>Oz</input>
@@ -771,6 +799,7 @@
 		<code service="bibliacatolica_com">36</code>
 		<code service="osis">Joel</code>
 		<code service="biblija_net">Jl</code>
+		<code service="can">29</code>
 		<input language="nl">Joël</input>
 		<input language="en">Joel</input>
 		<input language="fr">Jl</input>
@@ -788,6 +817,7 @@
 		<code service="bibliacatolica_com">37</code>
 		<code service="osis">Amos</code>
 		<code service="biblija_net">Am</code>
+		<code service="can">30</code>
 		<input>Amos</input>
 		<input>Amos</input>
 		<input language="nl,en,fr">Am</input>
@@ -804,6 +834,7 @@
 		<code service="bibliacatolica_com">38</code>
 		<code service="osis">Obad</code>
 		<code service="biblija_net">Ob</code>
+		<code service="can">31</code>
 		<input>Obadja</input>
 		<input>Obadiah</input>
 		<input>Abd</input>
@@ -827,6 +858,7 @@
 		<code service="bibliacatolica_com">39</code>
 		<code service="osis">Jonah</code>
 		<code service="biblija_net">Jnh</code>
+		<code service="can">32</code>
 		<input language="nl">Jona</input>
 		<input>Jonah</input>
 		<input language="en,fr">Jon</input>
@@ -845,6 +877,7 @@
 		<code service="bibliacatolica_com">40</code>
 		<code service="osis">Mic</code>
 		<code service="biblija_net">Mi</code>
+		<code service="can">33</code>
 		<input>Micha</input>
 		<input>Micah</input>
 		<input>Mih</input>
@@ -868,6 +901,7 @@
 		<code service="bibliacatolica_com">41</code>
 		<code service="osis">Nah</code>
 		<code service="biblija_net">Na</code>
+		<code service="can">34</code>
 		<input language="nl,en">Nah</input>
 		<input>Nam</input>
 		<input language="fr">Na</input>
@@ -883,6 +917,7 @@
 		<code service="bibliacatolica_com">42</code>
 		<code service="osis">Hab</code>
 		<code service="biblija_net">Ha</code>
+		<code service="can">35</code>
 		<input>Habakuk</input>
 		<input>Habakkuk</input>
 		<input language="nl,en">Hab</input>
@@ -901,6 +936,7 @@
 		<code service="bibliacatolica_com">43</code>
 		<code service="osis">Zeph</code>
 		<code service="biblija_net">Zep</code>
+		<code service="can">36</code>
 		<input>Sefanja</input>
 		<input>Zephaniah</input>
 		<input>Sof</input>
@@ -927,6 +963,7 @@
 		<code service="bibliacatolica_com">44</code>
 		<code service="osis">Hag</code>
 		<code service="biblija_net">Hagg</code>
+		<code service="can">37</code>
 		<input>Haggai</input>
 		<input language="fr">Ag</input>
 		<input language="nl,en">Hag</input>
@@ -948,6 +985,7 @@
 		<code service="bibliacatolica_com">45</code>
 		<code service="osis">Zech</code>
 		<code service="biblija_net">Zec</code>
+		<code service="can">38</code>
 		<input>Zacharia</input>
 		<input>Zechariah</input>
 		<input>Zah</input>
@@ -973,6 +1011,7 @@
 		<code service="bibliacatolica_com">46</code>
 		<code service="osis">Mal</code>
 		<code service="biblija_net">Ml</code>
+		<code service="can">39</code>
 		<input>Maleachi</input>
 		<input>Malachi</input>
 		<input language="nl,en">Mal</input>
@@ -991,6 +1030,7 @@
 		<code service="bibliacatolica_com">47</code>
 		<code service="osis">Matt</code>
 		<code service="biblija_net">Mat</code>
+		<code service="can">40</code>
 		<input>Het evangelie volgens Matteüs</input>
 		<input>Matthew</input>
 		<input language="nl,en,fr">Mt</input>
@@ -1013,6 +1053,7 @@
 		<code service="bibliacatolica_com">48</code>
 		<code service="osis">Mark</code>
 		<code service="biblija_net">Mr</code>
+		<code service="can">41</code>
 		<input>Het evangelie volgens Marcus</input>
 		<input>Mark</input>
 		<input>Mr</input>
@@ -1036,6 +1077,7 @@
 		<code service="bibliacatolica_com">49</code>
 		<code service="osis">Luke</code>
 		<code service="biblija_net">Luk</code>
+		<code service="can">42</code>
 		<input>Het evangelie volgens Lucas</input>
 		<input>Luke</input>
 		<input>Lk</input>
@@ -1060,6 +1102,7 @@
 		<code service="bibliacatolica_com">50</code>
 		<code service="osis">John</code>
 		<code service="biblija_net">Jhn</code>
+		<code service="can">43</code>
 		<input>Het evangelie volgens Johannes</input>
 		<input>John</input>
 		<input language="en,fr">Jn</input>
@@ -1086,6 +1129,7 @@
 		<code service="bibliacatolica_com">51</code>
 		<code service="osis">Acts</code>
 		<code service="biblija_net">Ac</code>
+		<code service="can">44</code>
 		<input>Handelingen van de apostelen</input>
 		<input>The Acts</input>
 		<input>Apd</input>
@@ -1115,6 +1159,7 @@
 		<code service="bibliacatolica_com">52</code>
 		<code service="osis">Rom</code>
 		<code service="biblija_net">Ro</code>
+		<code service="can">45</code>
 		<input>De brief aan de Romeinen</input>
 		<input>Romans</input>
 		<input>Rim</input>
@@ -1140,6 +1185,7 @@
 		<code service="bibliacatolica_com">53</code>
 		<code service="osis">1Cor</code>
 		<code service="biblija_net">1 Co</code>
+		<code service="can">46</code>
 		<input>De eerste brief aan de Korintiërs</input>
 		<input>1 Corinthians</input>
 		<input language="nl">1 Kor</input>
@@ -1177,6 +1223,7 @@
 		<code service="bibliacatolica_com">54</code>
 		<code service="osis">2Cor</code>
 		<code service="biblija_net">2 Co</code>
+		<code service="can">47</code>
 		<input>De tweede brief aan de Korintiërs</input>
 		<input>2 Corinthians</input>
 		<input language="nl">2 Kor</input>
@@ -1214,6 +1261,7 @@
 		<code service="bibliacatolica_com">55</code>
 		<code service="osis">Gal</code>
 		<code service="biblija_net">Ga</code>
+		<code service="can">48</code>
 		<input>De brief aan de Galaten</input>
 		<input>Galatians</input>
 		<input language="nl,en">Gal</input>
@@ -1235,6 +1283,7 @@
 		<code service="bibliacatolica_com">56</code>
 		<code service="osis">Eph</code>
 		<code service="biblija_net">Ep</code>
+		<code service="can">49</code>
 		<input>De brief aan de Efeziërs</input>
 		<input>Ephesians</input>
 		<input language="nl">Ef</input>
@@ -1262,6 +1311,7 @@
 		<code service="bibliacatolica_com">57</code>
 		<code service="osis">Phil</code>
 		<code service="biblija_net">Php</code>
+		<code service="can">50</code>
 		<input>De brief aan de Filippenzen</input>
 		<input>Philippians</input>
 		<input>Flp</input>
@@ -1288,6 +1338,7 @@
 		<code service="bibliacatolica_com">58</code>
 		<code service="osis">Col</code>
 		<code service="biblija_net">Col</code>
+		<code service="can">51</code>
 		<input>De brief aan de Kolossenzen</input>
 		<input>Colossians</input>
 		<input language="nl">Kol</input>
@@ -1307,6 +1358,7 @@
 		<code service="bibliacatolica_com">59</code>
 		<code service="osis">1Thess</code>
 		<code service="biblija_net">1 Thess</code>
+		<code service="can">52</code>
 		<input>De eerste brief aan de Tessalonicenzen</input>
 		<input>1 Thessalonians</input>
 		<input language="nl">1 Tes</input>
@@ -1346,6 +1398,7 @@
 		<code service="bibliacatolica_com">60</code>
 		<code service="osis">2Thess</code>
 		<code service="biblija_net">2 Thess</code>
+		<code service="can">53</code>
 		<input>De tweede brief aan de Tessalonicenzen</input>
 		<input>2 Thessalonians</input>
 		<input>De tweede brief aan de Tessalonicenzen</input>
@@ -1387,6 +1440,7 @@
 		<code service="bibliacatolica_com">61</code>
 		<code service="osis">1Tim</code>
 		<code service="biblija_net">1 Ti</code>
+		<code service="can">54</code>
 		<input>De eerste brief aan Timoteüs</input>
 		<input>1 Timothy</input>
 		<input language="nl,en">1 Tim</input>
@@ -1420,6 +1474,7 @@
 		<code service="bibliacatolica_com">62</code>
 		<code service="osis">2Tim</code>
 		<code service="biblija_net">2 Ti</code>
+		<code service="can">55</code>
 		<input>De tweede brief aan Timoteüs</input>
 		<input>2 Timothy</input>
 		<input language="nl,en">2 Tim</input>
@@ -1453,6 +1508,7 @@
 		<code service="bibliacatolica_com">63</code>
 		<code service="osis">Titus</code>
 		<code service="biblija_net">Tt</code>
+		<code service="can">56</code>
 		<input>De brief aan Titus</input>
 		<input language="en">Titus</input>
 		<input language="nl">Tit</input>
@@ -1471,6 +1527,7 @@
 		<code service="bibliacatolica_com">64</code>
 		<code service="osis">Phlm</code>
 		<code service="biblija_net">Phlm</code>
+		<code service="can">57</code>
 		<input language="en">Philemon</input>
 		<input>De brief aan Filemon</input>
 		<input>Flm</input>
@@ -1494,6 +1551,7 @@
 		<code service="bibliacatolica_com">65</code>
 		<code service="osis">Heb</code>
 		<code service="biblija_net">Hebr</code>
+		<code service="can">58</code>
 		<input>De brief aan de Hebreeën</input>
 		<input>Hebrews</input>
 		<input language="nl,en">Heb</input>
@@ -1522,6 +1580,7 @@
 		<code service="bibliacatolica_com">66</code>
 		<code service="osis">Jas</code>
 		<code service="biblija_net">Jam</code>
+		<code service="can">59</code>
 		<input>De brief van Jakobus</input>
 		<input>James</input>
 		<input language="nl">Jak</input>
@@ -1549,6 +1608,7 @@
 		<code service="bibliacatolica_com">67</code>
 		<code service="osis">1Pet</code>
 		<code service="biblija_net">1 Pt</code>
+		<code service="can">60</code>
 		<input>De eerste brief van Petrus</input>
 		<input>1 Peter</input>
 		<input>1 Pt</input>
@@ -1580,6 +1640,7 @@
 		<code service="bibliacatolica_com">68</code>
 		<code service="osis">2Pet</code>
 		<code service="biblija_net">2 Pt</code>
+		<code service="can">61</code>
 		<input>De tweede brief van Petrus</input>
 		<input>2 Peter</input>
 		<input>2 Pt</input>
@@ -1611,6 +1672,7 @@
 		<code service="bibliacatolica_com">69</code>
 		<code service="osis">1John</code>
 		<code service="biblija_net">1 Jo</code>
+		<code service="can">62</code>
 		<input>De eerste brief van Johannes</input>
 		<input>1 John</input>
 		<input language="en,fr">1 Jn</input>
@@ -1648,6 +1710,7 @@
 		<code service="bibliacatolica_com">70</code>
 		<code service="osis">2John</code>
 		<code service="biblija_net">2 Jo</code>
+		<code service="can">63</code>
 		<input>De tweede brief van Johannes</input>
 		<input>2 John</input>
 		<input language="en,fr">2 Jn</input>
@@ -1685,6 +1748,7 @@
 		<code service="bibliacatolica_com">71</code>
 		<code service="osis">3John</code>
 		<code service="biblija_net">3 Jo</code>
+		<code service="can">64</code>
 		<input>De derde brief van Johannes</input>
 		<input>3 John</input>
 		<input language="en,fr">3 Jn</input>
@@ -1722,6 +1786,7 @@
 		<code service="bibliacatolica_com">72</code>
 		<code service="osis">Jude</code>
 		<code service="biblija_net">Jd</code>
+		<code service="can">65</code>
 		<input>De brief van Judas</input>
 		<input language="en">Jude</input>
 		<input language="nl">Jud</input>
@@ -1741,6 +1806,7 @@
 		<code service="bibliacatolica_com">73</code>
 		<code service="osis">Rev</code>
 		<code service="biblija_net">Rev</code>
+		<code service="can">66</code>
 		<input>De Apokalyps of Openbaring van Johannes</input>
 		<input>Revelation</input>
 		<input>Raz</input>
@@ -1772,6 +1838,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">AddEsth</code>
 		<code service="biblija_net">GkEst</code>
+		<code service="can"></code>
 		<input language="en">Esther</input>
 		<input>Esther (Greek)</input>
 		<input>EstG</input>
@@ -1800,6 +1867,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">Jdt</code>
 		<code service="biblija_net">Jdth</code>
+		<code service="can">68</code>
 		<input language="nl">Judit</input>
 		<input language="en">Judith</input>
 		<input>Judit</input>
@@ -1820,6 +1888,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">Tob</code>
 		<code service="biblija_net">Tb</code>
+		<code service="can">67</code>
 		<input language="nl">Tobit</input>
 		<input language="en">Tobit</input>
 		<input>Tobit</input>
@@ -1838,6 +1907,7 @@
 		<code service="bibliacatolica_com">22</code>
 		<code service="osis">1Macc</code>
 		<code service="biblija_net">1 Macc</code>
+		<code service="can">72</code>
 		<input language="nl">Het eerste boek Makkabeeën</input>
 		<input language="en">1 Maccabees</input>
 		<input>Het eerste boek Makkabeeën</input>
@@ -1887,6 +1957,7 @@
 		<code service="bibliacatolica_com">23</code>
 		<code service="osis">2Macc</code>
 		<code service="biblija_net">2 Macc</code>
+		<code service="can">73</code>
 		<input language="nl">Het tweede boek Makkabeeën</input>
 		<input language="en">2 Maccabees</input>
 		<input>Het tweede boek Makkabeeën</input>
@@ -1936,6 +2007,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">3Macc</code>
 		<code service="biblija_net">3 Macc</code>
+		<code service="can"></code>
 		<input language="nl">Het derde boek Makkabeeën</input>
 		<input language="en">3 Maccabees</input>
 		<input>Het derde boek Makkabeeën</input>
@@ -1985,6 +2057,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">4Macc</code>
 		<code service="biblija_net">4 Macc</code>
+		<code service="can"></code>
 		<input language="nl">Het vierde boek Makkabeeën</input>
 		<input language="en">4 Maccabees</input>
 		<input>Het vierde boek Makkabeeën</input>
@@ -2034,6 +2107,7 @@
 		<code service="bibliacatolica_com">27</code>
 		<code service="osis">Wis</code>
 		<code service="biblija_net">Wisd</code>
+		<code service="can">69</code>
 		<input language="nl">Wijsheid</input>
 		<input language="en">The Book of Wisdom</input>
 		<input>Wijsheid</input>
@@ -2068,6 +2142,7 @@
 		<code service="bibliacatolica_com"></code>
 		<code service="osis">Sir</code>
 		<code service="biblija_net">Si</code>
+		<code service="can">70</code>
 		<input language="nl">Wijsheid van Jezus Sirach</input>
 		<input language="en">Sirach</input>
 		<input>Wijsheid van Jezus Sirach</input>
@@ -2091,6 +2166,7 @@
 		<code service="bibliacatolica_com">32</code>
 		<code service="osis">Bar</code>
 		<code service="biblija_net">Ba</code>
+		<code service="can">71</code>
 		<input language="nl">Baruch</input>
 		<input language="en">Baruch</input>
 		<input>Baruch</input>
