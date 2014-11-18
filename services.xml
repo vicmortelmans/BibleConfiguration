@@ -4,7 +4,7 @@
     <name>can</name>
     <bookskey>osis</bookskey>
     <editionskey>can</editionskey>
-    <step nr="1">http://googledrive.com/host/0B-659FdpCliwQU42Uk5yWUVFMnM/$book-$chapter.xml</step>
+    <step nr="1">https://05b4251bc59a5facfc0f2841b7f9284c2d68b649.googledrive.com/host/0B-659FdpCliwQU42Uk5yWUVFMnM/$book-$chapter.xml</step>
     <step nr="2" yql="true">select * from xml where url="$url" and itemPath="//verse[@number='$passage']/text()"</step>
   </service>
   <service>
