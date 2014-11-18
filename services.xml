@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <service>
+    <name>can</name>
+    <bookskey>osis</bookskey>
+    <editionskey>can</editionskey>
+    <step nr="1">http://googledrive.com/host/0B-659FdpCliwQU42Uk5yWUVFMnM/$book-$chapter.xml</step>
+    <step nr="2" yql="true">select * from xml where url="$url" and itemPath="//verse[@number='$passage']/text()"</step>
+  </service>
+  <service>
     <name>biblija_net</name>
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija_net</editionskey>
