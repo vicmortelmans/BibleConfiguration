@@ -134,7 +134,7 @@
 	</edition>
 	<edition>
 		<code service="crosswire_org" default_="true">DRA</code>
-    <input>DRA</input>
+    	<input>DRA</input>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
 		<input name="true">Douay-Rheims American Edition (1899)</input>
@@ -142,14 +142,14 @@
 	<edition>
 		<code service="unbound_biola_edu" default_="true">douay_rheims_ucs2</code>
 		<code service="bibliacatolica_com">06</code>
-    <input>DR</input>
+    	<input>DR</input>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
 		<input name="true">Douay-Rheims</input>
 	</edition>
 	<edition>
 		<code service="crosswire_org" default_="true">ESV</code>
-    <input>ESV</input>
+    	<input>ESV</input>
 		<language>en</language>
 		<copyright>Copyright 2001 by Crossway Bibles, a division of Good News Publishers</copyright>
 		<input name="true">English Standard Version</input>
