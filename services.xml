@@ -34,7 +34,7 @@
     <bookskey>usccb_org</bookskey>
     <editionskey>usccb_org</editionskey>
     <step nr="1">http://origin.usccb.org/bible/$book/$chapter</step>
-    <step nr="2" yql="true">select * from html where url="$url" and xpath="//div[@id='scribeI']/*/text()[preceding::span[@class='bcv'][1]='$passage'][not(ancestor::p[@class='fn' or @class='en'])]"</step>
+    <step nr="2" yql="true">select * from html where url="$url" and xpath="(//div[@id='scribeI']/p/a/text()|//div[@id='scribeI']/p/text())[preceding::span[@class='bcv'][1]='$passage'][not(ancestor::p[@class='fn' or @class='en'])]"</step>
   </service>
   <service>
    <name>crosswire_org</name>
