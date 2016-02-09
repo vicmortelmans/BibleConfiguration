@@ -2,10 +2,10 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <service>
     <name>vatican</name>
-    <bookskey></bookskey>
+    <bookskey>vatican</bookskey>
     <editionskey></editionskey>
-    <step nr="1"></step>
-    <step nr="2" yql="true"></step>
+    <step nr="1" yql="true">select * from html where url="http://www.vatican.va/archive/ENG0839/_INDEX.HTM" and xpath="//li//li[contains(.,'$book')]//a[. = '$chapter']|//li//li//a[contains(.,'$book')]"</step>
+    <step nr="2" yql="true">select * from html where url="http://www.vatican.va/archive/ENG0839/$url" and xpath="//p[normalize-space(.) = '$passage']/following-sibling::p[1]/text()"</step>
   </service>
   <service>
     <name>can</name>
