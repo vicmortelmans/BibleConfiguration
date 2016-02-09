@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <service>
+    <name>vatican</name>
+    <bookskey></bookskey>
+    <editionskey></editionskey>
+    <step nr="1"></step>
+    <step nr="2" yql="true"></step>
+  </service>
+  <service>
     <name>can</name>
     <bookskey>osis</bookskey>
     <editionskey>can</editionskey>

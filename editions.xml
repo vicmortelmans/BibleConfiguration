@@ -62,7 +62,8 @@
 	<!-- ENGLISH -->
 	
 	<edition>
-		<code service="usccb_org" default_="true"/>
+		<code service="usccb_org"/><!-- service is giving "disallowed robots" -->
+		<code service="vatican" default_="true"/>
 		<code service="bibliacatolica_com">18</code><!-- service is giving "Service Temporarily Unavailable" quite often -->
 		<input>NAB</input>
 		<language>en</language>

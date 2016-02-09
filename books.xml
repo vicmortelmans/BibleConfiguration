@@ -2,6 +2,7 @@
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<book>
 		<code service="crosswire_org">genesis</code>
+		<code service="vatican">Genesis</code>
 		<code service="diebibel_de">1.mose</code>
 		<code service="unbound_biola_edu">01O</code>
 		<code service="usccb_org">genesis</code>
@@ -26,6 +27,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">exodus</code>
+		<code service="vatican">Exodus</code>
 		<code service="diebibel_de">2.mose</code>
 		<code service="unbound_biola_edu">02O</code>
 		<code service="usccb_org">exodus</code>
@@ -50,6 +52,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">leviticus</code>
+		<code service="vatican">Leviticus</code>
 		<code service="diebibel_de">3.mose</code>
 		<code service="unbound_biola_edu">03O</code>
 		<code service="usccb_org">leviticus</code>
@@ -74,6 +77,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">numbers</code>
+		<code service="vatican">Numbers</code>
 		<code service="diebibel_de">4.mose</code>
 		<code service="unbound_biola_edu">04O</code>
 		<code service="usccb_org">numbers</code>
@@ -101,6 +105,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">deuteronomy</code>
+		<code service="vatican">Deuteronomy</code>
 		<code service="diebibel_de">5.mose</code>
 		<code service="unbound_biola_edu">05O</code>
 		<code service="usccb_org">deuteronomy</code>
@@ -126,6 +131,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">joshua</code>
+		<code service="vatican">Joshua</code>
 		<code service="diebibel_de">jos</code>
 		<code service="unbound_biola_edu">06O</code>
 		<code service="usccb_org">joshua</code>
@@ -149,7 +155,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">judges</code>
-
+		<code service="vatican">Judges</code>
 		<code service="diebibel_de">ri</code>
 		<code service="unbound_biola_edu">07O</code>
 		<code service="usccb_org">judges</code>
@@ -184,6 +190,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">ruth</code>
+		<code service="vatican">Ruth</code>
 		<code service="diebibel_de">buch%20rut</code>
 		<code service="unbound_biola_edu">08O</code>
 		<code service="usccb_org">ruth</code>
@@ -201,6 +208,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1samuel</code>
+		<code service="vatican">1 Samuel</code>
 		<code service="diebibel_de">1.sam</code>
 		<code service="unbound_biola_edu">09O</code>
 		<code service="usccb_org">1samuel</code>
@@ -231,6 +239,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2samuel</code>
+		<code service="vatican">2 Samuel</code>
 		<code service="diebibel_de">2.sam</code>
 		<code service="unbound_biola_edu">10O</code>
 		<code service="usccb_org">2samuel</code>
@@ -261,7 +270,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1kings</code>
-
+		<code service="vatican">1 Kings</code>
 		<code service="diebibel_de">1.k%C3%B6n</code>
 		<code service="unbound_biola_edu">11O</code>
 		<code service="usccb_org">1kings</code>
@@ -312,6 +321,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2kings</code>
+		<code service="vatican">2 Kings</code>
 		<code service="diebibel_de">2.k%C3%B6n</code>
 		<code service="unbound_biola_edu">12O</code>
 		<code service="usccb_org">2kings</code>
@@ -362,6 +372,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1chronicles</code>
+		<code service="vatican">1 Chronicles</code>
 		<code service="diebibel_de">1.chr</code>
 		<code service="unbound_biola_edu">13O</code>
 		<code service="usccb_org">1chronicles</code>
@@ -408,6 +419,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2chronicles</code>
+		<code service="vatican">2 Chronicles</code>
 		<code service="diebibel_de">2.chr</code>
 		<code service="unbound_biola_edu">14O</code>
 		<code service="usccb_org">2chronicles</code>
@@ -454,6 +466,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">ezra</code>
+		<code service="vatican">Ezra</code>
 		<code service="diebibel_de">esra</code>
 		<code service="unbound_biola_edu">15O</code>
 		<code service="usccb_org">ezra</code>
@@ -475,6 +488,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">nehemiah</code>
+		<code service="vatican">Nehemiah</code>
 		<code service="diebibel_de">neh</code>
 		<code service="unbound_biola_edu">16O</code>
 		<code service="usccb_org">nehemiah</code>
@@ -498,6 +512,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">esther</code>
+		<code service="vatican">Esther</code>
 		<code service="diebibel_de">est</code>
 		<code service="unbound_biola_edu">17O</code>
 		<code service="usccb_org">esther</code>
@@ -516,6 +531,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">job</code>
+		<code service="vatican">Job</code>
 		<code service="diebibel_de">hiob</code>
 		<code service="unbound_biola_edu">18O</code>
 		<code service="usccb_org">job</code>
@@ -555,6 +571,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">proverbs</code>
+		<code service="vatican">Proverbs</code>
 		<code service="diebibel_de">spr</code>
 		<code service="unbound_biola_edu">20O</code>
 		<code service="usccb_org">proverbs</code>
@@ -584,6 +601,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">ecclesiastes</code>
+		<code service="vatican">Ecclesiastes</code>
 		<code service="diebibel_de">pred</code>
 		<code service="unbound_biola_edu">21O</code>
 		<code service="usccb_org">ecclesiastes</code>
@@ -615,6 +633,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">song</code>
+		<code service="vatican">The Song of Songs</code>
 		<code service="diebibel_de">hld</code>
 		<code service="unbound_biola_edu">22O</code>
 		<code service="usccb_org">song</code>
@@ -647,6 +666,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">isaiah</code>
+		<code service="vatican">Isaiah</code>
 		<code service="diebibel_de">jes</code>
 		<code service="unbound_biola_edu">23O</code>
 		<code service="usccb_org">isaiah</code>
@@ -672,6 +692,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">jeremiah</code>
+		<code service="vatican">Jeremiah</code>
 		<code service="diebibel_de">jer</code>
 		<code service="unbound_biola_edu">24O</code>
 		<code service="usccb_org">jeremiah</code>
@@ -693,6 +714,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">lamentations</code>
+		<code service="vatican">Lamentations</code>
 		<code service="diebibel_de">klgl</code>
 		<code service="unbound_biola_edu">25O</code>
 		<code service="usccb_org">lamentations</code>
@@ -722,6 +744,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">ezekiel</code>
+		<code service="vatican">Ezekiel</code>
 		<code service="diebibel_de">hes</code>
 		<code service="unbound_biola_edu">26O</code>
 		<code service="usccb_org">ezekiel</code>
@@ -749,6 +772,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">daniel</code>
+		<code service="vatican">Daniel</code>
 		<code service="diebibel_de">dan</code>
 		<code service="unbound_biola_edu">27O</code>
 		<code service="usccb_org">daniel</code>
@@ -768,6 +792,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">hosea</code>
+		<code service="vatican">Hosea</code>
 		<code service="diebibel_de">hos</code>
 		<code service="unbound_biola_edu">28O</code>
 		<code service="usccb_org">hosea</code>
@@ -792,6 +817,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">joel</code>
+		<code service="vatican">Joel</code>
 		<code service="diebibel_de">joel</code>
 		<code service="unbound_biola_edu">29O</code>
 		<code service="usccb_org">joel</code>
@@ -810,6 +836,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">amos</code>
+		<code service="vatican">Amos</code>
 		<code service="diebibel_de">am</code>
 		<code service="unbound_biola_edu">30O</code>
 		<code service="usccb_org">amos</code>
@@ -827,6 +854,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">obadiah</code>
+		<code service="vatican">Obadiah</code>
 		<code service="diebibel_de">obd</code>
 		<code service="unbound_biola_edu">31O</code>
 		<code service="usccb_org">obadiah</code>
@@ -851,6 +879,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">jonah</code>
+		<code service="vatican">Jonah</code>
 		<code service="diebibel_de">jona</code>
 		<code service="unbound_biola_edu">32O</code>
 		<code service="usccb_org">jonah</code>
@@ -870,6 +899,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">micah</code>
+		<code service="vatican">Micah</code>
 		<code service="diebibel_de">mi</code>
 		<code service="unbound_biola_edu">33O</code>
 		<code service="usccb_org">micah</code>
@@ -894,6 +924,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">nahum</code>
+		<code service="vatican">Nahum</code>
 		<code service="diebibel_de">nah</code>
 		<code service="unbound_biola_edu">34O</code>
 		<code service="usccb_org">nahum</code>
@@ -910,6 +941,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">habakkuk</code>
+		<code service="vatican">Habakkuk</code>
 		<code service="diebibel_de">hab</code>
 		<code service="unbound_biola_edu">35O</code>
 		<code service="usccb_org">habakkuk</code>
@@ -929,6 +961,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">zephaniah</code>
+		<code service="vatican">Zephaniah</code>
 		<code service="diebibel_de">zeph</code>
 		<code service="unbound_biola_edu">38O</code>
 		<code service="usccb_org">zephaniah</code>
@@ -956,6 +989,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">haggai</code>
+		<code service="vatican">Haggai</code>
 		<code service="diebibel_de">hag</code>
 		<code service="unbound_biola_edu">37O</code>
 		<code service="usccb_org">haggai</code>
@@ -977,8 +1011,8 @@
 		<input>Hageo</input>
 	</book>
 	<book>
-		<code service="crosswire_org">zechariah</code>
 		<code service="diebibel_de">sach</code>
+		<code service="vatican">Zechariah</code>
 		<code service="unbound_biola_edu">38O</code>
 		<code service="usccb_org">zechariah</code>
 		<code service="laparola_net">Zaccaria</code>
@@ -1004,6 +1038,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">malachi</code>
+		<code service="vatican">Malachi</code>
 		<code service="diebibel_de">mal</code>
 		<code service="unbound_biola_edu">39O</code>
 		<code service="usccb_org">malachi</code>
@@ -1023,6 +1058,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">matthew</code>
+		<code service="vatican">Matthew</code>
 		<code service="diebibel_de">mt</code>
 		<code service="unbound_biola_edu">40N</code>
 		<code service="usccb_org">matthew</code>
@@ -1046,6 +1082,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">mark</code>
+		<code service="vatican">Mark</code>
 		<code service="diebibel_de">mk</code>
 		<code service="unbound_biola_edu">41N</code>
 		<code service="usccb_org">mark</code>
@@ -1070,6 +1107,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">luke</code>
+		<code service="vatican">Luke</code>
 		<code service="diebibel_de">lk</code>
 		<code service="unbound_biola_edu">42N</code>
 		<code service="usccb_org">luke</code>
@@ -1095,6 +1133,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">john</code>
+		<code service="vatican">John</code>
 		<code service="diebibel_de">jh</code>
 		<code service="unbound_biola_edu">43N</code>
 		<code service="usccb_org">john</code>
@@ -1122,6 +1161,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">acts</code>
+		<code service="vatican">Acts</code>
 		<code service="diebibel_de">apg</code>
 		<code service="unbound_biola_edu">44N</code>
 		<code service="usccb_org">acts</code>
@@ -1152,6 +1192,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">romans</code>
+		<code service="vatican">Romans</code>
 		<code service="diebibel_de">r%C3%B6m</code>
 		<code service="unbound_biola_edu">45N</code>
 		<code service="usccb_org">romans</code>
@@ -1178,6 +1219,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1corinthians</code>
+		<code service="vatican">1 Corinthians</code>
 		<code service="diebibel_de">1.kor</code>
 		<code service="unbound_biola_edu">46N</code>
 		<code service="usccb_org">1corinthians</code>
@@ -1216,6 +1258,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2corinthians</code>
+		<code service="vatican">2 Corinthians</code>
 		<code service="diebibel_de">2.kor</code>
 		<code service="unbound_biola_edu">47N</code>
 		<code service="usccb_org">2corinthians</code>
@@ -1254,6 +1297,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">galatians</code>
+		<code service="vatican">Galatians</code>
 		<code service="diebibel_de">gal</code>
 		<code service="unbound_biola_edu">48N</code>
 		<code service="usccb_org">galatians</code>
@@ -1276,6 +1320,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">ephesians</code>
+		<code service="vatican">Ephesians</code>
 		<code service="diebibel_de">eph</code>
 		<code service="unbound_biola_edu">49N</code>
 		<code service="usccb_org">ephesians</code>
@@ -1304,6 +1349,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">philippians</code>
+		<code service="vatican">Philippians</code>
 		<code service="diebibel_de">phil</code>
 		<code service="unbound_biola_edu">50N</code>
 		<code service="usccb_org">philippians</code>
@@ -1331,6 +1377,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">colossians</code>
+		<code service="vatican">Colossians</code>
 		<code service="diebibel_de">kol</code>
 		<code service="unbound_biola_edu">51N</code>
 		<code service="usccb_org">colossians</code>
@@ -1351,6 +1398,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1thessalonians</code>
+		<code service="vatican">1 Thessalonians</code>
 		<code service="diebibel_de">1.thess</code>
 		<code service="unbound_biola_edu">52N</code>
 		<code service="usccb_org">1thessalonians</code>
@@ -1391,6 +1439,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2thessalonians</code>
+		<code service="vatican">2 Thessalonians</code>
 		<code service="diebibel_de">2.thess</code>
 		<code service="unbound_biola_edu">53N</code>
 		<code service="usccb_org">2thessalonians</code>
@@ -1433,6 +1482,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1timothy</code>
+		<code service="vatican">1 Timothy</code>
 		<code service="diebibel_de">1.tim</code>
 		<code service="unbound_biola_edu">54N</code>
 		<code service="usccb_org">1timothy</code>
@@ -1467,6 +1517,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2timothy</code>
+		<code service="vatican">2 Timothy</code>
 		<code service="diebibel_de">2.tim</code>
 		<code service="unbound_biola_edu">55N</code>
 		<code service="usccb_org">2timothy</code>
@@ -1501,6 +1552,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">titus</code>
+		<code service="vatican">Titus</code>
 		<code service="diebibel_de">tit</code>
 		<code service="unbound_biola_edu">56N</code>
 		<code service="usccb_org">titus</code>
@@ -1520,6 +1572,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">philemon</code>
+		<code service="vatican">Philemon</code>
 		<code service="diebibel_de">phlm</code>
 		<code service="unbound_biola_edu">57N</code>
 		<code service="usccb_org">philemon</code>
@@ -1544,6 +1597,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">hebrews</code>
+		<code service="vatican">Hebrews</code>
 		<code service="diebibel_de">hebr</code>
 		<code service="unbound_biola_edu">58N</code>
 		<code service="usccb_org">hebrews</code>
@@ -1573,6 +1627,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">james</code>
+		<code service="vatican">James</code>
 		<code service="diebibel_de">jak</code>
 		<code service="unbound_biola_edu">59N</code>
 		<code service="usccb_org">james</code>
@@ -1601,6 +1656,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1peter</code>
+		<code service="vatican">1 Peter</code>
 		<code service="diebibel_de">1.petr</code>
 		<code service="unbound_biola_edu">60N</code>
 		<code service="usccb_org">1peter</code>
@@ -1633,6 +1689,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2peter</code>
+		<code service="vatican">2 Peter</code>
 		<code service="diebibel_de">2.petr</code>
 		<code service="unbound_biola_edu">61N</code>
 		<code service="usccb_org">2peter</code>
@@ -1665,6 +1722,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1john</code>
+		<code service="vatican">1 John</code>
 		<code service="diebibel_de">1.joh</code>
 		<code service="unbound_biola_edu">62N</code>
 		<code service="usccb_org">1john</code>
@@ -1703,6 +1761,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2john</code>
+		<code service="vatican">2 John</code>
 		<code service="diebibel_de">2.joh</code>
 		<code service="unbound_biola_edu">63N</code>
 		<code service="usccb_org">2john</code>
@@ -1741,6 +1800,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">3john</code>
+		<code service="vatican">3 John</code>
 		<code service="diebibel_de">3.joh</code>
 		<code service="unbound_biola_edu">64N</code>
 		<code service="usccb_org">3john</code>
@@ -1779,6 +1839,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">jude</code>
+		<code service="vatican">jude</code>
 		<code service="diebibel_de">jud</code>
 		<code service="unbound_biola_edu">65N</code>
 		<code service="usccb_org">jude</code>
@@ -1799,6 +1860,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">revelation</code>
+		<code service="vatican">Revelation</code>
 		<code service="diebibel_de">offb</code>
 		<code service="unbound_biola_edu">66N</code>
 		<code service="usccb_org">revelation</code>
@@ -1831,6 +1893,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">esther</code>
+		<code service="vatican">Esther</code>
 		<code service="diebibel_de"></code>
 		<code service="unbound_biola_edu">69A</code>
 		<code service="usccb_org">esther</code>
@@ -1860,6 +1923,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">judith</code>
+		<code service="vatican">Judith</code>
 		<code service="diebibel_de"></code>
 		<code service="unbound_biola_edu">68A</code>
 		<code service="usccb_org">judith</code>
@@ -1881,6 +1945,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">tobit</code>
+		<code service="vatican">Tobit</code>
 		<code service="diebibel_de">tob</code>
 		<code service="unbound_biola_edu">67A</code>
 		<code service="usccb_org">tobit</code>
@@ -1900,6 +1965,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">1maccabees</code>
+		<code service="vatican">1 Maccabees</code>
 		<code service="diebibel_de">1.makk</code>
 		<code service="unbound_biola_edu">77A</code>
 		<code service="usccb_org">1maccabees</code>
@@ -1950,6 +2016,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">2maccabees</code>
+		<code service="vatican">2 Maccabees</code>
 		<code service="diebibel_de">2.makkabaeer</code>
 		<code service="unbound_biola_edu">78A</code>
 		<code service="usccb_org">2maccabees</code>
@@ -2000,6 +2067,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">3maccabees</code>
+		<code service="vatican">3 Maccabees</code>
 		<code service="diebibel_de"></code>
 		<code service="unbound_biola_edu">79A</code>
 		<code service="usccb_org">3maccabees</code>
@@ -2050,6 +2118,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">4maccabees</code>
+		<code service="vatican">4 Maccabees</code>
 		<code service="diebibel_de"></code>
 		<code service="unbound_biola_edu">80A</code>
 		<code service="usccb_org">4maccabees</code>
@@ -2100,6 +2169,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">Wisdom</code>
+		<code service="vatican">Wisdom</code>
 		<code service="diebibel_de">weish</code>
 		<code service="unbound_biola_edu">70A</code>
 		<code service="usccb_org">Wisdom</code>
@@ -2135,6 +2205,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">Sirach</code>
+		<code service="vatican">Sirach</code>
 		<code service="diebibel_de">sach</code>
 		<code service="unbound_biola_edu">71A</code>
 		<code service="usccb_org">Sirach</code>
@@ -2159,6 +2230,7 @@
 	</book>
 	<book>
 		<code service="crosswire_org">baruch</code>
+		<code service="vatican">Baruch</code>
 		<code service="diebibel_de"></code>
 		<code service="unbound_biola_edu">72A</code>
 		<code service="usccb_org">baruch</code>
