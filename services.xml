@@ -5,7 +5,7 @@
     <name>vatican</name>
     <bookskey>vatican</bookskey>
     <editionskey></editionskey>
-    <step nr="1" yql="true">select href from html where url="http://www.vatican.va/archive/ENG0839/_INDEX.HTM" and xpath="//li//li[contains(.,'$book')]//a[. = '$chapter']|//li//li//a[contains(.,'$book')]"</step>
+    <step nr="1" yql="true">select href from html where url="http://www.vatican.va/archive/ENG0839/_INDEX.HTM" and xpath="//li//li[normalize-space(.) = '$book')]//a[. = '$chapter']|//li//li//a[normalize-space(.) = '$book')]"</step>
     <step nr="2" yql="true">select * from html where url="http://www.vatican.va/archive/ENG0839/$url" and xpath="//p[normalize-space(.) = '$passage']/following-sibling::p[1]/text()"</step>
   </service>
   <service>
