@@ -1068,6 +1068,9 @@
 		<code service="biblija_net">Mat</code>
 		<code service="can">40</code>
 		<input>Het evangelie volgens Matteüs</input>
+		<input>Evangelie volgens Mattheus</input>
+		<input>Evangelie van Mattheus</input>
+		<input>Mattheusevangelie</input>
 		<input>Matthew</input>
 		<input language="nl,en,fr">Mt</input>
 		<input>Mat</input>
@@ -1076,6 +1079,7 @@
 		<input>Matevž</input>
 		<input>Matthew</input>
 		<input>Matteüs</input>
+		<input>Mattheus</input>
 		<input>Matteus</input>
 		<input>Matthäus</input>
 		<input>Mateo</input>
