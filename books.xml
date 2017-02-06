@@ -11,7 +11,7 @@
 		<code service="osis">Gen</code>
 		<code service="biblija_net">Gn</code>
 		<code service="can">1</code>
-		<input>Genesis</input>
+		<input spoken="nl,en">Genesis</input>
 		<input>1 Mz</input>
 		<input>1 Mojz</input>
 		<input language="nl,en">Gen</input>
@@ -36,7 +36,7 @@
 		<code service="osis">Exod</code>
 		<code service="biblija_net">Ex</code>
 		<code service="can">2</code>
-		<input>Exodus</input>
+		<input spoken="nl,en">Exodus</input>
 		<input>2 Mz</input>
 		<input>2 Mojz</input>
 		<input>Exo</input>
@@ -61,7 +61,7 @@
 		<code service="osis">Lev</code>
 		<code service="biblija_net">Lv</code>
 		<code service="can">3</code>
-		<input>Leviticus</input>
+		<input spoken="nl,en">Leviticus</input>
 		<input>3 Mz</input>
 		<input>3 Mojz</input>
 		<input language="nl,en">Lev</input>
@@ -86,8 +86,8 @@
 		<code service="osis">Num</code>
 		<code service="biblija_net">Nm</code>
 		<code service="can">4</code>
-		<input>Numeri</input>
-		<input>Numbers</input>
+		<input spoken="nl">Numeri</input>
+		<input spoken="en">Numbers</input>
 		<input>4 Mz</input>
 		<input>4 Mojz</input>
 		<input language="nl,en">Num</input>
@@ -114,8 +114,8 @@
 		<code service="osis">Deut</code>
 		<code service="biblija_net">Dt</code>
 		<code service="can">5</code>
-		<input>Deuteronomium</input>
-		<input>Deuteronomy</input>
+		<input spoken="nl">Deuteronomium</input>
+		<input spoken="en">Deuteronomy</input>
 		<input>5 Mz</input>
 		<input>5 Mojz</input>
 		<input>Deu</input>
@@ -140,8 +140,8 @@
 		<code service="osis">Josh</code>
 		<code service="biblija_net">Josh</code>
 		<code service="can">6</code>
-		<input>Jozua</input>
-		<input>Joshua</input>
+		<input spoken="nl">Jozua</input>
+		<input spoken="en">Joshua</input>
 		<input language="nl">Joz</input>
 		<input language="fr">Jos</input>
 		<input language="en">Josh</input>
@@ -164,8 +164,8 @@
 		<code service="osis">Judg</code>
 		<code service="biblija_net">Judg</code>
 		<code service="can">7</code>
-		<input>Rechters</input>
-		<input>Judges</input>
+		<input spoken="nl">Rechters</input>
+		<input spoken="en">Judges</input>
 		<input>Sod</input>
 		<input>Sodn</input>
 		<input>Jdg</input>
@@ -199,7 +199,7 @@
 		<code service="osis">Ruth</code>
 		<code service="biblija_net">Rt</code>
 		<code service="can">8</code>
-		<input language="nl,en">Ruth</input>
+		<input spoken="nl,en" language="nl,en">Ruth</input>
 		<input>Rut</input>
 		<input>Ru</input>
 		<input>Rth</input>
@@ -217,7 +217,8 @@
 		<code service="osis">1Sam</code>
 		<code service="biblija_net">1 Sa</code>
 		<code service="can">9</code>
-		<input>Het eerste boek Samuël</input>
+		<input spoken="nl">Het eerste boek Samuël</input>
+		<input spoken="en">The first book of Samuel</input>
 		<input>1 Samuel</input>
 		<input language="nl,en">1 Sam</input>
 		<input>1 Sa</input>
@@ -248,7 +249,8 @@
 		<code service="osis">2Sam</code>
 		<code service="biblija_net">2 Sa</code>
 		<code service="can">10</code>
-		<input>Het tweede boek Samuël</input>
+		<input spoken="nl">Het tweede boek Samuël</input>
+		<input spoken="en">The second book of Samuel</input>
 		<input>2 Samuel</input>
 		<input language="nl,en">2 Sam</input>
 		<input>2 Sa</input>
@@ -279,7 +281,8 @@
 		<code service="osis">1Kgs</code>
 		<code service="biblija_net">1 Kgs</code>
 		<code service="can">11</code>
-		<input>Het eerste boek Koningen</input>
+		<input spoken="nl">Het eerste boek Koningen</input>
+		<input spoken="en">The first book of Kings</input>
 		<input language="en">1 Kings</input>
 		<input>1 Kr</input>
 		<input>1 Kra</input>
@@ -330,7 +333,8 @@
 		<code service="osis">2Kgs</code>
 		<code service="biblija_net">2 Kgs</code>
 		<code service="can">12</code>
-		<input>Het tweede boek Koningen</input>
+		<input spoken="nl">Het tweede boek Koningen</input>
+		<input spoken="en">The second book of Kings</input>
 		<input language="en">2 Kings</input>
 		<input>2 Kr</input>
 		<input>2 Kra</input>
@@ -381,7 +385,8 @@
 		<code service="osis">1Chr</code>
 		<code service="biblija_net">1 Ch</code>
 		<code service="can">13</code>
-		<input>Het eerste boek Kronieken</input>
+		<input spoken="nl">Het eerste boek Kronieken</input>
+		<input spoken="en">The first book of Chronicles</input>
 		<input>1 Chronicles</input>
 		<input>1 Krn</input>
 		<input language="nl">1 Kron</input>
@@ -428,7 +433,8 @@
 		<code service="osis">2Chr</code>
 		<code service="biblija_net">2 Ch</code>
 		<code service="can">14</code>
-		<input>Het tweede boek Kronieken</input>
+		<input spoken="nl">Het tweede boek Kronieken</input>
+		<input spoken="en">The second book of Chronicles</input>
 		<input>2 Chronicles</input>
 		<input>2 Krn</input>
 		<input language="nl">2 Kron</input>
@@ -475,7 +481,7 @@
 		<code service="osis">Ezra</code>
 		<code service="biblija_net">Esr</code>
 		<code service="can">15</code>
-		<input language="nl,en">Ezra</input>
+		<input spoken="nl,en" language="nl,en">Ezra</input>
 		<input>Ezr</input>
 		<input>Ezdr</input>
 		<input>Esra</input>
@@ -497,8 +503,8 @@
 		<code service="osis">Neh</code>
 		<code service="biblija_net">Ne</code>
 		<code service="can">16</code>
-		<input>Nehemia</input>
-		<input>Nehemiah</input>
+		<input spoken="nl">Nehemia</input>
+		<input spoken="en">Nehemiah</input>
 		<input language="nl,en">Neh</input>
 		<input>Néh</input>
 		<input language="fr">Ne</input>
@@ -521,8 +527,8 @@
 		<code service="osis">Esth</code>
 		<code service="biblija_net">Esth</code>
 		<code service="can">17</code>
-		<input>Ester</input>
-		<input>Esther</input>
+		<input spoken="nl">Ester</input>
+		<input spoken="en">Esther</input>
 		<input language="nl,fr">Est</input>
 		<input>Ester</input>
 		<input language="en">Esth</input>
@@ -540,7 +546,7 @@
 		<code service="osis">Job</code>
 		<code service="biblija_net">Jb</code>
 		<code service="can">18</code>
-		<input language="nl,en">Job</input>
+		<input spoken="nl,en" language="nl,en">Job</input>
 		<input>Hi</input>
 		<input language="fr">Jb</input>
 		<input>Iob</input>
@@ -557,8 +563,8 @@
 		<code service="osis">Ps</code>
 		<code service="biblija_net">Ps</code>
 		<code service="can">19</code>
-		<input>De Psalmen</input>
-		<input>Psalms</input>
+		<input spoken="nl">De Psalmen</input>
+		<input spoken="en">Psalms</input>
 		<input language="nl,en,fr">Ps</input>
 		<input>Psa</input>
 		<input>PsG</input>
@@ -580,8 +586,8 @@
 		<code service="osis">Prov</code>
 		<code service="biblija_net">Pr</code>
 		<code service="can">20</code>
-		<input>Spreuken</input>
-		<input>Proverbs</input>
+		<input spoken="nl">Spreuken</input>
+		<input spoken="en">Proverbs</input>
 		<input>Prg</input>
 		<input>Preg</input>
 		<input>Pro</input>
@@ -610,8 +616,8 @@
 		<code service="osis">Eccl</code>
 		<code service="biblija_net">Ec</code>
 		<code service="can">21</code>
-		<input>Prediker</input>
-		<input>Ecclesiastes</input>
+		<input spoken="nl">Prediker</input>
+		<input spoken="en">Ecclesiastes</input>
 		<input>Prd</input>
 		<input>Prid</input>
 		<input>Prop</input>
@@ -642,8 +648,8 @@
 		<code service="osis">Song</code>
 		<code service="biblija_net">Song</code>
 		<code service="can">22</code>
-		<input>Hooglied</input>
-		<input>Song of Solomon</input>
+		<input spoken="nl">Hooglied</input>
+		<input spoken="en">Song of Solomon</input>
 		<input>Vp</input>
 		<input>Sng</input>
 		<input language="en">Song</input>
@@ -675,8 +681,8 @@
 		<code service="osis">Isa</code>
 		<code service="biblija_net">Is</code>
 		<code service="can">23</code>
-		<input>Jesaja</input>
-		<input>Isaiah</input>
+		<input spoken="nl">Jesaja</input>
+		<input spoken="en">Isaiah</input>
 		<input>Iz</input>
 		<input>Izai</input>
 		<input>Izaija</input>
@@ -701,8 +707,8 @@
 		<code service="osis">Jer</code>
 		<code service="biblija_net">Jr</code>
 		<code service="can">24</code>
-		<input>Jeremia</input>
-		<input>Jeremiah</input>
+		<input spoken="nl">Jeremia</input>
+		<input spoken="en">Jeremiah</input>
 		<input language="nl,en">Jer</input>
 		<input>Jér</input>
 		<input language="fr">Jr</input>
@@ -723,8 +729,8 @@
 		<code service="osis">Lam</code>
 		<code service="biblija_net">La</code>
 		<code service="can">25</code>
-		<input>Klaagliederen</input>
-		<input>Lamentations</input>
+		<input spoken="nl">Klaagliederen</input>
+		<input spoken="en">Lamentations</input>
 		<input>Žal</input>
 		<input language="en">Lam</input>
 		<input>La</input>
@@ -753,8 +759,8 @@
 		<code service="osis">Ezek</code>
 		<code service="biblija_net">Ez</code>
 		<code service="can">26</code>
-		<input>Ezechiël</input>
-		<input>Ezekiel</input>
+		<input spoken="nl">Ezechiël</input>
+		<input spoken="en">Ezekiel</input>
 		<input>Ezk</input>
 		<input language="fr">Ez</input>
 		<input language="nl">Eze</input>
@@ -781,8 +787,8 @@
 		<code service="osis">Dan</code>
 		<code service="biblija_net">Da</code>
 		<code service="can">27</code>
-		<input>Daniël</input>
-		<input>Daniel</input>
+		<input spoken="nl">Daniël</input>
+		<input spoken="en">Daniel</input>
 		<input language="nl,en">Dan</input>
 		<input>Da</input>
 		<input language="fr">Dn</input>
@@ -801,8 +807,7 @@
 		<code service="osis">Hos</code>
 		<code service="biblija_net">Ho</code>
 		<code service="can">28</code>
-		<input>Hosea</input>
-		<input>Hosea</input>
+		<input spoken="nl,en">Hosea</input>
 		<input>Oz</input>
 		<input>Ozea</input>
 		<input language="nl,en">Hos</input>
@@ -826,8 +831,8 @@
 		<code service="osis">Joel</code>
 		<code service="biblija_net">Jl</code>
 		<code service="can">29</code>
-		<input language="nl">Joël</input>
-		<input language="en">Joel</input>
+		<input spoken="nl" language="nl">Joël</input>
+		<input spoken="en" language="en">Joel</input>
 		<input language="fr">Jl</input>
 		<input>Jol</input>
 		<input>Joel</input>
@@ -845,11 +850,9 @@
 		<code service="osis">Amos</code>
 		<code service="biblija_net">Am</code>
 		<code service="can">30</code>
-		<input>Amos</input>
-		<input>Amos</input>
+		<input spoken="nl,en">Amos</input>
 		<input language="nl,en,fr">Am</input>
 		<input>Amo</input>
-		<input>Amos</input>
 		<input>Amós</input>
 	</book>
 	<book>
@@ -863,8 +866,8 @@
 		<code service="osis">Obad</code>
 		<code service="biblija_net">Ob</code>
 		<code service="can">31</code>
-		<input>Obadja</input>
-		<input>Obadiah</input>
+		<input spoken="nl">Obadja</input>
+		<input spoken="en">Obadiah</input>
 		<input>Abd</input>
 		<input language="fr">Ab</input>
 		<input>Oba</input>
@@ -888,13 +891,11 @@
 		<code service="osis">Jonah</code>
 		<code service="biblija_net">Jnh</code>
 		<code service="can">32</code>
-		<input language="nl">Jona</input>
-		<input>Jonah</input>
+		<input spoken="nl" language="nl">Jona</input>
+		<input spoken="en">Jonah</input>
 		<input language="en,fr">Jon</input>
 		<input>Jnh</input>
 		<input>Ion</input>
-		<input>Jona</input>
-		<input>Jonah</input>
 		<input>Jonás</input>
 	</book>
 	<book>
@@ -908,8 +909,8 @@
 		<code service="osis">Mic</code>
 		<code service="biblija_net">Mi</code>
 		<code service="can">33</code>
-		<input>Micha</input>
-		<input>Micah</input>
+		<input spoken="nl">Micha</input>
+		<input spoken="en">Micah</input>
 		<input>Mih</input>
 		<input language="en">Mic</input>
 		<input language="nl,fr">Mi</input>
@@ -918,8 +919,6 @@
 		<input>Miq</input>
 		<input>Mihej</input>
 		<input>Miha</input>
-		<input>Micah</input>
-		<input>Micha</input>
 		<input>Miqueas</input>
 	</book>
 	<book>
@@ -936,7 +935,7 @@
 		<input language="nl,en">Nah</input>
 		<input>Nam</input>
 		<input language="fr">Na</input>
-		<input>Nahum</input>
+		<input spoken="nl,en">Nahum</input>
 		<input>Nahúm</input>
 	</book>
 	<book>
@@ -950,13 +949,11 @@
 		<code service="osis">Hab</code>
 		<code service="biblija_net">Ha</code>
 		<code service="can">35</code>
-		<input>Habakuk</input>
-		<input>Habakkuk</input>
+		<input spoken="nl">Habakuk</input>
+		<input spoken="en">Habakkuk</input>
 		<input language="nl,en">Hab</input>
 		<input language="fr">Ha</input>
-		<input>Habakuk</input>
 		<input>Habb</input>
-		<input>Habakkuk</input>
 		<input>Habacuc</input>
 	</book>
 	<book>
@@ -970,8 +967,8 @@
 		<code service="osis">Zeph</code>
 		<code service="biblija_net">Zep</code>
 		<code service="can">36</code>
-		<input>Sefanja</input>
-		<input>Zephaniah</input>
+		<input spoken="nl">Sefanja</input>
+		<input spoken="en">Zephaniah</input>
 		<input>Sof</input>
 		<input>Zep</input>
 		<input language="en">Zeph</input>
@@ -981,8 +978,6 @@
 		<input>Soph</input>
 		<input>Sofonija</input>
 		<input>Zefanija</input>
-		<input>Zephaniah</input>
-		<input>Sefanja</input>
 		<input>Zephanja</input>
 		<input>Zefanja</input>
 		<input>Sofonías</input>
@@ -998,7 +993,7 @@
 		<code service="osis">Hag</code>
 		<code service="biblija_net">Hagg</code>
 		<code service="can">37</code>
-		<input>Haggai</input>
+		<input spoken="nl,en">Haggai</input>
 		<input language="fr">Ag</input>
 		<input language="nl,en">Hag</input>
 		<input>Hagg</input>
@@ -1007,7 +1002,6 @@
 		<input>Agg</input>
 		<input>Agej</input>
 		<input>Hagaj</input>
-		<input>Haggai</input>
 		<input>Hageo</input>
 	</book>
 	<book>
@@ -1020,8 +1014,8 @@
 		<code service="osis">Zech</code>
 		<code service="biblija_net">Zec</code>
 		<code service="can">38</code>
-		<input>Zacharia</input>
-		<input>Zechariah</input>
+		<input spoken="nl">Zacharia</input>
+		<input spoken="en">Zechariah</input>
 		<input>Zah</input>
 		<input>Zec</input>
 		<input language="en">Zech</input>
@@ -1031,8 +1025,6 @@
 		<input language="nl">Zach</input>
 		<input>Sach</input>
 		<input>Zaharija</input>
-		<input>Zechariah</input>
-		<input>Zacharia</input>
 		<input>Sacharja</input>
 		<input>Zacarías</input>
 	</book>
@@ -1047,13 +1039,11 @@
 		<code service="osis">Mal</code>
 		<code service="biblija_net">Ml</code>
 		<code service="can">39</code>
-		<input>Maleachi</input>
-		<input>Malachi</input>
+		<input spoken="nl">Maleachi</input>
+		<input spoken="en">Malachi</input>
 		<input language="nl,en">Mal</input>
 		<input language="fr">Ml</input>
 		<input>Malahija</input>
-		<input>Malachi</input>
-		<input>Maleachi</input>
 		<input>Malaquías</input>
 	</book>
 	<book>
@@ -1067,10 +1057,8 @@
 		<code service="osis">Matt</code>
 		<code service="biblija_net">Mat</code>
 		<code service="can">40</code>
-		<input>Het evangelie volgens Matteüs</input>
-		<input>Evangelie volgens Mattheus</input>
-		<input>Evangelie van Mattheus</input>
-		<input>Mattheusevangelie</input>
+		<input spoken="nl">Het evangelie volgens Matteüs</input>
+		<input spoken="en">The gospel of Matthew</input>
 		<input>Matthew</input>
 		<input language="nl,en,fr">Mt</input>
 		<input>Mat</input>
@@ -1095,7 +1083,8 @@
 		<code service="osis">Mark</code>
 		<code service="biblija_net">Mr</code>
 		<code service="can">41</code>
-		<input>Het evangelie volgens Marcus</input>
+		<input spoken="nl">Het evangelie volgens Marcus</input>
+		<input spoken="en">The gospel of Mark</input>
 		<input>Mark</input>
 		<input>Mr</input>
 		<input>Mar</input>
@@ -1103,7 +1092,6 @@
 		<input>Mk</input>
 		<input language="nl,en,fr">Mc</input>
 		<input>Marko</input>
-		<input>Mark</input>
 		<input>Marcus</input>
 		<input>Markus</input>
 		<input>Marc</input>
@@ -1120,7 +1108,8 @@
 		<code service="osis">Luke</code>
 		<code service="biblija_net">Luk</code>
 		<code service="can">42</code>
-		<input>Het evangelie volgens Lucas</input>
+		<input spoken="nl">Het evangelie volgens Lucas</input>
+		<input spoken="en">The gospel of Luke</input>
 		<input>Luke</input>
 		<input>Lk</input>
 		<input>Luk</input>
@@ -1130,10 +1119,8 @@
 		<input>L</input>
 		<input>Luka</input>
 		<input>Lukež</input>
-		<input>Luke</input>
 		<input>Lucas</input>
 		<input>Lukas</input>
-		<input>Lucas</input>
 	</book>
 	<book>
 		<code service="crosswire_org">john</code>
@@ -1146,7 +1133,8 @@
 		<code service="osis">John</code>
 		<code service="biblija_net">Jhn</code>
 		<code service="can">43</code>
-		<input>Het evangelie volgens Johannes</input>
+		<input spoken="nl">Het evangelie volgens Johannes</input>
+		<input spoken="en">The gospel of John</input>
 		<input>John</input>
 		<input language="en,fr">Jn</input>
 		<input>Jan</input>
@@ -1174,8 +1162,8 @@
 		<code service="osis">Acts</code>
 		<code service="biblija_net">Ac</code>
 		<code service="can">44</code>
-		<input>Handelingen van de apostelen</input>
-		<input>The Acts</input>
+		<input spoken="nl">Handelingen van de apostelen</input>
+		<input spoken="en">The Acts</input>
 		<input>Apd</input>
 		<input>Dej</input>
 		<input>DejAp</input>
@@ -1205,7 +1193,8 @@
 		<code service="osis">Rom</code>
 		<code service="biblija_net">Ro</code>
 		<code service="can">45</code>
-		<input>De brief aan de Romeinen</input>
+		<input spoken="nl">De brief aan de Romeinen</input>
+		<input spoken="en">The letter to the Romans</input>
 		<input>Romans</input>
 		<input>Rim</input>
 		<input>Rimlj</input>
@@ -1232,7 +1221,8 @@
 		<code service="osis">1Cor</code>
 		<code service="biblija_net">1 Co</code>
 		<code service="can">46</code>
-		<input>De eerste brief aan de Korintiërs</input>
+		<input spoken="nl">De eerste brief aan de Korintiërs</input>
+		<input spoken="en">The first letter to the Corinthians</input>
 		<input>1 Corinthians</input>
 		<input language="nl">1 Kor</input>
 		<input language="en">1 Cor</input>
@@ -1271,7 +1261,8 @@
 		<code service="osis">2Cor</code>
 		<code service="biblija_net">2 Co</code>
 		<code service="can">47</code>
-		<input>De tweede brief aan de Korintiërs</input>
+		<input spoken="nl">De tweede brief aan de Korintiërs</input>
+		<input spoken="en">The second letter to the Corinthians</input>
 		<input>2 Corinthians</input>
 		<input language="nl">2 Kor</input>
 		<input language="en">2 Cor</input>
@@ -1310,7 +1301,8 @@
 		<code service="osis">Gal</code>
 		<code service="biblija_net">Ga</code>
 		<code service="can">48</code>
-		<input>De brief aan de Galaten</input>
+		<input spoken="nl">De brief aan de Galaten</input>
+		<input spoken="en">The letter to the Galatians</input>
 		<input>Galatians</input>
 		<input language="nl,en">Gal</input>
 		<input language="fr">Ga</input>
@@ -1333,7 +1325,8 @@
 		<code service="osis">Eph</code>
 		<code service="biblija_net">Ep</code>
 		<code service="can">49</code>
-		<input>De brief aan de Efeziërs</input>
+		<input spoken="nl">De brief aan de Efeziërs</input>
+		<input spoken="en">The letter to the Ephesians</input>
 		<input>Ephesians</input>
 		<input language="nl">Ef</input>
 		<input>Efež</input>
@@ -1362,7 +1355,8 @@
 		<code service="osis">Phil</code>
 		<code service="biblija_net">Php</code>
 		<code service="can">50</code>
-		<input>De brief aan de Filippenzen</input>
+		<input spoken="nl">De brief aan de Filippenzen</input>
+		<input spoken="en">The letter to the Philippians</input>
 		<input>Philippians</input>
 		<input>Flp</input>
 		<input>Filip</input>
@@ -1390,7 +1384,8 @@
 		<code service="osis">Col</code>
 		<code service="biblija_net">Col</code>
 		<code service="can">51</code>
-		<input>De brief aan de Kolossenzen</input>
+		<input spoken="nl">De brief aan de Kolossenzen</input>
+		<input spoken="en">The letter to the Collosians</input>
 		<input>Colossians</input>
 		<input language="nl">Kol</input>
 		<input language="en,fr">Col</input>
@@ -1411,7 +1406,8 @@
 		<code service="osis">1Thess</code>
 		<code service="biblija_net">1 Thess</code>
 		<code service="can">52</code>
-		<input>De eerste brief aan de Tessalonicenzen</input>
+		<input spoken="nl">De eerste brief aan de Tessalonicenzen</input>
+		<input spoken="en">The first letter to the Thessalonians</input>
 		<input>1 Thessalonians</input>
 		<input language="nl">1 Tes</input>
 		<input>1 Sol</input>
@@ -1452,7 +1448,8 @@
 		<code service="osis">2Thess</code>
 		<code service="biblija_net">2 Thess</code>
 		<code service="can">53</code>
-		<input>De tweede brief aan de Tessalonicenzen</input>
+		<input spoken="nl">De tweede brief aan de Tessalonicenzen</input>
+		<input spoken="en">The second letter to the Thessalonians</input>
 		<input>2 Thessalonians</input>
 		<input>De tweede brief aan de Tessalonicenzen</input>
 		<input>2 Thessalonians</input>
@@ -1495,7 +1492,8 @@
 		<code service="osis">1Tim</code>
 		<code service="biblija_net">1 Ti</code>
 		<code service="can">54</code>
-		<input>De eerste brief aan Timoteüs</input>
+		<input spoken="nl">De eerste brief aan Timoteüs</input>
+		<input spoken="en">The first letter to Timothy</input>
 		<input>1 Timothy</input>
 		<input language="nl,en">1 Tim</input>
 		<input>1 Ti</input>
@@ -1530,7 +1528,8 @@
 		<code service="osis">2Tim</code>
 		<code service="biblija_net">2 Ti</code>
 		<code service="can">55</code>
-		<input>De tweede brief aan Timoteüs</input>
+		<input spoken="nl">De tweede brief aan Timoteüs</input>
+		<input spoken="en">The second letter to Timothy</input>
 		<input>2 Timothy</input>
 		<input language="nl,en">2 Tim</input>
 		<input>2 Ti</input>
@@ -1565,7 +1564,8 @@
 		<code service="osis">Titus</code>
 		<code service="biblija_net">Tt</code>
 		<code service="can">56</code>
-		<input>De brief aan Titus</input>
+		<input spoken="nl">De brief aan Titus</input>
+		<input spoken="en">The letter to Titus</input>
 		<input language="en">Titus</input>
 		<input language="nl">Tit</input>
 		<input language="fr">Tt</input>
@@ -1586,7 +1586,8 @@
 		<code service="biblija_net">Phlm</code>
 		<code service="can">57</code>
 		<input language="en">Philemon</input>
-		<input>De brief aan Filemon</input>
+		<input spoken="nl">De brief aan Filemon</input>
+		<input spoken="en">The letter to Philemon</input>
 		<input>Flm</input>
 		<input language="nl">Filem</input>
 		<input>Film</input>
@@ -1610,7 +1611,8 @@
 		<code service="osis">Heb</code>
 		<code service="biblija_net">Hebr</code>
 		<code service="can">58</code>
-		<input>De brief aan de Hebreeën</input>
+		<input spoken="nl">De brief aan de Hebreeën</input>
+		<input spoken="en">The letter to the Hebrews</input>
 		<input>Hebrews</input>
 		<input language="nl,en">Heb</input>
 		<input>Hebr</input>
@@ -1640,7 +1642,8 @@
 		<code service="osis">Jas</code>
 		<code service="biblija_net">Jam</code>
 		<code service="can">59</code>
-		<input>De brief van Jakobus</input>
+		<input spoken="nl">De brief van Jakobus</input>
+		<input spoken="en">The letter of James</input>
 		<input>James</input>
 		<input language="nl">Jak</input>
 		<input language="en">Jas</input>
@@ -1669,7 +1672,8 @@
 		<code service="osis">1Pet</code>
 		<code service="biblija_net">1 Pt</code>
 		<code service="can">60</code>
-		<input>De eerste brief van Petrus</input>
+		<input spoken="nl">De eerste brief van Petrus</input>
+		<input spoken="en">The first letter of Peter</input>
 		<input>1 Peter</input>
 		<input>1 Pt</input>
 		<input language="nl,en">1 Pet</input>
@@ -1702,7 +1706,8 @@
 		<code service="osis">2Pet</code>
 		<code service="biblija_net">2 Pt</code>
 		<code service="can">61</code>
-		<input>De tweede brief van Petrus</input>
+		<input spoken="nl">De tweede brief van Petrus</input>
+		<input spoken="en">The second letter of Peter</input>
 		<input>2 Peter</input>
 		<input>2 Pt</input>
 		<input language="nl,en">2 Pet</input>
@@ -1735,7 +1740,8 @@
 		<code service="osis">1John</code>
 		<code service="biblija_net">1 Jo</code>
 		<code service="can">62</code>
-		<input>De eerste brief van Johannes</input>
+		<input spoken="nl">De eerste brief van Johannes</input>
+		<input spoken="en">The first letter of John</input>
 		<input>1 John</input>
 		<input language="en,fr">1 Jn</input>
 		<input>1 Jan</input>
@@ -1774,7 +1780,8 @@
 		<code service="osis">2John</code>
 		<code service="biblija_net">2 Jo</code>
 		<code service="can">63</code>
-		<input>De tweede brief van Johannes</input>
+		<input spoken="nl">De tweede brief van Johannes</input>
+		<input spoken="en">The second letter of John</input>
 		<input>2 John</input>
 		<input language="en,fr">2 Jn</input>
 		<input>2 Jan</input>
@@ -1813,7 +1820,8 @@
 		<code service="osis">3John</code>
 		<code service="biblija_net">3 Jo</code>
 		<code service="can">64</code>
-		<input>De derde brief van Johannes</input>
+		<input spoken="nl">De derde brief van Johannes</input>
+		<input spoken="en">The third letter of John</input>
 		<input>3 John</input>
 		<input language="en,fr">3 Jn</input>
 		<input>3 Jan</input>
@@ -1852,7 +1860,8 @@
 		<code service="osis">Jude</code>
 		<code service="biblija_net">Jd</code>
 		<code service="can">65</code>
-		<input>De brief van Judas</input>
+		<input spoken="nl">De brief van Judas</input>
+		<input spoken="en">The letter of Jude</input>
 		<input language="en">Jude</input>
 		<input language="nl">Jud</input>
 		<input>Juda</input>
@@ -1873,7 +1882,8 @@
 		<code service="osis">Rev</code>
 		<code service="biblija_net">Rev</code>
 		<code service="can">66</code>
-		<input>De Apokalyps of Openbaring van Johannes</input>
+		<input spoken="nl">De Openbaring van Johannes</input>
+		<input spoken="en">Apocalypse</input>
 		<input>Revelation</input>
 		<input>Raz</input>
 		<input language="en">Rev</input>
@@ -1907,6 +1917,7 @@
 		<code service="biblija_net">GkEst</code>
 		<code service="can"></code>
 		<input language="en">Esther</input>
+		<input language="nl">Ester</input>
 		<input>Esther (Greek)</input>
 		<input>EstG</input>
 		<input>EsG</input>
@@ -1936,15 +1947,12 @@
 		<code service="osis">Jdt</code>
 		<code service="biblija_net">Jdth</code>
 		<code service="can">68</code>
-		<input language="nl">Judit</input>
-		<input language="en">Judith</input>
-		<input>Judit</input>
-		<input>Judith</input>
+		<input spoken="nl" language="nl">Judit</input>
+		<input spoken="en" language="en">Judith</input>
 		<input language="fr">Jdt</input>
 		<input>Jdth</input>
 		<input>Idt</input>
 		<input>Judita</input>
-		<input>Judith</input>
 		<input>Judit</input>
 	</book>
 	<book>
@@ -1958,13 +1966,9 @@
 		<code service="osis">Tob</code>
 		<code service="biblija_net">Tb</code>
 		<code service="can">67</code>
-		<input language="nl">Tobit</input>
-		<input language="en">Tobit</input>
-		<input>Tobit</input>
-		<input>Tobit</input>
+		<input spoken="nl,en" language="nl,en">Tobit</input>
 		<input>Tob</input>
 		<input language="fr">Tb</input>
-		<input>Tobit</input>
 		<input>Tobija</input>
 	</book>
 	<book>
@@ -1978,9 +1982,9 @@
 		<code service="osis">1Macc</code>
 		<code service="biblija_net">1 Macc</code>
 		<code service="can">72</code>
-		<input language="nl">Het eerste boek Makkabeeën</input>
+		<input spoken="nl" language="nl">Het eerste boek Makkabeeën</input>
+		<input spoken="en">The first book of Maccabees</input>
 		<input language="en">1 Maccabees</input>
-		<input>Het eerste boek Makkabeeën</input>
 		<input>1 Maccabees</input>
 		<input>1 Mkb</input>
 		<input>1 Mak</input>
@@ -2029,9 +2033,9 @@
 		<code service="osis">2Macc</code>
 		<code service="biblija_net">2 Macc</code>
 		<code service="can">73</code>
-		<input language="nl">Het tweede boek Makkabeeën</input>
+		<input spoken="nl" language="nl">Het tweede boek Makkabeeën</input>
+		<input spoken="en">The second book of Maccabees</input>
 		<input language="en">2 Maccabees</input>
-		<input>Het tweede boek Makkabeeën</input>
 		<input>2 Maccabees</input>
 		<input>2 Mkb</input>
 		<input>2 Mak</input>
@@ -2080,9 +2084,9 @@
 		<code service="osis">3Macc</code>
 		<code service="biblija_net">3 Macc</code>
 		<code service="can"></code>
-		<input language="nl">Het derde boek Makkabeeën</input>
+		<input spoken="nl" language="nl">Het derde boek Makkabeeën</input>
+		<input spoken="en">The third book of Maccabees</input>
 		<input language="en">3 Maccabees</input>
-		<input>Het derde boek Makkabeeën</input>
 		<input>3 Maccabees</input>
 		<input>3 Mkb</input>
 		<input>3 Mak</input>
@@ -2131,9 +2135,9 @@
 		<code service="osis">4Macc</code>
 		<code service="biblija_net">4 Macc</code>
 		<code service="can"></code>
-		<input language="nl">Het vierde boek Makkabeeën</input>
+		<input spoken="nl" language="nl">Het vierde boek Makkabeeën</input>
+		<input spoken="en">The fourth book of Maccabees</input>
 		<input language="en">4 Maccabees</input>
-		<input>Het vierde boek Makkabeeën</input>
 		<input>4 Maccabees</input>
 		<input>4 Mkb</input>
 		<input>4 Mak</input>
@@ -2182,9 +2186,8 @@
 		<code service="osis">Wis</code>
 		<code service="biblija_net">Wisd</code>
 		<code service="can">69</code>
-		<input language="nl">Wijsheid</input>
-		<input language="en">The Book of Wisdom</input>
-		<input>Wijsheid</input>
+		<input spoken="nl" language="nl">Wijsheid</input>
+		<input spoken="en" language="en">The Book of Wisdom</input>
 		<input>Wisdom</input>
 		<input>Mdr</input>
 		<input>Modr</input>
@@ -2203,7 +2206,6 @@
 		<input>Jkd</input>
 		<input>Modrost</input>
 		<input>Wisdom</input>
-		<input>Wijsheid</input>
 		<input>Weisheit</input>
 		<input>Sabiduría</input>
 	</book>
@@ -2218,14 +2220,11 @@
 		<code service="osis">Sir</code>
 		<code service="biblija_net">Si</code>
 		<code service="can">70</code>
-		<input language="nl">Wijsheid van Jezus Sirach</input>
-		<input language="en">Sirach</input>
-		<input>Wijsheid van Jezus Sirach</input>
-		<input>Sirach</input>
+		<input spoken="nl" language="nl">Wijsheid van Jezus Sirach</input>
+		<input spoken="en" language="en">Sirach</input>
 		<input>Sir</input>
 		<input language="fr">Si</input>
 		<input>Sirah</input>
-		<input>Sirach</input>
 		<input>Eclo</input>
 		<input>Ecclesiasticus</input>
 		<input>Ecclesiastique</input>
@@ -2243,14 +2242,10 @@
 		<code service="osis">Bar</code>
 		<code service="biblija_net">Ba</code>
 		<code service="can">71</code>
-		<input language="nl">Baruch</input>
-		<input language="en">Baruch</input>
-		<input>Baruch</input>
-		<input>Baruch</input>
+		<input spoken="nl,en" language="nl,en">Baruch</input>
 		<input>Bar</input>
 		<input language="fr">Ba</input>
 		<input>Baruh</input>
-		<input>Baruch</input>
 		<input>Baruc</input>
 	</book>
 </books>
