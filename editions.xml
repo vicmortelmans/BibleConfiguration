@@ -4,8 +4,8 @@
 	<!-- VARIOUS LANGUAGES -->
 	
 	<edition>
-		<code service="crosswire_org" default_="true">Afr1953</code>
-		<code service="unbound_biola_edu">afrikaans_1953_ucs2</code>
+		<!--code service="crosswire_org">Afr1953</code-->
+		<code service="unbound_biola_edu" default_="true">afrikaans_1953_ucs2</code>
 		<language>af</language>
 		<default_>true</default_>
 		<copyright>Copyright 1933, 1953, Bybelgenootskap van Suid Afrika</copyright>

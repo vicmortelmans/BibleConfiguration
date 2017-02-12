@@ -45,9 +45,10 @@
     <step nr="2" yql="true">select * from html where url="$url" and xpath="(//div[@id='scribeI']/p/a/text()|//div[@id='scribeI']/p/text())[preceding::span[@class='bcv'][1]='$passage'][not(ancestor::p[@class='fn' or @class='en'])]"</step>
   </service>
   <service>
+   <!-- OBSOLETE, BLOCKED BY ROBOTS -->
    <name>crosswire_org</name>
-    <bookskey>crosswire_org</bookskey>
-    <editionskey>crosswire_org</editionskey>
+   <bookskey>crosswire_org</bookskey>
+   <editionskey>crosswire_org</editionskey>
    <step nr="1">http://www.crosswire.org/study/passagestudy.jsp?key=$book+$chapter:$passage&amp;mod=$edition</step>
    <step nr="2">http://open.dapper.net/RunDapp?dappName=bijbelpassagecrosswireorg&amp;v=1&amp;applyToUrl=$url</step>
    <step nr="3" yql="true">select passage.content from xml where url="$url"</step>
