@@ -1,65 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <editions>
 	
-	<!-- VARIOUS LANGUAGES -->
-	
-	<edition>
-		<!--code service="crosswire_org">Afr1953</code-->
-		<code service="unbound_biola_edu" default_="true">afrikaans_1953_ucs2</code>
-		<language>af</language>
-		<default_>true</default_>
-		<copyright>Copyright 1933, 1953, Bybelgenootskap van Suid Afrika</copyright>
-		<input name="true">Afrikaans Bybel (1933/1953)</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">BulCarigradNT</code>
-		<language>bg</language>
-		<copyright>Copyright by the youth group of the Church of God in Sofia, 1997</copyright>
-		<input name="true">Bulgarian New Testament from 1914, known as 'Tsarigrad Edition'</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">Bulgarian</code>
-		<language>bg</language>
-		<default_>true</default_>
-		<copyright></copyright>
-		<input name="true">Bulgarian Bible</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">CzeBKR</code>
-		<language>cz</language>
-		<copyright></copyright>
-		<input name="true">Czech Bible Kralicka</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">CzeNKB</code>
-		<language>cz</language>
-		<default_>true</default_>
-		<copyright>Copyright Sdruzeni pro Novou Bibli kralickou</copyright>
-		<input name="true">Czech Nova kralicka Bible</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">Dan</code>
-		<language>da</language>
-		<default_>true</default_>
-		<copyright>Copyright Old Testament: Det Danske Bibelselskab 1931; copyright New Testament: public domain</copyright>
-		<input name="true">Danske Bibel</input>
-	</edition>
-	<edition>
-		<code service="diebibel_de" default_="true">EUE</code>
-		<language>de</language>
-		<default_>true</default_>
-		<copyright>Copyright Katholischen Bibelanstalt, Stuttgart</copyright>
-		<input name="true">Einheitsübersetzung</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">Byz</code>
-		<language>el</language>
-		<default_>true</default_>
-		<copyright></copyright>
-		<input name="true">Byzantine/Majority Text (2000)</input>
-	</edition>
-	
 	<!-- ENGLISH -->
+	
 	
 	<edition>
 		<code service="usccb_org"/><!-- service is giving "disallowed robots" -->
@@ -72,37 +15,57 @@
 		<input name="true">New American Bible</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">AKJV</code>
+		<!--code service="crosswire_org" default_="true">AKJV</code-->
 		<input>AKJV</input>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">American King James Version</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">ASV</code>
+		<!--code service="crosswire_org" default_="true">ASV</code-->
 		<input>ASV</input>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">American Standard Version (1901)</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">BBE</code>
+		<!--code service="crosswire_org" default_="true">BBE</code-->
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Bible in Basic English (1949/1964)</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">BWE</code>
+		<!--code service="crosswire_org" default_="true">BWE</code-->
 		<language>en</language>
 		<copyright></copyright>
 		<input name="true">Bible in Worldwide English</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">ACV</code>
+		<!--code service="crosswire_org" default_="true">ACV</code-->
 		<input>ACV</input>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">A Conservative Version</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Darby</code-->
+		<language>en</language>
+		<copyright>Copyright status: Public Domain</copyright>
+		<input name="true">Darby Bible</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">DRA</code-->
+    	<input>DRA</input>
+		<language>en</language>
+		<copyright>Copyright status: Public Domain</copyright>
+		<input name="true">Douay-Rheims American Edition (1899)</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">ESV</code-->
+    	<input>ESV</input>
+		<language>en</language>
+		<copyright>Copyright 2001 by Crossway Bibles, a division of Good News Publishers</copyright>
+		<input name="true">English Standard Version</input>
 	</edition>
 	<edition>
 		<code service="biblija_net" default_="true">id32</code>
@@ -128,19 +91,6 @@
 		<input name="true">King James Version</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">Darby</code>
-		<language>en</language>
-		<copyright>Copyright status: Public Domain</copyright>
-		<input name="true">Darby Bible</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">DRA</code>
-    	<input>DRA</input>
-		<language>en</language>
-		<copyright>Copyright status: Public Domain</copyright>
-		<input name="true">Douay-Rheims American Edition (1899)</input>
-	</edition>
-	<edition>
 		<code service="unbound_biola_edu" default_="true">douay_rheims_ucs2</code>
 		<code service="bibliacatolica_com">06</code>
     	<input>DR</input>
@@ -149,23 +99,106 @@
 		<input name="true">Douay-Rheims</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">ESV</code>
-    	<input>ESV</input>
-		<language>en</language>
-		<copyright>Copyright 2001 by Crossway Bibles, a division of Good News Publishers</copyright>
-		<input name="true">English Standard Version</input>
-	</edition>
-	<edition>
 		<code service="bibliacatolica_com" default_="true">25</code>
 		<language>en</language>
 		<copyright></copyright>
 		<input name="true">New Jerusalem Bible</input>
 	</edition>
 	
+	
+	<!-- DUTCH -->
+	
+	<edition>
+		<code service="can" default_="true"></code>
+		<input>CAN</input>
+		<language>nl</language>
+		<default_>true</default_>
+		<copyright>unknown</copyright>
+		<input name="true">Petrus Canisiusvertaling</input>
+	</edition>
+	<edition>
+		<!--code service="biblija3_net" default_="true">id35</code-->
+		<input>WV95</input>
+		<language>nl</language>
+		<copyright>Copyright © 1995 Katholieke Bijbelstichting (Catholic Bible Foundation)</copyright>
+		<input name="true">Willibrordvertaling revised edition</input>
+	</edition>
+	<edition>
+		<!--code service="biblija_net" default_="true">id37</code-->
+		<!--code service="crosswire_org" default_="true">DutSVV</code-->
+		<code service="unbound_biola_edu">dutch_svv_ucs2</code>
+		<input>SV-J</input>
+		<language>nl</language>
+		<copyright>Copyright status: Public domain</copyright>
+		<input name="true">Statenvertaling (Jongbloed edition)</input>
+	</edition>
+	<edition>
+		<!--code service="biblija_net" default_="true">id18</code-->
+		<input>NBV</input>
+		<language>nl</language>
+		<copyright>Copyright © 2004/2007 Nederlands Bijbelgenootschap (Netherlands Bible Society)</copyright>
+		<input name="true">De Nieuwe Bijbelvertaling</input>
+	</edition>
+	
 	<!-- VARIOUS LANGUAGES -->
 	
 	<edition>
-		<code service="crosswire_org" default_="true">Esperanto</code>
+		<!--code service="crosswire_org">Afr1953</code-->
+		<code service="unbound_biola_edu" default_="true">afrikaans_1953_ucs2</code>
+		<language>af</language>
+		<default_>true</default_>
+		<copyright>Copyright 1933, 1953, Bybelgenootskap van Suid Afrika</copyright>
+		<input name="true">Afrikaans Bybel (1933/1953)</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">BulCarigradNT</code-->
+		<language>bg</language>
+		<copyright>Copyright by the youth group of the Church of God in Sofia, 1997</copyright>
+		<input name="true">Bulgarian New Testament from 1914, known as 'Tsarigrad Edition'</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Bulgarian</code-->
+		<language>bg</language>
+		<default_>true</default_>
+		<copyright></copyright>
+		<input name="true">Bulgarian Bible</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">CzeBKR</code-->
+		<language>cz</language>
+		<copyright></copyright>
+		<input name="true">Czech Bible Kralicka</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">CzeNKB</code-->
+		<language>cz</language>
+		<default_>true</default_>
+		<copyright>Copyright Sdruzeni pro Novou Bibli kralickou</copyright>
+		<input name="true">Czech Nova kralicka Bible</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Dan</code-->
+		<language>da</language>
+		<default_>true</default_>
+		<copyright>Copyright Old Testament: Det Danske Bibelselskab 1931; copyright New Testament: public domain</copyright>
+		<input name="true">Danske Bibel</input>
+	</edition>
+	<edition>
+		<code service="diebibel_de" default_="true">EUE</code-->
+		<language>de</language>
+		<default_>true</default_>
+		<copyright>Copyright Katholischen Bibelanstalt, Stuttgart</copyright>
+		<input name="true">Einheitsübersetzung</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Byz</code-->
+		<language>el</language>
+		<default_>true</default_>
+		<copyright></copyright>
+		<input name="true">Byzantine/Majority Text (2000)</input>
+	</edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Esperanto</code-->
 		<language>eo</language>
 		<default_>true</default_>
 		<copyright></copyright>
@@ -199,20 +232,20 @@
 		<input name="true">“Reina Valera” Version</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">Est</code>
+		<!--code service="crosswire_org" default_="true">Est</code-->
 		<language>et</language>
 		<default_>true</default_>
 		<copyright></copyright>
 		<input name="true">Estonian Bible</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">FinPR</code>
+		<!--code service="crosswire_org" default_="true">FinPR</code-->
 		<language>fi</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Finnish Pyh Raamattu (1933/1938)</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">FinPR92</code>
+		<!--code service="crosswire_org" default_="true">FinPR92</code-->
 		<language>fi</language>
 		<default_>true</default_>
 		<copyright>Copyright by Kirkon keskusrahasto, HELSINKI</copyright>
@@ -228,19 +261,18 @@
 	</edition>
 	<edition>
 		<code service="biblija_net" default_="true">id9</code>
-		<code service="crosswire_org">FreLSG</code>
+		<!--code service="crosswire_org">FreLSG</code-->
 		<input>SEG</input>
 		<language>fr</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Louis Segond</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">Cro</code>
-		<code service="unbound_biola_edu">croatian_ucs2</code>
-		<language>hr</language>
+		<!--code service="crosswire_org" default_="true">FreCrl</code-->
+		<language>ht</language>
 		<default_>true</default_>
 		<copyright></copyright>
-		<input name="true">Croatian Bible</input>
+		<input name="true">French Haitian Creole Version</input>
 	</edition>
 	<edition>
 		<code service="bibliacatolica_com" default_="true">13</code>
@@ -248,13 +280,6 @@
 		<default_>true</default_>
 		<copyright></copyright>
 		<input name="true">Katolikus Biblia</input>
-	</edition>
-	<edition>
-		<code service="crosswire_org" default_="true">FreCrl</code>
-		<language>ht</language>
-		<default_>true</default_>
-		<copyright></copyright>
-		<input name="true">French Haitian Creole Version</input>
 	</edition>
 	<edition>
 		<code service="laparola_net" default_="true">C.E.I.</code>
@@ -270,9 +295,17 @@
 		<copyright></copyright>
 		<input name="true">La Bibbia</input>
 	</edition>
-  <edition>
+	<edition>
+		<!--code service="crosswire_org" default_="true">Cro</code-->
+		<code service="unbound_biola_edu">croatian_ucs2</code>
+		<language>hr</language>
+		<default_>true</default_>
+		<copyright></copyright>
+		<input name="true">Croatian Bible</input>
+	</edition>
+        <edition>
 		<code service="biblija_net" default_="true">id8</code>
-		<code service="crosswire_org">Vulgate</code>
+		<!--code service="crosswire_org">Vulgate</code-->
 		<code service="unbound_biola_edu">latin_nova_vulgata_ucs2</code>
 		<code service="bibliacatolica_com">09</code>
 		<input>VUL</input>
@@ -281,45 +314,8 @@
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Vulgate (Latin Bible)</input>
 	</edition>
-	
-	<!-- DUTCH -->
-	
 	<edition>
-		<!--code service="biblija3_net" default_="true">id35</code-->
-		<input>WV95</input>
-		<language>nl</language>
-		<copyright>Copyright © 1995 Katholieke Bijbelstichting (Catholic Bible Foundation)</copyright>
-		<input name="true">Willibrordvertaling revised edition</input>
-	</edition>
-	<edition>
-		<!--code service="biblija_net" default_="true">id37</code-->
-		<code service="crosswire_org" default_="true">DutSVV</code>
-		<code service="unbound_biola_edu">dutch_svv_ucs2</code>
-		<input>SV-J</input>
-		<language>nl</language>
-		<copyright>Copyright status: Public domain</copyright>
-		<input name="true">Statenvertaling (Jongbloed edition)</input>
-	</edition>
-	<edition>
-		<!--code service="biblija_net" default_="true">id18</code-->
-		<input>NBV</input>
-		<language>nl</language>
-		<copyright>Copyright © 2004/2007 Nederlands Bijbelgenootschap (Netherlands Bible Society)</copyright>
-		<input name="true">De Nieuwe Bijbelvertaling</input>
-	</edition>
-	<edition>
-		<code service="can" default_="true"></code>
-		<input>CAN</input>
-		<language>nl</language>
-		<default_>true</default_>
-		<copyright>unknown</copyright>
-		<input name="true">Petrus Canisiusvertaling</input>
-	</edition>
-	
-	<!-- VARIOUS LANGUAGES -->
-	
-	<edition>
-		<code service="crosswire_org" default_="true">Norsk</code>
+		<!--code service="crosswire_org" default_="true">Norsk</code-->
 		<input>Norsk</input>
 		<language>no</language>
 		<default_>true</default_>
@@ -349,7 +345,7 @@
 		<input name="true">Russian Synodal Version</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">Alb</code>
+		<!--code service="crosswire_org" default_="true">Alb</code-->
 		<code service="unbound_biola_edu">albanian_ucs2</code>
 		<language>sq</language>
 		<default_>true</default_>
@@ -357,14 +353,14 @@
 		<input name="true">Albanian Bible</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">ChiUns</code>
+		<!--code service="crosswire_org" default_="true">ChiUns</code-->
 		<language>zh-cn</language>
 		<default_>true</default_>
 		<copyright></copyright>
 		<input name="true">Chinese Union Version Simplified</input>
 	</edition>
 	<edition>
-		<code service="crosswire_org" default_="true">ChiUn</code>
+		<!--code service="crosswire_org" default_="true">ChiUn</code-->
 		<language>zh-tw</language>
 		<default_>true</default_>
 		<copyright></copyright>
