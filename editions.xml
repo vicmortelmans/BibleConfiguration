@@ -75,7 +75,7 @@
 		<input name="true">Contemporary English Version</input>
 	</edition>
 	<edition>
-		<code service="biblija_net" default_="true">id14</code>
+		<code service="biblija3_net" default_="true">id14</code>
 		<code service="unbound_biola_edu">web</code>
 		<input>WEB</input>
 		<language>en</language>
