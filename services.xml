@@ -17,6 +17,7 @@
   </service>
   <service>
     <name>biblija_net</name>
+    <!-- OBSOLETE -->
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija_net</editionskey>
     <step nr="1">http://www.biblija.net/biblija.cgi?m=$book+$chapter:$passage&amp;$edition=1&amp;pos=0&amp;l=nl&amp;set=10</step>
@@ -25,6 +26,7 @@
   </service>
   <service>
     <name>biblija2_net</name>
+    <!-- OBSOLETE -->
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija2_net</editionskey>
     <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
@@ -32,6 +34,7 @@
   </service>
   <service>
     <name>biblija3_net</name>
+    <!-- 20170216 OK -->
     <bookskey>biblija_net</bookskey>
     <editionskey>biblija3_net</editionskey>
     <step nr="1">http://www.biblija.net/biblija.cgi?Bible=Bible&amp;m=$book+$chapter%3A+$passage&amp;$edition=1&amp;pos=0&amp;set=1&amp;l=en</step>
@@ -39,14 +42,15 @@
   </service>
   <service>
     <name>usccb_org</name>
+    <!-- OBSOLETE, BLOCKED BY ROBOTS -->
     <bookskey>usccb_org</bookskey>
     <editionskey>usccb_org</editionskey>
     <step nr="1">http://origin.usccb.org/bible/$book/$chapter</step>
     <step nr="2" yql="true">select * from html where url="$url" and xpath="(//div[@id='scribeI']/p/a/text()|//div[@id='scribeI']/p/text())[preceding::span[@class='bcv'][1]='$passage'][not(ancestor::p[@class='fn' or @class='en'])]"</step>
   </service>
   <service>
-   <!-- OBSOLETE, BLOCKED BY ROBOTS -->
    <name>crosswire_org</name>
+   <!-- OBSOLETE, BLOCKED BY ROBOTS -->
    <bookskey>crosswire_org</bookskey>
    <editionskey>crosswire_org</editionskey>
    <step nr="1">http://www.crosswire.org/study/passagestudy.jsp?key=$book+$chapter:$passage&amp;mod=$edition</step>
@@ -61,15 +65,17 @@
   </service>
   <service>
     <name>unbound_biola_edu</name>
+    <!-- 20170211 OK -->
     <bookskey>unbound_biola_edu</bookskey>
     <editionskey>unbound_biola_edu</editionskey>
     <step nr="1" yql="true">use "http://www.datatables.org/data/htmlpost.xml" as htmlpost; select * from htmlpost where xpath="//tr[count(preceding-sibling::tr) = 3]/td/text()" and url="http://unbound.biola.edu/index.cfm?method=searchResults.doSearch" and postdata="search_type=simple_search&amp;parallel_1=$edition&amp;parallel_2=&amp;parallel_3=&amp;parallel_4=&amp;book_section=00&amp;book=$book&amp;from_chap=$chapter&amp;from_verse=$passage&amp;to_chap=&amp;to_verse=&amp;text_word=&amp;and_or=AND&amp;and_word=&amp;not_word=&amp;submit=Search&amp;displayFormat=verseAboveNoHeader&amp;highlightFormat=none&amp;num_main=default&amp;num_left=default&amp;num_right=default&amp;show_commentary=0&amp;show_context=0&amp;show_illustrations=0&amp;show_maps=0&amp;versification=nrsva"</step>
   </service>
   <service> 
     <name>bibliacatolica_com</name>
+    <!-- 20170216 OK -->
     <bookskey>bibliacatolica_com</bookskey>
     <editionskey>bibliacatolica_com</editionskey>
-    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//div[@class = 'row']/p[$passage]"</step>
+    <step nr="1" yql="true">select * from html where url="http://www.bibliacatolica.com.br/$edition/$book/$chapter.php" and xpath="//p[@data-v=$passage]"</step>
   </service>
   <service>
     <name>laparola_net</name>
