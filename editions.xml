@@ -23,6 +23,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">ASV</code-->
+		<code service="getbible">asv</code>
 		<input>ASV</input>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
@@ -30,6 +31,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">BBE</code-->
+		<code service="getbible">basicenglish</code>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Bible in Basic English (1949/1964)</input>
@@ -49,6 +51,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Darby</code-->
+		<code service="getbible">darby</code>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
 		<input name="true">Darby Bible</input>
@@ -77,6 +80,7 @@
 	<edition>
 		<code service="biblija3_net" default_="true">id14</code>
 		<code service="unbound_biola_edu">web</code>
+		<code service="getbible">web</code>
 		<input>WEB</input>
 		<language>en</language>
 		<copyright>Copyright status: Public domain</copyright>
@@ -85,6 +89,7 @@
 	<edition>
 		<code service="biblija3_net" default_="true">id7</code>
 		<code service="bibliacatolica_com">07</code>
+		<code service="getbible">kjv</code>
 		<input>KJV</input>
 		<language>en</language>
 		<copyright>Crown copyright (UK)</copyright>
@@ -93,6 +98,7 @@
 	<edition>
 		<code service="unbound_biola_edu" default_="true">douay_rheims_ucs2</code>
 		<code service="bibliacatolica_com">06</code>
+		<code service="getbible">douayrheims</code>
     	        <input>DR</input>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
@@ -147,6 +153,7 @@
 	<edition>
 		<!--code service="crosswire_org">Afr1953</code-->
 		<code service="unbound_biola_edu" default_="true">afrikaans_1953_ucs2</code>
+		<code service="getbible">aov</code>
 		<language>af</language>
 		<default_>true</default_>
 		<copyright>Copyright 1933, 1953, Bybelgenootskap van Suid Afrika</copyright>
@@ -160,6 +167,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Bulgarian</code-->
+		<code service="getbible">bulgarian1940</code>
 		<language>bg</language>
 		<default_>true</default_>
 		<copyright></copyright>
@@ -173,6 +181,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">CzeNKB</code-->
+		<code service="getbible">bkr</code>
 		<language>cz</language>
 		<default_>true</default_>
 		<copyright>Copyright Sdruzeni pro Novou Bibli kralickou</copyright>
@@ -180,6 +189,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Dan</code-->
+		<code service="getbible">danish</code>
 		<language>da</language>
 		<default_>true</default_>
 		<copyright>Copyright Old Testament: Det Danske Bibelselskab 1931; copyright New Testament: public domain</copyright>
@@ -194,6 +204,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Byz</code-->
+		<code service="getbible">byzantine</code>
 		<language>el</language>
 		<default_>true</default_>
 		<copyright></copyright>
@@ -215,6 +226,7 @@
 	</edition>
 	<edition>
 		<code service="bibliacatolica_com" default_="true">20</code>
+		<code service="getbible">sse</code>
 		<language>es</language>
 		<copyright></copyright>
 		<input name="true">La Santa Biblia</input>
@@ -228,6 +240,7 @@
 	</edition>
 	<edition>
 		<code service="biblija3_net" default_="true">id20</code>
+		<code service="getbible">reinavalera</code>
 		<input>RVR95</input>
 		<language>es</language>
 		<copyright>Copyright 1995 United Bible Societies</copyright>
@@ -235,6 +248,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Est</code-->
+		<code service="getbible">estonian</code>
 		<language>et</language>
 		<default_>true</default_>
 		<copyright></copyright>
@@ -242,12 +256,14 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">FinPR</code-->
+		<code service="getbible">pyharaamattu1933</code>
 		<language>fi</language>
 		<copyright>Copyright status: Public domain</copyright>
 		<input name="true">Finnish Pyh Raamattu (1933/1938)</input>
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">FinPR92</code-->
+		<code service="getbible">pyharaamattu1992</code>
 		<language>fi</language>
 		<default_>true</default_>
 		<copyright>Copyright by Kirkon keskusrahasto, HELSINKI</copyright>
@@ -264,6 +280,7 @@
 	<edition>
 		<code service="biblija3_net" default_="true">id9</code>
 		<!--code service="crosswire_org">FreLSG</code-->
+		<code service="getbible">ls1910</code>
 		<input>SEG</input>
 		<language>fr</language>
 		<copyright>Copyright status: Public domain</copyright>
@@ -310,6 +327,7 @@
 		<!--code service="crosswire_org">Vulgate</code-->
 		<code service="unbound_biola_edu">latin_nova_vulgata_ucs2</code>
 		<code service="bibliacatolica_com">09</code>
+		<code service="getbible">newvulgate</code>
 		<input>VUL</input>
 		<language>lat</language>
 		<default_>true</default_>
@@ -318,6 +336,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">Norsk</code-->
+		<code service="getbible">bibelselskap</code>
 		<input>Norsk</input>
 		<language>no</language>
 		<default_>true</default_>
@@ -334,6 +353,7 @@
 	</edition>
 	<edition>
 		<code service="bibliacatolica_com" default_="true">24</code>
+		<code service="getbible">almeida</code>
 		<language>pt</language>
 		<copyright></copyright>
 		<input name="true">Biblia Sagrada</input>
@@ -356,6 +376,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">ChiUns</code-->
+		<code service="getbible">cns</code>
 		<language>zh-cn</language>
 		<default_>true</default_>
 		<copyright></copyright>
@@ -363,6 +384,7 @@
 	</edition>
 	<edition>
 		<!--code service="crosswire_org" default_="true">ChiUn</code-->
+		<code service="getbible">cnt</code>
 		<language>zh-tw</language>
 		<default_>true</default_>
 		<copyright></copyright>
