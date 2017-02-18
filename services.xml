@@ -3,6 +3,7 @@
   <!-- when using YQL in any but last step, it should return an <a> element, of which the @href is taken as $url for the next step -->
   <service>
     <name>vatican</name>
+    <!-- 20170216 OK -->
     <bookskey>vatican</bookskey>
     <editionskey></editionskey>
     <step nr="1" yql="true">select href from html where url="http://www.vatican.va/archive/ENG0839/_INDEX.HTM" and xpath="//li//li[normalize-space(font) = '$book']//a[. = '$chapter']|//li//li/font/a[normalize-space(.) = '$book'][not('$book' = 'Exodus')]"</step>
@@ -10,6 +11,7 @@
   </service>
   <service>
     <name>can</name>
+    <!-- 20170216 OK -->
     <bookskey>osis</bookskey>
     <editionskey>can</editionskey>
     <step nr="1">https://storage.googleapis.com/geloven-leren/canisius-xml/$book-$chapter.xml</step>
