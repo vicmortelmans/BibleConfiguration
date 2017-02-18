@@ -6,8 +6,8 @@
 	
 	<edition>
 		<!--code service="usccb_org"/-->
-		<code service="vatican" default_="true"/>
-		<code service="bibliacatolica_com">18</code><!-- service is giving "Service Temporarily Unavailable" quite often -->
+		<code service="vatican"/>
+		<code service="bibliacatolica_com" default_="true">18</code><!-- service is giving "Service Temporarily Unavailable" quite often -->
 		<input>NAB</input>
 		<language>en</language>
 		<default_>true</default_>
