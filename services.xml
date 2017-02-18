@@ -12,7 +12,7 @@
     <name>getbible</name>
     <bookskey>osis</bookskey>
     <editionskey>getbible</editionskey>
-    <step nr="1" yql="true">select book.chapter from json where url="https://getbible.net/json?passage=$book%20$chapter:$passage&version=$edition&raw=true"</step>
+    <step nr="1" yql="true">select book.chapter from json where url="https://getbible.net/json?passage=$book%20$chapter:$passage&amp;version=$edition&amp;raw=true"</step>
   </service>
   <service>
     <name>vatican</name>
