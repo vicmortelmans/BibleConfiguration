@@ -128,6 +128,7 @@
 		<code service="biblija3_net" default_="true">id37</code>
 		<!--code service="crosswire_org" default_="true">DutSVV</code-->
 		<code service="unbound_biola_edu">dutch_svv_ucs2</code>
+		<code service="getbible">statenvertaling</code>
 		<input>SV-J</input>
 		<language>nl</language>
 		<copyright>Copyright status: Public domain</copyright>

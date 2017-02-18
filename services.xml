@@ -3,9 +3,16 @@
   <!-- when using YQL in any but last step, it should return an <a> element, of which the @href is taken as $url for the next step -->
   <service>
     <name>rkbijbel</name>
+    <!-- 20170218 OK -->
     <bookskey>rkbijbel</bookskey>
     <editionskey>rkbijbel</editionskey>
     <step nr="1" yql="true">use "http://www.datatables.org/data/jsonpost.xml" as jsonpost; select json.json.stekst from jsonpost where json.json.iversnummer=$passage and url="https://rkbijbel.nl/cms/webservice.php?mode=versen" and postdata='{"boektag":"$book","hoofdstuknr":"$chapter","vertalingtag":"$edition"}'</step>
+  </service>
+  <service>
+    <name>getbible</name>
+    <bookskey>osis</bookskey>
+    <editionskey>getbible</editionskey>
+    <step nr="1" yql="true">select book.chapter from json where url="https://getbible.net/json?passage=$book%20$chapter:$passage&version=$edition&raw=true"</step>
   </service>
   <service>
     <name>vatican</name>
