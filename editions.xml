@@ -5,7 +5,7 @@
 	
 	
 	<edition>
-		<code service="usccb_org"/><!-- service is giving "disallowed robots" -->
+		<!--code service="usccb_org"/-->
 		<code service="vatican" default_="true"/>
 		<code service="bibliacatolica_com">18</code><!-- service is giving "Service Temporarily Unavailable" quite often -->
 		<input>NAB</input>
@@ -93,7 +93,7 @@
 	<edition>
 		<code service="unbound_biola_edu" default_="true">douay_rheims_ucs2</code>
 		<code service="bibliacatolica_com">06</code>
-    	<input>DR</input>
+    	        <input>DR</input>
 		<language>en</language>
 		<copyright>Copyright status: Public Domain</copyright>
 		<input name="true">Douay-Rheims</input>
@@ -118,6 +118,7 @@
 	</edition>
 	<edition>
 		<!--code service="biblija3_net" default_="true">id35</code-->
+                <code service="rkbijbel" default_="true">willibrord1975</code>
 		<input>WV95</input>
 		<language>nl</language>
 		<copyright>Copyright © 1995 Katholieke Bijbelstichting (Catholic Bible Foundation)</copyright>

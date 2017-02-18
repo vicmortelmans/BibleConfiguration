@@ -2,6 +2,12 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- when using YQL in any but last step, it should return an <a> element, of which the @href is taken as $url for the next step -->
   <service>
+    <name>rkbijbel</name>
+    <bookskey>rkbijbel</bookskey>
+    <editionskey>rkbijbel</editionskey>
+    <step nr="1" yql="true">use "http://www.datatables.org/data/jsonpost.xml" as jsonpost; select json.json.stekst from jsonpost where json.json.iversnummer=$passage and url="https://rkbijbel.nl/cms/webservice.php?mode=versen" and postdata='{"boektag":"$book","hoofdstuknr":"$chapter","vertalingtag":"$edition"}'</step>
+  </service>
+  <service>
     <name>vatican</name>
     <!-- 20170216 OK -->
     <bookskey>vatican</bookskey>
@@ -81,6 +87,7 @@
   </service>
   <service>
     <name>laparola_net</name>
+    <!-- 20170218 OK -->
     <bookskey>laparola_net</bookskey>
     <editionskey>laparola_net</editionskey>
     <step nr="1">http://www.laparola.net/testo.php?riferimento=$book+$chapter%3A$passage&amp;versioni[]=$edition&amp;Submit=Visualizza+testo</step>
