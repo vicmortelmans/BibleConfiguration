@@ -1,2327 +1,2327 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<book>
-		<code service="crosswire_org">genesis</code>
-		<code service="vatican">Genesis</code>
-		<code service="diebibel_de">1.mose</code>
-		<code service="unbound_biola_edu">01O</code>
-		<code service="usccb_org">genesis</code>
-		<code service="laparola_net">Genesi</code>
-		<code service="bibliacatolica_com">1</code>
-		<code service="osis">Gen</code>
-		<code service="biblija_net">Gn</code>
-		<code service="can">1</code>
-		<code service="rkbijbel">genesis</code>
-		<input spoken="nl,en">Genesis</input>
-		<input>1 Mz</input>
-		<input>1 Mojz</input>
-		<input language="nl,en">Gen</input>
-		<input language="fr">Gn</input>
-		<input>Ge</input>
-		<input>Post</input>
-		<input>Has</input>
-		<input>Geneza</input>
-		<input>1 Mojzes</input>
-		<input>Genesis</input>
-		<input>1 Mose</input>
-		<input>Génesis</input>
-	</book>
-	<book>
-		<code service="crosswire_org">exodus</code>
-		<code service="vatican">Exodus</code>
-		<code service="diebibel_de">2.mose</code>
-		<code service="unbound_biola_edu">02O</code>
-		<code service="usccb_org">exodus</code>
-		<code service="laparola_net">Esodo</code>
-		<code service="bibliacatolica_com">2</code>
-		<code service="osis">Exod</code>
-		<code service="biblija_net">Ex</code>
-		<code service="can">2</code>
-		<code service="rkbijbel">exodus</code>
-		<input spoken="nl,en">Exodus</input>
-		<input>2 Mz</input>
-		<input>2 Mojz</input>
-		<input>Exo</input>
-		<input language="nl,en,fr">Ex</input>
-		<input>Exod</input>
-		<input>Izl</input>
-		<input>Ir</input>
-		<input>Eksodus</input>
-		<input>2 Mojzes</input>
-		<input>Exodus</input>
-		<input>2 Mose</input>
-		<input>Éxodo</input>
-	</book>
-	<book>
-		<code service="crosswire_org">leviticus</code>
-		<code service="vatican">Leviticus</code>
-		<code service="diebibel_de">3.mose</code>
-		<code service="unbound_biola_edu">03O</code>
-		<code service="usccb_org">leviticus</code>
-		<code service="laparola_net">Levitico</code>
-		<code service="bibliacatolica_com">3</code>
-		<code service="osis">Lev</code>
-		<code service="biblija_net">Lv</code>
-		<code service="can">3</code>
-		<code service="rkbijbel">leviticus</code>
-		<input spoken="nl,en">Leviticus</input>
-		<input>3 Mz</input>
-		<input>3 Mojz</input>
-		<input language="nl,en">Lev</input>
-		<input>Lév</input>
-		<input language="fr">Lv</input>
-		<input>Lb</input>
-		<input>Leu</input>
-		<input>Levitik</input>
-		<input>3 Mojzes</input>
-		<input>Leviticus</input>
-		<input>3 Mose</input>
-		<input>Levítico</input>
-	</book>
-	<book>
-		<code service="crosswire_org">numbers</code>
-		<code service="vatican">Numbers</code>
-		<code service="diebibel_de">4.mose</code>
-		<code service="unbound_biola_edu">04O</code>
-		<code service="usccb_org">numbers</code>
-		<code service="laparola_net">Numeri</code>
-		<code service="bibliacatolica_com">4</code>
-		<code service="osis">Num</code>
-		<code service="biblija_net">Nm</code>
-		<code service="can">4</code>
-		<code service="rkbijbel">numeri</code>
-		<input spoken="nl">Numeri</input>
-		<input spoken="en">Numbers</input>
-		<input>4 Mz</input>
-		<input>4 Mojz</input>
-		<input language="nl,en">Num</input>
-		<input>Nm</input>
-		<input>Nu</input>
-		<input language="fr">Nb</input>
-		<input>Nomb</input>
-		<input>Br</input>
-		<input>Zen</input>
-		<input>Numeri</input>
-		<input>4 Mojzes</input>
-		<input>Numbers</input>
-		<input>4 Mose</input>
-		<input>Números</input>
-	</book>
-	<book>
-		<code service="crosswire_org">deuteronomy</code>
-		<code service="vatican">Deuteronomy</code>
-		<code service="diebibel_de">5.mose</code>
-		<code service="unbound_biola_edu">05O</code>
-		<code service="usccb_org">deuteronomy</code>
-		<code service="laparola_net">Deuteronomio</code>
-		<code service="bibliacatolica_com">5</code>
-		<code service="osis">Deut</code>
-		<code service="biblija_net">Dt</code>
-		<code service="can">5</code>
-		<code service="rkbijbel">deuteronomium</code>
-		<input spoken="nl">Deuteronomium</input>
-		<input spoken="en">Deuteronomy</input>
-		<input>5 Mz</input>
-		<input>5 Mojz</input>
-		<input>Deu</input>
-		<input language="fr">Dt</input>
-		<input language="nl,en">Deut</input>
-		<input>Pnz</input>
-		<input>Devteronomij</input>
-		<input>5 Mojzes</input>
-		<input>Deuteronomium</input>
-		<input>Deuteronomy</input>
-		<input>5 Mose</input>
-		<input>Deuteronomio</input>
-	</book>
-	<book>
-		<code service="crosswire_org">joshua</code>
-		<code service="vatican">Joshua</code>
-		<code service="diebibel_de">jos</code>
-		<code service="unbound_biola_edu">06O</code>
-		<code service="usccb_org">joshua</code>
-		<code service="laparola_net">Giosuè</code>
-		<code service="bibliacatolica_com">6</code>
-		<code service="osis">Josh</code>
-		<code service="biblija_net">Josh</code>
-		<code service="can">6</code>
-		<code service="rkbijbel">jozua</code>
-		<input spoken="nl">Jozua</input>
-		<input spoken="en">Joshua</input>
-		<input language="nl">Joz</input>
-		<input language="fr">Jos</input>
-		<input language="en">Josh</input>
-		<input>Ios</input>
-		<input>Jš</input>
-		<input>Jozue</input>
-		<input>Joshua</input>
-		<input>Jozua</input>
-		<input>Josua</input>
-		<input>Josué</input>
-	</book>
-	<book>
-		<code service="crosswire_org">judges</code>
-		<code service="vatican">Judges</code>
-		<code service="diebibel_de">ri</code>
-		<code service="unbound_biola_edu">07O</code>
-		<code service="usccb_org">judges</code>
-		<code service="laparola_net">Giudici</code>
-		<code service="bibliacatolica_com">7</code>
-		<code service="osis">Judg</code>
-		<code service="biblija_net">Judg</code>
-		<code service="can">7</code>
-		<code service="rkbijbel">rechters</code>
-		<input spoken="nl">Rechters</input>
-		<input spoken="en">Judges</input>
-		<input>Sod</input>
-		<input>Sodn</input>
-		<input>Jdg</input>
-		<input language="en">Judg</input>
-		<input language="fr">Jg</input>
-		<input>Jug</input>
-		<input>Jdc</input>
-		<input>Jue</input>
-		<input>Jt</input>
-		<input>Idc</input>
-		<input>Re</input>
-		<input language="nl">Ri</input>
-		<input>Richt</input>
-		<input>Epa</input>
-		<input>Sodniki</input>
-		<input>Judges</input>
-		<input>Rechters</input>
-		<input>Richteren</input>
-		<input>Richter</input>
-		<input>Jueces</input>
-		<input>Juges</input>
-	</book>
-	<book>
-		<code service="crosswire_org">ruth</code>
-		<code service="vatican">Ruth</code>
-		<code service="diebibel_de">buch%20rut</code>
-		<code service="unbound_biola_edu">08O</code>
-		<code service="usccb_org">ruth</code>
-		<code service="laparola_net">Rut</code>
-		<code service="bibliacatolica_com">8</code>
-		<code service="osis">Ruth</code>
-		<code service="biblija_net">Rt</code>
-		<code service="can">8</code>
-		<code service="rkbijbel">ruth</code>
-		<input spoken="nl,en" language="nl,en">Ruth</input>
-		<input>Rut</input>
-		<input>Ru</input>
-		<input>Rth</input>
-		<input language="fr">Rt</input>
-		<input>Ruta</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1samuel</code>
-		<code service="vatican">1 Samuel</code>
-		<code service="diebibel_de">1.sam</code>
-		<code service="unbound_biola_edu">09O</code>
-		<code service="usccb_org">1samuel</code>
-		<code service="laparola_net">1 Samuele</code>
-		<code service="bibliacatolica_com">9</code>
-		<code service="osis">1Sam</code>
-		<code service="biblija_net">1 Sa</code>
-		<code service="can">9</code>
-		<code service="rkbijbel">1samuel</code>
-		<input spoken="nl">Het eerste boek Samuël</input>
-		<input spoken="en">The first book of Samuel</input>
-		<input>1 Samuel</input>
-		<input language="nl,en">1 Sam</input>
-		<input>1 Sa</input>
-		<input language="fr">1 S</input>
-		<input>1 Sm</input>
-		<input>1 Rg</input>
-		<input>1 Regn</input>
-		<input>1 Samuel</input>
-		<input>1 Samuël</input>
-		<input>1Samuel</input>
-		<input>1Sam</input>
-		<input>1Sa</input>
-		<input>1S</input>
-		<input>1Sm</input>
-		<input>1Rg</input>
-		<input>1Regn</input>
-		<input>1Samuel</input>
-		<input>1Samuël</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2samuel</code>
-		<code service="vatican">2 Samuel</code>
-		<code service="diebibel_de">2.sam</code>
-		<code service="unbound_biola_edu">10O</code>
-		<code service="usccb_org">2samuel</code>
-		<code service="laparola_net">2 Samuele</code>
-		<code service="bibliacatolica_com">10</code>
-		<code service="osis">2Sam</code>
-		<code service="biblija_net">2 Sa</code>
-		<code service="can">10</code>
-		<code service="rkbijbel">2samuel</code>
-		<input spoken="nl">Het tweede boek Samuël</input>
-		<input spoken="en">The second book of Samuel</input>
-		<input>2 Samuel</input>
-		<input language="nl,en">2 Sam</input>
-		<input>2 Sa</input>
-		<input language="fr">2 S</input>
-		<input>2 Sm</input>
-		<input>2 Rg</input>
-		<input>2 Regn</input>
-		<input>2 Samuel</input>
-		<input>2 Samuël</input>
-		<input>2Samuel</input>
-		<input>2Sam</input>
-		<input>2Sa</input>
-		<input>2S</input>
-		<input>2Sm</input>
-		<input>2Rg</input>
-		<input>2Regn</input>
-		<input>2Samuel</input>
-		<input>2Samuël</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1kings</code>
-		<code service="vatican">1 Kings</code>
-		<code service="diebibel_de">1.k%C3%B6n</code>
-		<code service="unbound_biola_edu">11O</code>
-		<code service="usccb_org">1kings</code>
-		<code service="laparola_net">1 Re</code>
-		<code service="bibliacatolica_com">11</code>
-		<code service="osis">1Kgs</code>
-		<code service="biblija_net">1 Kgs</code>
-		<code service="can">11</code>
-		<code service="rkbijbel">1koningen</code>
-		<input spoken="nl">Het eerste boek Koningen</input>
-		<input spoken="en">The first book of Kings</input>
-		<input language="en">1 Kings</input>
-		<input>1 Kr</input>
-		<input>1 Kra</input>
-		<input>1 Kralj</input>
-		<input>1 Ki</input>
-		<input>1 Kgs</input>
-		<input language="fr">1 R</input>
-		<input>1 Re</input>
-		<input>3 Rg</input>
-		<input>3 Regn</input>
-		<input language="nl">1 Kon</input>
-		<input>1 Kön</input>
-		<input>1 Erg</input>
-		<input>1 Rois</input>
-		<input>1 Kings</input>
-		<input>1 Kralji</input>
-		<input>1 Koningen</input>
-		<input>1 Königen</input>
-		<input>1 Reyes</input>
-		<input>1Kings</input>
-		<input>1Kr</input>
-		<input>1Kra</input>
-		<input>1Kralj</input>
-		<input>1Ki</input>
-		<input>1Kgs</input>
-		<input>1R</input>
-		<input>1Re</input>
-		<input>3Rg</input>
-		<input>3Regn</input>
-		<input>1Kon</input>
-		<input>1Kön</input>
-		<input>1Erg</input>
-		<input>1Rois</input>
-		<input>1Kings</input>
-		<input>1Kralji</input>
-		<input>1Koningen</input>
-		<input>1Königen</input>
-		<input>1Reyes</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2kings</code>
-		<code service="vatican">2 Kings</code>
-		<code service="diebibel_de">2.k%C3%B6n</code>
-		<code service="unbound_biola_edu">12O</code>
-		<code service="usccb_org">2kings</code>
-		<code service="laparola_net">2 Re</code>
-		<code service="bibliacatolica_com">12</code>
-		<code service="osis">2Kgs</code>
-		<code service="biblija_net">2 Kgs</code>
-		<code service="can">12</code>
-		<code service="rkbijbel">2koningen</code>
-		<input spoken="nl">Het tweede boek Koningen</input>
-		<input spoken="en">The second book of Kings</input>
-		<input language="en">2 Kings</input>
-		<input>2 Kr</input>
-		<input>2 Kra</input>
-		<input>2 Kralj</input>
-		<input>2 Ki</input>
-		<input>2 Kgs</input>
-		<input language="fr">2 R</input>
-		<input>2 Re</input>
-		<input>4 Rg</input>
-		<input>4 Regn</input>
-		<input language="nl">2 Kon</input>
-		<input>2 Kön</input>
-		<input>2 Erg</input>
-		<input>2 Rois</input>
-		<input>2 Kings</input>
-		<input>2 Kralji</input>
-		<input>2 Koningen</input>
-		<input>2 Königen</input>
-		<input>2 Reyes</input>
-		<input>2Kings</input>
-		<input>2Kr</input>
-		<input>2Kra</input>
-		<input>2Kralj</input>
-		<input>2Ki</input>
-		<input>2Kgs</input>
-		<input>2R</input>
-		<input>2Re</input>
-		<input>4Rg</input>
-		<input>4Regn</input>
-		<input>2Kon</input>
-		<input>2Kön</input>
-		<input>2Erg</input>
-		<input>2Rois</input>
-		<input>2Kings</input>
-		<input>2Kralji</input>
-		<input>2Koningen</input>
-		<input>2Königen</input>
-		<input>2Reyes</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1chronicles</code>
-		<code service="vatican">1 Chronicles</code>
-		<code service="diebibel_de">1.chr</code>
-		<code service="unbound_biola_edu">13O</code>
-		<code service="usccb_org">1chronicles</code>
-		<code service="laparola_net">1 Cronache</code>
-		<code service="bibliacatolica_com">13</code>
-		<code service="osis">1Chr</code>
-		<code service="biblija_net">1 Ch</code>
-		<code service="can">13</code>
-		<code service="rkbijbel">1kronieken</code>
-		<input spoken="nl">Het eerste boek Kronieken</input>
-		<input spoken="en">The first book of Chronicles</input>
-		<input>1 Chronicles</input>
-		<input>1 Krn</input>
-		<input language="nl">1 Kron</input>
-		<input>1 Let</input>
-		<input>1 Ljet</input>
-		<input language="fr">1 Ch</input>
-		<input>1 Cr</input>
-		<input>1 Cro</input>
-		<input>1 Kro</input>
-		<input>1 Chron</input>
-		<input language="en">1 Chr</input>
-		<input>1 kroniška</input>
-		<input>1 Letopisi</input>
-		<input>1 Chronicles</input>
-		<input>1 Kronieken</input>
-		<input>1 Chronik</input>
-		<input>1 Crónicas</input>
-		<input>1Chronicles</input>
-		<input>1Krn</input>
-		<input>1Kron</input>
-		<input>1Let</input>
-		<input>1Ljet</input>
-		<input>1Ch</input>
-		<input>1Cr</input>
-		<input>1Cro</input>
-		<input>1Kro</input>
-		<input>1Chron</input>
-		<input>1Chr</input>
-		<input>1kroniška</input>
-		<input>1Letopisi</input>
-		<input>1Chronicles</input>
-		<input>1Kronieken</input>
-		<input>1Chronik</input>
-		<input>1Crónicas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2chronicles</code>
-		<code service="vatican">2 Chronicles</code>
-		<code service="diebibel_de">2.chr</code>
-		<code service="unbound_biola_edu">14O</code>
-		<code service="usccb_org">2chronicles</code>
-		<code service="laparola_net">2 Cronache</code>
-		<code service="bibliacatolica_com">14</code>
-		<code service="osis">2Chr</code>
-		<code service="biblija_net">2 Ch</code>
-		<code service="can">14</code>
-		<code service="rkbijbel">2kronieken</code>
-		<input spoken="nl">Het tweede boek Kronieken</input>
-		<input spoken="en">The second book of Chronicles</input>
-		<input>2 Chronicles</input>
-		<input>2 Krn</input>
-		<input language="nl">2 Kron</input>
-		<input>2 Let</input>
-		<input>2 Ljet</input>
-		<input language="fr">2 Ch</input>
-		<input>2 Cr</input>
-		<input>2 Cro</input>
-		<input>2 Kro</input>
-		<input>2 Chron</input>
-		<input language="en">2 Chr</input>
-		<input>2 kroniška</input>
-		<input>2 Letopisi</input>
-		<input>2 Chronicles</input>
-		<input>2 Kronieken</input>
-		<input>2 Chronik</input>
-		<input>2 Crónicas</input>
-		<input>2Chronicles</input>
-		<input>2Krn</input>
-		<input>2Kron</input>
-		<input>2Let</input>
-		<input>2Ljet</input>
-		<input>2Ch</input>
-		<input>2Cr</input>
-		<input>2Cro</input>
-		<input>2Kro</input>
-		<input>2Chron</input>
-		<input>2Chr</input>
-		<input>2kroniška</input>
-		<input>2Letopisi</input>
-		<input>2Chronicles</input>
-		<input>2Kronieken</input>
-		<input>2Chronik</input>
-		<input>2Crónicas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">ezra</code>
-		<code service="vatican">Ezra</code>
-		<code service="diebibel_de">esra</code>
-		<code service="unbound_biola_edu">15O</code>
-		<code service="usccb_org">ezra</code>
-		<code service="laparola_net">Esdra</code>
-		<code service="bibliacatolica_com">15</code>
-		<code service="osis">Ezra</code>
-		<code service="biblija_net">Esr</code>
-		<code service="can">15</code>
-		<code service="rkbijbel">ezra</code>
-		<input spoken="nl,en" language="nl,en">Ezra</input>
-		<input>Ezr</input>
-		<input>Ezdr</input>
-		<input>Esra</input>
-		<input>Esr</input>
-		<input language="fr">Esd</input>
-		<input>1 Ezr</input>
-		<input>1 Esr</input>
-		<input>Ezdra</input>
-		<input>Esdras</input>
-	</book>
-	<book>
-		<code service="crosswire_org">nehemiah</code>
-		<code service="vatican">Nehemiah</code>
-		<code service="diebibel_de">neh</code>
-		<code service="unbound_biola_edu">16O</code>
-		<code service="usccb_org">nehemiah</code>
-		<code service="laparola_net">Neemia</code>
-		<code service="bibliacatolica_com">16</code>
-		<code service="osis">Neh</code>
-		<code service="biblija_net">Ne</code>
-		<code service="can">16</code>
-		<code service="rkbijbel">nehemia</code>
-		<input spoken="nl">Nehemia</input>
-		<input spoken="en">Nehemiah</input>
-		<input language="nl,en">Neh</input>
-		<input>Néh</input>
-		<input language="fr">Ne</input>
-		<input>Né</input>
-		<input>2 Ezr</input>
-		<input>2 Esr</input>
-		<input>Nehemija</input>
-		<input>Nehemiah</input>
-		<input>Nehemia</input>
-		<input>Nehemías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">esther</code>
-		<code service="vatican">Esther</code>
-		<code service="diebibel_de">est</code>
-		<code service="unbound_biola_edu">17O</code>
-		<code service="usccb_org">esther</code>
-		<code service="laparola_net">Ester</code>
-		<code service="bibliacatolica_com">19</code>
-		<code service="osis">Esth</code>
-		<code service="biblija_net">Esth</code>
-		<code service="can">17</code>
-		<code service="rkbijbel">ester</code>
-		<input spoken="nl">Ester</input>
-		<input spoken="en">Esther</input>
-		<input language="nl,fr">Est</input>
-		<input>Ester</input>
-		<input language="en">Esth</input>
-		<input>Esther</input>
-		<input>Estera</input>
-	</book>
-	<book>
-		<code service="crosswire_org">job</code>
-		<code service="vatican">Job</code>
-		<code service="diebibel_de">hiob</code>
-		<code service="unbound_biola_edu">18O</code>
-		<code service="usccb_org">job</code>
-		<code service="laparola_net">Giobbe</code>
-		<code service="bibliacatolica_com">20</code>
-		<code service="osis">Job</code>
-		<code service="biblija_net">Jb</code>
-		<code service="can">18</code>
-		<code service="rkbijbel">job</code>
-		<input spoken="nl,en" language="nl,en">Job</input>
-		<input>Hi</input>
-		<input language="fr">Jb</input>
-		<input>Iob</input>
-		<input>Hiob</input>
-		<input>Ijob</input>
-	</book>
-	<book>
+	  <book>
+		    <code service="crosswire_org">genesis</code>
+		    <code service="vatican">Genesis</code>
+		    <code service="diebibel_de">1.mose</code>
+		    <code service="unbound_biola_edu">01O</code>
+		    <code service="usccb_org">genesis</code>
+		    <code service="laparola_net">Genesi</code>
+		    <code service="bibliacatolica_com">1</code>
+		    <code service="osis">Gen</code>
+		    <code service="biblija_net">Gn</code>
+		    <code service="can">1</code>
+		    <code service="rkbijbel">genesis</code>
+		    <input spoken="nl,en">genesis</input>
+		    <input>1 mz</input>
+		    <input>1 mojz</input>
+		    <input language="nl,en">gen</input>
+		    <input language="fr">gn</input>
+		    <input>ge</input>
+		    <input>post</input>
+		    <input>has</input>
+		    <input>geneza</input>
+		    <input>1 mojzes</input>
+		    <input>genesis</input>
+		    <input>1 mose</input>
+		    <input>génesis</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">exodus</code>
+		    <code service="vatican">Exodus</code>
+		    <code service="diebibel_de">2.mose</code>
+		    <code service="unbound_biola_edu">02O</code>
+		    <code service="usccb_org">exodus</code>
+		    <code service="laparola_net">Esodo</code>
+		    <code service="bibliacatolica_com">2</code>
+		    <code service="osis">Exod</code>
+		    <code service="biblija_net">Ex</code>
+		    <code service="can">2</code>
+		    <code service="rkbijbel">exodus</code>
+		    <input spoken="nl,en">exodus</input>
+		    <input>2 mz</input>
+		    <input>2 mojz</input>
+		    <input>exo</input>
+		    <input language="nl,en,fr">ex</input>
+		    <input>exod</input>
+		    <input>izl</input>
+		    <input>ir</input>
+		    <input>eksodus</input>
+		    <input>2 mojzes</input>
+		    <input>exodus</input>
+		    <input>2 mose</input>
+		    <input>éxodo</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">leviticus</code>
+		    <code service="vatican">Leviticus</code>
+		    <code service="diebibel_de">3.mose</code>
+		    <code service="unbound_biola_edu">03O</code>
+		    <code service="usccb_org">leviticus</code>
+		    <code service="laparola_net">Levitico</code>
+		    <code service="bibliacatolica_com">3</code>
+		    <code service="osis">Lev</code>
+		    <code service="biblija_net">Lv</code>
+		    <code service="can">3</code>
+		    <code service="rkbijbel">leviticus</code>
+		    <input spoken="nl,en">leviticus</input>
+		    <input>3 mz</input>
+		    <input>3 mojz</input>
+		    <input language="nl,en">lev</input>
+		    <input>lév</input>
+		    <input language="fr">lv</input>
+		    <input>lb</input>
+		    <input>leu</input>
+		    <input>levitik</input>
+		    <input>3 mojzes</input>
+		    <input>leviticus</input>
+		    <input>3 mose</input>
+		    <input>levítico</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">numbers</code>
+		    <code service="vatican">Numbers</code>
+		    <code service="diebibel_de">4.mose</code>
+		    <code service="unbound_biola_edu">04O</code>
+		    <code service="usccb_org">numbers</code>
+		    <code service="laparola_net">Numeri</code>
+		    <code service="bibliacatolica_com">4</code>
+		    <code service="osis">Num</code>
+		    <code service="biblija_net">Nm</code>
+		    <code service="can">4</code>
+		    <code service="rkbijbel">numeri</code>
+		    <input spoken="nl">numeri</input>
+		    <input spoken="en">numbers</input>
+		    <input>4 mz</input>
+		    <input>4 mojz</input>
+		    <input language="nl,en">num</input>
+		    <input>nm</input>
+		    <input>nu</input>
+		    <input language="fr">nb</input>
+		    <input>nomb</input>
+		    <input>br</input>
+		    <input>zen</input>
+		    <input>numeri</input>
+		    <input>4 mojzes</input>
+		    <input>numbers</input>
+		    <input>4 mose</input>
+		    <input>números</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">deuteronomy</code>
+		    <code service="vatican">Deuteronomy</code>
+		    <code service="diebibel_de">5.mose</code>
+		    <code service="unbound_biola_edu">05O</code>
+		    <code service="usccb_org">deuteronomy</code>
+		    <code service="laparola_net">Deuteronomio</code>
+		    <code service="bibliacatolica_com">5</code>
+		    <code service="osis">Deut</code>
+		    <code service="biblija_net">Dt</code>
+		    <code service="can">5</code>
+		    <code service="rkbijbel">deuteronomium</code>
+		    <input spoken="nl">deuteronomium</input>
+		    <input spoken="en">deuteronomy</input>
+		    <input>5 mz</input>
+		    <input>5 mojz</input>
+		    <input>deu</input>
+		    <input language="fr">dt</input>
+		    <input language="nl,en">deut</input>
+		    <input>pnz</input>
+		    <input>devteronomij</input>
+		    <input>5 mojzes</input>
+		    <input>deuteronomium</input>
+		    <input>deuteronomy</input>
+		    <input>5 mose</input>
+		    <input>deuteronomio</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">joshua</code>
+		    <code service="vatican">Joshua</code>
+		    <code service="diebibel_de">jos</code>
+		    <code service="unbound_biola_edu">06O</code>
+		    <code service="usccb_org">joshua</code>
+		    <code service="laparola_net">Giosuè</code>
+		    <code service="bibliacatolica_com">6</code>
+		    <code service="osis">Josh</code>
+		    <code service="biblija_net">Josh</code>
+		    <code service="can">6</code>
+		    <code service="rkbijbel">jozua</code>
+		    <input spoken="nl">jozua</input>
+		    <input spoken="en">joshua</input>
+		    <input language="nl">joz</input>
+		    <input language="fr">jos</input>
+		    <input language="en">josh</input>
+		    <input>ios</input>
+		    <input>jš</input>
+		    <input>jozue</input>
+		    <input>joshua</input>
+		    <input>jozua</input>
+		    <input>josua</input>
+		    <input>josué</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">judges</code>
+		    <code service="vatican">Judges</code>
+		    <code service="diebibel_de">ri</code>
+		    <code service="unbound_biola_edu">07O</code>
+		    <code service="usccb_org">judges</code>
+		    <code service="laparola_net">Giudici</code>
+		    <code service="bibliacatolica_com">7</code>
+		    <code service="osis">Judg</code>
+		    <code service="biblija_net">Judg</code>
+		    <code service="can">7</code>
+		    <code service="rkbijbel">rechters</code>
+		    <input spoken="nl">rechters</input>
+		    <input spoken="en">judges</input>
+		    <input>sod</input>
+		    <input>sodn</input>
+		    <input>jdg</input>
+		    <input language="en">judg</input>
+		    <input language="fr">jg</input>
+		    <input>jug</input>
+		    <input>jdc</input>
+		    <input>jue</input>
+		    <input>jt</input>
+		    <input>idc</input>
+		    <input>re</input>
+		    <input language="nl">ri</input>
+		    <input>richt</input>
+		    <input>epa</input>
+		    <input>sodniki</input>
+		    <input>judges</input>
+		    <input>rechters</input>
+		    <input>richteren</input>
+		    <input>richter</input>
+		    <input>jueces</input>
+		    <input>juges</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">ruth</code>
+		    <code service="vatican">Ruth</code>
+		    <code service="diebibel_de">buch%20rut</code>
+		    <code service="unbound_biola_edu">08O</code>
+		    <code service="usccb_org">ruth</code>
+		    <code service="laparola_net">Rut</code>
+		    <code service="bibliacatolica_com">8</code>
+		    <code service="osis">Ruth</code>
+		    <code service="biblija_net">Rt</code>
+		    <code service="can">8</code>
+		    <code service="rkbijbel">ruth</code>
+		    <input spoken="nl,en" language="nl,en">ruth</input>
+		    <input>rut</input>
+		    <input>ru</input>
+		    <input>rth</input>
+		    <input language="fr">rt</input>
+		    <input>ruta</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1samuel</code>
+		    <code service="vatican">1 Samuel</code>
+		    <code service="diebibel_de">1.sam</code>
+		    <code service="unbound_biola_edu">09O</code>
+		    <code service="usccb_org">1samuel</code>
+		    <code service="laparola_net">1 Samuele</code>
+		    <code service="bibliacatolica_com">9</code>
+		    <code service="osis">1Sam</code>
+		    <code service="biblija_net">1 Sa</code>
+		    <code service="can">9</code>
+		    <code service="rkbijbel">1samuel</code>
+		    <input spoken="nl">het eerste boek samuël</input>
+		    <input spoken="en">the first book of samuel</input>
+		    <input>1 samuel</input>
+		    <input language="nl,en">1 sam</input>
+		    <input>1 sa</input>
+		    <input language="fr">1 s</input>
+		    <input>1 sm</input>
+		    <input>1 rg</input>
+		    <input>1 regn</input>
+		    <input>1 samuel</input>
+		    <input>1 samuël</input>
+		    <input>1samuel</input>
+		    <input>1sam</input>
+		    <input>1sa</input>
+		    <input>1s</input>
+		    <input>1sm</input>
+		    <input>1rg</input>
+		    <input>1regn</input>
+		    <input>1samuel</input>
+		    <input>1samuël</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2samuel</code>
+		    <code service="vatican">2 Samuel</code>
+		    <code service="diebibel_de">2.sam</code>
+		    <code service="unbound_biola_edu">10O</code>
+		    <code service="usccb_org">2samuel</code>
+		    <code service="laparola_net">2 Samuele</code>
+		    <code service="bibliacatolica_com">10</code>
+		    <code service="osis">2Sam</code>
+		    <code service="biblija_net">2 Sa</code>
+		    <code service="can">10</code>
+		    <code service="rkbijbel">2samuel</code>
+		    <input spoken="nl">het tweede boek samuël</input>
+		    <input spoken="en">the second book of samuel</input>
+		    <input>2 samuel</input>
+		    <input language="nl,en">2 sam</input>
+		    <input>2 sa</input>
+		    <input language="fr">2 s</input>
+		    <input>2 sm</input>
+		    <input>2 rg</input>
+		    <input>2 regn</input>
+		    <input>2 samuel</input>
+		    <input>2 samuël</input>
+		    <input>2samuel</input>
+		    <input>2sam</input>
+		    <input>2sa</input>
+		    <input>2s</input>
+		    <input>2sm</input>
+		    <input>2rg</input>
+		    <input>2regn</input>
+		    <input>2samuel</input>
+		    <input>2samuël</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1kings</code>
+		    <code service="vatican">1 Kings</code>
+		    <code service="diebibel_de">1.k%C3%B6n</code>
+		    <code service="unbound_biola_edu">11O</code>
+		    <code service="usccb_org">1kings</code>
+		    <code service="laparola_net">1 Re</code>
+		    <code service="bibliacatolica_com">11</code>
+		    <code service="osis">1Kgs</code>
+		    <code service="biblija_net">1 Kgs</code>
+		    <code service="can">11</code>
+		    <code service="rkbijbel">1koningen</code>
+		    <input spoken="nl">het eerste boek koningen</input>
+		    <input spoken="en">the first book of kings</input>
+		    <input language="en">1 kings</input>
+		    <input>1 kr</input>
+		    <input>1 kra</input>
+		    <input>1 kralj</input>
+		    <input>1 ki</input>
+		    <input>1 kgs</input>
+		    <input language="fr">1 r</input>
+		    <input>1 re</input>
+		    <input>3 rg</input>
+		    <input>3 regn</input>
+		    <input language="nl">1 kon</input>
+		    <input>1 kön</input>
+		    <input>1 erg</input>
+		    <input>1 rois</input>
+		    <input>1 kings</input>
+		    <input>1 kralji</input>
+		    <input>1 koningen</input>
+		    <input>1 königen</input>
+		    <input>1 reyes</input>
+		    <input>1kings</input>
+		    <input>1kr</input>
+		    <input>1kra</input>
+		    <input>1kralj</input>
+		    <input>1ki</input>
+		    <input>1kgs</input>
+		    <input>1r</input>
+		    <input>1re</input>
+		    <input>3rg</input>
+		    <input>3regn</input>
+		    <input>1kon</input>
+		    <input>1kön</input>
+		    <input>1erg</input>
+		    <input>1rois</input>
+		    <input>1kings</input>
+		    <input>1kralji</input>
+		    <input>1koningen</input>
+		    <input>1königen</input>
+		    <input>1reyes</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2kings</code>
+		    <code service="vatican">2 Kings</code>
+		    <code service="diebibel_de">2.k%C3%B6n</code>
+		    <code service="unbound_biola_edu">12O</code>
+		    <code service="usccb_org">2kings</code>
+		    <code service="laparola_net">2 Re</code>
+		    <code service="bibliacatolica_com">12</code>
+		    <code service="osis">2Kgs</code>
+		    <code service="biblija_net">2 Kgs</code>
+		    <code service="can">12</code>
+		    <code service="rkbijbel">2koningen</code>
+		    <input spoken="nl">het tweede boek koningen</input>
+		    <input spoken="en">the second book of kings</input>
+		    <input language="en">2 kings</input>
+		    <input>2 kr</input>
+		    <input>2 kra</input>
+		    <input>2 kralj</input>
+		    <input>2 ki</input>
+		    <input>2 kgs</input>
+		    <input language="fr">2 r</input>
+		    <input>2 re</input>
+		    <input>4 rg</input>
+		    <input>4 regn</input>
+		    <input language="nl">2 kon</input>
+		    <input>2 kön</input>
+		    <input>2 erg</input>
+		    <input>2 rois</input>
+		    <input>2 kings</input>
+		    <input>2 kralji</input>
+		    <input>2 koningen</input>
+		    <input>2 königen</input>
+		    <input>2 reyes</input>
+		    <input>2kings</input>
+		    <input>2kr</input>
+		    <input>2kra</input>
+		    <input>2kralj</input>
+		    <input>2ki</input>
+		    <input>2kgs</input>
+		    <input>2r</input>
+		    <input>2re</input>
+		    <input>4rg</input>
+		    <input>4regn</input>
+		    <input>2kon</input>
+		    <input>2kön</input>
+		    <input>2erg</input>
+		    <input>2rois</input>
+		    <input>2kings</input>
+		    <input>2kralji</input>
+		    <input>2koningen</input>
+		    <input>2königen</input>
+		    <input>2reyes</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1chronicles</code>
+		    <code service="vatican">1 Chronicles</code>
+		    <code service="diebibel_de">1.chr</code>
+		    <code service="unbound_biola_edu">13O</code>
+		    <code service="usccb_org">1chronicles</code>
+		    <code service="laparola_net">1 Cronache</code>
+		    <code service="bibliacatolica_com">13</code>
+		    <code service="osis">1Chr</code>
+		    <code service="biblija_net">1 Ch</code>
+		    <code service="can">13</code>
+		    <code service="rkbijbel">1kronieken</code>
+		    <input spoken="nl">het eerste boek kronieken</input>
+		    <input spoken="en">the first book of chronicles</input>
+		    <input>1 chronicles</input>
+		    <input>1 krn</input>
+		    <input language="nl">1 kron</input>
+		    <input>1 let</input>
+		    <input>1 ljet</input>
+		    <input language="fr">1 ch</input>
+		    <input>1 cr</input>
+		    <input>1 cro</input>
+		    <input>1 kro</input>
+		    <input>1 chron</input>
+		    <input language="en">1 chr</input>
+		    <input>1 kroniška</input>
+		    <input>1 letopisi</input>
+		    <input>1 chronicles</input>
+		    <input>1 kronieken</input>
+		    <input>1 chronik</input>
+		    <input>1 crónicas</input>
+		    <input>1chronicles</input>
+		    <input>1krn</input>
+		    <input>1kron</input>
+		    <input>1let</input>
+		    <input>1ljet</input>
+		    <input>1ch</input>
+		    <input>1cr</input>
+		    <input>1cro</input>
+		    <input>1kro</input>
+		    <input>1chron</input>
+		    <input>1chr</input>
+		    <input>1kroniška</input>
+		    <input>1letopisi</input>
+		    <input>1chronicles</input>
+		    <input>1kronieken</input>
+		    <input>1chronik</input>
+		    <input>1crónicas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2chronicles</code>
+		    <code service="vatican">2 Chronicles</code>
+		    <code service="diebibel_de">2.chr</code>
+		    <code service="unbound_biola_edu">14O</code>
+		    <code service="usccb_org">2chronicles</code>
+		    <code service="laparola_net">2 Cronache</code>
+		    <code service="bibliacatolica_com">14</code>
+		    <code service="osis">2Chr</code>
+		    <code service="biblija_net">2 Ch</code>
+		    <code service="can">14</code>
+		    <code service="rkbijbel">2kronieken</code>
+		    <input spoken="nl">het tweede boek kronieken</input>
+		    <input spoken="en">the second book of chronicles</input>
+		    <input>2 chronicles</input>
+		    <input>2 krn</input>
+		    <input language="nl">2 kron</input>
+		    <input>2 let</input>
+		    <input>2 ljet</input>
+		    <input language="fr">2 ch</input>
+		    <input>2 cr</input>
+		    <input>2 cro</input>
+		    <input>2 kro</input>
+		    <input>2 chron</input>
+		    <input language="en">2 chr</input>
+		    <input>2 kroniška</input>
+		    <input>2 letopisi</input>
+		    <input>2 chronicles</input>
+		    <input>2 kronieken</input>
+		    <input>2 chronik</input>
+		    <input>2 crónicas</input>
+		    <input>2chronicles</input>
+		    <input>2krn</input>
+		    <input>2kron</input>
+		    <input>2let</input>
+		    <input>2ljet</input>
+		    <input>2ch</input>
+		    <input>2cr</input>
+		    <input>2cro</input>
+		    <input>2kro</input>
+		    <input>2chron</input>
+		    <input>2chr</input>
+		    <input>2kroniška</input>
+		    <input>2letopisi</input>
+		    <input>2chronicles</input>
+		    <input>2kronieken</input>
+		    <input>2chronik</input>
+		    <input>2crónicas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">ezra</code>
+		    <code service="vatican">Ezra</code>
+		    <code service="diebibel_de">esra</code>
+		    <code service="unbound_biola_edu">15O</code>
+		    <code service="usccb_org">ezra</code>
+		    <code service="laparola_net">Esdra</code>
+		    <code service="bibliacatolica_com">15</code>
+		    <code service="osis">Ezra</code>
+		    <code service="biblija_net">Esr</code>
+		    <code service="can">15</code>
+		    <code service="rkbijbel">ezra</code>
+		    <input spoken="nl,en" language="nl,en">ezra</input>
+		    <input>ezr</input>
+		    <input>ezdr</input>
+		    <input>esra</input>
+		    <input>esr</input>
+		    <input language="fr">esd</input>
+		    <input>1 ezr</input>
+		    <input>1 esr</input>
+		    <input>ezdra</input>
+		    <input>esdras</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">nehemiah</code>
+		    <code service="vatican">Nehemiah</code>
+		    <code service="diebibel_de">neh</code>
+		    <code service="unbound_biola_edu">16O</code>
+		    <code service="usccb_org">nehemiah</code>
+		    <code service="laparola_net">Neemia</code>
+		    <code service="bibliacatolica_com">16</code>
+		    <code service="osis">Neh</code>
+		    <code service="biblija_net">Ne</code>
+		    <code service="can">16</code>
+		    <code service="rkbijbel">nehemia</code>
+		    <input spoken="nl">nehemia</input>
+		    <input spoken="en">nehemiah</input>
+		    <input language="nl,en">neh</input>
+		    <input>néh</input>
+		    <input language="fr">ne</input>
+		    <input>né</input>
+		    <input>2 ezr</input>
+		    <input>2 esr</input>
+		    <input>nehemija</input>
+		    <input>nehemiah</input>
+		    <input>nehemia</input>
+		    <input>nehemías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">esther</code>
+		    <code service="vatican">Esther</code>
+		    <code service="diebibel_de">est</code>
+		    <code service="unbound_biola_edu">17O</code>
+		    <code service="usccb_org">esther</code>
+		    <code service="laparola_net">Ester</code>
+		    <code service="bibliacatolica_com">19</code>
+		    <code service="osis">Esth</code>
+		    <code service="biblija_net">Esth</code>
+		    <code service="can">17</code>
+		    <code service="rkbijbel">ester</code>
+		    <input spoken="nl">ester</input>
+		    <input spoken="en">esther</input>
+		    <input language="nl,fr">est</input>
+		    <input>ester</input>
+		    <input language="en">esth</input>
+		    <input>esther</input>
+		    <input>estera</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">job</code>
+		    <code service="vatican">Job</code>
+		    <code service="diebibel_de">hiob</code>
+		    <code service="unbound_biola_edu">18O</code>
+		    <code service="usccb_org">job</code>
+		    <code service="laparola_net">Giobbe</code>
+		    <code service="bibliacatolica_com">20</code>
+		    <code service="osis">Job</code>
+		    <code service="biblija_net">Jb</code>
+		    <code service="can">18</code>
+		    <code service="rkbijbel">job</code>
+		    <input spoken="nl,en" language="nl,en">job</input>
+		    <input>hi</input>
+		    <input language="fr">jb</input>
+		    <input>iob</input>
+		    <input>hiob</input>
+		    <input>ijob</input>
+	  </book>
+	  <book>
 		<!--<code service="crosswire_org">psalms</code>-->
 		<code service="diebibel_de">ps</code>
-		<code service="unbound_biola_edu">19O</code>
-		<code service="usccb_org">psalms</code>
-		<code service="laparola_net">Salmi</code>
-		<code service="bibliacatolica_com">21</code>
-		<code service="osis">Ps</code>
-		<code service="biblija_net">Ps</code>
-		<code service="can">19</code>
-		<code service="rkbijbel">psalmen</code>
-		<input spoken="nl">De Psalmen</input>
-		<input spoken="en">Psalms</input>
-		<input language="nl,en,fr">Ps</input>
-		<input>Psa</input>
-		<input>PsG</input>
-		<input>Sal</input>
-		<input>Sl</input>
-		<input>Psalm</input>
-		<input>Psalmi</input>
-		<input>Psalmen</input>
-		<input>Salmos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">proverbs</code>
-		<code service="vatican">Proverbs</code>
-		<code service="diebibel_de">spr</code>
-		<code service="unbound_biola_edu">20O</code>
-		<code service="usccb_org">proverbs</code>
-		<code service="laparola_net">Proverbi</code>
-		<code service="bibliacatolica_com">24</code>
-		<code service="osis">Prov</code>
-		<code service="biblija_net">Pr</code>
-		<code service="can">20</code>
-		<code service="rkbijbel">spreuken</code>
-		<input spoken="nl">Spreuken</input>
-		<input spoken="en">Proverbs</input>
-		<input>Prg</input>
-		<input>Preg</input>
-		<input>Pro</input>
-		<input language="en">Prov</input>
-		<input language="fr">Pr</input>
-		<input>Prv</input>
-		<input>Prou</input>
-		<input language="nl">Spr</input>
-		<input>Izr</input>
-		<input>EsZ</input>
-		<input>Pregovori</input>
-		<input>Proverbs</input>
-		<input>Spreuken</input>
-		<input>Sprüche</input>
-		<input>Sprichwörter</input>
-		<input>Proverbios</input>
-	</book>
-	<book>
-		<code service="crosswire_org">ecclesiastes</code>
-		<code service="vatican">Ecclesiastes</code>
-		<code service="diebibel_de">pred</code>
-		<code service="unbound_biola_edu">21O</code>
-		<code service="usccb_org">ecclesiastes</code>
-		<code service="laparola_net">Qoelet</code>
-		<code service="bibliacatolica_com">25</code>
-		<code service="osis">Eccl</code>
-		<code service="biblija_net">Ec</code>
-		<code service="can">21</code>
-		<code service="rkbijbel">prediker</code>
-		<input spoken="nl">Prediker</input>
-		<input spoken="en">Ecclesiastes</input>
-		<input>Prd</input>
-		<input>Prid</input>
-		<input>Prop</input>
-		<input>Ec</input>
-		<input language="en">Ecc</input>
-		<input>Eccl</input>
-		<input>Ecl</input>
-		<input language="fr">Qo</input>
-		<input>Qoh</input>
-		<input>Coh</input>
-		<input>Koh</input>
-		<input language="nl">Pred</input>
-		<input>Pridigar</input>
-		<input>Ecclesiastes</input>
-		<input>Prediger</input>
-		<input>Qoheleth</input>
-		<input>Qohéleth</input>
-		<input>Eclesiastés</input>
-	</book>
-	<book>
-		<code service="crosswire_org">song</code>
-		<code service="vatican">The Song of Songs</code>
-		<code service="diebibel_de">hld</code>
-		<code service="unbound_biola_edu">22O</code>
-		<code service="usccb_org">song</code>
-		<code service="laparola_net">Cantico dei Cantici</code>
-		<code service="bibliacatolica_com">26</code>
-		<code service="osis">Song</code>
-		<code service="biblija_net">Song</code>
-		<code service="can">22</code>
-		<code service="rkbijbel">hooglied</code>
-		<input spoken="nl">Hooglied</input>
-		<input spoken="en">Song of Solomon</input>
-		<input>Vp</input>
-		<input>Sng</input>
-		<input language="en">Song</input>
-		<input>Sgs</input>
-		<input>SS</input>
-		<input>Cant</input>
-		<input>Cnt</input>
-		<input language="fr">Ct</input>
-		<input>Kt</input>
-		<input language="nl">Hoogl</input>
-		<input>Hl</input>
-		<input>Hld</input>
-		<input>Pj</input>
-		<input>VisokaPesem</input>
-		<input>VisokaP</input>
-		<input>Canticles</input>
-		<input>Hooglied</input>
-		<input>Hoheslied</input>
-		<input>Cantares</input>
-	</book>
-	<book>
-		<code service="crosswire_org">isaiah</code>
-		<code service="vatican">Isaiah</code>
-		<code service="diebibel_de">jes</code>
-		<code service="unbound_biola_edu">23O</code>
-		<code service="usccb_org">isaiah</code>
-		<code service="laparola_net">Isaia</code>
-		<code service="bibliacatolica_com">29</code>
-		<code service="osis">Isa</code>
-		<code service="biblija_net">Is</code>
-		<code service="can">23</code>
-		<code service="rkbijbel">jesaja</code>
-		<input spoken="nl">Jesaja</input>
-		<input spoken="en">Isaiah</input>
-		<input>Iz</input>
-		<input>Izai</input>
-		<input>Izaija</input>
-		<input language="en">Isa</input>
-		<input language="fr">Is</input>
-		<input language="nl">Jes</input>
-		<input>Js</input>
-		<input>Es</input>
-		<input>És</input>
-		<input>Isaiah</input>
-		<input>Jesaja</input>
-		<input>Isaías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">jeremiah</code>
-		<code service="vatican">Jeremiah</code>
-		<code service="diebibel_de">jer</code>
-		<code service="unbound_biola_edu">24O</code>
-		<code service="usccb_org">jeremiah</code>
-		<code service="laparola_net">Geremia</code>
-		<code service="bibliacatolica_com">30</code>
-		<code service="osis">Jer</code>
-		<code service="biblija_net">Jr</code>
-		<code service="can">24</code>
-		<code service="rkbijbel">jeremia</code>
-		<input spoken="nl">Jeremia</input>
-		<input spoken="en">Jeremiah</input>
-		<input language="nl,en">Jer</input>
-		<input>Jér</input>
-		<input language="fr">Jr</input>
-		<input>Ier</input>
-		<input>Jeremija</input>
-		<input>Jeremiah</input>
-		<input>Jeremia</input>
-		<input>Jeremías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">lamentations</code>
-		<code service="vatican">Lamentations</code>
-		<code service="diebibel_de">klgl</code>
-		<code service="unbound_biola_edu">25O</code>
-		<code service="usccb_org">lamentations</code>
-		<code service="laparola_net">Lamentazioni</code>
-		<code service="bibliacatolica_com">31</code>
-		<code service="osis">Lam</code>
-		<code service="biblija_net">La</code>
-		<code service="can">25</code>
-		<code service="rkbijbel">klaagliederen</code>
-		<input spoken="nl">Klaagliederen</input>
-		<input spoken="en">Lamentations</input>
-		<input>Žal</input>
-		<input language="en">Lam</input>
-		<input>La</input>
-		<input language="fr">Lm</input>
-		<input>Thr</input>
-		<input language="nl">Klaagl</input>
-		<input>Kl</input>
-		<input>Klgl</input>
-		<input>Klgld</input>
-		<input>Tuž</input>
-		<input>Nk</input>
-		<input>Žalostinke</input>
-		<input>Lamentations</input>
-		<input>Klaagliederen</input>
-		<input>Klagelieder</input>
-		<input>Lamentaciones</input>
-	</book>
-	<book>
-		<code service="crosswire_org">ezekiel</code>
-		<code service="vatican">Ezekiel</code>
-		<code service="diebibel_de">hes</code>
-		<code service="unbound_biola_edu">26O</code>
-		<code service="usccb_org">ezekiel</code>
-		<code service="laparola_net">Ezechiele</code>
-		<code service="bibliacatolica_com">33</code>
-		<code service="osis">Ezek</code>
-		<code service="biblija_net">Ez</code>
-		<code service="can">26</code>
-		<code service="rkbijbel">ezechiel</code>
-		<input spoken="nl">Ezechiël</input>
-		<input spoken="en">Ezekiel</input>
-		<input>Ezk</input>
-		<input language="fr">Ez</input>
-		<input language="nl">Eze</input>
-		<input>Ezec</input>
-		<input language="en">Ezek</input>
-		<input>Ézék</input>
-		<input>Hes</input>
-		<input>Ezekiel</input>
-		<input>Ezekijel</input>
-		<input>Ezechiël</input>
-		<input>Ezechiel</input>
-		<input>Hesekiel</input>
-		<input>Ézékiel</input>
-		<input>Ezequiel</input>
-	</book>
-	<book>
-		<code service="crosswire_org">daniel</code>
-		<code service="vatican">Daniel</code>
-		<code service="diebibel_de">dan</code>
-		<code service="unbound_biola_edu">27O</code>
-		<code service="usccb_org">daniel</code>
-		<code service="laparola_net">Daniele</code>
-		<code service="bibliacatolica_com">34</code>
-		<code service="osis">Dan</code>
-		<code service="biblija_net">Da</code>
-		<code service="can">27</code>
-		<code service="rkbijbel">daniel</code>
-		<input spoken="nl">Daniël</input>
-		<input spoken="en">Daniel</input>
-		<input language="nl,en">Dan</input>
-		<input>Da</input>
-		<input language="fr">Dn</input>
-		<input>Daniel</input>
-		<input>Danijel</input>
-		<input>Daniël</input>
-	</book>
-	<book>
-		<code service="crosswire_org">hosea</code>
-		<code service="vatican">Hosea</code>
-		<code service="diebibel_de">hos</code>
-		<code service="unbound_biola_edu">28O</code>
-		<code service="usccb_org">hosea</code>
-		<code service="laparola_net">Osea</code>
-		<code service="bibliacatolica_com">35</code>
-		<code service="osis">Hos</code>
-		<code service="biblija_net">Ho</code>
-		<code service="can">28</code>
-		<code service="rkbijbel">hosea</code>
-		<input spoken="nl,en">Hosea</input>
-		<input>Oz</input>
-		<input>Ozea</input>
-		<input language="nl,en">Hos</input>
-		<input>Ho</input>
-		<input language="fr">Os</input>
-		<input>Hoš</input>
-		<input>Ozej</input>
-		<input>Hosea</input>
-		<input>Osee</input>
-		<input>Osée</input>
-		<input>Oseas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">joel</code>
-		<code service="vatican">Joel</code>
-		<code service="diebibel_de">joel</code>
-		<code service="unbound_biola_edu">29O</code>
-		<code service="usccb_org">joel</code>
-		<code service="laparola_net">Gioele</code>
-		<code service="bibliacatolica_com">36</code>
-		<code service="osis">Joel</code>
-		<code service="biblija_net">Jl</code>
-		<code service="can">29</code>
-		<code service="rkbijbel">joel</code>
-		<input spoken="nl" language="nl">Joël</input>
-		<input spoken="en" language="en">Joel</input>
-		<input language="fr">Jl</input>
-		<input>Jol</input>
-		<input>Joel</input>
-		<input>Ioel</input>
-		<input>Joël</input>
-	</book>
-	<book>
-		<code service="crosswire_org">amos</code>
-		<code service="vatican">Amos</code>
-		<code service="diebibel_de">am</code>
-		<code service="unbound_biola_edu">30O</code>
-		<code service="usccb_org">amos</code>
-		<code service="laparola_net">Amos</code>
-		<code service="bibliacatolica_com">37</code>
-		<code service="osis">Amos</code>
-		<code service="biblija_net">Am</code>
-		<code service="can">30</code>
-		<code service="rkbijbel">amos</code>
-		<input spoken="nl,en">Amos</input>
-		<input language="nl,en,fr">Am</input>
-		<input>Amo</input>
-		<input>Amós</input>
-	</book>
-	<book>
-		<code service="crosswire_org">obadiah</code>
-		<code service="vatican">Obadiah</code>
-		<code service="diebibel_de">obd</code>
-		<code service="unbound_biola_edu">31O</code>
-		<code service="usccb_org">obadiah</code>
-		<code service="laparola_net">Abdia</code>
-		<code service="bibliacatolica_com">38</code>
-		<code service="osis">Obad</code>
-		<code service="biblija_net">Ob</code>
-		<code service="can">31</code>
-		<code service="rkbijbel">obadja</code>
-		<input spoken="nl">Obadja</input>
-		<input spoken="en">Obadiah</input>
-		<input>Abd</input>
-		<input language="fr">Ab</input>
-		<input>Oba</input>
-		<input>Obd</input>
-		<input>Obad</input>
-		<input language="nl,en">Ob</input>
-		<input>Abdija</input>
-		<input>Obadija</input>
-		<input>Obadiah</input>
-		<input>Obadja</input>
-		<input>Abdías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">jonah</code>
-		<code service="vatican">Jonah</code>
-		<code service="diebibel_de">jona</code>
-		<code service="unbound_biola_edu">32O</code>
-		<code service="usccb_org">jonah</code>
-		<code service="laparola_net">Giona</code>
-		<code service="bibliacatolica_com">39</code>
-		<code service="osis">Jonah</code>
-		<code service="biblija_net">Jnh</code>
-		<code service="can">32</code>
-		<code service="rkbijbel">jonas</code>
-		<input spoken="nl" language="nl">Jona</input>
-		<input spoken="en">Jonah</input>
-		<input language="en,fr">Jon</input>
-		<input>Jnh</input>
-		<input>Ion</input>
-		<input>Jonás</input>
-	</book>
-	<book>
-		<code service="crosswire_org">micah</code>
-		<code service="vatican">Micah</code>
-		<code service="diebibel_de">mi</code>
-		<code service="unbound_biola_edu">33O</code>
-		<code service="usccb_org">micah</code>
-		<code service="laparola_net">Michea</code>
-		<code service="bibliacatolica_com">40</code>
-		<code service="osis">Mic</code>
-		<code service="biblija_net">Mi</code>
-		<code service="can">33</code>
-		<code service="rkbijbel">micha</code>
-		<input spoken="nl">Micha</input>
-		<input spoken="en">Micah</input>
-		<input>Mih</input>
-		<input language="en">Mic</input>
-		<input language="nl,fr">Mi</input>
-		<input>Mch</input>
-		<input>Mich</input>
-		<input>Miq</input>
-		<input>Mihej</input>
-		<input>Miha</input>
-		<input>Miqueas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">nahum</code>
-		<code service="vatican">Nahum</code>
-		<code service="diebibel_de">nah</code>
-		<code service="unbound_biola_edu">34O</code>
-		<code service="usccb_org">nahum</code>
-		<code service="laparola_net">Naum</code>
-		<code service="bibliacatolica_com">41</code>
-		<code service="osis">Nah</code>
-		<code service="biblija_net">Na</code>
-		<code service="can">34</code>
-		<code service="rkbijbel">nahum</code>
-		<input language="nl,en">Nah</input>
-		<input>Nam</input>
-		<input language="fr">Na</input>
-		<input spoken="nl,en">Nahum</input>
-		<input>Nahúm</input>
-	</book>
-	<book>
-		<code service="crosswire_org">habakkuk</code>
-		<code service="vatican">Habakkuk</code>
-		<code service="diebibel_de">hab</code>
-		<code service="unbound_biola_edu">35O</code>
-		<code service="usccb_org">habakkuk</code>
-		<code service="laparola_net">Abacuc</code>
-		<code service="bibliacatolica_com">42</code>
-		<code service="osis">Hab</code>
-		<code service="biblija_net">Ha</code>
-		<code service="can">35</code>
-		<code service="rkbijbel">habakuk</code>
-		<input spoken="nl">Habakuk</input>
-		<input spoken="en">Habakkuk</input>
-		<input language="nl,en">Hab</input>
-		<input language="fr">Ha</input>
-		<input>Habb</input>
-		<input>Habacuc</input>
-	</book>
-	<book>
-		<code service="crosswire_org">zephaniah</code>
-		<code service="vatican">Zephaniah</code>
-		<code service="diebibel_de">zeph</code>
-		<code service="unbound_biola_edu">38O</code>
-		<code service="usccb_org">zephaniah</code>
-		<code service="laparola_net">Sofonia</code>
-		<code service="bibliacatolica_com">43</code>
-		<code service="osis">Zeph</code>
-		<code service="biblija_net">Zep</code>
-		<code service="can">36</code>
-		<code service="rkbijbel">sefanja</code>
-		<input spoken="nl">Sefanja</input>
-		<input spoken="en">Zephaniah</input>
-		<input>Sof</input>
-		<input>Zep</input>
-		<input language="en">Zeph</input>
-		<input>Zef</input>
-		<input language="nl">Sef</input>
-		<input language="fr">So</input>
-		<input>Soph</input>
-		<input>Sofonija</input>
-		<input>Zefanija</input>
-		<input>Zephanja</input>
-		<input>Zefanja</input>
-		<input>Sofonías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">haggai</code>
-		<code service="vatican">Haggai</code>
-		<code service="diebibel_de">hag</code>
-		<code service="unbound_biola_edu">37O</code>
-		<code service="usccb_org">haggai</code>
-		<code service="laparola_net">Aggeo</code>
-		<code service="bibliacatolica_com">44</code>
-		<code service="osis">Hag</code>
-		<code service="biblija_net">Hagg</code>
-		<code service="can">37</code>
-		<code service="rkbijbel">haggai</code>
-		<input spoken="nl,en">Haggai</input>
-		<input language="fr">Ag</input>
-		<input language="nl,en">Hag</input>
-		<input>Hagg</input>
-		<input>Hgg</input>
-		<input>Hg</input>
-		<input>Agg</input>
-		<input>Agej</input>
-		<input>Hagaj</input>
-		<input>Hageo</input>
-	</book>
-	<book>
-		<code service="diebibel_de">sach</code>
-		<code service="vatican">Zechariah</code>
-		<code service="unbound_biola_edu">38O</code>
-		<code service="usccb_org">zechariah</code>
-		<code service="laparola_net">Zaccaria</code>
-		<code service="bibliacatolica_com">45</code>
-		<code service="osis">Zech</code>
-		<code service="biblija_net">Zec</code>
-		<code service="can">38</code>
-		<code service="rkbijbel">zacharias</code>
-		<input spoken="nl">Zacharia</input>
-		<input spoken="en">Zechariah</input>
-		<input>Zah</input>
-		<input>Zec</input>
-		<input language="en">Zech</input>
-		<input>Zch</input>
-		<input language="fr">Za</input>
-		<input>Zac</input>
-		<input language="nl">Zach</input>
-		<input>Sach</input>
-		<input>Zaharija</input>
-		<input>Sacharja</input>
-		<input>Zacarías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">malachi</code>
-		<code service="vatican">Malachi</code>
-		<code service="diebibel_de">mal</code>
-		<code service="unbound_biola_edu">39O</code>
-		<code service="usccb_org">malachi</code>
-		<code service="laparola_net">Malachia</code>
-		<code service="bibliacatolica_com">46</code>
-		<code service="osis">Mal</code>
-		<code service="biblija_net">Ml</code>
-		<code service="can">39</code>
-		<code service="rkbijbel">maleachi</code>
-		<input spoken="nl">Maleachi</input>
-		<input spoken="en">Malachi</input>
-		<input language="nl,en">Mal</input>
-		<input language="fr">Ml</input>
-		<input>Malahija</input>
-		<input>Malaquías</input>
-	</book>
-	<book>
-		<code service="crosswire_org">matthew</code>
-		<code service="vatican">Matthew</code>
-		<code service="diebibel_de">mt</code>
-		<code service="unbound_biola_edu">40N</code>
-		<code service="usccb_org">matthew</code>
-		<code service="laparola_net">Matteo</code>
-		<code service="bibliacatolica_com">47</code>
-		<code service="osis">Matt</code>
-		<code service="biblija_net">Mat</code>
-		<code service="can">40</code>
-		<code service="rkbijbel">matteus</code>
-		<input spoken="nl">Het evangelie volgens Matteüs</input>
-		<input spoken="en">The gospel of Matthew</input>
-		<input>Matthew</input>
-		<input language="nl,en,fr">Mt</input>
-		<input>Mat</input>
-		<input>Matt</input>
-		<input>Matej</input>
-		<input>Matevž</input>
-		<input>Matthew</input>
-		<input>Matteüs</input>
-		<input>Mattheus</input>
-		<input>Matteus</input>
-		<input>Matthäus</input>
-		<input>Mateo</input>
-	</book>
-	<book>
-		<code service="crosswire_org">mark</code>
-		<code service="vatican">Mark</code>
-		<code service="diebibel_de">mk</code>
-		<code service="unbound_biola_edu">41N</code>
-		<code service="usccb_org">mark</code>
-		<code service="laparola_net">Marco</code>
-		<code service="bibliacatolica_com">48</code>
-		<code service="osis">Mark</code>
-		<code service="biblija_net">Mr</code>
-		<code service="can">41</code>
-		<code service="rkbijbel">marcus</code>
-		<input spoken="nl">Het evangelie volgens Marcus</input>
-		<input spoken="en">The gospel of Mark</input>
-		<input>Mark</input>
-		<input>Mr</input>
-		<input>Mar</input>
-		<input>Mrk</input>
-		<input>Mk</input>
-		<input language="nl,en,fr">Mc</input>
-		<input>Marko</input>
-		<input>Marcus</input>
-		<input>Markus</input>
-		<input>Marc</input>
-		<input>Marcos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">luke</code>
-		<code service="vatican">Luke</code>
-		<code service="diebibel_de">lk</code>
-		<code service="unbound_biola_edu">42N</code>
-		<code service="usccb_org">luke</code>
-		<code service="laparola_net">Luca</code>
-		<code service="bibliacatolica_com">49</code>
-		<code service="osis">Luke</code>
-		<code service="biblija_net">Luk</code>
-		<code service="can">42</code>
-		<code service="rkbijbel">lucas</code>
-		<input spoken="nl">Het evangelie volgens Lucas</input>
-		<input spoken="en">The gospel of Luke</input>
-		<input>Luke</input>
-		<input>Lk</input>
-		<input>Luk</input>
-		<input language="nl,en,fr">Lc</input>
-		<input>Luc</input>
-		<input>Lu</input>
-		<input>L</input>
-		<input>Luka</input>
-		<input>Lukež</input>
-		<input>Lucas</input>
-		<input>Lukas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">john</code>
-		<code service="vatican">John</code>
-		<code service="diebibel_de">jh</code>
-		<code service="unbound_biola_edu">43N</code>
-		<code service="usccb_org">john</code>
-		<code service="laparola_net">Giovanni</code>
-		<code service="bibliacatolica_com">50</code>
-		<code service="osis">John</code>
-		<code service="biblija_net">Jhn</code>
-		<code service="can">43</code>
-		<code service="rkbijbel">johannes</code>
-		<input spoken="nl">Het evangelie volgens Johannes</input>
-		<input spoken="en">The gospel of John</input>
-		<input>John</input>
-		<input language="en,fr">Jn</input>
-		<input>Jan</input>
-		<input>Jhn</input>
-		<input language="nl">Jh</input>
-		<input>Joh</input>
-		<input>Jo</input>
-		<input>J</input>
-		<input>Io</input>
-		<input>Iv</input>
-		<input>Janez</input>
-		<input>John</input>
-		<input>Johannes</input>
-		<input>Jean</input>
-		<input>Juan</input>
-	</book>
-	<book>
-		<code service="crosswire_org">acts</code>
-		<code service="vatican">Acts</code>
-		<code service="diebibel_de">apg</code>
-		<code service="unbound_biola_edu">44N</code>
-		<code service="usccb_org">acts</code>
-		<code service="laparola_net">Atti</code>
-		<code service="bibliacatolica_com">51</code>
-		<code service="osis">Acts</code>
-		<code service="biblija_net">Ac</code>
-		<code service="can">44</code>
-		<code service="rkbijbel">handelingen</code>
-		<input spoken="nl">Handelingen van de apostelen</input>
-		<input spoken="en">The Acts</input>
-		<input>Apd</input>
-		<input>Dej</input>
-		<input>DejAp</input>
-		<input>Act</input>
-		<input language="fr">Ac</input>
-		<input language="nl">Hand</input>
-		<input>Hnd</input>
-		<input>Apg</input>
-		<input>Dj</input>
-		<input>Hch</input>
-		<input>Eg</input>
-		<input language="en">Acts</input>
-		<input>Dela</input>
-		<input>Dejanja</input>
-		<input>Handelingen</input>
-		<input>Apostelgeschichte</input>
-		<input>Hechos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">romans</code>
-		<code service="vatican">Romans</code>
-		<code service="diebibel_de">r%C3%B6m</code>
-		<code service="unbound_biola_edu">45N</code>
-		<code service="usccb_org">romans</code>
-		<code service="laparola_net">Romani</code>
-		<code service="bibliacatolica_com">52</code>
-		<code service="osis">Rom</code>
-		<code service="biblija_net">Ro</code>
-		<code service="can">45</code>
-		<code service="rkbijbel">romeinen</code>
-		<input spoken="nl">De brief aan de Romeinen</input>
-		<input spoken="en">The letter to the Romans</input>
-		<input>Romans</input>
-		<input>Rim</input>
-		<input>Rimlj</input>
-		<input language="nl,en">Rom</input>
-		<input>Röm</input>
-		<input>Ro</input>
-		<input language="fr">Rm</input>
-		<input>R</input>
-		<input>Erm</input>
-		<input>Rimljanom</input>
-		<input>Romans</input>
-		<input>Romeinen</input>
-		<input>Römer</input>
-		<input>Romanos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1corinthians</code>
-		<code service="vatican">1 Corinthians</code>
-		<code service="diebibel_de">1.kor</code>
-		<code service="unbound_biola_edu">46N</code>
-		<code service="usccb_org">1corinthians</code>
-		<code service="laparola_net">1 Corinzi</code>
-		<code service="bibliacatolica_com">53</code>
-		<code service="osis">1Cor</code>
-		<code service="biblija_net">1 Co</code>
-		<code service="can">46</code>
-		<code service="rkbijbel">1korintiers</code>
-		<input spoken="nl">De eerste brief aan de Korintiërs</input>
-		<input spoken="en">The first letter to the Corinthians</input>
-		<input>1 Corinthians</input>
-		<input language="nl">1 Kor</input>
-		<input language="en">1 Cor</input>
-		<input language="fr">1 Co</input>
-		<input>1 Ko</input>
-		<input>1 K</input>
-		<input>1 Korinčanom</input>
-		<input>1 Corinthians</input>
-		<input>1 Korintiërs</input>
-		<input>1 Korintiers</input>
-		<input>1 Korinthe</input>
-		<input>1 Korinther</input>
-		<input>1 Corintios</input>
-		<input>1Corinthians</input>
-		<input>1Kor</input>
-		<input>1Cor</input>
-		<input>1Co</input>
-		<input>1Ko</input>
-		<input>1K</input>
-		<input>1Korinčanom</input>
-		<input>1Corinthians</input>
-		<input>1Korintiërs</input>
-		<input>1Korintiers</input>
-		<input>1Korinthe</input>
-		<input>1Korinther</input>
-		<input>1Corintios</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2corinthians</code>
-		<code service="vatican">2 Corinthians</code>
-		<code service="diebibel_de">2.kor</code>
-		<code service="unbound_biola_edu">47N</code>
-		<code service="usccb_org">2corinthians</code>
-		<code service="laparola_net">2 Corinzi</code>
-		<code service="bibliacatolica_com">54</code>
-		<code service="osis">2Cor</code>
-		<code service="biblija_net">2 Co</code>
-		<code service="can">47</code>
-		<code service="rkbijbel">2korintiers</code>
-		<input spoken="nl">De tweede brief aan de Korintiërs</input>
-		<input spoken="en">The second letter to the Corinthians</input>
-		<input>2 Corinthians</input>
-		<input language="nl">2 Kor</input>
-		<input language="en">2 Cor</input>
-		<input language="fr">2 Co</input>
-		<input>2 Ko</input>
-		<input>2 K</input>
-		<input>2 Korinčanom</input>
-		<input>2 Corinthians</input>
-		<input>2 Korintiërs</input>
-		<input>2 Korintiers</input>
-		<input>2 Korinthe</input>
-		<input>2 Korinther</input>
-		<input>2 Corintios</input>
-		<input>2Corinthians</input>
-		<input>2Kor</input>
-		<input>2Cor</input>
-		<input>2Co</input>
-		<input>2Ko</input>
-		<input>2K</input>
-		<input>2Korinčanom</input>
-		<input>2Corinthians</input>
-		<input>2Korintiërs</input>
-		<input>2Korintiers</input>
-		<input>2Korinthe</input>
-		<input>2Korinther</input>
-		<input>2Corintios</input>
-	</book>
-	<book>
-		<code service="crosswire_org">galatians</code>
-		<code service="vatican">Galatians</code>
-		<code service="diebibel_de">gal</code>
-		<code service="unbound_biola_edu">48N</code>
-		<code service="usccb_org">galatians</code>
-		<code service="laparola_net">Galati</code>
-		<code service="bibliacatolica_com">55</code>
-		<code service="osis">Gal</code>
-		<code service="biblija_net">Ga</code>
-		<code service="can">48</code>
-		<code service="rkbijbel">galaten</code>
-		<input spoken="nl">De brief aan de Galaten</input>
-		<input spoken="en">The letter to the Galatians</input>
-		<input>Galatians</input>
-		<input language="nl,en">Gal</input>
-		<input language="fr">Ga</input>
-		<input>Gl</input>
-		<input>G</input>
-		<input>Galačanom</input>
-		<input>Galatians</input>
-		<input>Galaten</input>
-		<input>Galater</input>
-		<input>Gálatas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">ephesians</code>
-		<code service="vatican">Ephesians</code>
-		<code service="diebibel_de">eph</code>
-		<code service="unbound_biola_edu">49N</code>
-		<code service="usccb_org">ephesians</code>
-		<code service="laparola_net">Efesini</code>
-		<code service="bibliacatolica_com">56</code>
-		<code service="osis">Eph</code>
-		<code service="biblija_net">Ep</code>
-		<code service="can">49</code>
-		<code service="rkbijbel">efesiers</code>
-		<input spoken="nl">De brief aan de Efeziërs</input>
-		<input spoken="en">The letter to the Ephesians</input>
-		<input>Ephesians</input>
-		<input language="nl">Ef</input>
-		<input>Efež</input>
-		<input>Éfez</input>
-		<input>Efez</input>
-		<input language="en,fr">Eph</input>
-		<input>Éph</input>
-		<input>Ep</input>
-		<input>E</input>
-		<input>Efežanom</input>
-		<input>Ephesians</input>
-		<input>Efeziërs</input>
-		<input>Efeziers</input>
-		<input>Efeze</input>
-		<input>Epheser</input>
-		<input>Efesios</input>
-	</book>
-	<book>
-		<code service="crosswire_org">philippians</code>
-		<code service="vatican">Philippians</code>
-		<code service="diebibel_de">phil</code>
-		<code service="unbound_biola_edu">50N</code>
-		<code service="usccb_org">philippians</code>
-		<code service="laparola_net">Filippesi</code>
-		<code service="bibliacatolica_com">57</code>
-		<code service="osis">Phil</code>
-		<code service="biblija_net">Php</code>
-		<code service="can">50</code>
-		<code service="rkbijbel">filippenzen</code>
-		<input spoken="nl">De brief aan de Filippenzen</input>
-		<input spoken="en">The letter to the Philippians</input>
-		<input>Philippians</input>
-		<input>Flp</input>
-		<input>Filip</input>
-		<input>Filipp</input>
-		<input language="nl">Fil</input>
-		<input>Fl</input>
-		<input>Php</input>
-		<input language="fr">Ph</input>
-		<input language="en">Phil</input>
-		<input>Phili</input>
-		<input>Filipljanom</input>
-		<input>Philippians</input>
-		<input>Filippenzen</input>
-		<input>Philipper</input>
-		<input>Filipenses</input>
-	</book>
-	<book>
-		<code service="crosswire_org">colossians</code>
-		<code service="vatican">Colossians</code>
-		<code service="diebibel_de">kol</code>
-		<code service="unbound_biola_edu">51N</code>
-		<code service="usccb_org">colossians</code>
-		<code service="laparola_net">Colossesi</code>
-		<code service="bibliacatolica_com">58</code>
-		<code service="osis">Col</code>
-		<code service="biblija_net">Col</code>
-		<code service="can">51</code>
-		<code service="rkbijbel">kolossenzen</code>
-		<input spoken="nl">De brief aan de Kolossenzen</input>
-		<input spoken="en">The letter to the Collosians</input>
-		<input>Colossians</input>
-		<input language="nl">Kol</input>
-		<input language="en,fr">Col</input>
-		<input>Kološanom</input>
-		<input>Colossians</input>
-		<input>Kolossenzen</input>
-		<input>Kolosser</input>
-		<input>Colosenses</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1thessalonians</code>
-		<code service="vatican">1 Thessalonians</code>
-		<code service="diebibel_de">1.thess</code>
-		<code service="unbound_biola_edu">52N</code>
-		<code service="usccb_org">1thessalonians</code>
-		<code service="laparola_net">1 Tessalonicesi</code>
-		<code service="bibliacatolica_com">59</code>
-		<code service="osis">1Thess</code>
-		<code service="biblija_net">1 Thess</code>
-		<code service="can">52</code>
-		<code service="rkbijbel">1tessalonicenzen</code>
-		<input spoken="nl">De eerste brief aan de Tessalonicenzen</input>
-		<input spoken="en">The first letter to the Thessalonians</input>
-		<input>1 Thessalonians</input>
-		<input language="nl">1 Tes</input>
-		<input>1 Sol</input>
-		<input language="fr">1 Th</input>
-		<input>1 Ts</input>
-		<input>1 Te</input>
-		<input>1 Tess</input>
-		<input>1 Thes</input>
-		<input language="en">1 Thess</input>
-		<input>1 Tesaloničanom</input>
-		<input>1 Thessalonians</input>
-		<input>1 Tessalonicenzen</input>
-		<input>1 Thessalonicher</input>
-		<input>1 Tesalonicenses</input>
-		<input>1Thessalonians</input>
-		<input>1Tes</input>
-		<input>1Sol</input>
-		<input>1Th</input>
-		<input>1Ts</input>
-		<input>1Te</input>
-		<input>1Tess</input>
-		<input>1Thes</input>
-		<input>1Thess</input>
-		<input>1Tesaloničanom</input>
-		<input>1Thessalonians</input>
-		<input>1Tessalonicenzen</input>
-		<input>1Thessalonicher</input>
-		<input>1Tesalonicenses</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2thessalonians</code>
-		<code service="vatican">2 Thessalonians</code>
-		<code service="diebibel_de">2.thess</code>
-		<code service="unbound_biola_edu">53N</code>
-		<code service="usccb_org">2thessalonians</code>
-		<code service="laparola_net">2 Tessalonicesi</code>
-		<code service="bibliacatolica_com">60</code>
-		<code service="osis">2Thess</code>
-		<code service="biblija_net">2 Thess</code>
-		<code service="can">53</code>
-		<code service="rkbijbel">2tessalonicenzen</code>
-		<input spoken="nl">De tweede brief aan de Tessalonicenzen</input>
-		<input spoken="en">The second letter to the Thessalonians</input>
-		<input>2 Thessalonians</input>
-		<input>De tweede brief aan de Tessalonicenzen</input>
-		<input>2 Thessalonians</input>
-		<input language="nl">2 Tes</input>
-		<input>2 Sol</input>
-		<input language="fr">2 Th</input>
-		<input>2 Ts</input>
-		<input>2 Te</input>
-		<input>2 Tess</input>
-		<input>2 Thes</input>
-		<input language="en">2 Thess</input>
-		<input>2 Tesaloničanom</input>
-		<input>2 Thessalonians</input>
-		<input>2 Tessalonicenzen</input>
-		<input>2 Thessalonicher</input>
-		<input>2 Tesalonicenses</input>
-		<input>2Thessalonians</input>
-		<input>2Tes</input>
-		<input>2Sol</input>
-		<input>2Th</input>
-		<input>2Ts</input>
-		<input>2Te</input>
-		<input>2Tess</input>
-		<input>2Thes</input>
-		<input>2Thess</input>
-		<input>2Tesaloničanom</input>
-		<input>2Thessalonians</input>
-		<input>2Tessalonicenzen</input>
-		<input>2Thessalonicher</input>
-		<input>2Tesalonicenses</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1timothy</code>
-		<code service="vatican">1 Timothy</code>
-		<code service="diebibel_de">1.tim</code>
-		<code service="unbound_biola_edu">54N</code>
-		<code service="usccb_org">1timothy</code>
-		<code service="laparola_net">1 Timoteo</code>
-		<code service="bibliacatolica_com">61</code>
-		<code service="osis">1Tim</code>
-		<code service="biblija_net">1 Ti</code>
-		<code service="can">54</code>
-		<code service="rkbijbel">1timoteus</code>
-		<input spoken="nl">De eerste brief aan Timoteüs</input>
-		<input spoken="en">The first letter to Timothy</input>
-		<input>1 Timothy</input>
-		<input language="nl,en">1 Tim</input>
-		<input>1 Ti</input>
-		<input language="fr">1 Tm</input>
-		<input>1 T</input>
-		<input>1 Timoteju</input>
-		<input>1 Timothy</input>
-		<input>1 Timoteüs</input>
-		<input>1 Timoteus</input>
-		<input>1 Timotheus</input>
-		<input>1 Timoteo</input>
-		<input>1Timothy</input>
-		<input>1Tim</input>
-		<input>1Ti</input>
-		<input>1Tm</input>
-		<input>1T</input>
-		<input>1Timoteju</input>
-		<input>1Timothy</input>
-		<input>1Timoteüs</input>
-		<input>1Timoteus</input>
-		<input>1Timotheus</input>
-		<input>1Timoteo</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2timothy</code>
-		<code service="vatican">2 Timothy</code>
-		<code service="diebibel_de">2.tim</code>
-		<code service="unbound_biola_edu">55N</code>
-		<code service="usccb_org">2timothy</code>
-		<code service="laparola_net">2 Timoteo</code>
-		<code service="bibliacatolica_com">62</code>
-		<code service="osis">2Tim</code>
-		<code service="biblija_net">2 Ti</code>
-		<code service="can">55</code>
-		<code service="rkbijbel">2timoteus</code>
-		<input spoken="nl">De tweede brief aan Timoteüs</input>
-		<input spoken="en">The second letter to Timothy</input>
-		<input>2 Timothy</input>
-		<input language="nl,en">2 Tim</input>
-		<input>2 Ti</input>
-		<input language="fr">2 Tm</input>
-		<input>2 T</input>
-		<input>2 Timoteju</input>
-		<input>2 Timothy</input>
-		<input>2 Timoteus</input>
-		<input>2 Timoteus</input>
-		<input>2 Timotheus</input>
-		<input>2 Timoteo</input>
-		<input>2Timothy</input>
-		<input>2Tim</input>
-		<input>2Ti</input>
-		<input>2Tm</input>
-		<input>2T</input>
-		<input>2Timoteju</input>
-		<input>2Timothy</input>
-		<input>2Timoteus</input>
-		<input>2Timoteus</input>
-		<input>2Timotheus</input>
-		<input>2Timoteo</input>
-	</book>
-	<book>
-		<code service="crosswire_org">titus</code>
-		<code service="vatican">Titus</code>
-		<code service="diebibel_de">tit</code>
-		<code service="unbound_biola_edu">56N</code>
-		<code service="usccb_org">titus</code>
-		<code service="laparola_net">Tito</code>
-		<code service="bibliacatolica_com">63</code>
-		<code service="osis">Titus</code>
-		<code service="biblija_net">Tt</code>
-		<code service="can">56</code>
-		<code service="rkbijbel">titus</code>
-		<input spoken="nl">De brief aan Titus</input>
-		<input spoken="en">The letter to Titus</input>
-		<input language="en">Titus</input>
-		<input language="nl">Tit</input>
-		<input language="fr">Tt</input>
-		<input>Titus</input>
-		<input>Titu</input>
-		<input>Tite</input>
-		<input>Tito</input>
-	</book>
-	<book>
-		<code service="crosswire_org">philemon</code>
-		<code service="vatican">Philemon</code>
-		<code service="diebibel_de">phlm</code>
-		<code service="unbound_biola_edu">57N</code>
-		<code service="usccb_org">philemon</code>
-		<code service="laparola_net">Filemone</code>
-		<code service="bibliacatolica_com">64</code>
-		<code service="osis">Phlm</code>
-		<code service="biblija_net">Phlm</code>
-		<code service="can">57</code>
-		<code service="rkbijbel">filemon</code>
-		<input language="en">Philemon</input>
-		<input spoken="nl">De brief aan Filemon</input>
-		<input spoken="en">The letter to Philemon</input>
-		<input>Flm</input>
-		<input language="nl">Filem</input>
-		<input>Film</input>
-		<input language="fr">Phm</input>
-		<input>Phlm</input>
-		<input>Phile</input>
-		<input>Philem</input>
-		<input>Filemonu</input>
-		<input>Philemon</input>
-		<input>Filemon</input>
-		<input>Filemón</input>
-	</book>
-	<book>
-		<code service="crosswire_org">hebrews</code>
-		<code service="vatican">Hebrews</code>
-		<code service="diebibel_de">hebr</code>
-		<code service="unbound_biola_edu">58N</code>
-		<code service="usccb_org">hebrews</code>
-		<code service="laparola_net">Ebrei</code>
-		<code service="bibliacatolica_com">65</code>
-		<code service="osis">Heb</code>
-		<code service="biblija_net">Hebr</code>
-		<code service="can">58</code>
-		<code service="rkbijbel">hebreeen</code>
-		<input spoken="nl">De brief aan de Hebreeën</input>
-		<input spoken="en">The letter to the Hebrews</input>
-		<input>Hebrews</input>
-		<input language="nl,en">Heb</input>
-		<input>Hebr</input>
-		<input>Hébr</input>
-		<input>Hbr</input>
-		<input>Hb</input>
-		<input language="fr">He</input>
-		<input>Hé</input>
-		<input>H</input>
-		<input>Hebrejcem</input>
-		<input>Hebrews</input>
-		<input>Hebreeërs</input>
-		<input>Hebreeers</input>
-		<input>Hebreeën</input>
-		<input>Hebreeen</input>
-		<input>Hebräer</input>
-		<input>Hebreos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">james</code>
-		<code service="vatican">James</code>
-		<code service="diebibel_de">jak</code>
-		<code service="unbound_biola_edu">59N</code>
-		<code service="usccb_org">james</code>
-		<code service="laparola_net">Giacomo</code>
-		<code service="bibliacatolica_com">66</code>
-		<code service="osis">Jas</code>
-		<code service="biblija_net">Jam</code>
-		<code service="can">59</code>
-		<code service="rkbijbel">jacobus</code>
-		<input spoken="nl">De brief van Jakobus</input>
-		<input spoken="en">The letter of James</input>
-		<input>James</input>
-		<input language="nl">Jak</input>
-		<input language="en">Jas</input>
-		<input>Jam</input>
-		<input>Jm</input>
-		<input>Ja</input>
-		<input language="fr">Jc</input>
-		<input>Jac</input>
-		<input>Jacq</input>
-		<input>Iac</input>
-		<input>Stg</input>
-		<input>St</input>
-		<input>Jakob</input>
-		<input>James</input>
-		<input>Jakobus</input>
-		<input>Santiago</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1peter</code>
-		<code service="vatican">1 Peter</code>
-		<code service="diebibel_de">1.petr</code>
-		<code service="unbound_biola_edu">60N</code>
-		<code service="usccb_org">1peter</code>
-		<code service="laparola_net">1 Pietro</code>
-		<code service="bibliacatolica_com">67</code>
-		<code service="osis">1Pet</code>
-		<code service="biblija_net">1 Pt</code>
-		<code service="can">60</code>
-		<code service="rkbijbel">1petrus</code>
-		<input spoken="nl">De eerste brief van Petrus</input>
-		<input spoken="en">The first letter of Peter</input>
-		<input>1 Peter</input>
-		<input>1 Pt</input>
-		<input language="nl,en">1 Pet</input>
-		<input>1 Petr</input>
-		<input>1 Pe</input>
-		<input language="fr">1 Pi</input>
-		<input>1 P</input>
-		<input>1 Peter</input>
-		<input>1 Petrus</input>
-		<input>1 Pedro</input>
-		<input>1Peter</input>
-		<input>1Pt</input>
-		<input>1Pet</input>
-		<input>1Petr</input>
-		<input>1Pe</input>
-		<input>1Pi</input>
-		<input>1P</input>
-		<input>1Peter</input>
-		<input>1Petrus</input>
-		<input>1Pedro</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2peter</code>
-		<code service="vatican">2 Peter</code>
-		<code service="diebibel_de">2.petr</code>
-		<code service="unbound_biola_edu">61N</code>
-		<code service="usccb_org">2peter</code>
-		<code service="laparola_net">2 Pietro</code>
-		<code service="bibliacatolica_com">68</code>
-		<code service="osis">2Pet</code>
-		<code service="biblija_net">2 Pt</code>
-		<code service="can">61</code>
-		<code service="rkbijbel">2petrus</code>
-		<input spoken="nl">De tweede brief van Petrus</input>
-		<input spoken="en">The second letter of Peter</input>
-		<input>2 Peter</input>
-		<input>2 Pt</input>
-		<input language="nl,en">2 Pet</input>
-		<input>2 Petr</input>
-		<input>2 Pe</input>
-		<input language="fr">2 Pi</input>
-		<input>2 P</input>
-		<input>2 Peter</input>
-		<input>2 Petrus</input>
-		<input>2 Pedro</input>
-		<input>2Peter</input>
-		<input>2Pt</input>
-		<input>2Pet</input>
-		<input>2Petr</input>
-		<input>2Pe</input>
-		<input>2Pi</input>
-		<input>2P</input>
-		<input>2Peter</input>
-		<input>2Petrus</input>
-		<input>2Pedro</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1john</code>
-		<code service="vatican">1 John</code>
-		<code service="diebibel_de">1.joh</code>
-		<code service="unbound_biola_edu">62N</code>
-		<code service="usccb_org">1john</code>
-		<code service="laparola_net">1 Giovanni</code>
-		<code service="bibliacatolica_com">69</code>
-		<code service="osis">1John</code>
-		<code service="biblija_net">1 Jo</code>
-		<code service="can">62</code>
-		<code service="rkbijbel">1johannes</code>
-		<input spoken="nl">De eerste brief van Johannes</input>
-		<input spoken="en">The first letter of John</input>
-		<input>1 John</input>
-		<input language="en,fr">1 Jn</input>
-		<input>1 Jan</input>
-		<input language="nl">1 Joh</input>
-		<input>1 Jo</input>
-		<input>1 J</input>
-		<input>1 Io</input>
-		<input>1 Iv</input>
-		<input>1 John</input>
-		<input>1 Janez</input>
-		<input>1 Johannes</input>
-		<input>1 Jean</input>
-		<input>1 Juan</input>
-		<input>1John</input>
-		<input>1Jn</input>
-		<input>1Jan</input>
-		<input>1Joh</input>
-		<input>1Jo</input>
-		<input>1J</input>
-		<input>1Io</input>
-		<input>1Iv</input>
-		<input>1John</input>
-		<input>1Janez</input>
-		<input>1Johannes</input>
-		<input>1Jean</input>
-		<input>1Juan</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2john</code>
-		<code service="vatican">2 John</code>
-		<code service="diebibel_de">2.joh</code>
-		<code service="unbound_biola_edu">63N</code>
-		<code service="usccb_org">2john</code>
-		<code service="laparola_net">2 Giovanni</code>
-		<code service="bibliacatolica_com">70</code>
-		<code service="osis">2John</code>
-		<code service="biblija_net">2 Jo</code>
-		<code service="can">63</code>
-		<code service="rkbijbel">2johannes</code>
-		<input spoken="nl">De tweede brief van Johannes</input>
-		<input spoken="en">The second letter of John</input>
-		<input>2 John</input>
-		<input language="en,fr">2 Jn</input>
-		<input>2 Jan</input>
-		<input language="nl">2 Joh</input>
-		<input>2 Jo</input>
-		<input>2 J</input>
-		<input>2 Io</input>
-		<input>2 Iv</input>
-		<input>2 John</input>
-		<input>2 Janez</input>
-		<input>2 Johannes</input>
-		<input>2 Jean</input>
-		<input>2 Juan</input>
-		<input>2John</input>
-		<input>2Jn</input>
-		<input>2Jan</input>
-		<input>2Joh</input>
-		<input>2Jo</input>
-		<input>2J</input>
-		<input>2Io</input>
-		<input>2Iv</input>
-		<input>2John</input>
-		<input>2Janez</input>
-		<input>2Johannes</input>
-		<input>2Jean</input>
-		<input>2Juan</input>
-	</book>
-	<book>
-		<code service="crosswire_org">3john</code>
-		<code service="vatican">3 John</code>
-		<code service="diebibel_de">3.joh</code>
-		<code service="unbound_biola_edu">64N</code>
-		<code service="usccb_org">3john</code>
-		<code service="laparola_net">3 Giovanni</code>
-		<code service="bibliacatolica_com">71</code>
-		<code service="osis">3John</code>
-		<code service="biblija_net">3 Jo</code>
-		<code service="can">64</code>
-		<code service="rkbijbel">3johannes</code>
-		<input spoken="nl">De derde brief van Johannes</input>
-		<input spoken="en">The third letter of John</input>
-		<input>3 John</input>
-		<input language="en,fr">3 Jn</input>
-		<input>3 Jan</input>
-		<input language="nl">3 Joh</input>
-		<input>3 Jo</input>
-		<input>3 J</input>
-		<input>3 Io</input>
-		<input>3 Iv</input>
-		<input>3 John</input>
-		<input>3 Janez</input>
-		<input>3 Johannes</input>
-		<input>3 Jean</input>
-		<input>3 Juan</input>
-		<input>3John</input>
-		<input>3Jn</input>
-		<input>3Jan</input>
-		<input>3Joh</input>
-		<input>3Jo</input>
-		<input>3J</input>
-		<input>3Io</input>
-		<input>3Iv</input>
-		<input>3John</input>
-		<input>3Janez</input>
-		<input>3Johannes</input>
-		<input>3Jean</input>
-		<input>3Juan</input>
-	</book>
-	<book>
-		<code service="crosswire_org">jude</code>
-		<code service="vatican">jude</code>
-		<code service="diebibel_de">jud</code>
-		<code service="unbound_biola_edu">65N</code>
-		<code service="usccb_org">jude</code>
-		<code service="laparola_net">Giuda</code>
-		<code service="bibliacatolica_com">72</code>
-		<code service="osis">Jude</code>
-		<code service="biblija_net">Jd</code>
-		<code service="can">65</code>
-		<code service="rkbijbel">judas</code>
-		<input spoken="nl">De brief van Judas</input>
-		<input spoken="en">The letter of Jude</input>
-		<input language="en">Jude</input>
-		<input language="nl">Jud</input>
-		<input>Juda</input>
-		<input>Jude</input>
-		<input language="fr">Jd</input>
-		<input>Ju</input>
-		<input>Iud</input>
-		<input>Judas</input>
-	</book>
-	<book>
-		<code service="crosswire_org">revelation</code>
-		<code service="vatican">Revelation</code>
-		<code service="diebibel_de">offb</code>
-		<code service="unbound_biola_edu">66N</code>
-		<code service="usccb_org">revelation</code>
-		<code service="laparola_net">Apocalisse</code>
-		<code service="bibliacatolica_com">73</code>
-		<code service="osis">Rev</code>
-		<code service="biblija_net">Rev</code>
-		<code service="can">66</code>
-		<code service="rkbijbel">apokalyps</code>
-		<input spoken="nl">De Openbaring van Johannes</input>
-		<input spoken="en">Apocalypse</input>
-		<input>Revelation</input>
-		<input>Raz</input>
-		<input language="en">Rev</input>
-		<input language="fr">Ap</input>
-		<input>Apc</input>
-		<input>Apo</input>
-		<input>Apoc</input>
-		<input>Apok</input>
-		<input>Apk</input>
-		<input language="nl">Op</input>
-		<input>Openb</input>
-		<input>Offb</input>
-		<input>Otk</input>
-		<input>Razodetje</input>
-		<input>Apokalipsa</input>
-		<input>Revelation</input>
-		<input>Openbaring</input>
-		<input>Apokalyps</input>
-		<input>Offenbarung</input>
-		<input>Apocalipsis</input>
-	</book>
-	<book>
-		<code service="crosswire_org">esther</code>
-		<code service="vatican">Esther</code>
-		<code service="diebibel_de"></code>
-		<code service="unbound_biola_edu">69A</code>
-		<code service="usccb_org">esther</code>
-		<code service="laparola_net">Ester (greco + ebraico)</code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">AddEsth</code>
-		<code service="biblija_net">GkEst</code>
-		<code service="can"></code>
-		<code service="rkbijbel"></code>
-		<input language="en">Esther</input>
-		<input language="nl">Ester</input>
-		<input>Esther (Greek)</input>
-		<input>EstG</input>
-		<input>EsG</input>
-		<input>EstGr</input>
-		<input>EsthGr</input>
-		<input language="fr">EstGrec</input>
-		<input>EstD</input>
-		<input>EstDC</input>
-		<input>GkEst</input>
-		<input>AddEsth</input>
-		<input>StEst</input>
-		<input>Estera(gr)</input>
-		<input>Estera(grška)</input>
-		<input>Esther(gr)</input>
-		<input>Esther(Greek)</input>
-		<input>Ester(griechisch)</input>
-		<input>Ester(Griego)</input>
-	</book>
-	<book>
-		<code service="crosswire_org">judith</code>
-		<code service="vatican">Judith</code>
-		<code service="diebibel_de"></code>
-		<code service="unbound_biola_edu">68A</code>
-		<code service="usccb_org">judith</code>
-		<code service="laparola_net">Giuditta</code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">Jdt</code>
-		<code service="biblija_net">Jdth</code>
-		<code service="can">68</code>
-		<code service="rkbijbel">judit</code>
-		<input spoken="nl" language="nl">Judit</input>
-		<input spoken="en" language="en">Judith</input>
-		<input language="fr">Jdt</input>
-		<input>Jdth</input>
-		<input>Idt</input>
-		<input>Judita</input>
-		<input>Judit</input>
-	</book>
-	<book>
-		<code service="crosswire_org">tobit</code>
-		<code service="vatican">Tobit</code>
-		<code service="diebibel_de">tob</code>
-		<code service="unbound_biola_edu">67A</code>
-		<code service="usccb_org">tobit</code>
-		<code service="laparola_net">Tobia</code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">Tob</code>
-		<code service="biblija_net">Tb</code>
-		<code service="can">67</code>
-		<code service="rkbijbel">tobit</code>
-		<input spoken="nl,en" language="nl,en">Tobit</input>
-		<input>Tob</input>
-		<input language="fr">Tb</input>
-		<input>Tobija</input>
-	</book>
-	<book>
-		<code service="crosswire_org">1maccabees</code>
-		<code service="vatican">1 Maccabees</code>
-		<code service="diebibel_de">1.makk</code>
-		<code service="unbound_biola_edu">77A</code>
-		<code service="usccb_org">1maccabees</code>
-		<code service="laparola_net">1 Maccabei</code>
-		<code service="bibliacatolica_com">22</code>
-		<code service="osis">1Macc</code>
-		<code service="biblija_net">1 Macc</code>
-		<code service="can">72</code>
-		<code service="rkbijbel">1makkabeeen</code>
-		<input spoken="nl" language="nl">Het eerste boek Makkabeeën</input>
-		<input spoken="en">The first book of Maccabees</input>
-		<input language="en">1 Maccabees</input>
-		<input>1 Maccabees</input>
-		<input>1 Mkb</input>
-		<input>1 Mak</input>
-		<input>1 Makk</input>
-		<input>1 Mc</input>
-		<input>1 Mac</input>
-		<input>1 Macc</input>
-		<input>1 Mcc</input>
-		<input>1 Ma</input>
-		<input language="fr">1 M</input>
-		<input>1 Makabejci</input>
-		<input>1 Maccabees</input>
-		<input>1 Makkabeeën</input>
-		<input>1 Makkabeeen</input>
-		<input>1 Makkabeeërs</input>
-		<input>1 Makkabeeers</input>
-		<input>1 Makkabäer</input>
-		<input>1 Macabeos</input>
-		<input>1Maccabees</input>
-		<input>1Mkb</input>
-		<input>1Mak</input>
-		<input>1Makk</input>
-		<input>1Mc</input>
-		<input>1Mac</input>
-		<input>1Macc</input>
-		<input>1Mcc</input>
-		<input>1Ma</input>
-		<input>1M</input>
-		<input>1Makabejci</input>
-		<input>1Maccabees</input>
-		<input>1Makkabeeën</input>
-		<input>1Makkabeeen</input>
-		<input>1Makkabeeërs</input>
-		<input>1Makkabeeers</input>
-		<input>1Makkabäer</input>
-		<input>1Macabeos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">2maccabees</code>
-		<code service="vatican">2 Maccabees</code>
-		<code service="diebibel_de">2.makkabaeer</code>
-		<code service="unbound_biola_edu">78A</code>
-		<code service="usccb_org">2maccabees</code>
-		<code service="laparola_net">2 Maccabei</code>
-		<code service="bibliacatolica_com">23</code>
-		<code service="osis">2Macc</code>
-		<code service="biblija_net">2 Macc</code>
-		<code service="can">73</code>
-		<code service="rkbijbel">2makkabeeen</code>
-		<input spoken="nl" language="nl">Het tweede boek Makkabeeën</input>
-		<input spoken="en">The second book of Maccabees</input>
-		<input language="en">2 Maccabees</input>
-		<input>2 Maccabees</input>
-		<input>2 Mkb</input>
-		<input>2 Mak</input>
-		<input>2 Makk</input>
-		<input>2 Mc</input>
-		<input>2 Mac</input>
-		<input>2 Macc</input>
-		<input>2 Mcc</input>
-		<input>2 Ma</input>
-		<input language="fr">2 M</input>
-		<input>2 Makabejci</input>
-		<input>2 Maccabees</input>
-		<input>2 Makkabeeën</input>
-		<input>2 Makkabeeen</input>
-		<input>2 Makkabeeërs</input>
-		<input>2 Makkabeeers</input>
-		<input>2 Makkabäer</input>
-		<input>2 Macabeos</input>
-		<input>2Maccabees</input>
-		<input>2Mkb</input>
-		<input>2Mak</input>
-		<input>2Makk</input>
-		<input>2Mc</input>
-		<input>2Mac</input>
-		<input>2Macc</input>
-		<input>2Mcc</input>
-		<input>2Ma</input>
-		<input>2M</input>
-		<input>2Makabejci</input>
-		<input>2Maccabees</input>
-		<input>2Makkabeeën</input>
-		<input>2Makkabeeen</input>
-		<input>2Makkabeeërs</input>
-		<input>2Makkabeeers</input>
-		<input>2Makkabäer</input>
-		<input>2Macabeos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">3maccabees</code>
-		<code service="vatican">3 Maccabees</code>
-		<code service="diebibel_de"></code>
-		<code service="unbound_biola_edu">79A</code>
-		<code service="usccb_org">3maccabees</code>
-		<code service="laparola_net"></code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">3Macc</code>
-		<code service="biblija_net">3 Macc</code>
-		<code service="can"></code>
-		<code service="rkbijbel">3makkabeeen</code>
-		<input spoken="nl" language="nl">Het derde boek Makkabeeën</input>
-		<input spoken="en">The third book of Maccabees</input>
-		<input language="en">3 Maccabees</input>
-		<input>3 Maccabees</input>
-		<input>3 Mkb</input>
-		<input>3 Mak</input>
-		<input>3 Makk</input>
-		<input>3 Mc</input>
-		<input>3 Mac</input>
-		<input>3 Macc</input>
-		<input>3 Mcc</input>
-		<input>3 Ma</input>
-		<input language="fr">3 M</input>
-		<input>3 Makabejci</input>
-		<input>3 Maccabees</input>
-		<input>3 Makkabeeën</input>
-		<input>3 Makkabeeen</input>
-		<input>3 Makkabeeërs</input>
-		<input>3 Makkabeeers</input>
-		<input>3 Makkabäer</input>
-		<input>3 Macabeos</input>
-		<input>3Maccabees</input>
-		<input>3Mkb</input>
-		<input>3Mak</input>
-		<input>3Makk</input>
-		<input>3Mc</input>
-		<input>3Mac</input>
-		<input>3Macc</input>
-		<input>3Mcc</input>
-		<input>3Ma</input>
-		<input>3M</input>
-		<input>3Makabejci</input>
-		<input>3Maccabees</input>
-		<input>3Makkabeeën</input>
-		<input>3Makkabeeen</input>
-		<input>3Makkabeeërs</input>
-		<input>3Makkabeeers</input>
-		<input>3Makkabäer</input>
-		<input>3Macabeos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">4maccabees</code>
-		<code service="vatican">4 Maccabees</code>
-		<code service="diebibel_de"></code>
-		<code service="unbound_biola_edu">80A</code>
-		<code service="usccb_org">4maccabees</code>
-		<code service="laparola_net"></code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">4Macc</code>
-		<code service="biblija_net">4 Macc</code>
-		<code service="can"></code>
-		<code service="rkbijbel">4makkabeeen</code>
-		<input spoken="nl" language="nl">Het vierde boek Makkabeeën</input>
-		<input spoken="en">The fourth book of Maccabees</input>
-		<input language="en">4 Maccabees</input>
-		<input>4 Maccabees</input>
-		<input>4 Mkb</input>
-		<input>4 Mak</input>
-		<input>4 Makk</input>
-		<input>4 Mc</input>
-		<input>4 Mac</input>
-		<input>4 Macc</input>
-		<input>4 Mcc</input>
-		<input>4 Ma</input>
-		<input language="fr">4 M</input>
-		<input>4 Makabejci</input>
-		<input>4 Maccabees</input>
-		<input>4 Makkabeeën</input>
-		<input>4 Makkabeeen</input>
-		<input>4 Makkabeeërs</input>
-		<input>4 Makkabeeers</input>
-		<input>4 Makkabäer</input>
-		<input>4 Macabeos</input>
-		<input>4Maccabees</input>
-		<input>4Mkb</input>
-		<input>4Mak</input>
-		<input>4Makk</input>
-		<input>4Mc</input>
-		<input>4Mac</input>
-		<input>4Macc</input>
-		<input>4Mcc</input>
-		<input>4Ma</input>
-		<input>4M</input>
-		<input>4Makabejci</input>
-		<input>4Maccabees</input>
-		<input>4Makkabeeën</input>
-		<input>4Makkabeeen</input>
-		<input>4Makkabeeërs</input>
-		<input>4Makkabeeers</input>
-		<input>4Makkabäer</input>
-		<input>4Macabeos</input>
-	</book>
-	<book>
-		<code service="crosswire_org">Wisdom</code>
-		<code service="vatican">Wisdom</code>
-		<code service="diebibel_de">weish</code>
-		<code service="unbound_biola_edu">70A</code>
-		<code service="usccb_org">Wisdom</code>
-		<code service="laparola_net">Sapienza</code>
-		<code service="bibliacatolica_com">27</code>
-		<code service="osis">Wis</code>
-		<code service="biblija_net">Wisd</code>
-		<code service="can">69</code>
-		<code service="rkbijbel">wijsheid</code>
-		<input spoken="nl" language="nl">Wijsheid</input>
-		<input spoken="en" language="en">The Book of Wisdom</input>
-		<input>Wisdom</input>
-		<input>Mdr</input>
-		<input>Modr</input>
-		<input>Wis</input>
-		<input>Wisd</input>
-		<input>Weish</input>
-		<input>Wijsh</input>
-		<input>W</input>
-		<input language="fr">Sg</input>
-		<input>Sag</input>
-		<input>Sap</input>
-		<input>Sb</input>
-		<input>Sab</input>
-		<input>Sv</input>
-		<input>Mudr</input>
-		<input>Jkd</input>
-		<input>Modrost</input>
-		<input>Wisdom</input>
-		<input>Weisheit</input>
-		<input>Sabiduría</input>
-	</book>
-	<book>
-		<code service="crosswire_org">Sirach</code>
-		<code service="vatican">Sirach</code>
-		<code service="diebibel_de">sach</code>
-		<code service="unbound_biola_edu">71A</code>
-		<code service="usccb_org">Sirach</code>
-		<code service="laparola_net">Siracide</code>
-		<code service="bibliacatolica_com"></code>
-		<code service="osis">Sir</code>
-		<code service="biblija_net">Si</code>
-		<code service="can">70</code>
-		<code service="rkbijbel">jezussirach</code>
-		<input spoken="nl" language="nl">Wijsheid van Jezus Sirach</input>
-		<input spoken="en" language="en">Sirach</input>
-		<input>Sir</input>
-		<input language="fr">Si</input>
-		<input>Sirah</input>
-		<input>Eclo</input>
-		<input>Ecclesiasticus</input>
-		<input>Ecclesiastique</input>
-		<input>Ecclésiastique</input>
-		<input>Eclesiástico</input>
-	</book>
-	<book>
-		<code service="crosswire_org">baruch</code>
-		<code service="vatican">Baruch</code>
-		<code service="diebibel_de"></code>
-		<code service="unbound_biola_edu">72A</code>
-		<code service="usccb_org">baruch</code>
-		<code service="laparola_net">Baruc</code>
-		<code service="bibliacatolica_com">32</code>
-		<code service="osis">Bar</code>
-		<code service="biblija_net">Ba</code>
-		<code service="can">71</code>
-		<code service="rkbijbel">baruch</code>
-		<input spoken="nl,en" language="nl,en">Baruch</input>
-		<input>Bar</input>
-		<input language="fr">Ba</input>
-		<input>Baruh</input>
-		<input>Baruc</input>
-	</book>
+		    <code service="unbound_biola_edu">19O</code>
+		    <code service="usccb_org">psalms</code>
+		    <code service="laparola_net">Salmi</code>
+		    <code service="bibliacatolica_com">21</code>
+		    <code service="osis">Ps</code>
+		    <code service="biblija_net">Ps</code>
+		    <code service="can">19</code>
+		    <code service="rkbijbel">psalmen</code>
+		    <input spoken="nl">de psalmen</input>
+		    <input spoken="en">psalms</input>
+		    <input language="nl,en,fr">ps</input>
+		    <input>psa</input>
+		    <input>psg</input>
+		    <input>sal</input>
+		    <input>sl</input>
+		    <input>psalm</input>
+		    <input>psalmi</input>
+		    <input>psalmen</input>
+		    <input>salmos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">proverbs</code>
+		    <code service="vatican">Proverbs</code>
+		    <code service="diebibel_de">spr</code>
+		    <code service="unbound_biola_edu">20O</code>
+		    <code service="usccb_org">proverbs</code>
+		    <code service="laparola_net">Proverbi</code>
+		    <code service="bibliacatolica_com">24</code>
+		    <code service="osis">Prov</code>
+		    <code service="biblija_net">Pr</code>
+		    <code service="can">20</code>
+		    <code service="rkbijbel">spreuken</code>
+		    <input spoken="nl">spreuken</input>
+		    <input spoken="en">proverbs</input>
+		    <input>prg</input>
+		    <input>preg</input>
+		    <input>pro</input>
+		    <input language="en">prov</input>
+		    <input language="fr">pr</input>
+		    <input>prv</input>
+		    <input>prou</input>
+		    <input language="nl">spr</input>
+		    <input>izr</input>
+		    <input>esz</input>
+		    <input>pregovori</input>
+		    <input>proverbs</input>
+		    <input>spreuken</input>
+		    <input>sprüche</input>
+		    <input>sprichwörter</input>
+		    <input>proverbios</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">ecclesiastes</code>
+		    <code service="vatican">Ecclesiastes</code>
+		    <code service="diebibel_de">pred</code>
+		    <code service="unbound_biola_edu">21O</code>
+		    <code service="usccb_org">ecclesiastes</code>
+		    <code service="laparola_net">Qoelet</code>
+		    <code service="bibliacatolica_com">25</code>
+		    <code service="osis">Eccl</code>
+		    <code service="biblija_net">Ec</code>
+		    <code service="can">21</code>
+		    <code service="rkbijbel">prediker</code>
+		    <input spoken="nl">prediker</input>
+		    <input spoken="en">ecclesiastes</input>
+		    <input>prd</input>
+		    <input>prid</input>
+		    <input>prop</input>
+		    <input>ec</input>
+		    <input language="en">ecc</input>
+		    <input>eccl</input>
+		    <input>ecl</input>
+		    <input language="fr">qo</input>
+		    <input>qoh</input>
+		    <input>coh</input>
+		    <input>koh</input>
+		    <input language="nl">pred</input>
+		    <input>pridigar</input>
+		    <input>ecclesiastes</input>
+		    <input>prediger</input>
+		    <input>qoheleth</input>
+		    <input>qohéleth</input>
+		    <input>eclesiastés</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">song</code>
+		    <code service="vatican">The Song of Songs</code>
+		    <code service="diebibel_de">hld</code>
+		    <code service="unbound_biola_edu">22O</code>
+		    <code service="usccb_org">song</code>
+		    <code service="laparola_net">Cantico dei Cantici</code>
+		    <code service="bibliacatolica_com">26</code>
+		    <code service="osis">Song</code>
+		    <code service="biblija_net">Song</code>
+		    <code service="can">22</code>
+		    <code service="rkbijbel">hooglied</code>
+		    <input spoken="nl">hooglied</input>
+		    <input spoken="en">song of solomon</input>
+		    <input>vp</input>
+		    <input>sng</input>
+		    <input language="en">song</input>
+		    <input>sgs</input>
+		    <input>ss</input>
+		    <input>cant</input>
+		    <input>cnt</input>
+		    <input language="fr">ct</input>
+		    <input>kt</input>
+		    <input language="nl">hoogl</input>
+		    <input>hl</input>
+		    <input>hld</input>
+		    <input>pj</input>
+		    <input>visokapesem</input>
+		    <input>visokap</input>
+		    <input>canticles</input>
+		    <input>hooglied</input>
+		    <input>hoheslied</input>
+		    <input>cantares</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">isaiah</code>
+		    <code service="vatican">Isaiah</code>
+		    <code service="diebibel_de">jes</code>
+		    <code service="unbound_biola_edu">23O</code>
+		    <code service="usccb_org">isaiah</code>
+		    <code service="laparola_net">Isaia</code>
+		    <code service="bibliacatolica_com">29</code>
+		    <code service="osis">Isa</code>
+		    <code service="biblija_net">Is</code>
+		    <code service="can">23</code>
+		    <code service="rkbijbel">jesaja</code>
+		    <input spoken="nl">jesaja</input>
+		    <input spoken="en">isaiah</input>
+		    <input>iz</input>
+		    <input>izai</input>
+		    <input>izaija</input>
+		    <input language="en">isa</input>
+		    <input language="fr">is</input>
+		    <input language="nl">jes</input>
+		    <input>js</input>
+		    <input>es</input>
+		    <input>és</input>
+		    <input>isaiah</input>
+		    <input>jesaja</input>
+		    <input>isaías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">jeremiah</code>
+		    <code service="vatican">Jeremiah</code>
+		    <code service="diebibel_de">jer</code>
+		    <code service="unbound_biola_edu">24O</code>
+		    <code service="usccb_org">jeremiah</code>
+		    <code service="laparola_net">Geremia</code>
+		    <code service="bibliacatolica_com">30</code>
+		    <code service="osis">Jer</code>
+		    <code service="biblija_net">Jr</code>
+		    <code service="can">24</code>
+		    <code service="rkbijbel">jeremia</code>
+		    <input spoken="nl">jeremia</input>
+		    <input spoken="en">jeremiah</input>
+		    <input language="nl,en">jer</input>
+		    <input>jér</input>
+		    <input language="fr">jr</input>
+		    <input>ier</input>
+		    <input>jeremija</input>
+		    <input>jeremiah</input>
+		    <input>jeremia</input>
+		    <input>jeremías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">lamentations</code>
+		    <code service="vatican">Lamentations</code>
+		    <code service="diebibel_de">klgl</code>
+		    <code service="unbound_biola_edu">25O</code>
+		    <code service="usccb_org">lamentations</code>
+		    <code service="laparola_net">Lamentazioni</code>
+		    <code service="bibliacatolica_com">31</code>
+		    <code service="osis">Lam</code>
+		    <code service="biblija_net">La</code>
+		    <code service="can">25</code>
+		    <code service="rkbijbel">klaagliederen</code>
+		    <input spoken="nl">klaagliederen</input>
+		    <input spoken="en">lamentations</input>
+		    <input>žal</input>
+		    <input language="en">lam</input>
+		    <input>la</input>
+		    <input language="fr">lm</input>
+		    <input>thr</input>
+		    <input language="nl">klaagl</input>
+		    <input>kl</input>
+		    <input>klgl</input>
+		    <input>klgld</input>
+		    <input>tuž</input>
+		    <input>nk</input>
+		    <input>žalostinke</input>
+		    <input>lamentations</input>
+		    <input>klaagliederen</input>
+		    <input>klagelieder</input>
+		    <input>lamentaciones</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">ezekiel</code>
+		    <code service="vatican">Ezekiel</code>
+		    <code service="diebibel_de">hes</code>
+		    <code service="unbound_biola_edu">26O</code>
+		    <code service="usccb_org">ezekiel</code>
+		    <code service="laparola_net">Ezechiele</code>
+		    <code service="bibliacatolica_com">33</code>
+		    <code service="osis">Ezek</code>
+		    <code service="biblija_net">Ez</code>
+		    <code service="can">26</code>
+		    <code service="rkbijbel">ezechiel</code>
+		    <input spoken="nl">ezechiël</input>
+		    <input spoken="en">ezekiel</input>
+		    <input>ezk</input>
+		    <input language="fr">ez</input>
+		    <input language="nl">eze</input>
+		    <input>ezec</input>
+		    <input language="en">ezek</input>
+		    <input>ézék</input>
+		    <input>hes</input>
+		    <input>ezekiel</input>
+		    <input>ezekijel</input>
+		    <input>ezechiël</input>
+		    <input>ezechiel</input>
+		    <input>hesekiel</input>
+		    <input>ézékiel</input>
+		    <input>ezequiel</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">daniel</code>
+		    <code service="vatican">Daniel</code>
+		    <code service="diebibel_de">dan</code>
+		    <code service="unbound_biola_edu">27O</code>
+		    <code service="usccb_org">daniel</code>
+		    <code service="laparola_net">Daniele</code>
+		    <code service="bibliacatolica_com">34</code>
+		    <code service="osis">Dan</code>
+		    <code service="biblija_net">Da</code>
+		    <code service="can">27</code>
+		    <code service="rkbijbel">daniel</code>
+		    <input spoken="nl">daniël</input>
+		    <input spoken="en">daniel</input>
+		    <input language="nl,en">dan</input>
+		    <input>da</input>
+		    <input language="fr">dn</input>
+		    <input>daniel</input>
+		    <input>danijel</input>
+		    <input>daniël</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">hosea</code>
+		    <code service="vatican">Hosea</code>
+		    <code service="diebibel_de">hos</code>
+		    <code service="unbound_biola_edu">28O</code>
+		    <code service="usccb_org">hosea</code>
+		    <code service="laparola_net">Osea</code>
+		    <code service="bibliacatolica_com">35</code>
+		    <code service="osis">Hos</code>
+		    <code service="biblija_net">Ho</code>
+		    <code service="can">28</code>
+		    <code service="rkbijbel">hosea</code>
+		    <input spoken="nl,en">hosea</input>
+		    <input>oz</input>
+		    <input>ozea</input>
+		    <input language="nl,en">hos</input>
+		    <input>ho</input>
+		    <input language="fr">os</input>
+		    <input>hoš</input>
+		    <input>ozej</input>
+		    <input>hosea</input>
+		    <input>osee</input>
+		    <input>osée</input>
+		    <input>oseas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">joel</code>
+		    <code service="vatican">Joel</code>
+		    <code service="diebibel_de">joel</code>
+		    <code service="unbound_biola_edu">29O</code>
+		    <code service="usccb_org">joel</code>
+		    <code service="laparola_net">Gioele</code>
+		    <code service="bibliacatolica_com">36</code>
+		    <code service="osis">Joel</code>
+		    <code service="biblija_net">Jl</code>
+		    <code service="can">29</code>
+		    <code service="rkbijbel">joel</code>
+		    <input spoken="nl" language="nl">joël</input>
+		    <input spoken="en" language="en">joel</input>
+		    <input language="fr">jl</input>
+		    <input>jol</input>
+		    <input>joel</input>
+		    <input>ioel</input>
+		    <input>joël</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">amos</code>
+		    <code service="vatican">Amos</code>
+		    <code service="diebibel_de">am</code>
+		    <code service="unbound_biola_edu">30O</code>
+		    <code service="usccb_org">amos</code>
+		    <code service="laparola_net">Amos</code>
+		    <code service="bibliacatolica_com">37</code>
+		    <code service="osis">Amos</code>
+		    <code service="biblija_net">Am</code>
+		    <code service="can">30</code>
+		    <code service="rkbijbel">amos</code>
+		    <input spoken="nl,en">amos</input>
+		    <input language="nl,en,fr">am</input>
+		    <input>amo</input>
+		    <input>amós</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">obadiah</code>
+		    <code service="vatican">Obadiah</code>
+		    <code service="diebibel_de">obd</code>
+		    <code service="unbound_biola_edu">31O</code>
+		    <code service="usccb_org">obadiah</code>
+		    <code service="laparola_net">Abdia</code>
+		    <code service="bibliacatolica_com">38</code>
+		    <code service="osis">Obad</code>
+		    <code service="biblija_net">Ob</code>
+		    <code service="can">31</code>
+		    <code service="rkbijbel">obadja</code>
+		    <input spoken="nl">obadja</input>
+		    <input spoken="en">obadiah</input>
+		    <input>abd</input>
+		    <input language="fr">ab</input>
+		    <input>oba</input>
+		    <input>obd</input>
+		    <input>obad</input>
+		    <input language="nl,en">ob</input>
+		    <input>abdija</input>
+		    <input>obadija</input>
+		    <input>obadiah</input>
+		    <input>obadja</input>
+		    <input>abdías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">jonah</code>
+		    <code service="vatican">Jonah</code>
+		    <code service="diebibel_de">jona</code>
+		    <code service="unbound_biola_edu">32O</code>
+		    <code service="usccb_org">jonah</code>
+		    <code service="laparola_net">Giona</code>
+		    <code service="bibliacatolica_com">39</code>
+		    <code service="osis">Jonah</code>
+		    <code service="biblija_net">Jnh</code>
+		    <code service="can">32</code>
+		    <code service="rkbijbel">jonas</code>
+		    <input spoken="nl" language="nl">jona</input>
+		    <input spoken="en">jonah</input>
+		    <input language="en,fr">jon</input>
+		    <input>jnh</input>
+		    <input>ion</input>
+		    <input>jonás</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">micah</code>
+		    <code service="vatican">Micah</code>
+		    <code service="diebibel_de">mi</code>
+		    <code service="unbound_biola_edu">33O</code>
+		    <code service="usccb_org">micah</code>
+		    <code service="laparola_net">Michea</code>
+		    <code service="bibliacatolica_com">40</code>
+		    <code service="osis">Mic</code>
+		    <code service="biblija_net">Mi</code>
+		    <code service="can">33</code>
+		    <code service="rkbijbel">micha</code>
+		    <input spoken="nl">micha</input>
+		    <input spoken="en">micah</input>
+		    <input>mih</input>
+		    <input language="en">mic</input>
+		    <input language="nl,fr">mi</input>
+		    <input>mch</input>
+		    <input>mich</input>
+		    <input>miq</input>
+		    <input>mihej</input>
+		    <input>miha</input>
+		    <input>miqueas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">nahum</code>
+		    <code service="vatican">Nahum</code>
+		    <code service="diebibel_de">nah</code>
+		    <code service="unbound_biola_edu">34O</code>
+		    <code service="usccb_org">nahum</code>
+		    <code service="laparola_net">Naum</code>
+		    <code service="bibliacatolica_com">41</code>
+		    <code service="osis">Nah</code>
+		    <code service="biblija_net">Na</code>
+		    <code service="can">34</code>
+		    <code service="rkbijbel">nahum</code>
+		    <input language="nl,en">nah</input>
+		    <input>nam</input>
+		    <input language="fr">na</input>
+		    <input spoken="nl,en">nahum</input>
+		    <input>nahúm</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">habakkuk</code>
+		    <code service="vatican">Habakkuk</code>
+		    <code service="diebibel_de">hab</code>
+		    <code service="unbound_biola_edu">35O</code>
+		    <code service="usccb_org">habakkuk</code>
+		    <code service="laparola_net">Abacuc</code>
+		    <code service="bibliacatolica_com">42</code>
+		    <code service="osis">Hab</code>
+		    <code service="biblija_net">Ha</code>
+		    <code service="can">35</code>
+		    <code service="rkbijbel">habakuk</code>
+		    <input spoken="nl">habakuk</input>
+		    <input spoken="en">habakkuk</input>
+		    <input language="nl,en">hab</input>
+		    <input language="fr">ha</input>
+		    <input>habb</input>
+		    <input>habacuc</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">zephaniah</code>
+		    <code service="vatican">Zephaniah</code>
+		    <code service="diebibel_de">zeph</code>
+		    <code service="unbound_biola_edu">38O</code>
+		    <code service="usccb_org">zephaniah</code>
+		    <code service="laparola_net">Sofonia</code>
+		    <code service="bibliacatolica_com">43</code>
+		    <code service="osis">Zeph</code>
+		    <code service="biblija_net">Zep</code>
+		    <code service="can">36</code>
+		    <code service="rkbijbel">sefanja</code>
+		    <input spoken="nl">sefanja</input>
+		    <input spoken="en">zephaniah</input>
+		    <input>sof</input>
+		    <input>zep</input>
+		    <input language="en">zeph</input>
+		    <input>zef</input>
+		    <input language="nl">sef</input>
+		    <input language="fr">so</input>
+		    <input>soph</input>
+		    <input>sofonija</input>
+		    <input>zefanija</input>
+		    <input>zephanja</input>
+		    <input>zefanja</input>
+		    <input>sofonías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">haggai</code>
+		    <code service="vatican">Haggai</code>
+		    <code service="diebibel_de">hag</code>
+		    <code service="unbound_biola_edu">37O</code>
+		    <code service="usccb_org">haggai</code>
+		    <code service="laparola_net">Aggeo</code>
+		    <code service="bibliacatolica_com">44</code>
+		    <code service="osis">Hag</code>
+		    <code service="biblija_net">Hagg</code>
+		    <code service="can">37</code>
+		    <code service="rkbijbel">haggai</code>
+		    <input spoken="nl,en">haggai</input>
+		    <input language="fr">ag</input>
+		    <input language="nl,en">hag</input>
+		    <input>hagg</input>
+		    <input>hgg</input>
+		    <input>hg</input>
+		    <input>agg</input>
+		    <input>agej</input>
+		    <input>hagaj</input>
+		    <input>hageo</input>
+	  </book>
+	  <book>
+		    <code service="diebibel_de">sach</code>
+		    <code service="vatican">Zechariah</code>
+		    <code service="unbound_biola_edu">38O</code>
+		    <code service="usccb_org">zechariah</code>
+		    <code service="laparola_net">Zaccaria</code>
+		    <code service="bibliacatolica_com">45</code>
+		    <code service="osis">Zech</code>
+		    <code service="biblija_net">Zec</code>
+		    <code service="can">38</code>
+		    <code service="rkbijbel">zacharias</code>
+		    <input spoken="nl">zacharia</input>
+		    <input spoken="en">zechariah</input>
+		    <input>zah</input>
+		    <input>zec</input>
+		    <input language="en">zech</input>
+		    <input>zch</input>
+		    <input language="fr">za</input>
+		    <input>zac</input>
+		    <input language="nl">zach</input>
+		    <input>sach</input>
+		    <input>zaharija</input>
+		    <input>sacharja</input>
+		    <input>zacarías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">malachi</code>
+		    <code service="vatican">Malachi</code>
+		    <code service="diebibel_de">mal</code>
+		    <code service="unbound_biola_edu">39O</code>
+		    <code service="usccb_org">malachi</code>
+		    <code service="laparola_net">Malachia</code>
+		    <code service="bibliacatolica_com">46</code>
+		    <code service="osis">Mal</code>
+		    <code service="biblija_net">Ml</code>
+		    <code service="can">39</code>
+		    <code service="rkbijbel">maleachi</code>
+		    <input spoken="nl">maleachi</input>
+		    <input spoken="en">malachi</input>
+		    <input language="nl,en">mal</input>
+		    <input language="fr">ml</input>
+		    <input>malahija</input>
+		    <input>malaquías</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">matthew</code>
+		    <code service="vatican">Matthew</code>
+		    <code service="diebibel_de">mt</code>
+		    <code service="unbound_biola_edu">40N</code>
+		    <code service="usccb_org">matthew</code>
+		    <code service="laparola_net">Matteo</code>
+		    <code service="bibliacatolica_com">47</code>
+		    <code service="osis">Matt</code>
+		    <code service="biblija_net">Mat</code>
+		    <code service="can">40</code>
+		    <code service="rkbijbel">matteus</code>
+		    <input spoken="nl">het evangelie volgens matteüs</input>
+		    <input spoken="en">the gospel of matthew</input>
+		    <input>matthew</input>
+		    <input language="nl,en,fr">mt</input>
+		    <input>mat</input>
+		    <input>matt</input>
+		    <input>matej</input>
+		    <input>matevž</input>
+		    <input>matthew</input>
+		    <input>matteüs</input>
+		    <input>mattheus</input>
+		    <input>matteus</input>
+		    <input>matthäus</input>
+		    <input>mateo</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">mark</code>
+		    <code service="vatican">Mark</code>
+		    <code service="diebibel_de">mk</code>
+		    <code service="unbound_biola_edu">41N</code>
+		    <code service="usccb_org">mark</code>
+		    <code service="laparola_net">Marco</code>
+		    <code service="bibliacatolica_com">48</code>
+		    <code service="osis">Mark</code>
+		    <code service="biblija_net">Mr</code>
+		    <code service="can">41</code>
+		    <code service="rkbijbel">marcus</code>
+		    <input spoken="nl">het evangelie volgens marcus</input>
+		    <input spoken="en">the gospel of mark</input>
+		    <input>mark</input>
+		    <input>mr</input>
+		    <input>mar</input>
+		    <input>mrk</input>
+		    <input>mk</input>
+		    <input language="nl,en,fr">mc</input>
+		    <input>marko</input>
+		    <input>marcus</input>
+		    <input>markus</input>
+		    <input>marc</input>
+		    <input>marcos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">luke</code>
+		    <code service="vatican">Luke</code>
+		    <code service="diebibel_de">lk</code>
+		    <code service="unbound_biola_edu">42N</code>
+		    <code service="usccb_org">luke</code>
+		    <code service="laparola_net">Luca</code>
+		    <code service="bibliacatolica_com">49</code>
+		    <code service="osis">Luke</code>
+		    <code service="biblija_net">Luk</code>
+		    <code service="can">42</code>
+		    <code service="rkbijbel">lucas</code>
+		    <input spoken="nl">het evangelie volgens lucas</input>
+		    <input spoken="en">the gospel of luke</input>
+		    <input>luke</input>
+		    <input>lk</input>
+		    <input>luk</input>
+		    <input language="nl,en,fr">lc</input>
+		    <input>luc</input>
+		    <input>lu</input>
+		    <input>l</input>
+		    <input>luka</input>
+		    <input>lukež</input>
+		    <input>lucas</input>
+		    <input>lukas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">john</code>
+		    <code service="vatican">John</code>
+		    <code service="diebibel_de">jh</code>
+		    <code service="unbound_biola_edu">43N</code>
+		    <code service="usccb_org">john</code>
+		    <code service="laparola_net">Giovanni</code>
+		    <code service="bibliacatolica_com">50</code>
+		    <code service="osis">John</code>
+		    <code service="biblija_net">Jhn</code>
+		    <code service="can">43</code>
+		    <code service="rkbijbel">johannes</code>
+		    <input spoken="nl">het evangelie volgens johannes</input>
+		    <input spoken="en">the gospel of john</input>
+		    <input>john</input>
+		    <input language="en,fr">jn</input>
+		    <input>jan</input>
+		    <input>jhn</input>
+		    <input language="nl">jh</input>
+		    <input>joh</input>
+		    <input>jo</input>
+		    <input>j</input>
+		    <input>io</input>
+		    <input>iv</input>
+		    <input>janez</input>
+		    <input>john</input>
+		    <input>johannes</input>
+		    <input>jean</input>
+		    <input>juan</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">acts</code>
+		    <code service="vatican">Acts</code>
+		    <code service="diebibel_de">apg</code>
+		    <code service="unbound_biola_edu">44N</code>
+		    <code service="usccb_org">acts</code>
+		    <code service="laparola_net">Atti</code>
+		    <code service="bibliacatolica_com">51</code>
+		    <code service="osis">Acts</code>
+		    <code service="biblija_net">Ac</code>
+		    <code service="can">44</code>
+		    <code service="rkbijbel">handelingen</code>
+		    <input spoken="nl">handelingen van de apostelen</input>
+		    <input spoken="en">the acts</input>
+		    <input>apd</input>
+		    <input>dej</input>
+		    <input>dejap</input>
+		    <input>act</input>
+		    <input language="fr">ac</input>
+		    <input language="nl">hand</input>
+		    <input>hnd</input>
+		    <input>apg</input>
+		    <input>dj</input>
+		    <input>hch</input>
+		    <input>eg</input>
+		    <input language="en">acts</input>
+		    <input>dela</input>
+		    <input>dejanja</input>
+		    <input>handelingen</input>
+		    <input>apostelgeschichte</input>
+		    <input>hechos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">romans</code>
+		    <code service="vatican">Romans</code>
+		    <code service="diebibel_de">r%C3%B6m</code>
+		    <code service="unbound_biola_edu">45N</code>
+		    <code service="usccb_org">romans</code>
+		    <code service="laparola_net">Romani</code>
+		    <code service="bibliacatolica_com">52</code>
+		    <code service="osis">Rom</code>
+		    <code service="biblija_net">Ro</code>
+		    <code service="can">45</code>
+		    <code service="rkbijbel">romeinen</code>
+		    <input spoken="nl">de brief aan de romeinen</input>
+		    <input spoken="en">the letter to the romans</input>
+		    <input>romans</input>
+		    <input>rim</input>
+		    <input>rimlj</input>
+		    <input language="nl,en">rom</input>
+		    <input>röm</input>
+		    <input>ro</input>
+		    <input language="fr">rm</input>
+		    <input>r</input>
+		    <input>erm</input>
+		    <input>rimljanom</input>
+		    <input>romans</input>
+		    <input>romeinen</input>
+		    <input>römer</input>
+		    <input>romanos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1corinthians</code>
+		    <code service="vatican">1 Corinthians</code>
+		    <code service="diebibel_de">1.kor</code>
+		    <code service="unbound_biola_edu">46N</code>
+		    <code service="usccb_org">1corinthians</code>
+		    <code service="laparola_net">1 Corinzi</code>
+		    <code service="bibliacatolica_com">53</code>
+		    <code service="osis">1Cor</code>
+		    <code service="biblija_net">1 Co</code>
+		    <code service="can">46</code>
+		    <code service="rkbijbel">1korintiers</code>
+		    <input spoken="nl">de eerste brief aan de korintiërs</input>
+		    <input spoken="en">the first letter to the corinthians</input>
+		    <input>1 corinthians</input>
+		    <input language="nl">1 kor</input>
+		    <input language="en">1 cor</input>
+		    <input language="fr">1 co</input>
+		    <input>1 ko</input>
+		    <input>1 k</input>
+		    <input>1 korinčanom</input>
+		    <input>1 corinthians</input>
+		    <input>1 korintiërs</input>
+		    <input>1 korintiers</input>
+		    <input>1 korinthe</input>
+		    <input>1 korinther</input>
+		    <input>1 corintios</input>
+		    <input>1corinthians</input>
+		    <input>1kor</input>
+		    <input>1cor</input>
+		    <input>1co</input>
+		    <input>1ko</input>
+		    <input>1k</input>
+		    <input>1korinčanom</input>
+		    <input>1corinthians</input>
+		    <input>1korintiërs</input>
+		    <input>1korintiers</input>
+		    <input>1korinthe</input>
+		    <input>1korinther</input>
+		    <input>1corintios</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2corinthians</code>
+		    <code service="vatican">2 Corinthians</code>
+		    <code service="diebibel_de">2.kor</code>
+		    <code service="unbound_biola_edu">47N</code>
+		    <code service="usccb_org">2corinthians</code>
+		    <code service="laparola_net">2 Corinzi</code>
+		    <code service="bibliacatolica_com">54</code>
+		    <code service="osis">2Cor</code>
+		    <code service="biblija_net">2 Co</code>
+		    <code service="can">47</code>
+		    <code service="rkbijbel">2korintiers</code>
+		    <input spoken="nl">de tweede brief aan de korintiërs</input>
+		    <input spoken="en">the second letter to the corinthians</input>
+		    <input>2 corinthians</input>
+		    <input language="nl">2 kor</input>
+		    <input language="en">2 cor</input>
+		    <input language="fr">2 co</input>
+		    <input>2 ko</input>
+		    <input>2 k</input>
+		    <input>2 korinčanom</input>
+		    <input>2 corinthians</input>
+		    <input>2 korintiërs</input>
+		    <input>2 korintiers</input>
+		    <input>2 korinthe</input>
+		    <input>2 korinther</input>
+		    <input>2 corintios</input>
+		    <input>2corinthians</input>
+		    <input>2kor</input>
+		    <input>2cor</input>
+		    <input>2co</input>
+		    <input>2ko</input>
+		    <input>2k</input>
+		    <input>2korinčanom</input>
+		    <input>2corinthians</input>
+		    <input>2korintiërs</input>
+		    <input>2korintiers</input>
+		    <input>2korinthe</input>
+		    <input>2korinther</input>
+		    <input>2corintios</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">galatians</code>
+		    <code service="vatican">Galatians</code>
+		    <code service="diebibel_de">gal</code>
+		    <code service="unbound_biola_edu">48N</code>
+		    <code service="usccb_org">galatians</code>
+		    <code service="laparola_net">Galati</code>
+		    <code service="bibliacatolica_com">55</code>
+		    <code service="osis">Gal</code>
+		    <code service="biblija_net">Ga</code>
+		    <code service="can">48</code>
+		    <code service="rkbijbel">galaten</code>
+		    <input spoken="nl">de brief aan de galaten</input>
+		    <input spoken="en">the letter to the galatians</input>
+		    <input>galatians</input>
+		    <input language="nl,en">gal</input>
+		    <input language="fr">ga</input>
+		    <input>gl</input>
+		    <input>g</input>
+		    <input>galačanom</input>
+		    <input>galatians</input>
+		    <input>galaten</input>
+		    <input>galater</input>
+		    <input>gálatas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">ephesians</code>
+		    <code service="vatican">Ephesians</code>
+		    <code service="diebibel_de">eph</code>
+		    <code service="unbound_biola_edu">49N</code>
+		    <code service="usccb_org">ephesians</code>
+		    <code service="laparola_net">Efesini</code>
+		    <code service="bibliacatolica_com">56</code>
+		    <code service="osis">Eph</code>
+		    <code service="biblija_net">Ep</code>
+		    <code service="can">49</code>
+		    <code service="rkbijbel">efesiers</code>
+		    <input spoken="nl">de brief aan de efeziërs</input>
+		    <input spoken="en">the letter to the ephesians</input>
+		    <input>ephesians</input>
+		    <input language="nl">ef</input>
+		    <input>efež</input>
+		    <input>éfez</input>
+		    <input>efez</input>
+		    <input language="en,fr">eph</input>
+		    <input>éph</input>
+		    <input>ep</input>
+		    <input>e</input>
+		    <input>efežanom</input>
+		    <input>ephesians</input>
+		    <input>efeziërs</input>
+		    <input>efeziers</input>
+		    <input>efeze</input>
+		    <input>epheser</input>
+		    <input>efesios</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">philippians</code>
+		    <code service="vatican">Philippians</code>
+		    <code service="diebibel_de">phil</code>
+		    <code service="unbound_biola_edu">50N</code>
+		    <code service="usccb_org">philippians</code>
+		    <code service="laparola_net">Filippesi</code>
+		    <code service="bibliacatolica_com">57</code>
+		    <code service="osis">Phil</code>
+		    <code service="biblija_net">Php</code>
+		    <code service="can">50</code>
+		    <code service="rkbijbel">filippenzen</code>
+		    <input spoken="nl">de brief aan de filippenzen</input>
+		    <input spoken="en">the letter to the philippians</input>
+		    <input>philippians</input>
+		    <input>flp</input>
+		    <input>filip</input>
+		    <input>filipp</input>
+		    <input language="nl">fil</input>
+		    <input>fl</input>
+		    <input>php</input>
+		    <input language="fr">ph</input>
+		    <input language="en">phil</input>
+		    <input>phili</input>
+		    <input>filipljanom</input>
+		    <input>philippians</input>
+		    <input>filippenzen</input>
+		    <input>philipper</input>
+		    <input>filipenses</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">colossians</code>
+		    <code service="vatican">Colossians</code>
+		    <code service="diebibel_de">kol</code>
+		    <code service="unbound_biola_edu">51N</code>
+		    <code service="usccb_org">colossians</code>
+		    <code service="laparola_net">Colossesi</code>
+		    <code service="bibliacatolica_com">58</code>
+		    <code service="osis">Col</code>
+		    <code service="biblija_net">Col</code>
+		    <code service="can">51</code>
+		    <code service="rkbijbel">kolossenzen</code>
+		    <input spoken="nl">de brief aan de kolossenzen</input>
+		    <input spoken="en">the letter to the collosians</input>
+		    <input>colossians</input>
+		    <input language="nl">kol</input>
+		    <input language="en,fr">col</input>
+		    <input>kološanom</input>
+		    <input>colossians</input>
+		    <input>kolossenzen</input>
+		    <input>kolosser</input>
+		    <input>colosenses</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1thessalonians</code>
+		    <code service="vatican">1 Thessalonians</code>
+		    <code service="diebibel_de">1.thess</code>
+		    <code service="unbound_biola_edu">52N</code>
+		    <code service="usccb_org">1thessalonians</code>
+		    <code service="laparola_net">1 Tessalonicesi</code>
+		    <code service="bibliacatolica_com">59</code>
+		    <code service="osis">1Thess</code>
+		    <code service="biblija_net">1 Thess</code>
+		    <code service="can">52</code>
+		    <code service="rkbijbel">1tessalonicenzen</code>
+		    <input spoken="nl">de eerste brief aan de tessalonicenzen</input>
+		    <input spoken="en">the first letter to the thessalonians</input>
+		    <input>1 thessalonians</input>
+		    <input language="nl">1 tes</input>
+		    <input>1 sol</input>
+		    <input language="fr">1 th</input>
+		    <input>1 ts</input>
+		    <input>1 te</input>
+		    <input>1 tess</input>
+		    <input>1 thes</input>
+		    <input language="en">1 thess</input>
+		    <input>1 tesaloničanom</input>
+		    <input>1 thessalonians</input>
+		    <input>1 tessalonicenzen</input>
+		    <input>1 thessalonicher</input>
+		    <input>1 tesalonicenses</input>
+		    <input>1thessalonians</input>
+		    <input>1tes</input>
+		    <input>1sol</input>
+		    <input>1th</input>
+		    <input>1ts</input>
+		    <input>1te</input>
+		    <input>1tess</input>
+		    <input>1thes</input>
+		    <input>1thess</input>
+		    <input>1tesaloničanom</input>
+		    <input>1thessalonians</input>
+		    <input>1tessalonicenzen</input>
+		    <input>1thessalonicher</input>
+		    <input>1tesalonicenses</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2thessalonians</code>
+		    <code service="vatican">2 Thessalonians</code>
+		    <code service="diebibel_de">2.thess</code>
+		    <code service="unbound_biola_edu">53N</code>
+		    <code service="usccb_org">2thessalonians</code>
+		    <code service="laparola_net">2 Tessalonicesi</code>
+		    <code service="bibliacatolica_com">60</code>
+		    <code service="osis">2Thess</code>
+		    <code service="biblija_net">2 Thess</code>
+		    <code service="can">53</code>
+		    <code service="rkbijbel">2tessalonicenzen</code>
+		    <input spoken="nl">de tweede brief aan de tessalonicenzen</input>
+		    <input spoken="en">the second letter to the thessalonians</input>
+		    <input>2 thessalonians</input>
+		    <input>de tweede brief aan de tessalonicenzen</input>
+		    <input>2 thessalonians</input>
+		    <input language="nl">2 tes</input>
+		    <input>2 sol</input>
+		    <input language="fr">2 th</input>
+		    <input>2 ts</input>
+		    <input>2 te</input>
+		    <input>2 tess</input>
+		    <input>2 thes</input>
+		    <input language="en">2 thess</input>
+		    <input>2 tesaloničanom</input>
+		    <input>2 thessalonians</input>
+		    <input>2 tessalonicenzen</input>
+		    <input>2 thessalonicher</input>
+		    <input>2 tesalonicenses</input>
+		    <input>2thessalonians</input>
+		    <input>2tes</input>
+		    <input>2sol</input>
+		    <input>2th</input>
+		    <input>2ts</input>
+		    <input>2te</input>
+		    <input>2tess</input>
+		    <input>2thes</input>
+		    <input>2thess</input>
+		    <input>2tesaloničanom</input>
+		    <input>2thessalonians</input>
+		    <input>2tessalonicenzen</input>
+		    <input>2thessalonicher</input>
+		    <input>2tesalonicenses</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1timothy</code>
+		    <code service="vatican">1 Timothy</code>
+		    <code service="diebibel_de">1.tim</code>
+		    <code service="unbound_biola_edu">54N</code>
+		    <code service="usccb_org">1timothy</code>
+		    <code service="laparola_net">1 Timoteo</code>
+		    <code service="bibliacatolica_com">61</code>
+		    <code service="osis">1Tim</code>
+		    <code service="biblija_net">1 Ti</code>
+		    <code service="can">54</code>
+		    <code service="rkbijbel">1timoteus</code>
+		    <input spoken="nl">de eerste brief aan timoteüs</input>
+		    <input spoken="en">the first letter to timothy</input>
+		    <input>1 timothy</input>
+		    <input language="nl,en">1 tim</input>
+		    <input>1 ti</input>
+		    <input language="fr">1 tm</input>
+		    <input>1 t</input>
+		    <input>1 timoteju</input>
+		    <input>1 timothy</input>
+		    <input>1 timoteüs</input>
+		    <input>1 timoteus</input>
+		    <input>1 timotheus</input>
+		    <input>1 timoteo</input>
+		    <input>1timothy</input>
+		    <input>1tim</input>
+		    <input>1ti</input>
+		    <input>1tm</input>
+		    <input>1t</input>
+		    <input>1timoteju</input>
+		    <input>1timothy</input>
+		    <input>1timoteüs</input>
+		    <input>1timoteus</input>
+		    <input>1timotheus</input>
+		    <input>1timoteo</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2timothy</code>
+		    <code service="vatican">2 Timothy</code>
+		    <code service="diebibel_de">2.tim</code>
+		    <code service="unbound_biola_edu">55N</code>
+		    <code service="usccb_org">2timothy</code>
+		    <code service="laparola_net">2 Timoteo</code>
+		    <code service="bibliacatolica_com">62</code>
+		    <code service="osis">2Tim</code>
+		    <code service="biblija_net">2 Ti</code>
+		    <code service="can">55</code>
+		    <code service="rkbijbel">2timoteus</code>
+		    <input spoken="nl">de tweede brief aan timoteüs</input>
+		    <input spoken="en">the second letter to timothy</input>
+		    <input>2 timothy</input>
+		    <input language="nl,en">2 tim</input>
+		    <input>2 ti</input>
+		    <input language="fr">2 tm</input>
+		    <input>2 t</input>
+		    <input>2 timoteju</input>
+		    <input>2 timothy</input>
+		    <input>2 timoteus</input>
+		    <input>2 timoteus</input>
+		    <input>2 timotheus</input>
+		    <input>2 timoteo</input>
+		    <input>2timothy</input>
+		    <input>2tim</input>
+		    <input>2ti</input>
+		    <input>2tm</input>
+		    <input>2t</input>
+		    <input>2timoteju</input>
+		    <input>2timothy</input>
+		    <input>2timoteus</input>
+		    <input>2timoteus</input>
+		    <input>2timotheus</input>
+		    <input>2timoteo</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">titus</code>
+		    <code service="vatican">Titus</code>
+		    <code service="diebibel_de">tit</code>
+		    <code service="unbound_biola_edu">56N</code>
+		    <code service="usccb_org">titus</code>
+		    <code service="laparola_net">Tito</code>
+		    <code service="bibliacatolica_com">63</code>
+		    <code service="osis">Titus</code>
+		    <code service="biblija_net">Tt</code>
+		    <code service="can">56</code>
+		    <code service="rkbijbel">titus</code>
+		    <input spoken="nl">de brief aan titus</input>
+		    <input spoken="en">the letter to titus</input>
+		    <input language="en">titus</input>
+		    <input language="nl">tit</input>
+		    <input language="fr">tt</input>
+		    <input>titus</input>
+		    <input>titu</input>
+		    <input>tite</input>
+		    <input>tito</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">philemon</code>
+		    <code service="vatican">Philemon</code>
+		    <code service="diebibel_de">phlm</code>
+		    <code service="unbound_biola_edu">57N</code>
+		    <code service="usccb_org">philemon</code>
+		    <code service="laparola_net">Filemone</code>
+		    <code service="bibliacatolica_com">64</code>
+		    <code service="osis">Phlm</code>
+		    <code service="biblija_net">Phlm</code>
+		    <code service="can">57</code>
+		    <code service="rkbijbel">filemon</code>
+		    <input language="en">philemon</input>
+		    <input spoken="nl">de brief aan filemon</input>
+		    <input spoken="en">the letter to philemon</input>
+		    <input>flm</input>
+		    <input language="nl">filem</input>
+		    <input>film</input>
+		    <input language="fr">phm</input>
+		    <input>phlm</input>
+		    <input>phile</input>
+		    <input>philem</input>
+		    <input>filemonu</input>
+		    <input>philemon</input>
+		    <input>filemon</input>
+		    <input>filemón</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">hebrews</code>
+		    <code service="vatican">Hebrews</code>
+		    <code service="diebibel_de">hebr</code>
+		    <code service="unbound_biola_edu">58N</code>
+		    <code service="usccb_org">hebrews</code>
+		    <code service="laparola_net">Ebrei</code>
+		    <code service="bibliacatolica_com">65</code>
+		    <code service="osis">Heb</code>
+		    <code service="biblija_net">Hebr</code>
+		    <code service="can">58</code>
+		    <code service="rkbijbel">hebreeen</code>
+		    <input spoken="nl">de brief aan de hebreeën</input>
+		    <input spoken="en">the letter to the hebrews</input>
+		    <input>hebrews</input>
+		    <input language="nl,en">heb</input>
+		    <input>hebr</input>
+		    <input>hébr</input>
+		    <input>hbr</input>
+		    <input>hb</input>
+		    <input language="fr">he</input>
+		    <input>hé</input>
+		    <input>h</input>
+		    <input>hebrejcem</input>
+		    <input>hebrews</input>
+		    <input>hebreeërs</input>
+		    <input>hebreeers</input>
+		    <input>hebreeën</input>
+		    <input>hebreeen</input>
+		    <input>hebräer</input>
+		    <input>hebreos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">james</code>
+		    <code service="vatican">James</code>
+		    <code service="diebibel_de">jak</code>
+		    <code service="unbound_biola_edu">59N</code>
+		    <code service="usccb_org">james</code>
+		    <code service="laparola_net">Giacomo</code>
+		    <code service="bibliacatolica_com">66</code>
+		    <code service="osis">Jas</code>
+		    <code service="biblija_net">Jam</code>
+		    <code service="can">59</code>
+		    <code service="rkbijbel">jacobus</code>
+		    <input spoken="nl">de brief van jakobus</input>
+		    <input spoken="en">the letter of james</input>
+		    <input>james</input>
+		    <input language="nl">jak</input>
+		    <input language="en">jas</input>
+		    <input>jam</input>
+		    <input>jm</input>
+		    <input>ja</input>
+		    <input language="fr">jc</input>
+		    <input>jac</input>
+		    <input>jacq</input>
+		    <input>iac</input>
+		    <input>stg</input>
+		    <input>st</input>
+		    <input>jakob</input>
+		    <input>james</input>
+		    <input>jakobus</input>
+		    <input>santiago</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1peter</code>
+		    <code service="vatican">1 Peter</code>
+		    <code service="diebibel_de">1.petr</code>
+		    <code service="unbound_biola_edu">60N</code>
+		    <code service="usccb_org">1peter</code>
+		    <code service="laparola_net">1 Pietro</code>
+		    <code service="bibliacatolica_com">67</code>
+		    <code service="osis">1Pet</code>
+		    <code service="biblija_net">1 Pt</code>
+		    <code service="can">60</code>
+		    <code service="rkbijbel">1petrus</code>
+		    <input spoken="nl">de eerste brief van petrus</input>
+		    <input spoken="en">the first letter of peter</input>
+		    <input>1 peter</input>
+		    <input>1 pt</input>
+		    <input language="nl,en">1 pet</input>
+		    <input>1 petr</input>
+		    <input>1 pe</input>
+		    <input language="fr">1 pi</input>
+		    <input>1 p</input>
+		    <input>1 peter</input>
+		    <input>1 petrus</input>
+		    <input>1 pedro</input>
+		    <input>1peter</input>
+		    <input>1pt</input>
+		    <input>1pet</input>
+		    <input>1petr</input>
+		    <input>1pe</input>
+		    <input>1pi</input>
+		    <input>1p</input>
+		    <input>1peter</input>
+		    <input>1petrus</input>
+		    <input>1pedro</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2peter</code>
+		    <code service="vatican">2 Peter</code>
+		    <code service="diebibel_de">2.petr</code>
+		    <code service="unbound_biola_edu">61N</code>
+		    <code service="usccb_org">2peter</code>
+		    <code service="laparola_net">2 Pietro</code>
+		    <code service="bibliacatolica_com">68</code>
+		    <code service="osis">2Pet</code>
+		    <code service="biblija_net">2 Pt</code>
+		    <code service="can">61</code>
+		    <code service="rkbijbel">2petrus</code>
+		    <input spoken="nl">de tweede brief van petrus</input>
+		    <input spoken="en">the second letter of peter</input>
+		    <input>2 peter</input>
+		    <input>2 pt</input>
+		    <input language="nl,en">2 pet</input>
+		    <input>2 petr</input>
+		    <input>2 pe</input>
+		    <input language="fr">2 pi</input>
+		    <input>2 p</input>
+		    <input>2 peter</input>
+		    <input>2 petrus</input>
+		    <input>2 pedro</input>
+		    <input>2peter</input>
+		    <input>2pt</input>
+		    <input>2pet</input>
+		    <input>2petr</input>
+		    <input>2pe</input>
+		    <input>2pi</input>
+		    <input>2p</input>
+		    <input>2peter</input>
+		    <input>2petrus</input>
+		    <input>2pedro</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1john</code>
+		    <code service="vatican">1 John</code>
+		    <code service="diebibel_de">1.joh</code>
+		    <code service="unbound_biola_edu">62N</code>
+		    <code service="usccb_org">1john</code>
+		    <code service="laparola_net">1 Giovanni</code>
+		    <code service="bibliacatolica_com">69</code>
+		    <code service="osis">1John</code>
+		    <code service="biblija_net">1 Jo</code>
+		    <code service="can">62</code>
+		    <code service="rkbijbel">1johannes</code>
+		    <input spoken="nl">de eerste brief van johannes</input>
+		    <input spoken="en">the first letter of john</input>
+		    <input>1 john</input>
+		    <input language="en,fr">1 jn</input>
+		    <input>1 jan</input>
+		    <input language="nl">1 joh</input>
+		    <input>1 jo</input>
+		    <input>1 j</input>
+		    <input>1 io</input>
+		    <input>1 iv</input>
+		    <input>1 john</input>
+		    <input>1 janez</input>
+		    <input>1 johannes</input>
+		    <input>1 jean</input>
+		    <input>1 juan</input>
+		    <input>1john</input>
+		    <input>1jn</input>
+		    <input>1jan</input>
+		    <input>1joh</input>
+		    <input>1jo</input>
+		    <input>1j</input>
+		    <input>1io</input>
+		    <input>1iv</input>
+		    <input>1john</input>
+		    <input>1janez</input>
+		    <input>1johannes</input>
+		    <input>1jean</input>
+		    <input>1juan</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2john</code>
+		    <code service="vatican">2 John</code>
+		    <code service="diebibel_de">2.joh</code>
+		    <code service="unbound_biola_edu">63N</code>
+		    <code service="usccb_org">2john</code>
+		    <code service="laparola_net">2 Giovanni</code>
+		    <code service="bibliacatolica_com">70</code>
+		    <code service="osis">2John</code>
+		    <code service="biblija_net">2 Jo</code>
+		    <code service="can">63</code>
+		    <code service="rkbijbel">2johannes</code>
+		    <input spoken="nl">de tweede brief van johannes</input>
+		    <input spoken="en">the second letter of john</input>
+		    <input>2 john</input>
+		    <input language="en,fr">2 jn</input>
+		    <input>2 jan</input>
+		    <input language="nl">2 joh</input>
+		    <input>2 jo</input>
+		    <input>2 j</input>
+		    <input>2 io</input>
+		    <input>2 iv</input>
+		    <input>2 john</input>
+		    <input>2 janez</input>
+		    <input>2 johannes</input>
+		    <input>2 jean</input>
+		    <input>2 juan</input>
+		    <input>2john</input>
+		    <input>2jn</input>
+		    <input>2jan</input>
+		    <input>2joh</input>
+		    <input>2jo</input>
+		    <input>2j</input>
+		    <input>2io</input>
+		    <input>2iv</input>
+		    <input>2john</input>
+		    <input>2janez</input>
+		    <input>2johannes</input>
+		    <input>2jean</input>
+		    <input>2juan</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">3john</code>
+		    <code service="vatican">3 John</code>
+		    <code service="diebibel_de">3.joh</code>
+		    <code service="unbound_biola_edu">64N</code>
+		    <code service="usccb_org">3john</code>
+		    <code service="laparola_net">3 Giovanni</code>
+		    <code service="bibliacatolica_com">71</code>
+		    <code service="osis">3John</code>
+		    <code service="biblija_net">3 Jo</code>
+		    <code service="can">64</code>
+		    <code service="rkbijbel">3johannes</code>
+		    <input spoken="nl">de derde brief van johannes</input>
+		    <input spoken="en">the third letter of john</input>
+		    <input>3 john</input>
+		    <input language="en,fr">3 jn</input>
+		    <input>3 jan</input>
+		    <input language="nl">3 joh</input>
+		    <input>3 jo</input>
+		    <input>3 j</input>
+		    <input>3 io</input>
+		    <input>3 iv</input>
+		    <input>3 john</input>
+		    <input>3 janez</input>
+		    <input>3 johannes</input>
+		    <input>3 jean</input>
+		    <input>3 juan</input>
+		    <input>3john</input>
+		    <input>3jn</input>
+		    <input>3jan</input>
+		    <input>3joh</input>
+		    <input>3jo</input>
+		    <input>3j</input>
+		    <input>3io</input>
+		    <input>3iv</input>
+		    <input>3john</input>
+		    <input>3janez</input>
+		    <input>3johannes</input>
+		    <input>3jean</input>
+		    <input>3juan</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">jude</code>
+		    <code service="vatican">jude</code>
+		    <code service="diebibel_de">jud</code>
+		    <code service="unbound_biola_edu">65N</code>
+		    <code service="usccb_org">jude</code>
+		    <code service="laparola_net">Giuda</code>
+		    <code service="bibliacatolica_com">72</code>
+		    <code service="osis">Jude</code>
+		    <code service="biblija_net">Jd</code>
+		    <code service="can">65</code>
+		    <code service="rkbijbel">judas</code>
+		    <input spoken="nl">de brief van judas</input>
+		    <input spoken="en">the letter of jude</input>
+		    <input language="en">jude</input>
+		    <input language="nl">jud</input>
+		    <input>juda</input>
+		    <input>jude</input>
+		    <input language="fr">jd</input>
+		    <input>ju</input>
+		    <input>iud</input>
+		    <input>judas</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">revelation</code>
+		    <code service="vatican">Revelation</code>
+		    <code service="diebibel_de">offb</code>
+		    <code service="unbound_biola_edu">66N</code>
+		    <code service="usccb_org">revelation</code>
+		    <code service="laparola_net">Apocalisse</code>
+		    <code service="bibliacatolica_com">73</code>
+		    <code service="osis">Rev</code>
+		    <code service="biblija_net">Rev</code>
+		    <code service="can">66</code>
+		    <code service="rkbijbel">apokalyps</code>
+		    <input spoken="nl">de openbaring van johannes</input>
+		    <input spoken="en">apocalypse</input>
+		    <input>revelation</input>
+		    <input>raz</input>
+		    <input language="en">rev</input>
+		    <input language="fr">ap</input>
+		    <input>apc</input>
+		    <input>apo</input>
+		    <input>apoc</input>
+		    <input>apok</input>
+		    <input>apk</input>
+		    <input language="nl">op</input>
+		    <input>openb</input>
+		    <input>offb</input>
+		    <input>otk</input>
+		    <input>razodetje</input>
+		    <input>apokalipsa</input>
+		    <input>revelation</input>
+		    <input>openbaring</input>
+		    <input>apokalyps</input>
+		    <input>offenbarung</input>
+		    <input>apocalipsis</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">esther</code>
+		    <code service="vatican">Esther</code>
+		    <code service="diebibel_de"/>
+		    <code service="unbound_biola_edu">69A</code>
+		    <code service="usccb_org">esther</code>
+		    <code service="laparola_net">Ester (greco + ebraico)</code>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">AddEsth</code>
+		    <code service="biblija_net">GkEst</code>
+		    <code service="can"/>
+		    <code service="rkbijbel"/>
+		    <input language="en">esther</input>
+		    <input language="nl">ester</input>
+		    <input>esther (greek)</input>
+		    <input>estg</input>
+		    <input>esg</input>
+		    <input>estgr</input>
+		    <input>esthgr</input>
+		    <input language="fr">estgrec</input>
+		    <input>estd</input>
+		    <input>estdc</input>
+		    <input>gkest</input>
+		    <input>addesth</input>
+		    <input>stest</input>
+		    <input>estera(gr)</input>
+		    <input>estera(grška)</input>
+		    <input>esther(gr)</input>
+		    <input>esther(greek)</input>
+		    <input>ester(griechisch)</input>
+		    <input>ester(griego)</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">judith</code>
+		    <code service="vatican">Judith</code>
+		    <code service="diebibel_de"/>
+		    <code service="unbound_biola_edu">68A</code>
+		    <code service="usccb_org">judith</code>
+		    <code service="laparola_net">Giuditta</code>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">Jdt</code>
+		    <code service="biblija_net">Jdth</code>
+		    <code service="can">68</code>
+		    <code service="rkbijbel">judit</code>
+		    <input spoken="nl" language="nl">judit</input>
+		    <input spoken="en" language="en">judith</input>
+		    <input language="fr">jdt</input>
+		    <input>jdth</input>
+		    <input>idt</input>
+		    <input>judita</input>
+		    <input>judit</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">tobit</code>
+		    <code service="vatican">Tobit</code>
+		    <code service="diebibel_de">tob</code>
+		    <code service="unbound_biola_edu">67A</code>
+		    <code service="usccb_org">tobit</code>
+		    <code service="laparola_net">Tobia</code>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">Tob</code>
+		    <code service="biblija_net">Tb</code>
+		    <code service="can">67</code>
+		    <code service="rkbijbel">tobit</code>
+		    <input spoken="nl,en" language="nl,en">tobit</input>
+		    <input>tob</input>
+		    <input language="fr">tb</input>
+		    <input>tobija</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">1maccabees</code>
+		    <code service="vatican">1 Maccabees</code>
+		    <code service="diebibel_de">1.makk</code>
+		    <code service="unbound_biola_edu">77A</code>
+		    <code service="usccb_org">1maccabees</code>
+		    <code service="laparola_net">1 Maccabei</code>
+		    <code service="bibliacatolica_com">22</code>
+		    <code service="osis">1Macc</code>
+		    <code service="biblija_net">1 Macc</code>
+		    <code service="can">72</code>
+		    <code service="rkbijbel">1makkabeeen</code>
+		    <input spoken="nl" language="nl">het eerste boek makkabeeën</input>
+		    <input spoken="en">the first book of maccabees</input>
+		    <input language="en">1 maccabees</input>
+		    <input>1 maccabees</input>
+		    <input>1 mkb</input>
+		    <input>1 mak</input>
+		    <input>1 makk</input>
+		    <input>1 mc</input>
+		    <input>1 mac</input>
+		    <input>1 macc</input>
+		    <input>1 mcc</input>
+		    <input>1 ma</input>
+		    <input language="fr">1 m</input>
+		    <input>1 makabejci</input>
+		    <input>1 maccabees</input>
+		    <input>1 makkabeeën</input>
+		    <input>1 makkabeeen</input>
+		    <input>1 makkabeeërs</input>
+		    <input>1 makkabeeers</input>
+		    <input>1 makkabäer</input>
+		    <input>1 macabeos</input>
+		    <input>1maccabees</input>
+		    <input>1mkb</input>
+		    <input>1mak</input>
+		    <input>1makk</input>
+		    <input>1mc</input>
+		    <input>1mac</input>
+		    <input>1macc</input>
+		    <input>1mcc</input>
+		    <input>1ma</input>
+		    <input>1m</input>
+		    <input>1makabejci</input>
+		    <input>1maccabees</input>
+		    <input>1makkabeeën</input>
+		    <input>1makkabeeen</input>
+		    <input>1makkabeeërs</input>
+		    <input>1makkabeeers</input>
+		    <input>1makkabäer</input>
+		    <input>1macabeos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">2maccabees</code>
+		    <code service="vatican">2 Maccabees</code>
+		    <code service="diebibel_de">2.makkabaeer</code>
+		    <code service="unbound_biola_edu">78A</code>
+		    <code service="usccb_org">2maccabees</code>
+		    <code service="laparola_net">2 Maccabei</code>
+		    <code service="bibliacatolica_com">23</code>
+		    <code service="osis">2Macc</code>
+		    <code service="biblija_net">2 Macc</code>
+		    <code service="can">73</code>
+		    <code service="rkbijbel">2makkabeeen</code>
+		    <input spoken="nl" language="nl">het tweede boek makkabeeën</input>
+		    <input spoken="en">the second book of maccabees</input>
+		    <input language="en">2 maccabees</input>
+		    <input>2 maccabees</input>
+		    <input>2 mkb</input>
+		    <input>2 mak</input>
+		    <input>2 makk</input>
+		    <input>2 mc</input>
+		    <input>2 mac</input>
+		    <input>2 macc</input>
+		    <input>2 mcc</input>
+		    <input>2 ma</input>
+		    <input language="fr">2 m</input>
+		    <input>2 makabejci</input>
+		    <input>2 maccabees</input>
+		    <input>2 makkabeeën</input>
+		    <input>2 makkabeeen</input>
+		    <input>2 makkabeeërs</input>
+		    <input>2 makkabeeers</input>
+		    <input>2 makkabäer</input>
+		    <input>2 macabeos</input>
+		    <input>2maccabees</input>
+		    <input>2mkb</input>
+		    <input>2mak</input>
+		    <input>2makk</input>
+		    <input>2mc</input>
+		    <input>2mac</input>
+		    <input>2macc</input>
+		    <input>2mcc</input>
+		    <input>2ma</input>
+		    <input>2m</input>
+		    <input>2makabejci</input>
+		    <input>2maccabees</input>
+		    <input>2makkabeeën</input>
+		    <input>2makkabeeen</input>
+		    <input>2makkabeeërs</input>
+		    <input>2makkabeeers</input>
+		    <input>2makkabäer</input>
+		    <input>2macabeos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">3maccabees</code>
+		    <code service="vatican">3 Maccabees</code>
+		    <code service="diebibel_de"/>
+		    <code service="unbound_biola_edu">79A</code>
+		    <code service="usccb_org">3maccabees</code>
+		    <code service="laparola_net"/>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">3Macc</code>
+		    <code service="biblija_net">3 Macc</code>
+		    <code service="can"/>
+		    <code service="rkbijbel">3makkabeeen</code>
+		    <input spoken="nl" language="nl">het derde boek makkabeeën</input>
+		    <input spoken="en">the third book of maccabees</input>
+		    <input language="en">3 maccabees</input>
+		    <input>3 maccabees</input>
+		    <input>3 mkb</input>
+		    <input>3 mak</input>
+		    <input>3 makk</input>
+		    <input>3 mc</input>
+		    <input>3 mac</input>
+		    <input>3 macc</input>
+		    <input>3 mcc</input>
+		    <input>3 ma</input>
+		    <input language="fr">3 m</input>
+		    <input>3 makabejci</input>
+		    <input>3 maccabees</input>
+		    <input>3 makkabeeën</input>
+		    <input>3 makkabeeen</input>
+		    <input>3 makkabeeërs</input>
+		    <input>3 makkabeeers</input>
+		    <input>3 makkabäer</input>
+		    <input>3 macabeos</input>
+		    <input>3maccabees</input>
+		    <input>3mkb</input>
+		    <input>3mak</input>
+		    <input>3makk</input>
+		    <input>3mc</input>
+		    <input>3mac</input>
+		    <input>3macc</input>
+		    <input>3mcc</input>
+		    <input>3ma</input>
+		    <input>3m</input>
+		    <input>3makabejci</input>
+		    <input>3maccabees</input>
+		    <input>3makkabeeën</input>
+		    <input>3makkabeeen</input>
+		    <input>3makkabeeërs</input>
+		    <input>3makkabeeers</input>
+		    <input>3makkabäer</input>
+		    <input>3macabeos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">4maccabees</code>
+		    <code service="vatican">4 Maccabees</code>
+		    <code service="diebibel_de"/>
+		    <code service="unbound_biola_edu">80A</code>
+		    <code service="usccb_org">4maccabees</code>
+		    <code service="laparola_net"/>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">4Macc</code>
+		    <code service="biblija_net">4 Macc</code>
+		    <code service="can"/>
+		    <code service="rkbijbel">4makkabeeen</code>
+		    <input spoken="nl" language="nl">het vierde boek makkabeeën</input>
+		    <input spoken="en">the fourth book of maccabees</input>
+		    <input language="en">4 maccabees</input>
+		    <input>4 maccabees</input>
+		    <input>4 mkb</input>
+		    <input>4 mak</input>
+		    <input>4 makk</input>
+		    <input>4 mc</input>
+		    <input>4 mac</input>
+		    <input>4 macc</input>
+		    <input>4 mcc</input>
+		    <input>4 ma</input>
+		    <input language="fr">4 m</input>
+		    <input>4 makabejci</input>
+		    <input>4 maccabees</input>
+		    <input>4 makkabeeën</input>
+		    <input>4 makkabeeen</input>
+		    <input>4 makkabeeërs</input>
+		    <input>4 makkabeeers</input>
+		    <input>4 makkabäer</input>
+		    <input>4 macabeos</input>
+		    <input>4maccabees</input>
+		    <input>4mkb</input>
+		    <input>4mak</input>
+		    <input>4makk</input>
+		    <input>4mc</input>
+		    <input>4mac</input>
+		    <input>4macc</input>
+		    <input>4mcc</input>
+		    <input>4ma</input>
+		    <input>4m</input>
+		    <input>4makabejci</input>
+		    <input>4maccabees</input>
+		    <input>4makkabeeën</input>
+		    <input>4makkabeeen</input>
+		    <input>4makkabeeërs</input>
+		    <input>4makkabeeers</input>
+		    <input>4makkabäer</input>
+		    <input>4macabeos</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">Wisdom</code>
+		    <code service="vatican">Wisdom</code>
+		    <code service="diebibel_de">weish</code>
+		    <code service="unbound_biola_edu">70A</code>
+		    <code service="usccb_org">Wisdom</code>
+		    <code service="laparola_net">Sapienza</code>
+		    <code service="bibliacatolica_com">27</code>
+		    <code service="osis">Wis</code>
+		    <code service="biblija_net">Wisd</code>
+		    <code service="can">69</code>
+		    <code service="rkbijbel">wijsheid</code>
+		    <input spoken="nl" language="nl">wijsheid</input>
+		    <input spoken="en" language="en">the book of wisdom</input>
+		    <input>wisdom</input>
+		    <input>mdr</input>
+		    <input>modr</input>
+		    <input>wis</input>
+		    <input>wisd</input>
+		    <input>weish</input>
+		    <input>wijsh</input>
+		    <input>w</input>
+		    <input language="fr">sg</input>
+		    <input>sag</input>
+		    <input>sap</input>
+		    <input>sb</input>
+		    <input>sab</input>
+		    <input>sv</input>
+		    <input>mudr</input>
+		    <input>jkd</input>
+		    <input>modrost</input>
+		    <input>wisdom</input>
+		    <input>weisheit</input>
+		    <input>sabiduría</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">Sirach</code>
+		    <code service="vatican">Sirach</code>
+		    <code service="diebibel_de">sach</code>
+		    <code service="unbound_biola_edu">71A</code>
+		    <code service="usccb_org">Sirach</code>
+		    <code service="laparola_net">Siracide</code>
+		    <code service="bibliacatolica_com"/>
+		    <code service="osis">Sir</code>
+		    <code service="biblija_net">Si</code>
+		    <code service="can">70</code>
+		    <code service="rkbijbel">jezussirach</code>
+		    <input spoken="nl" language="nl">wijsheid van jezus sirach</input>
+		    <input spoken="en" language="en">sirach</input>
+		    <input>sir</input>
+		    <input language="fr">si</input>
+		    <input>sirah</input>
+		    <input>eclo</input>
+		    <input>ecclesiasticus</input>
+		    <input>ecclesiastique</input>
+		    <input>ecclésiastique</input>
+		    <input>eclesiástico</input>
+	  </book>
+	  <book>
+		    <code service="crosswire_org">baruch</code>
+		    <code service="vatican">Baruch</code>
+		    <code service="diebibel_de"/>
+		    <code service="unbound_biola_edu">72A</code>
+		    <code service="usccb_org">baruch</code>
+		    <code service="laparola_net">Baruc</code>
+		    <code service="bibliacatolica_com">32</code>
+		    <code service="osis">Bar</code>
+		    <code service="biblija_net">Ba</code>
+		    <code service="can">71</code>
+		    <code service="rkbijbel">baruch</code>
+		    <input spoken="nl,en" language="nl,en">baruch</input>
+		    <input>bar</input>
+		    <input language="fr">ba</input>
+		    <input>baruh</input>
+		    <input>baruc</input>
+	  </book>
 </books>
